@@ -1,0 +1,57 @@
+\usepackage{mathtools}
+\usepackage{graphics}
+\usepackage{graphicx}
+\graphicspath{{./images/}}
+\usepackage{dcolumn}
+\usepackage{bm}
+\usepackage{dsfont} 
+\usepackage{amsmath,amssymb}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{epstopdf}
+\usepackage[normalem]{ulem}
+\usepackage[usenames]{color}
+\usepackage{multirow}
+\usepackage{makecell}
+\usepackage{diagbox}
+\epstopdfsetup{outdir=./images/}
+\allowdisplaybreaks
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+    citecolor=blue
+}
+\urlstyle{same}
+
+\newcommand{\red}[1]{\protect\color{red} #1 \protect\color{black}}
+\newcommand{\green}[1]{\protect\color{green} #1 \protect\color{black}}
+\newcommand{\blue}[1]{\protect\color{blue} #1 \protect\color{black}}
+\newcommand{\black}[1]{\protect\color{black} #1 \protect\color{black}}
+\newcommand{\yellow}[1]{\protect\color{yellow} #1 \protect\color{black}}
+\newcommand{\bra}[1]{\protect\langle #1 |}
+\newcommand{\ket}[1]{| #1 \protect\rangle}
+\newcommand{\braket}[2]{\protect\langle #1 | #2 \protect\rangle}
+\newcommand{\expected}[1]{\protect\langle #1 \protect\rangle}
+\newcommand{\R}{{\mbox{\tiny R}}}
+\newcommand{\ky}[1]{\textcolor{blue}{\it{\textbf{ky: #1}}} }
+\newcommand{\zc}[1]{\textcolor{red}{\it{\textbf{zc: #1}}} }
+\newcommand{\NS}{{\mbox{\tiny NS}}}
+
+
+\newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}
+
+\def\eq#1{Eq.~(\ref{eq:#1})}
+\def\Eq#1{Equation~(\ref{eq:#1})}
+\def\eqs#1#2{Eqs.~(\ref{eq:#1}) \& (\ref{eq:#2})}
+\def\eqlist#1#2{Eqs.~(\ref{eq:#1}-\ref{eq:#2})}
+\def\Eqs#1#2{Equations~(\ref{eq:#1}) \& (\ref{eq:#2})}
+\def\Eqlist#1#2{Equations~(\ref{eq:#1}-\ref{eq:#2})}
+\def\fig#1{Fig.\ref{fig:#1}}
+\def\figs#1#2{Figs.\ref{fig:#1} \& \ref{fig:#2}}
+\def\Fig#1{Figure~\ref{fig:#1}}
+\def\Figs#1#2{Figures~\ref{fig:#1} \& \ref{fig:#2}}
+\def\tab#1{Table~\ref{tab:#1}}
+\def\sec#1{Section~\ref{sec:#1}}
+

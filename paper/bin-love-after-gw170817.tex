@@ -1,0 +1,109 @@
+\documentclass[prd,twocolumn,nofootinbib,superscriptaddress,amsmath,amssymb]{revtex4-1}
+\include{preamble}
+
+\begin{document}
+
+\title{Universal relations after GW170817}
+
+\author{Frodo}
+\affiliation{}
+
+\author{Sam}
+\affiliation{}
+
+\author{Pippin}
+\affiliation{}
+
+\author{Merry}
+\affiliation{}
+
+
+\date{\today}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Begin Abstract %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{abstract}
+
+\end{abstract}
+
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Begin Introduction %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Introduction}\label{sec:intro}
+
+\subsection{Executive Summary}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Begin theory %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Neutron star tidal deformability}\label{sec:tidal}
+We begin by reviewing how one can extract internal structure information of NSs via GW measurement.
+In the presence of a neighboring tidal field $\mathcal{E}_{ij}$, such as the binary NS system found in GW170817, NSs tidally deform away from sphericity and acquire a non-vanishing quadrupole moment $Q_{ij}$ that is characterized by the \textit{tidal deformability} $\lambda$~\cite{Flanagan2008}:
+This process is characterized by the \textit{tidal deformability}, $\lambda$~\cite{hinderer-love,Yagi2013}:
+\begin{equation}
+Q_{ij} = - \lambda \mathcal{E}_{ij}.
+\end{equation}
+Such tidal deformability can be made dimensionless as
+\begin{equation}
+\Lambda \equiv \frac{\lambda}{M^5},
+\end{equation}
+and can be calculated via the following expression~\cite{hinderer-love,damour-nagar,Yagi2013}:
+\begin{align}
+\begin{split}
+\Lambda &= \frac{16}{15} (1-2\bar{C})^2[2+2\bar{C}(y_\R-1)-y_\R]\\
+& \times \{2\bar{C}[6-3y_\R+3\bar{C}(5y_\R-8)]\\ 
+&+4\bar{C}^3[13-11y_\R+\bar{C}(3y_\R-2)+2\bar{C}^2(1+y_\R)]\\ 
+&+3(1-2\bar{C})^2[2-y_\R+2\bar{C}(y_\R-1)]\ln{(1-2\bar{C})}\}^{-1}.
+\end{split}
+\end{align}
+Here $\bar{C} \equiv M / R$ is the stellar compactness with $M$ and $R$ representing the NS mass and radius. $y_\R \equiv y(R)$ with $y(r) \equiv r h'(r)/h(r)$, where a prime stands for taking a derivative with respect to the radial coordinate $r$. $h$ represents the quadrupolar part of the $(t,t)$ component of the metric perturbation that satisfies the following differential equation:
+\begin{align}\label{eq:deq} 
+\begin{split}
+& h''+ \Big\{ \frac{2}{r} + \Big\lbrack \frac{2m}{r^2}+4 \pi r (p - \epsilon ) \Big\rbrack e^{\lambda} \Big\} h'\\
+&+ \Big\{4 \pi \Big\lbrack 5 \epsilon + 9p + (p+ \epsilon) \frac{d \epsilon}{dp} \Big\rbrack e^{\lambda}- \frac{6}{r^2}e^{\lambda} - \Big(\frac{d \nu}{dr} \Big)^2 \Big\}h =0
+\end{split}
+\end{align}
+with background metric coefficients $e^{\nu} = g_{tt}$ and $e^{\lambda} = (1-2m/r)^{-1} = g_{rr}$, while $p$ and $\epsilon$ represent pressure and energy density respectively.
+
+The above differential equation can be solved as follows.
+First, one needs to prepare unperturbed background solutions by choosing a specific EoS, or $p(\epsilon)$, and solve a set of Tolman-Oppenheimer-Volkoff (TOV) equations with a chosen central density (or pressure) and appropriate boundary conditions. The stellar radius is determined from $p(R)=0$ while the mass is determined by matching the interior solution to the Schwarzschild metric.
+Having such solutions at hand, one then plugs them into Eq.~\eqref{eq:deq} and solve it with the boundary condition $y(0)=2$~\cite{hinderer-love}. 
+
+Because there are two NSs in a binary, two tidal deformabilities $\Lambda_1$ and $\Lambda_2$ associated with each star enter in the gravitational waveform.
+However, extracting such parameters independently is challenging due to the strong correlation between them\footnote{One way to cure this problem is to use universal relations between them~\cite{Yagi:2015pkc,Yagi:2016qmr}.}. 
+Thus, what one can measure is the dominant tidal parameter in the waveform, which corresponds to the weighted average tidal deformability given by~\cite{Flanagan2008}
+\begin{equation}
+\tilde{\Lambda} = \frac{16}{13} \frac{(1+12q) \Lambda_1+(12+q)q^4\Lambda_2}{(1+q)^5},
+\end{equation}
+where $q \equiv m_2/m_1$ is the mass ratio between two stars.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Begin EOS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Spectral representations of neutron star equations of state}\label{sec:eos}
+The structure of a NS and its tidal interactions in a binary system rely heavily on the underlying EoS of nuclear matter. 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%% Begin universal relations %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Universal relations}\label{sec:universal}
+
+\subsection{I-Love-Q relations}\label{sec:ilq}
+
+\subsection{Binary love relations}\label{sec:binary}
+
+%%%%%%%%%%%%%%%%%%%%%%%%% Begin constraints %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Constraints on neutron star equation of state}\label{sec:constraints}
+
+%%%%%%%%%%%%%%%%%%%%%%%%% Begin Discussion %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Conclusion and Discussion}\label{sec:conclusion}
+
+%%%%%%%%%%%%%%%%%%%%%%%%% Begin Acknowledgements %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Acknowledgments}\label{acknowledgments}
+
+%\appendix
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%% Begin Bibliography  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\clearpage
+\bibliography{Zack}
+%\bibliographystyle{IEEEtran}
+%\onecolumngrid
+
+\end{document}
+
