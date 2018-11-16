@@ -79,6 +79,8 @@ Similar ``I-Love-Q" universal relations~\cite{Yagi:ILQ} have been found between 
 %How we improved this
 In this analysis, we aim to improve this important work by imposing the restrictions found on the EoS~\cite{LIGO:posterior} derived from the recent binary NS merger observation, GW170817~\cite{TheLIGOScientific:2017qsa}.
 By restricting to only EoSs which lie within the the 90\% credible region on pressure as a function of density found in~\cite{LIGO:posterior}, we repeat the analyses done in~\cite{Yagi:binLove,Yagi:ILQ} and show an increase in universality for both binary Love and I-Love-Q universal relations.
+In addition, we consider hybrid star EoSs seen in~\cite{Paschalidis2018}, which experience strong first-order transitions from hadronic matter to quark matter.
+These provide a departure from the nuclear matter relations considered here - providing valuable insight into them.
 Further, we estimate the viability of using improved universal relations on future GW detections by performing simple Fisher analyses to approximate when the statistical errors from parameter extraction become comparable to the systematic errors due to EoS variation in universal relations.
 
 \subsection{Executive Summary}
@@ -86,10 +88,12 @@ Further, we estimate the viability of using improved universal relations on futu
 In this paper we attempt to improve binary Love and I-Love-Q universal relations by imposing constraints on the EoS found by GW170817~\cite{LIGO:posterior,TheLIGOScientific:2017qsa}.
 First, we generate two large samples of spectral EoSs~\cite{Lindblom:2018rfr}, where we (i) impose the restriction that they must lie within GW170817's 90\% credible region in pressure as a function of density, and (ii) don't impose any restrictions for comparison purposes.
 Next, we follow the important works of~\cite{Yagi:binLove} and~\cite{Yagi:ILQ} to show how the ``constrained" set of EoSs show improved universality from both the previous works, and the ``unconstrained" sample.
+In addition, we determine the degree to which hybrid star EoSs obey binary Love universal relations.
 Lasty, through a simple Fisher analysis, we consider the value in improving universal relations by approximating when the statistical errors from parameter extraction become comparable to the systematic errors due to EoS variation in universal relations.
 
 %Final Results
 Upon use of the constrained set of EoSs, we find an improvement in binary Love universality by a factor of 25\% for stars with mass below 1.7 solar masses, and in I-Love-Q universality by a factor of 22\%.
+We also find that binaries consisting of one massive hybrid star, and one small-mass hadronic star do not agree with derived binary Love relations, due to the large separation in $\tilde{\Lambda}$ between the constituent stars.
 Unfortunately, due to the current limitations in detector sensitivity, the systematic errors arising from EoS variation in the universal relations are far outweighed by the statistical errors accrued by extraction of high-order PN tidal parameters from GW waveforms.
 Fig.~\ref{fig:stackedFisher} compiles the results from Fisher analyses approximating the uncertainties accrued from parameter extraction for GW170817 as if it had been observed by future detectors $A \equiv ($ O2, aLIGO, a\texttt{++}, Voyager, ET, CE$)$\zc{cite these individually}.
 Here, $\sigma^A_{\text{GW170817}}$ and $\rho^A_{\text{GW170817}}$ correspond to the statistical error and signal-to-noise-ratio found from observing GW170817 on detector $A$, and $\sigma^A_N$ represents the combined uncertainty after the detection of $N_A$ events (corresponding to the binary NS merger rate associated interferometer $A$).
@@ -113,7 +117,7 @@ These results are further tabulated in Table~\ref{tab:variances}.
 %outline
 The organization of this paper is outlined below.
 We begin with a complementary background and theory material in Sec.~\ref{sec:theory}.
-We continue in Sec.~\ref{sec:universal} by finding new and improved binary Love and I-Love-Q universal relations.
+We continue in Sec.~\ref{sec:universal} by finding new and improved binary Love and I-Love-Q universal relations, and considering how well hybrid star EoSs agree with the binary Love relations.
 We next examine these improved universal relations and question whether or not they are useful for future interferometers in Sec.~\ref{sec:observations}.
 We conclude in Sec.~\ref{sec:conclusion} by discussing our results and mentioning avenues of future work.
 Throughout this paper, we have adopted geometric units of $G=c=1$, unless otherwise stated.
@@ -254,9 +258,16 @@ works.
 
 \subsection{Binary love relations}\label{sec:binary}
 Next we consider improvements to the binary Love universal relations.
-Following Ref.~\cite{Yagi:binLove}, we fit the relation to the two-dimensional curve:
+In particular, we consider two distinct classes of NSs: nuclear matter EoSs and hybrid quark-hadron star EoSs~\cite{Paschalidis2018,Alford:2017qgh,1971SvA....15..347S,Zdunik:2012dj,Alford:2013aca}.
+In the latter, the low-density nucleonic crust region of the EoS experiences a first-order phase transition into a high density quark matter core at a given transition pressure $P_{\text{tr}}$.
+In this document, we adopt the ACB models, in particular ACB5 as seen in Table II of Ref.~\cite{Paschalidis2018}.
+We begin in Sec.~\ref{sec:nuclear} by fitting new binary Love relations for nucleonic matter as was done in~\cite{Yagi:binLove}.
+This is followed in Sec.~\ref{sec:hybrid} by an analysis and discussion into how well hybrid stars agree with the improved binary Love relations
+
+\subsubsection{Nuclear matter stars}\label{sec:nuclear}
+Following Ref.~\cite{Yagi:binLove}, we fit the binary Love relations from the constrained EoSs to the two-dimensional curve:
 \begin{equation}\label{eq:binLovefit}
-\Lambda_a=F_n(q) \frac{a+ \sum_{i=1}^3 \sum_{j=1}^2 b_{ij}q^j x^{i/5}}{a+ \sum_{i=1}^3 \sum_{j=1}^2 c_{ij}q^j x^{i/5}} \Lambda_s^{\alpha}
+\Lambda_a=F_n(q) \frac{a+ \sum_{i=1}^3 \sum_{j=1}^2 b_{ij}q^j x^{i/5}}{a+ \sum_{i=1}^3 \sum_{j=1}^2 c_{ij}q^j x^{i/5}} \Lambda_s^{\alpha},
 \end{equation}
 where q is the mass ratio $q \equiv m_1/m_2$ with $m_1 \leq m_2$, and $F_n(q)$ being the Newtonian limit given by:
 \begin{equation}
@@ -299,6 +310,36 @@ These values are comparable to the maximal EoS variation for unconstrained EoSs 
 }
 \label{fig:binLove}
 \end{figure*} 
+
+\subsubsection{Hybrid quark-hadron stars}\label{sec:hybrid}
+Transitional quark-hadron matter stars undergo first-order phase transitions at pressure $P_{\text{tr}}$, where the hadronic branch departs into a quark-matter branch at a given mass transition.
+We focus on the ACB5 model, which observes a transition mass at $\sim 1.4 \text{ M}_{\odot}$~\cite{Paschalidis2018}.
+This results in two distinct types of NSs, based on their observed mass: (i) massive ($M \geq 1.4 \text{ M}_{\odot}$) hybrid stars which have quark-matter cores and nuclear matter crusts (we denote this as ``QS"), and (ii) small-mass ($M \leq 1.4 \text{ M}_{\odot}$) hadronic stars with no internal transition to quark matter (we denote this as ``HS").
+We consider 3 classes of binaries:
+\begin{itemize}
+\item QS/HS binary: consists of one massive hybrid star, and one small hadronic star,
+\item HS/HS binary: consists of two small-mass hadronic stars,
+\item QS/QS binary: consists of two massive hybrid stars.
+\end{itemize}
+
+To determine how each of class of binary NSs obey our improved binary Love universal relations, we pick a representative set of 10 binary pairs from each class.
+Binary Love values are then computed for each pair, then residuals from the binary Love curve found in Sec.~\ref{sec:nuclear} are determined and compared to that from the constrained set of EoSs.
+The results are shown in Fig.~\ref{fig:hybrid}.
+First, we observe that the HS/HS combination of stars gives consistent results to that found earlier -- as expected.
+Next, we see that QS/QS combinations agree moderately with previous relations\footnote{Note that these EoSs do not fit within GW170817's 90\% posterior on EoS - so we excpect deviations consistent with the ``unconstrained" set of EoSs, rather than the ``constraind" set.}, while QS/HS combinations disagree significantly.
+This can be explained by the large reduction in tidal deformability for hybrid stars, are shown in Fig. 2 of Ref.~\cite{Paschalidis2018}: when one star lies on the hadronic branch while the other is on the quark branch, they each see vast differences in $\tilde{\Lambda}$ - disrupting the binary Love relations as found for stars on the hadronic branch.
+We conclude that quark-hadron stars may or may not obey these ``hadronic" universal relations, depending on the location of transition, and the difference between constituent masses in the binary.
+\begin{figure}
+\begin{center} 
+\includegraphics[width=\columnwidth]{hybrid.pdf}
+\end{center}
+\caption{
+\zc{Redo this image in xmgrace.}
+Fractional difference from the improved binary Love relations fit for a representative set of constrained nuclear matter EoSs (gray cirlces), and 30 selected NS binaries from the ACB5 hybrid EoS.
+In particular, these binary pairs are selected from each of the following categories: (i) binaries with which one massive star has a quark matter core, while the other is pure hadronic matter (i.e. small enough mass that the transition point has not yet been reached), denoted QS/HS (red triangles); (ii) binary with both small-mass hadron stars, denoted HS/HS (purple triangles); and (iii) binary with both large-mass stars with quark matter cores, denoted QS/QS (magenta triangles.
+}
+\label{fig:hybrid}
+\end{figure} 
 
 We have now shown that binary NS merger observations can help improve universal relations - the question is: is it worth it?
 Current interferometer sensitivities are not yet small enough to accurately constrain $\tilde{\Lambda}$.
@@ -413,6 +454,7 @@ The recent GW observation of binary NS merger GW170817 placed constraints on the
 We take advantage of this by generating a restricted set of spectral EoSs which agree with this observation to reduce uncertainties upon the extraction of tidal parameters from future GW events.
 Important previous work by Yagi \text{et al.}~\cite{Yagi:ILQ,Yagi:binLove} found EoS-insensitive universal relations between symmetric and antisymmetric combinations of NS tidal deformabilities, which aid in the extraction of said tidal parameters.
 We find an improvement upon these universal relations by a factor of 25\% for stars with mass below 1.7 solar masses\zc{check this number} by restricting to the EoSs constrained by GW170817.
+In addition, we find that binaries consisting of one massive hyrid quark-hadron star, and one small-mass hadron star do not obey these universal relations -- explained by the large difference in $\tilde{\Lambda}$ displayed between the constituent stars.
 Further, we analyze the impact of this improvement for future binary NS merger detections, as the current detector sensitivity is not yet small enough to accurately constrain $\tilde{\Lambda}$ enough for universal relations to make a difference.
 We find that future interferometers Voyager, CE, and ET-D all experience statistical uncertainties upon the extraction of $\tilde{\Lambda}$ small enough to become comparable to the systemtic errors injected by using the improved universal relations, as depicted in Fig.~\ref{fig:stackedFisher} and Table~\ref{tab:variances}.
 This indicates that the use and further improvement of universal relations is justified for future GW observations of binary NS merger events.
@@ -420,7 +462,7 @@ This indicates that the use and further improvement of universal relations is ju
 Future work on this subject includes the possible constraint on the EoS through the observation of super-massive NSs combined with the results of GW170817.
 For example, recent millisecond pulsar discovery J1748-2021B~\cite{Freire:superMassiveNS} has mass $2.74 \pm 0.21$, with large error bars due to astronomical mismodeling.
 If verified, this provides a possible avenue of EoS constraint via considering only spectrally generated EoSs which support maximum NS mass in agreeance with J1748-2021B.
-\zc{Should we talk about this here? More future directions?}
+\zc{Should we talk about these here? More future directions?}
 
 %%%%%%%%%%%%%%%%%%%%%%%%% Begin Acknowledgements %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Acknowledgments}\label{acknowledgments}
