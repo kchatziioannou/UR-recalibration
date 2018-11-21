@@ -71,7 +71,7 @@ For example, utilizing the parameters $\tilde{\Lambda}$ and $\delta \tilde{\Lamb
 
 %Universal relations
 Unfortunately, current detectors are only sensitive enough to accurately measure the dominant tidal parameter, $\tilde{\Lambda}$, known as the chirp deformability.
-Previous work by Yagi \textit{et al.}~\cite{Yagi:binLove} resolved this issue by finding approximately EoS-insensitive ``binary Love universal relations" between symmetric and anti-symmetric combinations of tidal deformabilities $\frac{1}{2}(\Lambda_1 \pm \Lambda_2)$.
+Previous work by Yagi and Yunes~\cite{Yagi:binLove} resolved this issue by finding approximately EoS-insensitive ``binary Love universal relations" between symmetric and anti-symmetric combinations of tidal deformabilities $\frac{1}{2}(\Lambda_1 \pm \Lambda_2)$.
 This allows one to further break degeneracies between tidal parameters, resulting in both (i) a decrease in uncertainty upon parameter extraction on the removal of one parameter from the model, and (ii) the ability to measure the secondary tidal parameter upon measurement of the first.  
 This important work showed up to an order of magnitude improvement in parameter estimation through a simple Fisher analysis.
 Similar ``I-Love-Q" universal relations~\cite{Yagi:ILQ} have been found between individual NS observables: quadrupole moment , moment of inertia, and tidal deformability; similarly allowing the removal of tidal parameters from the model list, and allowing an automatic determination of one observable through the measurement of another.
@@ -101,13 +101,12 @@ These values are further tabulated in Table~\ref{tab:variances}.
 It can be seen from this figure that the statistical errors from parameter extraction become comparable the universal relation systematics (indicated by the magenta horizontal line) for the Voyager telescope - indicating when improved binary Love universal relations will become viable.
 \begin{figure}
 \begin{center} 
-\includegraphics[width=\columnwidth]{stackedFisher.pdf}
+\includegraphics[width=\columnwidth]{stackedFisher.eps}
 \end{center}
 \caption{
-\zc{Redo this image in xmgrace.}
 Estimated statistical uncertainties $\sigma^A_{\text{GW170817}}$ (blue) in the extraction of $\tilde{\Lambda}$ from GW170817 (O2) as if observed with future interferometers aLIGO, a++, Voyager, CE, and ET-D as a function of the signal-to-noise-ratio $\rho^A_{\text{GW170817}}$.
-This is compared to the combined uncertainty $\sigma^A_N$ (orange) from the observation of multiple events from a simulated population of size $N_A$ corresponding to the expected rate of binary NS observations for O2, aLIGO, a\texttt{++}, Voyager, CE, and ET-D over 1 observing run: 1, 22, 177, 2409, 128310, and 674958 respectively.
-It can be seen that the statistical errors in parameter extraction become comparable to the systematics from EoS variation in binary Love relations (magenta) for Voyager and on.
+This is compared to the combined uncertainty $\sigma^A_N$ (red) from the observation of multiple events from a simulated population of size $N_A$ corresponding to the expected rate of binary NS observations for O2, aLIGO, a\texttt{++}, Voyager, CE, and ET-D over 1 observing run: 1, 22, 177, 2409, 128310, and 674958 respectively.
+It can be seen that the statistical errors in parameter extraction become comparable to the systematics from EoS variation in binary Love relations (purple) for Voyager and on.
 Note the approximation for $\sigma^A_N$ under the O2 detector sensitivity is a poor estimate due to the small number of stacked events, $N_{\text{O2}}=1$, resulting in a high degree of randomness in population generation.
 These results are further tabulated in Table~\ref{tab:variances}.
 }
@@ -144,16 +143,17 @@ Important recent work~\cite{LIGO:posterior} uniformly sampled EoS parameters in 
 In our work, we similarly sample spectral coefficients within the ranges: $\gamma_0 \in \lbrack 0.2,2 \rbrack$, $\gamma_1 \in \lbrack -1.6,1.7 \rbrack$, $\gamma_2 \in \lbrack -0.6,0.6 \rbrack$, $\gamma_0 \in \lbrack -0.02,0.02 \rbrack$, and further restricting the adiabatic index to be $\Gamma \in \lbrack 0.6,4.5 \rbrack$, ensuring our parameterization exposes a wide range of viable EoSs~\cite{Lindblom:parameters}.
 In addition, we impose similar constraints as was done in~\cite{LIGO:posterior}: (i) causality within 10\%, and (ii) EoS priors must support NS masses up to $1.97 \text{ M}_{\odot}$, consistent with astrophysical observations.
 We then utilize the posterior defined by GW170817 by rejecting any EoS sample which does not lie within the 90\% credible posterior region, resulting in a sample of 35 EoSs shown in Fig.~\ref{fig:eos}.
-Following~\cite{Read2009}, the parameterized high-density core EoSs generated above are matched to the low-density crust EoS Sly~\cite{Douchin:2001sv} at the density such that the pressures are equal.
+Following~\cite{Read2009}, the parameterized high-density core EoSs generated above are matched to the low-density crust EoS Sly~\cite{Douchin:2001sv} at about half of the nuclear saturation density, $\rho_{\text{stitch}}=1.3 \times 10^{14} \text{ g/cm}^3$.
 For comparison, we also include a second sample of randomly generated EoSs, without restricting to GW170817s posterior.
 \begin{figure}
 \begin{center} 
-\includegraphics[width=\columnwidth]{EoSs.pdf}
+\includegraphics[width=\columnwidth]{EoSs.eps}
 \end{center}
 \caption{
-\zc{Redo this image in xmgrace.}Set of 35 randomly generated EoSs used in our analysis. 
-These were populated by uniformly sampling the spectral coefficient parameter space, then restricting to the 90\% credible level on EoS as derived by~\cite{LIGO:posterior}.
+Representative set of EoSs used in our analysis. 
+These were populated by uniformly sampling the spectral coefficient parameter space, then restricting to the 90\% credible level shown in cyan~\cite{LIGO:posterior}.
 In addition, the following constraints were also applied: (i) the EoS must have a causal structure within 10\%, and (ii) the EoS must support maximum NS mass of at least $1.97 \text{ M}_{\odot}$, consistent with astrophysical observations.
+Finally, the high density core EoSs generated above were stitched to the low-density crust EoS of SLy~\cite{Douchin:2001sv} at $\rho_{\text{stitch}}=1.3 \times 10^{14} \text{ g/cm}^3$.
 }
 \label{fig:eos}
 \end{figure} 
@@ -190,7 +190,7 @@ Here, $\tilde{\Lambda}$ is known as the mass weighted tidal deformability, or \e
 
 \subsection{EoS insensitive relations}\label{sec:eosInsensitive}
 Current gravitational wave interferometry is not yet sensitive enough to accurately extract both tidal parameters $\tilde{\Lambda}$ and $\delta\tilde{\Lambda}$.
-In a search to remedy this, important previous work by Yagi \textit{et al.}~\cite{Yagi:binLove} found that symmetric and antisymmetric combinations of tidal deformabilities:
+In a search to remedy this, important previous work by Yagi and Yunes~\cite{Yagi:binLove} found that symmetric and antisymmetric combinations of tidal deformabilities:
 \begin{equation}
 \Lambda_s \equiv \frac{\Lambda_1 + \Lambda_2}{2}, \hspace{6mm} \Lambda_a \equiv \frac{\Lambda_1 - \Lambda_2}{2},
 \end{equation}
@@ -208,7 +208,7 @@ In this section, we follow the analyses performed in~\cite{Yagi:binLove,Yagi:ILQ
 For the remainder of the paper, we refer to these distinct samples as ``constrained" and ``unconstrained." 
 
 \subsection{I-Love-Q relations}\label{sec:ilq}
-Here we present our results on I-Love-Q universality as compared to Fig. 1 of Yagi \textit{et al.}~\cite{Yagi:ILQ}.
+Here we present our results on I-Love-Q universality as compared to Fig. 1 of Yagi and Yunes~\cite{Yagi:ILQ}.
 Following this work, the data for each universal relation is fit to the following curve:
 \begin{equation}\label{eq:ILQfit}
 \ln{y_i}=a_i+b_i \ln{x_i} + c_i (\ln{x_i})^2 + d_i (\ln{x_i})^3 + e_i (\ln{x_i})^4,
@@ -239,12 +239,11 @@ We observe that the maximum recorded EoS variation under the constrained set of 
 Further, both EoS samples show improvement from the original result of $\approx 1\%$ displayed in~\cite{Yagi:ILQ}.
 \begin{figure*}
 \begin{center} 
-\includegraphics[width=\textwidth]{ILQ.pdf}
+\includegraphics[width=\textwidth]{ILQ.eps}
 \end{center}
 \caption{
-\zc{Redo this image in xmgrace.}
 I-Love universal relations shown for the constrained EoSs (left) and unconstrained EoSs (right).
-In this figure, the black line corresponds to the fit given by Eq.~\ref{eq:ILQfit}, while all other colors correspond to the 35 EoSs used in each case.
+In these figures, the black dashed lines corresponds to the fit given by Eq.~\ref{eq:ILQfit}, while all other colors correspond to the 35 EoSs used in each case.
 The maximal EoS variation from the fit for unconstrained EoSs is $0.88\%$, which is comparable to the $1\%$ found in~\cite{Yagi:ILQ}.
 The constrained EoSs on the other hand, are universal to $0.43\%$, showing considerable improvement upon previous analyses.
 }
@@ -299,12 +298,11 @@ This shows considerable improvement from the universalities of $\sim 50\%$, $\si
 In addition, the unconstrained set of EoSs show similar universality to that recorded in Ref.~\cite{Yagi:binLove}.
 \begin{figure*}
 \begin{center} 
-\includegraphics[width=\textwidth]{binLove.pdf}
+\includegraphics[width=\textwidth]{binLove.eps}
 \end{center}
 \caption{
-\zc{Redo this image in xmgrace.}
 Binary Love universal relations shown for the constrained EoSs (left) and unconstrained EoSs (right).
-In this figure, the solid black line corresponds to the fit given by Eq.~\ref{eq:binLovefit}, while the solid, dashed, and dotted colored lines represent the 35 EoSs for mass ratios of $q=0.9$, $q=0.75$, and $q=0.50$, respectively.
+In this figure, the dashed black line corresponds to the fit given by Eq.~\ref{eq:binLovefit}, while the dotted blue, dashed magenta, and solid green lines represent the 35 EoSs for mass ratios of $q=0.9$, $q=0.75$, and $q=0.50$, respectively.
 The maximal EoS variation for each value of $q$ is $23.65\%$, $9.76\%$, and $2.15\%$ respectively, compared to $\sim 50\%$, $\sim 20\%$, and $\sim 3\%$ found in Ref.~\cite{Yagi:binLove}.
 These values are comparable to the maximal EoS variation for unconstrained EoSs as expected, found to be $41.66\%$, $12.64\%$, and $3.83\%$.
 }
@@ -331,12 +329,11 @@ This can be explained by the large reduction in tidal deformability for hybrid s
 We conclude that quark-hadron stars may or may not obey these ``hadronic" universal relations, depending on the location of transition, and the difference between constituent masses in the binary.
 \begin{figure}
 \begin{center} 
-\includegraphics[width=\columnwidth]{hybrid.pdf}
+\includegraphics[width=\columnwidth]{hybrid.eps}
 \end{center}
 \caption{
-\zc{Redo this image in xmgrace.}
 Fractional difference from the improved binary Love relations fit for a representative set of constrained nuclear matter EoSs (gray cirlces), and 30 selected NS binaries from the ACB5 hybrid EoS.
-In particular, these binary pairs are selected from each of the following categories: (i) binaries with which one massive star has a quark matter core, while the other is pure hadronic matter (i.e. small enough mass that the transition point has not yet been reached), denoted QS/HS (red triangles); (ii) binary with both small-mass hadron stars, denoted HS/HS (purple triangles); and (iii) binary with both large-mass stars with quark matter cores, denoted QS/QS (magenta triangles.
+In particular, these binary pairs are selected from each of the following categories: (i) binaries with which one massive star has a quark matter core, while the other is pure hadronic matter (i.e. small enough mass that the transition point has not yet been reached), denoted QS/HS (green triangles); (ii) binary with both small-mass hadron stars, denoted HS/HS (red squares); and (iii) binary with both large-mass stars with quark matter cores, denoted QS/QS (magenta diamonds).
 }
 \label{fig:hybrid}
 \end{figure} 
@@ -394,10 +391,9 @@ We compare these results with the Bayesian analysis performed in Ref.~\cite{TheL
 This confirms the approximate validity of this method, allowing a continuation of this analysis for future detectors.
 \begin{figure}
 \begin{center} 
-\includegraphics[width=\columnwidth]{sensitivities.pdf}
+\includegraphics[width=\columnwidth]{sensitivities.eps}
 \end{center}
 \caption{
-\zc{redo this image in xmgrace}
 Square root of of the spectral noise densities $\sqrt{S_n^A(f)}$ plotted for detectors ($A$): LIGO O2 (orange), aLIGO (green), a\texttt{++} (purple), Voyager (magenta), CE (red), and ET-D (blue) as interpolated from publicly available data\zc{cite}.
 Spectral noise densities are plotted from $f_{\text{min}}=(23,10,10,7,1,1) \text{ Hz}$, respectively, to $f_{\text{max}}=1649 \text{ Hz}$.
 Also shown is $2 \sqrt{f}$ multiplied by the amplitude of the PhenomD~\cite{PhenomDI,PhenomDII} waveform template, modified by tidal corrections from Ref.~\cite{Wade:tidalCorrections} used in our Fisher Analysis.
@@ -452,7 +448,7 @@ This implies that the use and further improvement of universal relations is just
 \section{Conclusion and Discussion}\label{sec:conclusion}
 The recent GW observation of binary NS merger GW170817 placed constraints on the supranuclear matter EoS for NSs.
 We take advantage of this by generating a restricted set of spectral EoSs which agree with this observation to reduce uncertainties upon the extraction of tidal parameters from future GW events.
-Important previous work by Yagi \text{et al.}~\cite{Yagi:ILQ,Yagi:binLove} found EoS-insensitive universal relations between symmetric and antisymmetric combinations of NS tidal deformabilities, which aid in the extraction of said tidal parameters.
+Important previous work by Yagi and Yunes~\cite{Yagi:ILQ,Yagi:binLove} found EoS-insensitive universal relations between symmetric and antisymmetric combinations of NS tidal deformabilities, which aid in the extraction of said tidal parameters.
 We find an improvement upon these universal relations by a factor of 25\% for stars with mass below 1.7 solar masses\zc{check this number} by restricting to the EoSs constrained by GW170817.
 In addition, we find that binaries consisting of one massive hyrid quark-hadron star, and one small-mass hadron star do not obey these universal relations -- explained by the large difference in $\tilde{\Lambda}$ displayed between the constituent stars.
 Further, we analyze the impact of this improvement for future binary NS merger detections, as the current detector sensitivity is not yet small enough to accurately constrain $\tilde{\Lambda}$ enough for universal relations to make a difference.
