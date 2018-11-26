@@ -90,7 +90,7 @@
 @timestamp rot 0
 @timestamp font 0
 @timestamp char size 1.000000
-@timestamp def "Mon Nov 19 10:03:51 2018"
+@timestamp def "Sun Nov 25 15:21:27 2018"
 @with string
 @    string on
 @    string loctype view
@@ -197,7 +197,7 @@
 @g0 fixedpoint format general general
 @g0 fixedpoint prec 6, 6
 @with g0
-@    world 25, 1, 3500, 450
+@    world 25, 0.07, 3500, 800
 @    stack world 0, 0, 0, 0
 @    znorm 1
 @    view 0.150000, 0.150000, 1.150000, 0.850000
@@ -319,7 +319,7 @@
 @    altyaxis  off
 @    legend on
 @    legend loctype view
-@    legend 0.85, 0.8
+@    legend 0.86, 0.83
 @    legend box color 1
 @    legend box pattern 1
 @    legend box linewidth 1.0
@@ -347,7 +347,7 @@
 @    s0 symbol color 4
 @    s0 symbol pattern 1
 @    s0 symbol fill color 4
-@    s0 symbol fill pattern 0
+@    s0 symbol fill pattern 1
 @    s0 symbol linewidth 1.0
 @    s0 symbol linestyle 1
 @    s0 symbol char 65
@@ -389,7 +389,7 @@
 @    s0 errorbar riser clip length 0.100000
 @    s0 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/stackedFisher/sigma1.dat"
 @    s0 legend  "\xs\f{}\SA\N\sGW170817\N"
-@    s1 hidden false
+@    s1 hidden true
 @    s1 type xy
 @    s1 symbol 10
 @    s1 symbol size 1.000000
@@ -436,7 +436,7 @@
 @    s1 errorbar riser linestyle 1
 @    s1 errorbar riser clip off
 @    s1 errorbar riser clip length 0.100000
-@    s1 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/stackedFisher/sigmaN.dat"
+@    s1 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/stackedFisher/sigmaNLow.dat"
 @    s1 legend  "\xs\f{}\SA\N\sN\N"
 @    s2 hidden false
 @    s2 type xy
@@ -781,6 +781,153 @@
 @    s8 errorbar riser clip length 0.100000
 @    s8 comment "Editor"
 @    s8 legend  ""
+@    s9 hidden false
+@    s9 type xy
+@    s9 symbol 6
+@    s9 symbol size 1.000000
+@    s9 symbol color 10
+@    s9 symbol pattern 1
+@    s9 symbol fill color 10
+@    s9 symbol fill pattern 1
+@    s9 symbol linewidth 1.0
+@    s9 symbol linestyle 1
+@    s9 symbol char 65
+@    s9 symbol char font 0
+@    s9 symbol skip 0
+@    s9 line type 0
+@    s9 line linestyle 1
+@    s9 line linewidth 1.0
+@    s9 line color 10
+@    s9 line pattern 1
+@    s9 baseline type 0
+@    s9 baseline off
+@    s9 dropline off
+@    s9 fill type 0
+@    s9 fill rule 0
+@    s9 fill color 1
+@    s9 fill pattern 1
+@    s9 avalue off
+@    s9 avalue type 2
+@    s9 avalue char size 1.000000
+@    s9 avalue font 0
+@    s9 avalue color 1
+@    s9 avalue rot 0
+@    s9 avalue format general
+@    s9 avalue prec 3
+@    s9 avalue prepend ""
+@    s9 avalue append ""
+@    s9 avalue offset 0.000000 , 0.000000
+@    s9 errorbar on
+@    s9 errorbar place both
+@    s9 errorbar color 10
+@    s9 errorbar pattern 1
+@    s9 errorbar size 1.000000
+@    s9 errorbar linewidth 1.0
+@    s9 errorbar linestyle 1
+@    s9 errorbar riser linewidth 1.0
+@    s9 errorbar riser linestyle 1
+@    s9 errorbar riser clip off
+@    s9 errorbar riser clip length 0.100000
+@    s9 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/stackedFisher/sigmaNLow.dat"
+@    s9 legend  "\xs\f{}\SA\N\sN\N (Low)"
+@    s10 hidden false
+@    s10 type xy
+@    s10 symbol 3
+@    s10 symbol size 1.000000
+@    s10 symbol color 11
+@    s10 symbol pattern 1
+@    s10 symbol fill color 11
+@    s10 symbol fill pattern 1
+@    s10 symbol linewidth 1.0
+@    s10 symbol linestyle 1
+@    s10 symbol char 65
+@    s10 symbol char font 0
+@    s10 symbol skip 0
+@    s10 line type 0
+@    s10 line linestyle 0
+@    s10 line linewidth 1.0
+@    s10 line color 11
+@    s10 line pattern 1
+@    s10 baseline type 0
+@    s10 baseline off
+@    s10 dropline off
+@    s10 fill type 0
+@    s10 fill rule 0
+@    s10 fill color 1
+@    s10 fill pattern 1
+@    s10 avalue off
+@    s10 avalue type 2
+@    s10 avalue char size 1.000000
+@    s10 avalue font 0
+@    s10 avalue color 1
+@    s10 avalue rot 0
+@    s10 avalue format general
+@    s10 avalue prec 3
+@    s10 avalue prepend ""
+@    s10 avalue append ""
+@    s10 avalue offset 0.000000 , 0.000000
+@    s10 errorbar on
+@    s10 errorbar place both
+@    s10 errorbar color 11
+@    s10 errorbar pattern 1
+@    s10 errorbar size 1.000000
+@    s10 errorbar linewidth 1.0
+@    s10 errorbar linestyle 1
+@    s10 errorbar riser linewidth 1.0
+@    s10 errorbar riser linestyle 1
+@    s10 errorbar riser clip off
+@    s10 errorbar riser clip length 0.100000
+@    s10 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/stackedFisher/sigmaNMid.dat"
+@    s10 legend  "\xs\f{}\SA\N\sN\N (Center)"
+@    s11 hidden false
+@    s11 type xy
+@    s11 symbol 4
+@    s11 symbol size 1.000000
+@    s11 symbol color 14
+@    s11 symbol pattern 1
+@    s11 symbol fill color 14
+@    s11 symbol fill pattern 1
+@    s11 symbol linewidth 1.0
+@    s11 symbol linestyle 1
+@    s11 symbol char 65
+@    s11 symbol char font 0
+@    s11 symbol skip 0
+@    s11 line type 0
+@    s11 line linestyle 0
+@    s11 line linewidth 1.0
+@    s11 line color 14
+@    s11 line pattern 1
+@    s11 baseline type 0
+@    s11 baseline off
+@    s11 dropline off
+@    s11 fill type 0
+@    s11 fill rule 0
+@    s11 fill color 1
+@    s11 fill pattern 1
+@    s11 avalue off
+@    s11 avalue type 2
+@    s11 avalue char size 1.000000
+@    s11 avalue font 0
+@    s11 avalue color 1
+@    s11 avalue rot 0
+@    s11 avalue format general
+@    s11 avalue prec 3
+@    s11 avalue prepend ""
+@    s11 avalue append ""
+@    s11 avalue offset 0.000000 , 0.000000
+@    s11 errorbar on
+@    s11 errorbar place both
+@    s11 errorbar color 14
+@    s11 errorbar pattern 1
+@    s11 errorbar size 1.000000
+@    s11 errorbar linewidth 1.0
+@    s11 errorbar linestyle 1
+@    s11 errorbar riser linewidth 1.0
+@    s11 errorbar riser linestyle 1
+@    s11 errorbar riser clip off
+@    s11 errorbar riser clip length 0.100000
+@    s11 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/stackedFisher/sigmaNHigh.dat"
+@    s11 legend  "\xs\f{}\SA\N\sN\N (High)"
 @target G0.S0
 @type xy
 32.4 168.39675
@@ -792,12 +939,11 @@
 &
 @target G0.S1
 @type xy
-32.4 314.899
-90.74 70.368
-180.95 27.962
-428.89 10.2094
-1398.03 1.38786
-2807.45 1.5279
+32.4 558.18228
+90.74 117.02219
+180.95 27.622045
+428.89 8.568151
+1398.03 0.78426189
 &
 @target G0.S2
 @type xy
@@ -833,4 +979,31 @@
 @type xy
 2807.45 0
 2807.45 1000
+&
+@target G0.S9
+@type xy
+32.4 558.18228
+90.74 117.02219
+180.95 27.622045
+428.89 8.568151
+1398.03 0.78426189
+2807.45 0.34598362
+&
+@target G0.S10
+@type xy
+32.4 393.23709
+90.74 42.891502
+180.95 13.364638
+428.89 3.7839711
+1398.03 0.35405934
+2807.45 0.15771194
+&
+@target G0.S11
+@type xy
+32.4 280
+90.74 24.265168
+180.95 7.363285
+428.89 2.1618086
+1398.03 0.20224535
+2807.45 0.1
 &
