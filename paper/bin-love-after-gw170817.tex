@@ -1,6 +1,9 @@
 \documentclass[prd,twocolumn,nofootinbib,superscriptaddress,amsmath,amssymb]{revtex4-1}
 \include{preamble}
 
+\definecolor{red(ncs)}{rgb}{0.77, 0.01, 0.2}
+\newcommand{\ny}[1]{\textcolor{blue}{NY: #1} }
+
 \begin{document}
 
 \title{Universal relations after GW170817}
@@ -135,7 +138,7 @@ where $x \equiv \log{p/p_0}$ for minimum pressure $p_0$.
 The equation of state is then determined by an integration of the differential equation:
 \begin{equation}
 \frac{d \epsilon(p)}{dp}=\frac{\epsilon(p)+p}{p \Gamma(p)}.
-\end{equation}9
+\end{equation}
 Using this formalism, any valid EoS can be approximated through choice of 4 or more spectral coefficients $\gamma_k$, tabulated for several common EoSs in Table 1 of~\cite{Lindblom:2018rfr}.
 
 In the current analysis, we consider only EoSs which have been constrained by the recent binary neutron star merger event, GW170817.
@@ -144,7 +147,7 @@ In our work, we similarly sample spectral coefficients within the ranges: $\gamm
 In addition, we impose similar constraints as was done in~\cite{LIGO:posterior}: (i) causality within 10\%, and (ii) EoS priors must support NS masses up to $1.97 \text{ M}_{\odot}$, consistent with astrophysical observations.
 We then utilize the posterior defined by GW170817 by rejecting any EoS sample which does not lie within the 90\% credible posterior region, resulting in a sample of 35 EoSs shown in Fig.~\ref{fig:eos}.
 Following~\cite{Read2009}, the parameterized high-density core EoSs generated above are matched to the low-density crust EoS Sly~\cite{Douchin:2001sv} at about half of the nuclear saturation density, $\rho_{\text{stitch}}=1.3 \times 10^{14} \text{ g/cm}^3$.
-For comparison, we also include a second sample of randomly generated EoSs, without restricting to GW170817s posterior.
+For comparison, we also include a second sample of randomly generated EoSs, without restricting to GW170817s posterior. {\ny{It would be good to make this figure a double pane one, so that you can show the constrained set and the unconstrained set side-by-side.}}
 \begin{figure}
 \begin{center} 
 \includegraphics[width=\columnwidth]{EoSs.eps}
@@ -234,9 +237,19 @@ Updated fit parameters for I-Love-Q universal relations, as given by the curve f
 \end{tabular}
 \end{table}
 
+{\ny{Let me play devil's advocate and explain things I could potentially be worried about.
+\begin{itemize}
+\item The constrained and the unconstrained data set of I-Love that you are fitting, do they have the same number of data points? If not, how do you know your fits and the comparisons are reliable to variation on the data set? You can study this by re-doing this analysis with the same amount of data in both sets of EoSs and then repeating the analysis with twice the amount of data to see how the results change.  
+\item  The unconstrained set does not contain the same EoSs as the constrained set plus additional ones that are ruled out. This makes comparison of the sets a bit more difficult, because they are randomly sampled. How do you know your comparisons are robust to the number of EoSs you have randomly chosen without your probability distribution? You can study this by re-doing this analysis with twice the number of drawn EoSs to see how the results change. 
+\item In the constrained set, there seems to be 3 EoSs that have the ``largest'' difference. What makes these EoSs special? Do they have anything in common?  Same question for the unconstrained data set, but there are 2 special ones this time. 
+\end{itemize}
+}}
 Fig.~\ref{fig:ILQ} shows the improved I-Love universal relation between dimensionless moment of inertia $\bar{I} \equiv I/M^3$ and dimensionless tidal deformability $\Lambda$ for both constrained and unconstrained sets of EoSs.
 We observe that the maximum recorded EoS variation under the constrained set of EoSs is $0.43\%$, showing considerable improvement from the $0.88\%$ found in the case of unconstrained EoSs.
 Further, both EoS samples show improvement from the original result of $\approx 1\%$ displayed in~\cite{Yagi:ILQ}.
+
+{\ny{This comment is related to the list above, but I'm worried about how robust these numbers quoted above to *2* sig figs are...}}
+
 \begin{figure*}
 \begin{center} 
 \includegraphics[width=\textwidth]{ILQ.eps}
@@ -255,6 +268,8 @@ Although the unconstrained EoSs show slightly smaller EoS variation than found i
 On the other hand, the constrained set of EoSs show significant improvement from that found in previous 
 works.
 
+{\ny{I think it would be worth studying whether there is a better fitting function that one can use for the constrained set. The functional form in Eq. (6) does not limit properly to the Newtonian result or to the relativistic result. But we do know how I-Love for example scales in the Newtonian limit, so could we e.g. peel off the asymptotic behavior analytically, and then correct this with a fitting function? This is similar to what Kent and I did in the past in a paper (in the binary love actually) and also similar to the way EoB works.}}
+
 \subsection{Binary love relations}\label{sec:binary}
 Next we consider improvements to the binary Love universal relations.
 In particular, we consider two distinct classes of NSs: nuclear matter EoSs and hybrid quark-hadron star EoSs~\cite{Paschalidis2018,Alford:2017qgh,1971SvA....15..347S,Zdunik:2012dj,Alford:2013aca}.
@@ -262,6 +277,8 @@ In the latter, the low-density nucleonic crust region of the EoS experiences a f
 In this document, we adopt the ACB models, in particular ACB5 as seen in Table II of Ref.~\cite{Paschalidis2018}.
 We begin in Sec.~\ref{sec:nuclear} by fitting new binary Love relations for nucleonic matter as was done in~\cite{Yagi:binLove}.
 This is followed in Sec.~\ref{sec:hybrid} by an analysis and discussion into how well hybrid stars agree with the improved binary Love relations
+
+{\ny{Why do we consider hybrid stars only in this subsection? Why not also include these in the I-Love studies?}}
 
 \subsubsection{Nuclear matter stars}\label{sec:nuclear}
 Following Ref.~\cite{Yagi:binLove}, we fit the binary Love relations from the constrained EoSs to the two-dimensional curve:
@@ -309,6 +326,8 @@ These values are comparable to the maximal EoS variation for unconstrained EoSs 
 \label{fig:binLove}
 \end{figure*} 
 
+{\ny{I have very similar comments here to those I listed in the I-Love relation section.}}
+
 \subsubsection{Hybrid quark-hadron stars}\label{sec:hybrid}
 Transitional quark-hadron matter stars undergo first-order phase transitions at pressure $P_{\text{tr}}$, where the hadronic branch departs into a quark-matter branch at a given mass transition.
 We focus on the ACB5 model, which observes a transition mass at $\sim 1.4 \text{ M}_{\odot}$~\cite{Paschalidis2018}.
@@ -319,6 +338,8 @@ We consider 3 classes of binaries:
 \item HS/HS binary: consists of two small-mass hadronic stars,
 \item QS/QS binary: consists of two massive hybrid stars.
 \end{itemize}
+
+{\ny{The comparison below is a bit misleading because all you have shown is that the fitting coefficients for the standard stars do not work when dealing with mixed stars. I think it would be interesting to see how the binary love relations look when you include hybrid systems (something like Fig. 5 but for QS/QS and for QS/HS). Also I think it would be interesting to either (i) redo the fits including the QS/QS and QS/HS data and or (ii) produce different fits for those families, and then you can compare either of these to a wide set of systems to determine the validity of the fit.}}
 
 To determine how each of class of binary NSs obey our improved binary Love universal relations, we pick a representative set of 10 binary pairs from each class.
 Binary Love values are then computed for each pair, then residuals from the binary Love curve found in Sec.~\ref{sec:nuclear} are determined and compared to that from the constrained set of EoSs.
