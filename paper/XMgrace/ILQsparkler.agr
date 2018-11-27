@@ -90,7 +90,7 @@
 @timestamp rot 0
 @timestamp font 0
 @timestamp char size 1.000000
-@timestamp def "Sun Nov 25 22:05:08 2018"
+@timestamp def "Mon Nov 26 21:27:27 2018"
 @r0 off
 @link r0 to g0
 @r0 type above
@@ -140,7 +140,7 @@
 @    world 2, 3, 9999.99, 27
 @    stack world 0, 0, 0, 0
 @    znorm 1
-@    view 0.130000, 0.400000, 0.695000, 0.970000
+@    view 0.500000, 0.150000, 1.250000, 0.970000
 @    title ""
 @    title font 0
 @    title size 1.500000
@@ -160,10 +160,10 @@
 @    xaxis  bar color 1
 @    xaxis  bar linestyle 1
 @    xaxis  bar linewidth 1.0
-@    xaxis  label ""
+@    xaxis  label "\xL\f{} (unitless tidal deformability)"
 @    xaxis  label layout para
 @    xaxis  label place auto
-@    xaxis  label char size 1.000000
+@    xaxis  label char size 1.900000
 @    xaxis  label font 0
 @    xaxis  label color 1
 @    xaxis  label place normal
@@ -183,9 +183,9 @@
 @    xaxis  tick minor linestyle 1
 @    xaxis  tick minor grid off
 @    xaxis  tick minor size 0.500000
-@    xaxis  ticklabel off
-@    xaxis  ticklabel format general
-@    xaxis  ticklabel prec 5
+@    xaxis  ticklabel on
+@    xaxis  ticklabel format power
+@    xaxis  ticklabel prec 0
 @    xaxis  ticklabel formula ""
 @    xaxis  ticklabel append ""
 @    xaxis  ticklabel prepend ""
@@ -199,7 +199,7 @@
 @    xaxis  ticklabel start 0.000000
 @    xaxis  ticklabel stop type auto
 @    xaxis  ticklabel stop 0.000000
-@    xaxis  ticklabel char size 1.000000
+@    xaxis  ticklabel char size 1.900000
 @    xaxis  ticklabel font 0
 @    xaxis  ticklabel color 1
 @    xaxis  tick place both
@@ -211,10 +211,10 @@
 @    yaxis  bar color 1
 @    yaxis  bar linestyle 1
 @    yaxis  bar linewidth 1.0
-@    yaxis  label "\oI\O"
+@    yaxis  label "\oI\O (unitless moment of inertia)"
 @    yaxis  label layout para
 @    yaxis  label place auto
-@    yaxis  label char size 1.400000
+@    yaxis  label char size 1.900000
 @    yaxis  label font 0
 @    yaxis  label color 1
 @    yaxis  label place normal
@@ -250,7 +250,7 @@
 @    yaxis  ticklabel start 0.000000
 @    yaxis  ticklabel stop type auto
 @    yaxis  ticklabel stop 0.000000
-@    yaxis  ticklabel char size 1.400000
+@    yaxis  ticklabel char size 1.900000
 @    yaxis  ticklabel font 0
 @    yaxis  ticklabel color 1
 @    yaxis  tick place both
@@ -2050,7 +2050,7 @@
 @    frame background color 0
 @    frame background pattern 0
 @g2 on
-@g2 hidden false
+@g2 hidden true
 @g2 type XY
 @g2 stacked false
 @g2 bar hgap 0.000000
@@ -2063,7 +2063,7 @@
 @    world 2, 0.0003, 9999.99, 0.02
 @    stack world 0, 0, 0, 0
 @    znorm 1
-@    view 0.130000, 0.100000, 0.695000, 0.400000
+@    view 0.500000, 0.100000, 1.250000, 0.400000
 @    title ""
 @    title font 0
 @    title size 1.500000
@@ -2086,7 +2086,7 @@
 @    xaxis  label "\xL\f{}"
 @    xaxis  label layout para
 @    xaxis  label place auto
-@    xaxis  label char size 1.400000
+@    xaxis  label char size 1.900000
 @    xaxis  label font 0
 @    xaxis  label color 1
 @    xaxis  label place normal
@@ -2122,7 +2122,7 @@
 @    xaxis  ticklabel start 0.000000
 @    xaxis  ticklabel stop type auto
 @    xaxis  ticklabel stop 0.000000
-@    xaxis  ticklabel char size 1.400000
+@    xaxis  ticklabel char size 1.900000
 @    xaxis  ticklabel font 0
 @    xaxis  ticklabel color 1
 @    xaxis  tick place both
@@ -2137,7 +2137,7 @@
 @    yaxis  label "|\oI\O-\oI\O\Sfit\N|/\oI\O\Sfit\N"
 @    yaxis  label layout para
 @    yaxis  label place auto
-@    yaxis  label char size 1.400000
+@    yaxis  label char size 1.900000
 @    yaxis  label font 0
 @    yaxis  label color 1
 @    yaxis  label place normal
@@ -2173,7 +2173,7 @@
 @    yaxis  ticklabel start 0.000000
 @    yaxis  ticklabel stop type auto
 @    yaxis  ticklabel stop 0.000000
-@    yaxis  ticklabel char size 1.400000
+@    yaxis  ticklabel char size 2.900000
 @    yaxis  ticklabel font 0
 @    yaxis  ticklabel color 1
 @    yaxis  tick place both
