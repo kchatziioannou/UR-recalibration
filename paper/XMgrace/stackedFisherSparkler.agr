@@ -90,7 +90,7 @@
 @timestamp rot 0
 @timestamp font 0
 @timestamp char size 1.000000
-@timestamp def "Sun Nov 25 15:21:27 2018"
+@timestamp def "Mon Nov 26 23:14:41 2018"
 @with string
 @    string on
 @    string loctype view
@@ -220,10 +220,10 @@
 @    xaxis  bar color 1
 @    xaxis  bar linestyle 1
 @    xaxis  bar linewidth 1.0
-@    xaxis  label "\xr\f{}\SA\N\sGW170817\N"
+@    xaxis  label "SNR\sGW170817\N"
 @    xaxis  label layout para
 @    xaxis  label place auto
-@    xaxis  label char size 1.400000
+@    xaxis  label char size 1.900000
 @    xaxis  label font 0
 @    xaxis  label color 1
 @    xaxis  label place normal
@@ -259,7 +259,7 @@
 @    xaxis  ticklabel start 0.000000
 @    xaxis  ticklabel stop type auto
 @    xaxis  ticklabel stop 0.000000
-@    xaxis  ticklabel char size 1.400000
+@    xaxis  ticklabel char size 1.900000
 @    xaxis  ticklabel font 0
 @    xaxis  ticklabel color 1
 @    xaxis  tick place both
@@ -271,10 +271,10 @@
 @    yaxis  bar color 1
 @    yaxis  bar linestyle 1
 @    yaxis  bar linewidth 1.0
-@    yaxis  label "\xs\f{}\SA\N\s\xL\f{}\h{-.65mm}\v{0.7mm}~\N"
+@    yaxis  label "\xs\f{}\s\xL\f{}\h{-.65mm}\v{0.7mm}~\N (weighted tidal deformability error)"
 @    yaxis  label layout para
 @    yaxis  label place auto
-@    yaxis  label char size 1.400000
+@    yaxis  label char size 1.650000
 @    yaxis  label font 0
 @    yaxis  label color 1
 @    yaxis  label place normal
@@ -310,7 +310,7 @@
 @    yaxis  ticklabel start 0.000000
 @    yaxis  ticklabel stop type auto
 @    yaxis  ticklabel stop 0.000000
-@    yaxis  ticklabel char size 1.400000
+@    yaxis  ticklabel char size 1.900000
 @    yaxis  ticklabel font 0
 @    yaxis  ticklabel color 1
 @    yaxis  tick place both
@@ -319,7 +319,7 @@
 @    altyaxis  off
 @    legend on
 @    legend loctype view
-@    legend 0.86, 0.83
+@    legend 0.85, 0.82
 @    legend box color 1
 @    legend box pattern 1
 @    legend box linewidth 1.0
@@ -327,7 +327,7 @@
 @    legend box fill color 0
 @    legend box fill pattern 1
 @    legend font 0
-@    legend char size 1.400000
+@    legend char size 1.900000
 @    legend color 1
 @    legend length 1
 @    legend vgap 1
@@ -342,29 +342,29 @@
 @    frame background pattern 0
 @    s0 hidden false
 @    s0 type xy
-@    s0 symbol 1
+@    s0 symbol 0
 @    s0 symbol size 1.000000
-@    s0 symbol color 4
+@    s0 symbol color 12
 @    s0 symbol pattern 1
-@    s0 symbol fill color 4
-@    s0 symbol fill pattern 1
+@    s0 symbol fill color 12
+@    s0 symbol fill pattern 0
 @    s0 symbol linewidth 1.0
-@    s0 symbol linestyle 1
+@    s0 symbol linestyle 3
 @    s0 symbol char 65
 @    s0 symbol char font 0
 @    s0 symbol skip 0
 @    s0 line type 1
-@    s0 line linestyle 0
-@    s0 line linewidth 1.0
-@    s0 line color 1
-@    s0 line pattern 0
+@    s0 line linestyle 4
+@    s0 line linewidth 2.0
+@    s0 line color 12
+@    s0 line pattern 1
 @    s0 baseline type 0
 @    s0 baseline off
 @    s0 dropline off
-@    s0 fill type 0
+@    s0 fill type 2
 @    s0 fill rule 0
-@    s0 fill color 1
-@    s0 fill pattern 1
+@    s0 fill color 8
+@    s0 fill pattern 14
 @    s0 avalue off
 @    s0 avalue type 2
 @    s0 avalue char size 1.000000
@@ -378,7 +378,7 @@
 @    s0 avalue offset 0.000000 , 0.000000
 @    s0 errorbar on
 @    s0 errorbar place both
-@    s0 errorbar color 4
+@    s0 errorbar color 12
 @    s0 errorbar pattern 1
 @    s0 errorbar size 1.000000
 @    s0 errorbar linewidth 1.0
@@ -387,25 +387,25 @@
 @    s0 errorbar riser linestyle 1
 @    s0 errorbar riser clip off
 @    s0 errorbar riser clip length 0.100000
-@    s0 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/stackedFisher/sigma1.dat"
-@    s0 legend  "\xs\f{}\SA\N\sGW170817\N"
-@    s1 hidden true
+@    s0 comment "Editor"
+@    s0 legend  ""
+@    s1 hidden false
 @    s1 type xy
-@    s1 symbol 10
+@    s1 symbol 1
 @    s1 symbol size 1.000000
-@    s1 symbol color 2
+@    s1 symbol color 4
 @    s1 symbol pattern 1
-@    s1 symbol fill color 2
-@    s1 symbol fill pattern 0
+@    s1 symbol fill color 4
+@    s1 symbol fill pattern 1
 @    s1 symbol linewidth 1.0
 @    s1 symbol linestyle 1
 @    s1 symbol char 65
 @    s1 symbol char font 0
 @    s1 symbol skip 0
-@    s1 line type 0
-@    s1 line linestyle 1
+@    s1 line type 1
+@    s1 line linestyle 0
 @    s1 line linewidth 1.0
-@    s1 line color 2
+@    s1 line color 1
 @    s1 line pattern 0
 @    s1 baseline type 0
 @    s1 baseline off
@@ -427,7 +427,7 @@
 @    s1 avalue offset 0.000000 , 0.000000
 @    s1 errorbar on
 @    s1 errorbar place both
-@    s1 errorbar color 2
+@    s1 errorbar color 4
 @    s1 errorbar pattern 1
 @    s1 errorbar size 1.000000
 @    s1 errorbar linewidth 1.0
@@ -436,33 +436,33 @@
 @    s1 errorbar riser linestyle 1
 @    s1 errorbar riser clip off
 @    s1 errorbar riser clip length 0.100000
-@    s1 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/stackedFisher/sigmaNLow.dat"
-@    s1 legend  "\xs\f{}\SA\N\sN\N"
-@    s2 hidden false
+@    s1 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/stackedFisher/sigma1.dat"
+@    s1 legend  "\xs\f{}\sGW170817\N"
+@    s2 hidden true
 @    s2 type xy
-@    s2 symbol 0
+@    s2 symbol 10
 @    s2 symbol size 1.000000
-@    s2 symbol color 12
+@    s2 symbol color 2
 @    s2 symbol pattern 1
-@    s2 symbol fill color 12
+@    s2 symbol fill color 2
 @    s2 symbol fill pattern 0
 @    s2 symbol linewidth 1.0
-@    s2 symbol linestyle 3
+@    s2 symbol linestyle 1
 @    s2 symbol char 65
 @    s2 symbol char font 0
 @    s2 symbol skip 0
-@    s2 line type 1
-@    s2 line linestyle 4
-@    s2 line linewidth 2.0
-@    s2 line color 12
-@    s2 line pattern 1
+@    s2 line type 0
+@    s2 line linestyle 1
+@    s2 line linewidth 1.0
+@    s2 line color 2
+@    s2 line pattern 0
 @    s2 baseline type 0
 @    s2 baseline off
 @    s2 dropline off
 @    s2 fill type 0
 @    s2 fill rule 0
-@    s2 fill color 11
-@    s2 fill pattern 1
+@    s2 fill color 1
+@    s2 fill pattern 14
 @    s2 avalue off
 @    s2 avalue type 2
 @    s2 avalue char size 1.000000
@@ -476,7 +476,7 @@
 @    s2 avalue offset 0.000000 , 0.000000
 @    s2 errorbar on
 @    s2 errorbar place both
-@    s2 errorbar color 12
+@    s2 errorbar color 2
 @    s2 errorbar pattern 1
 @    s2 errorbar size 1.000000
 @    s2 errorbar linewidth 1.0
@@ -485,8 +485,8 @@
 @    s2 errorbar riser linestyle 1
 @    s2 errorbar riser clip off
 @    s2 errorbar riser clip length 0.100000
-@    s2 comment "Editor"
-@    s2 legend  ""
+@    s2 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/stackedFisher/sigmaNLow.dat"
+@    s2 legend  "\xs\f{}\sN\N"
 @    s3 hidden false
 @    s3 type xy
 @    s3 symbol 0
@@ -781,7 +781,7 @@
 @    s8 errorbar riser clip length 0.100000
 @    s8 comment "Editor"
 @    s8 legend  ""
-@    s9 hidden false
+@    s9 hidden true
 @    s9 type xy
 @    s9 symbol 6
 @    s9 symbol size 1.000000
@@ -829,7 +829,7 @@
 @    s9 errorbar riser clip off
 @    s9 errorbar riser clip length 0.100000
 @    s9 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/stackedFisher/sigmaNLow.dat"
-@    s9 legend  "\xs\f{}\SA\N\sN\N (Low)"
+@    s9 legend  ""
 @    s10 hidden false
 @    s10 type xy
 @    s10 symbol 3
@@ -878,8 +878,8 @@
 @    s10 errorbar riser clip off
 @    s10 errorbar riser clip length 0.100000
 @    s10 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/stackedFisher/sigmaNMid.dat"
-@    s10 legend  "\xs\f{}\SA\N\sN\N (Center)"
-@    s11 hidden false
+@    s10 legend  "\xs\f{}\sN\N"
+@    s11 hidden true
 @    s11 type xy
 @    s11 symbol 4
 @    s11 symbol size 1.000000
@@ -930,6 +930,11 @@
 @    s11 legend  "\xs\f{}\SA\N\sN\N (High)"
 @target G0.S0
 @type xy
+1 10
+10000 10
+&
+@target G0.S1
+@type xy
 32.4 168.39675
 90.74 75.438931
 180.95 31.544448
@@ -937,18 +942,13 @@
 1398.03 4.8521035
 2807.45 6.2619554
 &
-@target G0.S1
+@target G0.S2
 @type xy
 32.4 558.18228
 90.74 117.02219
 180.95 27.622045
 428.89 8.568151
 1398.03 0.78426189
-&
-@target G0.S2
-@type xy
-1 10
-10000 10
 &
 @target G0.S3
 @type xy

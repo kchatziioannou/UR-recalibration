@@ -108,7 +108,7 @@ It can be seen from this figure that the statistical errors from parameter extra
 \end{center}
 \caption{
 Estimated statistical uncertainties $\sigma^A_{\text{GW170817}}$ (blue) in the extraction of $\tilde{\Lambda}$ from GW170817 (O2) as if observed with future interferometers aLIGO, a++, Voyager, CE, and ET-D as a function of the signal-to-noise-ratio $\rho^A_{\text{GW170817}}$.
-This is compared to the combined uncertainty $\sigma^A_N$ (red) from the observation of multiple events from a simulated population of size $N_A$ corresponding to the expected rate of binary NS observations for O2, aLIGO, a\texttt{++}, Voyager, CE, and ET-D over 1 observing run: 1, 22, 177, 2409, 128310, and 674958 respectively.
+This is compared to the combined uncertainty $\sigma^A_N$ (red) from the observation of multiple events from a simulated population of size $N_A$ corresponding to the upper (teal), central (orange), and lower (magenta) limits of expected binary NS merger detection rates for O2, aLIGO, a\texttt{++}, Voyager, CE, and ET-D over 1 observation year.
 It can be seen that the statistical errors in parameter extraction become comparable to the systematics from EoS variation in binary Love relations (purple) for Voyager and on.
 Note the approximation for $\sigma^A_N$ under the O2 detector sensitivity is a poor estimate due to the small number of stacked events, $N_{\text{O2}}=1$, resulting in a high degree of randomness in population generation.
 These results are further tabulated in Table~\ref{tab:variances}.
@@ -322,6 +322,8 @@ Binary Love universal relations shown for the constrained EoSs (left) and uncons
 In this figure, the dashed black line corresponds to the fit given by Eq.~\ref{eq:binLovefit}, while the dotted blue, dashed magenta, and solid green lines represent the 35 EoSs for mass ratios of $q=0.9$, $q=0.75$, and $q=0.50$, respectively.
 The maximal EoS variation for each value of $q$ is $23.65\%$, $9.76\%$, and $2.15\%$ respectively, compared to $\sim 50\%$, $\sim 20\%$, and $\sim 3\%$ found in Ref.~\cite{Yagi:binLove}.
 These values are comparable to the maximal EoS variation for unconstrained EoSs as expected, found to be $41.66\%$, $12.64\%$, and $3.83\%$.
+Additionally shown is the binary Love relations for hybrid stars (dash-dash-dotted curves) as discussed in Sec.~\label{sec:hybrid}.
+Observe the large deviations from the fit as the mass ratio $q$ increases, returning near the fit before the transitional pressure at large values of $\Lambda_s$.
 }
 \label{fig:binLove}
 \end{figure*} 
@@ -329,14 +331,26 @@ These values are comparable to the maximal EoS variation for unconstrained EoSs 
 {\ny{I have very similar comments here to those I listed in the I-Love relation section.}}
 
 \subsubsection{Hybrid quark-hadron stars}\label{sec:hybrid}
+\begin{figure}
+\begin{center} 
+\includegraphics[width=\linewidth]{hybridML.eps}
+\end{center}
+\caption{
+$M-\tilde{\Lambda}$ relations for the ACB5 model hybrid star. 
+Note the strong phase transition into a quark-matter branch at $\sim 1.4 \text{ M}_{\odot}$.
+As described in the text, HS/HS and NS/NS binaries have individual masses chosen such that both stars are contained within one branch -- resulting in high $q$ values.
+Constrastingly, HS/NS binaries have individual masses chosen from each branch resulting in small $q-values$.
+}
+\label{fig:hybridML}
+\end{figure} 
 Transitional quark-hadron matter stars undergo first-order phase transitions at pressure $P_{\text{tr}}$, where the hadronic branch departs into a quark-matter branch at a given mass transition.
-We focus on the ACB5 model, which observes a transition mass at $\sim 1.4 \text{ M}_{\odot}$~\cite{Paschalidis2018}.
-This results in two distinct types of NSs, based on their observed mass: (i) massive ($M \geq 1.4 \text{ M}_{\odot}$) hybrid stars which have quark-matter cores and nuclear matter crusts (we denote this as ``QS"), and (ii) small-mass ($M \leq 1.4 \text{ M}_{\odot}$) hadronic stars with no internal transition to quark matter (we denote this as ``HS").
+We focus on the ACB5 model shown in Fig.~\ref{fig:hybridML}, which observes a transition mass at $\sim 1.4 \text{ M}_{\odot}$~\cite{Paschalidis2018}.
+This results in two distinct types of NSs, based on their observed mass: (i) massive ($M \geq 1.4 \text{ M}_{\odot}$) hybrid stars which have quark-matter cores and nuclear matter crusts (we denote this as ``HS"), and (ii) small-mass ($M \leq 1.4 \text{ M}_{\odot}$) hadronic stars with no internal transition to quark matter (we denote this as ``NS").
 We consider 3 classes of binaries:
 \begin{itemize}
-\item QS/HS binary: consists of one massive hybrid star, and one small hadronic star,
-\item HS/HS binary: consists of two small-mass hadronic stars,
-\item QS/QS binary: consists of two massive hybrid stars.
+\item HS/NS binary: consists of one massive hybrid star, and one small hadronic neutron star,
+\item NS/NS binary: consists of two small-mass hadronic neutron stars,
+\item HS/HS binary: consists of two massive hybrid stars.
 \end{itemize}
 
 {\ny{The comparison below is a bit misleading because all you have shown is that the fitting coefficients for the standard stars do not work when dealing with mixed stars. I think it would be interesting to see how the binary love relations look when you include hybrid systems (something like Fig. 5 but for QS/QS and for QS/HS). Also I think it would be interesting to either (i) redo the fits including the QS/QS and QS/HS data and or (ii) produce different fits for those families, and then you can compare either of these to a wide set of systems to determine the validity of the fit.}}
@@ -344,9 +358,11 @@ We consider 3 classes of binaries:
 To determine how each of class of binary NSs obey our improved binary Love universal relations, we pick a representative set of 10 binary pairs from each class.
 Binary Love values are then computed for each pair, then residuals from the binary Love curve found in Sec.~\ref{sec:nuclear} are determined and compared to that from the constrained set of EoSs.
 The results are shown in Fig.~\ref{fig:hybrid}.
-First, we observe that the HS/HS combination of stars gives consistent results to that found earlier -- as expected.
-Next, we see that QS/QS combinations agree moderately with previous relations\footnote{Note that these EoSs do not fit within GW170817's 90\% posterior on EoS - so we excpect deviations consistent with the ``unconstrained" set of EoSs, rather than the ``constraind" set.}, while QS/HS combinations disagree significantly.
+First, we observe that the NS/NS combination of stars gives consistent results to that found earlier -- as expected.
+Next, we see that HS/HS combinations agree moderately with previous relations\footnote{Note that these EoSs do not fit within GW170817's 90\% posterior on EoS - so we excpect deviations consistent with the ``unconstrained" set of EoSs, rather than the ``constraind" set.}, while HS/NS combinations disagree significantly.
 This can be explained by the large reduction in tidal deformability for hybrid stars, are shown in Fig. 2 of Ref.~\cite{Paschalidis2018}: when one star lies on the hadronic branch while the other is on the quark branch, they each see vast differences in $\tilde{\Lambda}$ - disrupting the binary Love relations as found for stars on the hadronic branch.
+In addition, the discrepancy can be seen in Fig.~\ref{fig:binLove} where the binary Love relations for the ACB5 EoS is shown in relation to the constrained nuclear matter EoSs.
+Observe how the residuals from the fit are quite good for low pressures (large $\Lambda_s$) when the the binaries consist of a NS/NS combination, before reaching the transitional pressure when the deviations become increasingly large for HS/HS and HS/NS binaries.
 We conclude that quark-hadron stars may or may not obey these ``hadronic" universal relations, depending on the location of transition, and the difference between constituent masses in the binary.
 \begin{figure}
 \begin{center} 
@@ -354,7 +370,7 @@ We conclude that quark-hadron stars may or may not obey these ``hadronic" univer
 \end{center}
 \caption{
 Fractional difference from the improved binary Love relations fit for a representative set of constrained nuclear matter EoSs (gray cirlces), and 30 selected NS binaries from the ACB5 hybrid EoS.
-In particular, these binary pairs are selected from each of the following categories: (i) binaries with which one massive star has a quark matter core, while the other is pure hadronic matter (i.e. small enough mass that the transition point has not yet been reached), denoted QS/HS (green triangles); (ii) binary with both small-mass hadron stars, denoted HS/HS (red squares); and (iii) binary with both large-mass stars with quark matter cores, denoted QS/QS (magenta diamonds).
+In particular, these binary pairs are selected from each of the following categories: (i) binaries with which one massive star has a quark matter core, while the other is pure hadronic matter (i.e. small enough mass that the transition point has not yet been reached), denoted HS/NS (green triangles); (ii) binary with both small-mass hadron stars, denoted NS/NS (red squares); and (iii) binary with both large-mass stars with quark matter cores, denoted HS/HS (magenta diamonds).
 }
 \label{fig:hybrid}
 \end{figure} 
@@ -428,7 +444,7 @@ The process we use for each detector sensitivity $S_n^A(f)$ is as follows:
 \item Perform a Fisher analysis as outlined above using $S_n^A(f)$, while restricting the luminosity distance $D_L$ such that $\rho^{\text{O2}}_{\text{GW170817}}=32.4$ would be achieved on O2 sensitivity $S_n^{\text{O2}}(f)$.
 This results in SNR $\rho^A_{\text{GW170817}}$ and statistical error $\sigma_\text{GW170817}^A$ accrued in the extraction of $\tilde{\Lambda}$ on detector $A$.
 \item Generate a population of $N_A$ events corresponding to the expected binary NS merger detection rate for detector $A$, following the distribution $f=3 \rho_{\text{th}}^3/\rho^4$~\cite{Shutz:SNR,Chen:SNR} with a network SNR threshold of $\rho_{\text{th}}=8$.
-We approximate this rate to be proportional to the cube of SNR ratios over 1 observing run: $N_A = N_{\text{O2}} (\rho^A_{\text{GW170817}}/\rho^{\text{O2}}_{\text{GW170817}})^3$, where $N_{\text{O2}}=1$, giving the rates shown inthe second column of Table~\ref{tab:variances}.
+This is calculated for the upper, central, and lower limits of the local binary NS coalescence rate density $R=1540^{+3200}_{-1220} \text{ Gpc}^{-3}\text{yr}^{-1}$~\cite{Abbott2017}, giving the rates shown in the second column of Table~\ref{tab:variances}.
 \item Compute the population standard deviation given by:
 \begin{equation}
 \frac{1}{(\sigma_N^A)^2}=\sum_i^{N_A}\frac{1}{(\sigma_i^A)^2},
@@ -437,30 +453,30 @@ where $\sigma_i^A$ is computed by the relations $\sigma_i^A \times \rho_i^A = \s
 \end{itemize}
 The results are compiled in Table~\ref{tab:variances}, and shown graphically in Fig.~\ref{fig:stackedFisher} where $\sigma^A_{\text{GW170817}}$ and $\sigma^A_N$ are plotted as a function of $\rho^A_{\text{GW170817}}$ (the SNR as if GW170817 were detected on future detector $A$) for 5 future detector sensitivities.
 
-\begin{table}[ht!]
+\begin{table*}[ht!]
 \centering
 \caption{
-Tabulated results for the estimated statistical errors on $\tilde{\Lambda}$ for the combined results of $N_A$ detections corresponding to the estimated binary NS merger detection rate.
+Tabulated results for the estimated statistical errors on $\tilde{\Lambda}$ for the combined results of $N_A$ detections corresponding to the estimated upper, central, and lower limits of the binary NS merger detection rate $R$.
 This is repeated for 5 future detector sensitivities: aLIGO, a\texttt{++}, Voyager, CE, and ET.
 Below, $\rho^A_{\text{GW170817}}$ and $\sigma^A_{\text{GW170817}}$ correspond to the approximate SNR and $\sigma_{\tilde{\Lambda}}$ of GW170817 had it been observed by the future interferometer, and $\sigma^A_N$ corresponds to the final uncertainty on $\tilde{\Lambda}$ after $N_A$ detections on interferometer $A$.
 It can be seen here that the statistical errors on $\tilde{\Lambda}$ become comparable with the systematics $\sigma_{\tilde{\Lambda}}=10$ from using improved binary Love relations from Voyager and on, indicating when it may be safe to utilize new universal relations.
 Note the approximation for $\sigma^A_N$ under the O2 detector sensitivity is a poor estimate due to the small number of stacked events, $N_{\text{O2}}=1$, resulting in a high degree of randomness in population generation.
 These results are shown graphically in Fig.~\ref{fig:stackedFisher}.
 }\label{tab:variances}
-\begin{tabular}{ c || c  c  c c } 
+\begin{tabular}{ c || c c c c c c c c} 
 \hline
-Detector ($A$) & $N_A$ & $\rho^A_{\text{GW170817}}$ & $\sigma^A_{\text{GW170817}}$ & $\sigma^A_N$\\
+Detector ($A$) & $N_A (\text{Lower})$ & $N_A (\text{Central})$ & $N_A (\text{Upper})$ & $\rho^A_{\text{GW170817}}$ & $\sigma^A_{\text{GW170817}}$ & $\sigma^A_N (\text{Lower})$ & $\sigma^A_N (\text{Central})$ & $\sigma^A_N (\text{Large})$\\
 \hline
 \hline
-O2 & $1$ & $32.40$ & $168.40$ & $314.90$\\
-aLIGO & $22$ & $90.74$ & $75.44$ & $70.37$\\
-a\texttt{++} & $177$ & $180.95$ & $31.55$ & $27.96$\\
-Voyager & $2409$ & $428.89$ & $16.69$ & $10.21$\\
-CE & $128310$ & $1398.03$ & $4.85$ & $1.39$\\
-ET-D & $674958$ & $2807.45$ & $6.26$ & $1.53$\\
+O2 & $1$ & $1$ & $1$ & $32.40$ & $168.40$ & $558.18$ & $393.24$ & $279.44$\\
+aLIGO & $23$ & $112$ & $344$ & $90.74$ & $75.44$ & $117.022$ & $42.89$ & $24.27$\\
+a\texttt{++} & $208$ & $1004$ & $3091$ & $180.95$ & $31.55$ & $27.62$ & $13.36$ & $7.36$\\
+Voyager & $3854$ & $1.85 \times 10^4$ & $5.71 \times 10^4$ & $428.89$ & $16.69$ & $8.57$ & $3.78$ & $2.16$\\
+ET-D & $1.35\times 10^7$ & $6.50\times 10^7$ & $2.00\times 10^8$ & $2807.45$ & $6.26$ & $0.78$ & $0.35$ & $0.20$\\
+CE & $3.98\times 10^5$ & $1.91\times 10^6$ & $5.89\times 10^6$ & $1398.03$ & $4.85$ & $0.34$ & $0.16$ & $0.10$\\
 \hline
 \end{tabular}
-\end{table}
+\end{table*}
 
 Concluding, we find that the Voyager, ET, and CE detectors all exhibit enough uncertainty reduction that the systematics from using improved universal relations no longer become negligible in the error budget.
 This implies that the use and further improvement of universal relations is justified for future binary NS merger detections.
@@ -479,7 +495,8 @@ This indicates that the use and further improvement of universal relations is ju
 Future work on this subject includes the possible constraint on the EoS through the observation of super-massive NSs combined with the results of GW170817.
 For example, recent millisecond pulsar discovery J1748-2021B~\cite{Freire:superMassiveNS} has mass $2.74 \pm 0.21$, with large error bars due to astronomical mismodeling.
 If verified, this provides a possible avenue of EoS constraint via considering only spectrally generated EoSs which support maximum NS mass in agreeance with J1748-2021B.
-\zc{Should we talk about these here? More future directions?}
+\zc{Should we talk about this here?}
+In addition, separate binary Love universal relations for hybrid star binaries should be investigated.
 
 %%%%%%%%%%%%%%%%%%%%%%%%% Begin Acknowledgements %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Acknowledgments}\label{acknowledgments}
