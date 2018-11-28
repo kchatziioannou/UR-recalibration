@@ -463,18 +463,58 @@ It can be seen here that the statistical errors on $\tilde{\Lambda}$ become comp
 Note the approximation for $\sigma^A_N$ under the O2 detector sensitivity is a poor estimate due to the small number of stacked events, $N_{\text{O2}}=1$, resulting in a high degree of randomness in population generation.
 These results are shown graphically in Fig.~\ref{fig:stackedFisher}.
 }\label{tab:variances}
-\begin{tabular}{ c || c c c c c c c c} 
-\hline
-Detector ($A$) & $N_A (\text{Lower})$ & $N_A (\text{Central})$ & $N_A (\text{Upper})$ & $\rho^A_{\text{GW170817}}$ & $\sigma^A_{\text{GW170817}}$ & $\sigma^A_N (\text{Lower})$ & $\sigma^A_N (\text{Central})$ & $\sigma^A_N (\text{Large})$\\
-\hline
-\hline
-O2 & $1$ & $1$ & $1$ & $32.40$ & $168.40$ & $558.18$ & $393.24$ & $279.44$\\
-aLIGO & $23$ & $112$ & $344$ & $90.74$ & $75.44$ & $117.022$ & $42.89$ & $24.27$\\
-a\texttt{++} & $208$ & $1004$ & $3091$ & $180.95$ & $31.55$ & $27.62$ & $13.36$ & $7.36$\\
-Voyager & $3854$ & $1.85 \times 10^4$ & $5.71 \times 10^4$ & $428.89$ & $16.69$ & $8.57$ & $3.78$ & $2.16$\\
-ET-D & $1.35\times 10^7$ & $6.50\times 10^7$ & $2.00\times 10^8$ & $2807.45$ & $6.26$ & $0.78$ & $0.35$ & $0.20$\\
-CE & $3.98\times 10^5$ & $1.91\times 10^6$ & $5.89\times 10^6$ & $1398.03$ & $4.85$ & $0.34$ & $0.16$ & $0.10$\\
-\hline
+%\begin{tabular}{ c || c c c c c c c c} 
+%\hline
+%Detector ($A$) & $N_A (\text{Lower})$ & $N_A (\text{Central})$ & $N_A (\text{Upper})$ & $\rho^A_{\text{GW170817}}$ & $\sigma^A_{\text{GW170817}}$ & $\sigma^A_N (\text{Lower})$ & $\sigma^A_N (\text{Central})$ & $\sigma^A_N (\text{Upper})$\\
+%\hline
+%\hline
+%O2 & $1$ & $1$ & $1$ & $32.40$ & $168.40$ & $558.18$ & $393.24$ & $279.44$\\
+%aLIGO & $23$ & $112$ & $344$ & $90.74$ & $75.44$ & $117.022$ & $42.89$ & $24.27$\\
+%a\texttt{++} & $208$ & $1004$ & $3091$              & $180.95$ & $31.55$ &               $27.62$ & $13.36$ & $7.36$\\
+%Voyager & $3854$ & $1.85 \times 10^4$ & $5.71 \times 10^4$ &              $428.89$ & $16.69$              & $8.57$ & $3.78$ & $2.16$\\
+%ET-D & $3.98\times 10^5$ & $1.91\times 10^6$ & $5.89\times 10^6$ &                  $2807.45$ & $6.26$ &               $0.78$ & $0.35$ & $0.20$\\
+%CE & $1.35\times 10^7$ & $6.50\times 10^7$ & $2.00\times 10^8$ &                 $1398.03$ & $4.85$ &                 $0.34$ & $0.16$ & $0.10$\\
+%\hline
+%\end{tabular}
+\begin{tabular}{|c|@{\extracolsep{4pt}}c@{\extracolsep{0pt}}|c|@{\extracolsep{4pt}}C{1.7cm}@{\extracolsep{-2pt}}|C{1.7cm}|@{\extracolsep{-2pt}}C{1.7cm}@{\extracolsep{2pt}}|c|@{\extracolsep{0pt}}c@{\extracolsep{0pt}}|c|}
+\cline{1-1}\cline{2-3}\cline{4-9}
+    \multicolumn{1}{|c|}{\bfseries Detectors (A)} & \multicolumn{2}{|c|}{\bfseries GW170817} & \multicolumn{6}{|c|}{\bfseries Multiple events} \\
+\cline{1-1}\cline{2-3}\cline{4-9}
+\noalign{\smallskip}
+\cline{2-3}\cline{4-6}\cline{7-9}
+\multicolumn{1}{c}{} & \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{} & \multicolumn{3}{|c|}{} & \multicolumn{3}{|c|}{}
+\\[-1em]
+\multicolumn{1}{c}{}  &  \multicolumn{1}{|c|}{\multirow{2}{*}{$\rho^A_{\text{GW170817}}$}}  &  \multirow{ 2}{*}{$\sigma^A_{\text{GW170817}}$}  &  \multicolumn{3}{|c|}{$N_A$}  &  \multicolumn{3}{|c|}{$\sigma^A_N$}  \\
+\cline{4-6}\cline{7-9}
+\multicolumn{1}{c}{}  &  \multicolumn{1}{|c|}{}  &  \multicolumn{1}{c|}{}  &  \multicolumn{1}{|c|}{Low}  &  \multicolumn{1}{c|}{Central} &  \multicolumn{1}{c|}{High}  & \multicolumn{1}{|c|}{Low}  &  \multicolumn{1}{c|}{Central} &  \multicolumn{1}{c|}{High}\\
+\cline{2-3}\cline{4-6}\cline{7-9}
+\noalign{\smallskip}
+\noalign{\smallskip}
+\cline{1-1}\cline{2-3}\cline{4-6}\cline{7-9}
+ O2  & \multicolumn{1}{|c|}{$32.40$}  & $168.40$ &  \multicolumn{1}{|c|}{$1$} & $1$ & $1$ & \multicolumn{1}{|c|}{$558.18$} & $393.24$ & $279.44$\\
+\cline{1-1}\cline{2-3}\cline{4-6}\cline{7-9}
+ aLIGO  & \multicolumn{1}{|c|}{$90.74$}  & $75.44$ &  \multicolumn{1}{|c|}{$23$} & $112$ & $344$ & \multicolumn{1}{|c|}{$117.022$} & $42.89$ & $24.27$\\
+\cline{1-1}\cline{2-3}\cline{4-6}\cline{7-9}
+ a\texttt{++}  & \multicolumn{1}{|c|}{$180.95$}  & $31.55$ &  \multicolumn{1}{|c|}{$208$} & $1004$ & $3091$ & \multicolumn{1}{|c|}{$27.62$} & $13.36$ & $7.36$\\
+\cline{1-1}\cline{2-3}\cline{4-6}\cline{7-9}
+
+\multicolumn{1}{|c|}{} & \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{}
+\\[-1em]
+
+ Voyager  & \multicolumn{1}{|c|}{$428.89$}  & $16.69$ &  \multicolumn{1}{|c|}{$3854$} & $1.85 \times 10^4$ & $5.71 \times 10^4$ & \multicolumn{1}{|c|}{$8.57$} & $3.78$ & $2.16$\\
+\cline{1-1}\cline{2-3}\cline{4-6}\cline{7-9}
+
+\multicolumn{1}{|c|}{} & \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{}
+\\[-1em]
+
+ ET-D  & \multicolumn{1}{|c|}{$2807.45$}  & $6.26$ &  \multicolumn{1}{|c|}{$3.98 \times 10^5$} & $1.91 \times 10^6$ & $5.89 \times 10^6$ & \multicolumn{1}{|c|}{$0.78$} & $0.35$ & $0.20$\\
+\cline{1-1}\cline{2-3}\cline{4-6}\cline{7-9}
+
+\multicolumn{1}{|c|}{} & \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{}
+\\[-1em]
+
+ CE  & \multicolumn{1}{|c|}{$1398.03$}  & $4.85$ &  \multicolumn{1}{|c|}{$1.35 \times 10^7$} & $6.50 \times 10^7$ & $2.00 \times 10^8$ & \multicolumn{1}{|c|}{$0.34$} & $0.16$ & $0.10$\\
+\cline{1-1}\cline{2-3}\cline{4-6}\cline{7-9}
 \end{tabular}
 \end{table*}
 
