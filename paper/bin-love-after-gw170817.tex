@@ -3,6 +3,7 @@
 
 \definecolor{red(ncs)}{rgb}{0.77, 0.01, 0.2}
 \newcommand{\ny}[1]{\textcolor{blue}{NY: #1} }
+\newcommand{\kc}[1]{\textcolor{red}{KC: #1} }
 
 \begin{document}
 
@@ -146,6 +147,7 @@ Important recent work~\cite{LIGO:posterior} uniformly sampled EoS parameters in 
 In our work, we similarly sample spectral coefficients within the ranges: $\gamma_0 \in \lbrack 0.2,2 \rbrack$, $\gamma_1 \in \lbrack -1.6,1.7 \rbrack$, $\gamma_2 \in \lbrack -0.6,0.6 \rbrack$, $\gamma_0 \in \lbrack -0.02,0.02 \rbrack$, and further restricting the adiabatic index to be $\Gamma \in \lbrack 0.6,4.5 \rbrack$, ensuring our parameterization exposes a wide range of viable EoSs~\cite{Lindblom:parameters}.
 In addition, we impose similar constraints as was done in~\cite{LIGO:posterior}: (i) causality within 10\%, and (ii) EoS priors must support NS masses up to $1.97 \text{ M}_{\odot}$, consistent with astrophysical observations.
 We then utilize the posterior defined by GW170817 by rejecting any EoS sample which does not lie within the 90\% credible posterior region, resulting in a sample of 35 EoSs shown in Fig.~\ref{fig:eos}.
+\kc{Why aren't we directly using the gamma's that Carl provided?}
 Following~\cite{Read2009}, the parameterized high-density core EoSs generated above are matched to the low-density crust EoS Sly~\cite{Douchin:2001sv} at about half of the nuclear saturation density, $\rho_{\text{stitch}}=1.3 \times 10^{14} \text{ g/cm}^3$.
 For comparison, we also include a second sample of randomly generated EoSs, without restricting to GW170817s posterior. {\ny{It would be good to make this figure a double pane one, so that you can show the constrained set and the unconstrained set side-by-side.}}
 \begin{figure}
@@ -270,6 +272,7 @@ works.
 
 {\ny{I think it would be worth studying whether there is a better fitting function that one can use for the constrained set. The functional form in Eq. (6) does not limit properly to the Newtonian result or to the relativistic result. But we do know how I-Love for example scales in the Newtonian limit, so could we e.g. peel off the asymptotic behavior analytically, and then correct this with a fitting function? This is similar to what Kent and I did in the past in a paper (in the binary love actually) and also similar to the way EoB works.}}
 
+\kc{why not study the I-Q relation too?}
 \subsection{Binary love relations}\label{sec:binary}
 Next we consider improvements to the binary Love universal relations.
 In particular, we consider two distinct classes of NSs: nuclear matter EoSs and hybrid quark-hadron star EoSs~\cite{Paschalidis2018,Alford:2017qgh,1971SvA....15..347S,Zdunik:2012dj,Alford:2013aca}.
@@ -390,7 +393,7 @@ In Sec.~\ref{sec:observations}, we analyze this further and discuss when improve
 \zc{Ask Katerina for this data. Convert $\Lambda_s$ to $\tilde{\Lambda}$, then redo this image in xmgrace. Remove posterior eoss, Add a gridline at the maximum errors for both constrained and unconstrained, and maybe even show the relative errors as well? Probably remove the means as well.}
 Absolute difference from the fit on $\tilde{\Lambda}$ from EoS variation in the binary Love universal relations plotted with varying mass ratio $q$.
 Observe that the maximum systematic error attained for the constrained EoSs is $\sigma_{\tilde{\Lambda}}=10$ (this is found to be $20$ for the unconstrained EoSs).
-This is negligible compared to the statistical errors accrued on paramter extraction from GW170817.
+This is negligible compared to the statistical errors accrued on paramter extraction from GW170817.\kc{Similar to an earlier comment, I think we should use the "posterior" EoSs since they were directly computed from the data.}
 }
 \label{fig:variances}
 \end{figure}
