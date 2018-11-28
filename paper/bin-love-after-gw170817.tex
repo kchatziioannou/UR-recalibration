@@ -1,10 +1,6 @@
 \documentclass[prd,twocolumn,nofootinbib,superscriptaddress,amsmath,amssymb]{revtex4-1}
 \include{preamble}
 
-\definecolor{red(ncs)}{rgb}{0.77, 0.01, 0.2}
-\newcommand{\ny}[1]{\textcolor{blue}{NY: #1} }
-\newcommand{\kc}[1]{\textcolor{red}{KC: #1} }
-
 \begin{document}
 
 \title{Universal relations after GW170817}
@@ -325,7 +321,7 @@ Binary Love universal relations shown for the constrained EoSs (left) and uncons
 In this figure, the dashed black line corresponds to the fit given by Eq.~\ref{eq:binLovefit}, while the dotted blue, dashed magenta, and solid green lines represent the 35 EoSs for mass ratios of $q=0.9$, $q=0.75$, and $q=0.50$, respectively.
 The maximal EoS variation for each value of $q$ is $23.65\%$, $9.76\%$, and $2.15\%$ respectively, compared to $\sim 50\%$, $\sim 20\%$, and $\sim 3\%$ found in Ref.~\cite{Yagi:binLove}.
 These values are comparable to the maximal EoS variation for unconstrained EoSs as expected, found to be $41.66\%$, $12.64\%$, and $3.83\%$.
-Additionally shown is the binary Love relations for hybrid stars (dash-dash-dotted curves) as discussed in Sec.~\label{sec:hybrid}.
+Additionally shown is the binary Love relations for hybrid stars ACB5 and ACB7 (dash-dash-dotted curves) as discussed in Sec.~\ref{sec:hybrid}.
 Observe the large deviations from the fit as the mass ratio $q$ increases, returning near the fit before the transitional pressure at large values of $\Lambda_s$.
 }
 \label{fig:binLove}
@@ -339,16 +335,16 @@ Observe the large deviations from the fit as the mass ratio $q$ increases, retur
 \includegraphics[width=\linewidth]{hybridML.eps}
 \end{center}
 \caption{
-$M-\tilde{\Lambda}$ relations for the ACB5 model hybrid star. 
+$M-\tilde{\Lambda}$ relations for the ACB5 and ACB7 model hybrid stars. 
 Note the strong phase transition into a quark-matter branch at $\sim 1.4 \text{ M}_{\odot}$.
 As described in the text, HS/HS and NS/NS binaries have individual masses chosen such that both stars are contained within one branch -- resulting in high $q$ values.
-Constrastingly, HS/NS binaries have individual masses chosen from each branch resulting in small $q-values$.
+Constrastingly, HS/NS binaries have individual masses chosen from each branch resulting in small $q$-values.
 }
 \label{fig:hybridML}
 \end{figure} 
 Transitional quark-hadron matter stars undergo first-order phase transitions at pressure $P_{\text{tr}}$, where the hadronic branch departs into a quark-matter branch at a given mass transition.
-We focus on the ACB5 model shown in Fig.~\ref{fig:hybridML}, which observes a transition mass at $\sim 1.4 \text{ M}_{\odot}$~\cite{Paschalidis2018}.
-This results in two distinct types of NSs, based on their observed mass: (i) massive ($M \geq 1.4 \text{ M}_{\odot}$) hybrid stars which have quark-matter cores and nuclear matter crusts (we denote this as ``HS"), and (ii) small-mass ($M \leq 1.4 \text{ M}_{\odot}$) hadronic stars with no internal transition to quark matter (we denote this as ``NS").
+We focus on the ACB5 and ACB7 models shown in Fig.~\ref{fig:hybridML}, which observe transition masses at $\sim 1.4 \text{ M}_{\odot}$~\cite{Paschalidis2018}.
+These result in two distinct types of NSs, based on their observed mass: (i) massive ($M \geq 1.4 \text{ M}_{\odot}$) hybrid stars which have quark-matter cores and nuclear matter crusts (we denote this as ``HS"), and (ii) small-mass ($M \leq 1.4 \text{ M}_{\odot}$) hadronic stars with no internal transition to quark matter (we denote this as ``NS").
 We consider 3 classes of binaries:
 \begin{itemize}
 \item HS/NS binary: consists of one massive hybrid star, and one small hadronic neutron star,
@@ -364,7 +360,7 @@ The results are shown in Fig.~\ref{fig:hybrid}.
 First, we observe that the NS/NS combination of stars gives consistent results to that found earlier -- as expected.
 Next, we see that HS/HS combinations agree moderately with previous relations\footnote{Note that these EoSs do not fit within GW170817's 90\% posterior on EoS - so we excpect deviations consistent with the ``unconstrained" set of EoSs, rather than the ``constraind" set.}, while HS/NS combinations disagree significantly.
 This can be explained by the large reduction in tidal deformability for hybrid stars, are shown in Fig. 2 of Ref.~\cite{Paschalidis2018}: when one star lies on the hadronic branch while the other is on the quark branch, they each see vast differences in $\tilde{\Lambda}$ - disrupting the binary Love relations as found for stars on the hadronic branch.
-In addition, the discrepancy can be seen in Fig.~\ref{fig:binLove} where the binary Love relations for the ACB5 EoS is shown in relation to the constrained nuclear matter EoSs.
+In addition, the discrepancy can be seen in Fig.~\ref{fig:binLove} where the binary Love relations for the ACB5 and ACB7 EoSs are shown in relation to the constrained and unconstrained nuclear matter EoSs.
 Observe how the residuals from the fit are quite good for low pressures (large $\Lambda_s$) when the the binaries consist of a NS/NS combination, before reaching the transitional pressure when the deviations become increasingly large for HS/HS and HS/NS binaries.
 We conclude that quark-hadron stars may or may not obey these ``hadronic" universal relations, depending on the location of transition, and the difference between constituent masses in the binary.
 \begin{figure}
@@ -530,6 +526,7 @@ The recent GW observation of binary NS merger GW170817 placed constraints on the
 We take advantage of this by generating a restricted set of spectral EoSs which agree with this observation to reduce uncertainties upon the extraction of tidal parameters from future GW events.
 Important previous work by Yagi and Yunes~\cite{Yagi:ILQ,Yagi:binLove} found EoS-insensitive universal relations between symmetric and antisymmetric combinations of NS tidal deformabilities, which aid in the extraction of said tidal parameters.
 We find an improvement upon these universal relations by a factor of 25\% for stars with mass below 1.7 solar masses\zc{check this number} by restricting to the EoSs constrained by GW170817.
+We also find an increase in I-Love-Q universality by a factor of 23\%.
 In addition, we find that binaries consisting of one massive hyrid quark-hadron star, and one small-mass hadron star do not obey these universal relations -- explained by the large difference in $\tilde{\Lambda}$ displayed between the constituent stars.
 Further, we analyze the impact of this improvement for future binary NS merger detections, as the current detector sensitivity is not yet small enough to accurately constrain $\tilde{\Lambda}$ enough for universal relations to make a difference.
 We find that future interferometers Voyager, CE, and ET-D all experience statistical uncertainties upon the extraction of $\tilde{\Lambda}$ small enough to become comparable to the systemtic errors injected by using the improved universal relations, as depicted in Fig.~\ref{fig:stackedFisher} and Table~\ref{tab:variances}.
