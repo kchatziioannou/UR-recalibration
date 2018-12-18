@@ -90,7 +90,7 @@
 @timestamp rot 0
 @timestamp font 0
 @timestamp char size 1.000000
-@timestamp def "Mon Nov 26 23:14:41 2018"
+@timestamp def "Sat Dec  1 22:04:16 2018"
 @with string
 @    string on
 @    string loctype view
@@ -991,7 +991,7 @@
 &
 @target G0.S10
 @type xy
-32.4 393.23709
+32.4 168.39675
 90.74 42.891502
 180.95 13.364638
 428.89 3.7839711
