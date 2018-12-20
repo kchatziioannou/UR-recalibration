@@ -90,7 +90,7 @@
 @timestamp rot 0
 @timestamp font 0
 @timestamp char size 1.000000
-@timestamp def "Fri Dec 14 01:23:32 2018"
+@timestamp def "Wed Dec 19 09:38:11 2018"
 @with string
 @    string on
 @    string loctype view
@@ -459,10 +459,10 @@
 @    s2 baseline type 0
 @    s2 baseline off
 @    s2 dropline off
-@    s2 fill type 0
+@    s2 fill type 2
 @    s2 fill rule 0
-@    s2 fill color 11
-@    s2 fill pattern 1
+@    s2 fill color 12
+@    s2 fill pattern 14
 @    s2 avalue off
 @    s2 avalue type 2
 @    s2 avalue char size 1.000000
