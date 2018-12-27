@@ -1,9 +1,10 @@
 \documentclass[prd,twocolumn,nofootinbib,superscriptaddress,amsmath,amssymb]{revtex4-1}
 \include{preamble}
 
+
 \begin{document}
 
-\title{Universal relations after GW170817}
+\title{Universal relations after GW170817\kc{Here and elsewhere: I suggest we use the term "EoS-insensitive" instead of "universal" relations}}
 
 \author{Zachary Carson}
 \affiliation{%
@@ -11,9 +12,9 @@
 }%
 
 \author{Katerina Chatziioannou}
-\affiliation{%
- Canadian Institute for Theoretical Astrophysics, 60 St. George Street, Toronto, Ontario, M5S 3H8, Canada
-}%
+%\affiliation{%
+% Canadian Institute for Theoretical Astrophysics, 60 St. George Street, Toronto, Ontario, M5S 3H8, Canada
+%}%
 \affiliation{%
  Center for Computational Astrophysics, Flatiron Institute, 162 5th Ave, New York, NY 10010
 }%
@@ -45,22 +46,23 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Begin Abstract %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{abstract}
 % Intro
-The thermodynamic relationship between pressure and density (the equation of state) of supranuclear matter, accessible primarily in neutron stars, is critical to the study of such stars, and is one of the largest uncertainties in nuclear physics to date. 
+The thermodynamic relationship between pressure and density (the equation of state) of \kc{cold} supranuclear matter, accessible primarily in neutron stars\kc{this statement makes nuclear experiment people not happy}, is critical to the study of such stars, and is one of the largest uncertainties in nuclear physics to date. 
 % How to probe
 The extraction of tidal deformabilities from the gravitational waveforms of binary neutron star merger events, such as GW170817, is a promising method of probing the nuclear structure.
 % What was done before - Binary Love
 Previous studies have shown that approximately equation of state insensitive ``binary Love universal relations" exist between symmetric and antisymmetric combinations of individual tidal deformabilities, which are difficult to be independently measured with second-generation gravitational wave interferometers.
 % What was done before - I-Love-Q
-Similarly, another set of equation of state independent relations exist between individual neutron star parameters: moment of inertia (I), tidal deformability (Love number), and quadrupole moment (Q) - known as the ``I-Love-Q universal relations."
+Similarly, another set of equation of state \sout{independent}\kc{insensitive} relations exist between individual neutron star parameters: moment of inertia (I), tidal deformability (Love number), and quadrupole moment (Q) - known as the ``I-Love-Q universal relations."
 % What universal relations do
-Such universal relations allow the elimination of some tidal parameters from the list of model parameters, thus breaking degeneracies and ultimately reducing the uncertainty of the dominant tidal effect in parameter estimation.
+Such universal relations\kc{so far we have said "EoS-insensitive", "EoS-independent", and "universal". We should pick a name and stick with it. I suggest "EoS-insensitive"} allow the elimination of some tidal parameters from the list of model parameters, thus breaking degeneracies and ultimately reducing the uncertainty of the dominant tidal effect in parameter estimation\kc{You mean $\tilde{\Lambda}$? In our paper with Carl and Aaron we showed that the binary Love relation doesn't affect the $\tilde{\Lambda}$ measurement much.}.
 % What we will do
-In this document, we explain how one can reduce equation of state variation for both binary Love and I-Love-Q universal relations, which helps to reduce systematic errors on the tidal measurement of binary neutron star mergers. 
+\kc{Add a sentence saying that even the more precise relations have some EoS variation which can cause a systematic error which can be marginalized over}
+In this document, we explain how one can reduce equation of state variation for both binary Love and I-Love-Q universal relations, which helps to reduce systematic errors on the tidal measurement of binary neutron star mergers\kc{but we show that the systematic effects of these relations is very small until next-G detectors.}. 
 We achieve this  by restricting to only equations of state drawn from the 90\% posterior constraint on pressure as a function of density, as derived by the LIGO Collaboration.
 % What we found
 We find an improvement in binary Love universality by a factor of $\sim 59$\% for stars with a mass ratio of 0.75, and in I-Love-Q universality by factors of $\sim 50$\%.
 % Conclude
-We end by comparing systematic errors on tidal measurement due to the equation of state variation with statistical errors and comment on whether one can safely use these universal relations with future gravitational wave observations.
+We end by comparing systematic errors on tidal measurement due to the equation of state variation with statistical errors and comment on whether one can safely use these universal relations with future gravitational wave observations.\kc{We should give the answer to this here: Yes!}
 \end{abstract}
 
 \maketitle
