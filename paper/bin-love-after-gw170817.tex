@@ -106,6 +106,8 @@ These provide a departure from the nuclear matter relations considered here - pr
 Further, we estimate the viability of using improved universal relations on future GW detections by performing simple Fisher analyses to approximate when the statistical errors from parameter extraction become comparable to the systematic errors due to EoS variation in universal relations.
 
 \subsection{Executive Summary}
+\kc{The paper is fairly short, is the summary here necessary?}
+
 %What we did
 In this paper we attempt to improve binary Love and I-Love-Q universal relations by imposing constraints on the EoS found by GW170817~\cite{LIGO:posterior,TheLIGOScientific:2017qsa}.
 First, we generate two large samples of spectral EoSs~\cite{Lindblom:2018rfr}, where we (i) impose the restriction that they must be drawn from GW170817s 90\% credible posterior in pressure as a function of density, and (ii) don't impose any restrictions for comparison purposes.
@@ -116,18 +118,18 @@ Finally, through a simple Fisher analysis, we consider the value in improving un
 %Final Results
 Upon use of the constrained set of EoSs, we find an improvement in binary Love universality by a factor of $\sim 59$\% for stars with mass ratios of $0.75$, and in I-Love-Q universality by factors of $\sim50$\%, tabulated in Tab.~\ref{tab:maxVar}.
 We also find that binaries consisting of one massive hybrid star, and one small-mass hadronic star do not agree with derived binary Love relations, due to the large separation in $\tilde{\Lambda}$ between the constituent stars.
-Unfortunately, due to the current limitations in detector sensitivity, the systematic errors arising from EoS variation in the universal relations are far outweighed by the statistical errors accrued by extraction of high-order PN tidal parameters from GW waveforms.
-Fig.~\ref{fig:stackedFisher} compiles the results from Fisher analyses approximating the uncertainties accrued from parameter extraction for GW170817 as if it had been observed by future detectors $A \equiv ($ O2, aLIGO, a\texttt{++}, Voyager, ET, CE$)$\zc{cite these individually}.
-Here, $\sigma^A_{\text{GW170817}}$ and $\rho^A_{\text{GW170817}}$ correspond to the statistical error and signal-to-noise-ratio found from observing GW170817 on detector $A$, and $\sigma^A_N$ represents the combined uncertainty after the detection of $N_A$ events (corresponding to the binary NS merger rate associated interferometer $A$).
+Unfortunately\kc{??}, due to the current limitations in detector sensitivity, the systematic errors arising from EoS variation in the universal relations are far outweighed by the statistical errors accrued by extraction of high-order PN tidal parameters from GW waveforms.
+Fig.~\ref{fig:stackedFisher} compiles the results from Fisher analyses approximating the uncertainties accrued from parameter extraction for GW170817 as if it had been observed by future detectors $A \equiv ($ O2, aLIGO, a\texttt{++}, Voyager, ET, CE$)$\zc{cite these individually}\kc{a\texttt{++} should be A\texttt{+}}.
+Here, $\sigma^A_{\text{GW170817}}$ and $\rho^A_{\text{GW170817}}$ correspond to the statistical error and signal-to-noise-ratio found from observing GW170817 on detector $A$, and $\sigma^A_N$ represents the combined uncertainty after the detection of $N_A$ events (corresponding to the binary NS merger rate associated interferometer $A$)\kc{How are we combining the uncertainty on $\tilde{\Lambda}$ when each event will have a different $\tilde{\Lambda}$?}.
 These values are further tabulated in Table~\ref{tab:variances}.
-It can be seen from this figure that the statistical errors from parameter extraction become comparable the universal relation systematics (indicated by the magenta horizontal line) for the Voyager telescope - indicating when improved binary Love universal relations will become viable.
+It can be seen from this figure that the statistical errors from parameter extraction become comparable the universal relation systematics (indicated by the magenta horizontal line) for the Voyager telescope - indicating when improved binary Love universal relations will become viable\kc{viable? you mean necessary?}.
 \begin{figure}
 \begin{center} 
 \includegraphics[width=\columnwidth]{stackedFisher.eps}
 \end{center}
 \caption{
 Estimated statistical uncertainties $\sigma^A_{\text{GW170817}}$ (blue) in the extraction of $\tilde{\Lambda}$ from GW170817 (O2) as if observed with future interferometers aLIGO, a++, Voyager, CE, and ET-D as a function of the signal-to-noise-ratio $\rho^A_{\text{GW170817}}$.
-This is compared to the combined uncertainty $\sigma^A_N$ (red) from the observation of multiple events from a simulated population of size $N_A$ corresponding to the upper (teal), central (orange), and lower (magenta) limits of expected binary NS merger detection rates for O2, aLIGO, a\texttt{++}, Voyager, CE, and ET-D over 1 observation year.
+This is compared to the combined uncertainty $\sigma^A_N$ (red) from the observation of multiple events from a simulated population of size $N_A$ corresponding to the upper (teal), central (orange), and lower (magenta) limits of expected binary NS merger detection rates for O2, aLIGO, a\texttt{++}, Voyager, CE, and ET-D over 1 observation year \kc{Instead of points, it might be clearer to show this with shaded regions from the upper to the lower rate.}.
 It can be seen that the statistical errors in parameter extraction become comparable to the systematics from EoS variation in binary Love relations (purple shaded region) for Voyager and on.
 Note there is no simulated populations of events under the O2 design sensitivity - due to there only being a single event during the observing period.
 These results are further tabulated in Table~\ref{tab:variances}.
