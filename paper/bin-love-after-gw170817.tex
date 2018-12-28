@@ -150,7 +150,7 @@ Throughout this paper, we have adopted geometric units of $G=c=1$, unless otherw
 
 \subsection{Spectral representations of neutron star equations of state}\label{sec:eos}
 The structure of a NS and its tidal interactions in a binary system rely heavily on the underlying state function describing the relationship between pressure ($p$) and energy density ($\epsilon$), or equation of state, of nuclear matter.
-Given that all currently proposed EoSs utilize certain approximations, one method to study a wide range of physically realizable EoSs is to parameterize them in a model-independent way.
+Given that all currently proposed EoSs utilize certain approximations\kc{cite reviews by Baym and Oertel}, one method to study a wide range of physically realizable EoSs is to parameterize them in a model-independent\kc{how is this model-independent?} way.
 Spectral representations~\cite{Lindblom:2010bb,Lindblom:2012zi,Lindblom:2013kra,Lindblom:2018rfr,Abbott:2018exr} parameterize EoSs by performing spectral expansions on the adiabatic index $\Gamma(p)$\footnote{Another way of parameterizing EoSs is the piecewise polytropic formulation~\cite{Read2009,Lackey:2014fwa,Carney:2018sdv}.}:
 \begin{equation}
 \Gamma(x) = \exp{\sum_k\gamma_k x^k},
@@ -163,10 +163,10 @@ The equation of state is then determined by an integration of the differential e
 Using this formalism, any valid EoS can be approximated through choice of 4 or more spectral coefficients $\gamma_k$, tabulated for several common EoSs in Table 1 of~\cite{Lindblom:2018rfr}.
 
 In the current analysis, we consider EoSs which have been constrained by the recent binary neutron star merger event, GW170817.
-Important recent work~\cite{LIGO:posterior} sampled EoS parameters in order to derive a marginalized posterior on the pressure as a function of mass density, as seen in Fig. 2 of~\cite{LIGO:posterior}.
+Important recent work~\cite{LIGO:posterior,Carney:2018sdv} sampled EoS parameters in order to derive a marginalized posterior on the pressure as a function of mass density, as seen in Fig. 2 of~\cite{LIGO:posterior}.
 The spectral coefficients were sampled within the ranges: $\gamma_0 \in \lbrack 0.2,2 \rbrack$, $\gamma_1 \in \lbrack -1.6,1.7 \rbrack$, $\gamma_2 \in \lbrack -0.6,0.6 \rbrack$, $\gamma_0 \in \lbrack -0.02,0.02 \rbrack$, and further restricted the adiabatic index to be $\Gamma \in \lbrack 0.6,4.5 \rbrack$, ensuring the parameterization exposed a wide range of viable EoSs~\cite{Lindblom:parameters}.
-Additional constraints imposed upon the generated EoSs were as follows~\cite{LIGO:posterior}: (i) causality within 10\%, and (ii) EoS priors must support NS masses up to $1.97 \text{ M}_{\odot}$, consistent with astrophysical observations.
-We utilize a random set of 100 of the above posterior samples defined by GW170817, furthermore referenced as the ``constrained EoSs", as shown in Fig.~\ref{fig:eos}.\zc{Carl, can you describe how you generated these? They aren't the \emph{actual} posteriors, are they?}
+Additional constraints imposed upon the generated EoSs were as follows~\cite{LIGO:posterior}: (i) causality within 10\%, and (ii) EoS priors must support NS masses up to $1.97 \text{ M}_{\odot}$, consistent with astrophysical observations\kc{cite}.
+We utilize a random set of 100 of the above posterior samples defined by GW170817, furthermore referenced as the ``constrained EoSs", as shown in Fig.~\ref{fig:eos}.\zc{Carl, can you describe how you generated these? They aren't the \emph{actual} posteriors, are they?}\kc{Yeah they are}
 Following~\cite{Read2009}, the parameterized high-density core EoSs generated above are matched to the low-density crust EoS Sly~\cite{Douchin:2001sv} at about half of the nuclear saturation density, $\rho_{\text{stitch}}=1.3 \times 10^{14} \text{ g/cm}^3$.
 For comparison, we also include a second sample of 100 ``unconstrained" EoSs, randomly sampled in the pressure-density plane to be unrestricted by GW170817s posterior.
 
