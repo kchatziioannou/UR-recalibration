@@ -51,14 +51,14 @@ The extraction of tidal deformabilities from the gravitational waveforms of bina
 % What was done before - Binary Love
 Previous studies have shown that approximately equation of state insensitive ``binary Love universal relations" exist between symmetric and antisymmetric combinations of individual tidal deformabilities, which are difficult to be independently measured with second-generation gravitational wave interferometers.
 % What was done before - I-Love-Q
-Similarly, another set of equation of state independent relations exist between individual neutron star parameters: moment of inertia (I), tidal deformability (Love number), and quadrupole moment (Q) - known as the ``I-Love-Q universal relations."
+Similarly, another set of equation of state independent relations exist between individual neutron star parameters: moment of inertia (I), tidal deformability (Love number), quadrupole moment (Q), and compactness (C) - known as the ``I-Love-Q" and ``C-Love" universal relations.
 % What universal relations do
 Such universal relations allow the elimination of some tidal parameters from the list of model parameters, thus breaking degeneracies and ultimately reducing the uncertainty of the dominant tidal effect in parameter estimation.
 % What we will do
-In this document, we explain how one can reduce equation of state variation for both binary Love and I-Love-Q universal relations, which helps to reduce systematic errors on the tidal measurement of binary neutron star mergers. 
+In this document, we explain how one can reduce equation of state variation for binary Love, I-Love-Q, and C-Love universal relations, which helps to reduce systematic errors on the tidal measurement of binary neutron star mergers. 
 We achieve this  by restricting to only equations of state drawn from the 90\% posterior constraint on pressure as a function of density, as derived by the LIGO Collaboration.
 % What we found
-We find an improvement in binary Love universality by a factor of $\sim 59$\% for stars with a mass ratio of 0.75, and in I-Love-Q universality by factors of $\sim 50$\%.
+We find an improvement in binary Love universality by a factor of $\sim 59$\% for stars with a mass ratio of 0.75, in C-Love universality by a factor of $\sim 67\%$, and in I-Love-Q universality by factors of $\sim 50$\%.
 % Conclude
 We end by comparing systematic errors on tidal measurement due to the equation of state variation with statistical errors and comment on whether one can safely use these universal relations with future gravitational wave observations.
 \end{abstract}
@@ -93,7 +93,7 @@ Unfortunately, current detectors are only sensitive enough to accurately measure
 Previous work by Yagi and Yunes~\cite{Yagi:binLove} resolved this issue by finding approximately EoS-insensitive ``binary Love universal relations" between symmetric and anti-symmetric combinations of tidal deformabilities $\frac{1}{2}(\Lambda_1 \pm \Lambda_2)$.
 This allows one to further break degeneracies between tidal parameters, resulting in both (i) a decrease in uncertainty upon parameter extraction on the removal of one parameter from the model, and (ii) the ability to measure the secondary tidal parameter upon measurement of the first.  
 This important work showed up to an order of magnitude improvement in parameter estimation through a simple Fisher analysis.
-Similar ``I-Love-Q" universal relations~\cite{Yagi:ILQ} have been found between individual NS observables: quadrupole moment , moment of inertia, and tidal deformability; similarly allowing the removal of tidal parameters from the model list, and allowing an automatic determination of one observable through the measurement of another.
+Similar ``I-Love-Q" and ``C-Love" universal relations~\cite{Yagi:ILQ} have been found between individual NS observables: quadrupole moment , moment of inertia, tidal deformability, and compactness; similarly allowing the removal of tidal parameters from the model list, and allowing an automatic determination of one observable through the measurement of another.
 
 %How we improved this
 In this analysis, we aim to improve this important work by imposing the restrictions found on the EoS~\cite{LIGO:posterior} derived from the recent binary NS merger observation, GW170817~\cite{TheLIGOScientific:2017qsa}.
@@ -106,12 +106,12 @@ Further, we estimate the viability of using improved universal relations on futu
 %What we did
 In this paper we attempt to improve binary Love and I-Love-Q universal relations by imposing constraints on the EoS found by GW170817~\cite{LIGO:posterior,TheLIGOScientific:2017qsa}.
 First, we generate two large samples of spectral EoSs~\cite{Lindblom:2018rfr}, where we (i) impose the restriction that they must be drawn from GW170817s 90\% credible posterior in pressure as a function of density, and (ii) don't impose any restrictions for comparison purposes.
-Next, we follow the important works of~\cite{Yagi:binLove} and~\cite{Yagi:ILQ} to show how the ``constrained" set of EoSs show improved universality from both the previous works, and the ``unconstrained" sample, shown by Fig.~\ref{fig:ILQ}.
-In addition, we determine the degree to which hybrid star EoSs obey binary Love universal relations.
+Next, we follow the important works of~\cite{Yagi:binLove} and~\cite{Yagi:ILQ} to show how the ``constrained" set of EoSs show improved universality (binary Love, I-Love-Q, and C-Love) from both the previous works, and the ``unconstrained" sample, shown by Fig.~\ref{fig:ILQ}.
+In addition, we determine the degree to which hybrid star EoSs obey such universal relations.
 Finally, through a simple Fisher analysis, we consider the value in improving universal relations by approximating when the statistical errors from parameter extraction become comparable to the systematic errors due to EoS variation in universal relations.
 
 %Final Results
-Upon use of the constrained set of EoSs, we find an improvement in binary Love universality by a factor of $\sim 59$\% for stars with mass ratios of $0.75$, and in I-Love-Q universality by factors of $\sim50$\%, tabulated in Tab.~\ref{tab:maxVar}.
+Upon use of the constrained set of EoSs, we find an improvement in binary Love universality by a factor of $\sim 59$\% for stars with mass ratios of $0.75$, in C-Love universality by a factor of $\sim 67\%$, and in I-Love-Q universality by factors of $\sim50$\%, tabulated in Tab.~\ref{tab:maxVar}.
 We also find that binaries consisting of one massive hybrid star, and one small-mass hadronic star do not agree with derived binary Love relations, due to the large separation in $\tilde{\Lambda}$ between the constituent stars.
 Unfortunately, due to the current limitations in detector sensitivity, the systematic errors arising from EoS variation in the universal relations are far outweighed by the statistical errors accrued by extraction of high-order PN tidal parameters from GW waveforms.
 Fig.~\ref{fig:stackedFisher} compiles the results from Fisher analyses approximating the uncertainties accrued from parameter extraction for GW170817 as if it had been observed by future detectors $A \equiv ($ O2, aLIGO, a\texttt{++}, Voyager, ET, CE$)$\zc{cite these individually}.
@@ -135,7 +135,7 @@ These results are further tabulated in Table~\ref{tab:variances}.
 %outline
 The organization of this paper is outlined below.
 We begin with a complementary background and theory material in Sec.~\ref{sec:theory}.
-We continue in Sec.~\ref{sec:universal} by finding new and improved binary Love and I-Love-Q universal relations, and considering how well hybrid star EoSs agree with the universal relations.
+We continue in Sec.~\ref{sec:universal} by finding new and improved binary Love, I-Love-Q, and C-Love universal relations, and considering how well hybrid star EoSs agree with the universal relations.
 We next examine these improved universal relations and question whether or not they are useful for future interferometers in Sec.~\ref{sec:observations}.
 We conclude in Sec.~\ref{sec:conclusion} by discussing our results and mentioning avenues of future work.
 Throughout this paper, we have adopted geometric units of $G=c=1$, unless otherwise stated.
@@ -267,7 +267,7 @@ This results in the following overall fitting relation:
 y=C_{yx} x^{\alpha} \frac{1+\sum_{i=1}^3 a_i x^{-i/5}}{1+\sum_{i=1}^3 b_i x^{-i/5}},
 \end{equation}
 where $y$ and $x$ correspond to NS observables $\bar{I}$, $\bar{Q}$, and $\Lambda$, and $\alpha$ is given by $2/5$, $1/5$, and $2$ for the $\bar{I}-\Lambda$, $\bar{Q}-\Lambda$, and $\bar{I}-\bar{Q}$ relations, respectively.
-The new fitting coefficients are presented in Table~\ref{tab:ILQfitNew}.
+The new fitting coefficients are presented in Tab.~\ref{tab:ILQfitNew}.
 While the two above fits both result in fits with similar $R^2$ values of $\sim 0.9999995$ for the data presented, the lattter one has the advantage that it properly limits to the Newtonian case as $\Lambda \rightarrow \infty$~\cite{Yagi:binLove}.
 
 \begin{table*}
@@ -291,7 +291,7 @@ Updated fit parameters for the I-Love-Q universal relations, fitted to the const
 \begin{table*}
 \centering
 \caption{
-I-Love-Q universal relations fit parameters for the constrained EoS data using the improved fitting relations found in Eq.~\ref{eq:ILQfitNew}.
+I-Love-Q and C-Love universal relations fit parameters for the constrained EoS data using the improved fitting relations found in Eq.~\ref{eq:ILQfitNew}.
 This fitting relation, unlike previous versions, properly limits to the Newtonian case as $\Lambda \rightarrow \infty$.
 }\label{tab:ILQfitNew}
 \begin{tabular}{ c  c  | c c c c c c c c} 
@@ -302,6 +302,7 @@ This fitting relation, unlike previous versions, properly limits to the Newtonia
  $\bar{I}$ & $\Lambda$ & $2/5$ & $0.5313031$ & $1.2868285$ & $0.0988787$ & $-2.3001034$ & $-1.3465945$ & $0.3857349$ & $-0.0287014$\\
  $\bar{Q}$ & $\Lambda$ & $1/5$ & $3.5554627$ & $-2.1218079$ & $2.7237378$ & $-1.4906808$ & $0.8643535$ & $-0.1427541$ & $-1.3973147$\\
  $\bar{I}$ & $\bar{Q}$ & $2$ & $0.0089212$ & $10.5910815$ & $-37.4581345$ & $43.1831156$ & $-2.3610288$ & $1.9674667$ & $-0.5678018$\\
+ $\bar{C}$ & $\Lambda$ & $-1/5$ & $0.2495709$ & $-919.5651942$ & $330.2848184$ & $-857.1842107$ & $-383.5404843$ & $192.4933832$ & $-811.1425435$\\
 \hline
 \hline
 \end{tabular}
@@ -332,7 +333,7 @@ Additionally shown in this figure is the fractional difference from the nuclear 
 \begin{table}
 \centering
 \caption{
-Comparison between the universal relations (both I-Love-Q and binary Love) maximal EoS variability for the results of previous works~\cite{Yagi:ILQ,Yagi:binLove}, and the unconstrained and constrained sets of EoSs analyzed here. 
+Comparison between the universal relations (I-Love-Q, C-Love, and binary Love) maximal EoS variability for the results of previous works~\cite{Yagi:ILQ,Yagi:binLove}, and the unconstrained and constrained sets of EoSs analyzed here. 
 The maximum EoS variation, given by the largest fractional difference from the fits as shown in Figs.~\ref{fig:ILQ} and~\ref{fig:binLove}, sees a considerable improvement for the constrained set of EoSs, compared to the unconstrained set as well as previous works.
 Additionally, notice how the maximal EoS variation for the unconstrained set of EoSs is slightly higher than that found in Refs.~\cite{Yagi:ILQ,Yagi:binLove} - due to the effects of large random sampling taking into account more sources of uncertainty.
 }\label{tab:maxVar}
@@ -344,8 +345,10 @@ Additionally, notice how the maximal EoS variation for the unconstrained set of 
  \textbf{Relation} & \multicolumn{1}{c|}{\emph{Previous}} & \multicolumn{1}{c|}{\emph{Unconstrained}} & \emph{Constrained}\\
  \hline
  $\bar{I}-\Lambda$ &  $0.0059$ & $0.0076725$ & $0.0031383$\\
- $\bar{Q}-\Lambda$ & $0.0010$ & $0.012617$ & $0.0046612$\\
+ $\bar{Q}-\Lambda$ & $0.010$ & $0.012617$ & $0.0046612$\\
  $\bar{I}-\bar{Q}$ & $0.012$ & $0.014895$ & $0.0057157$\\
+ \hline
+ $\bar{C}-\Lambda$ & $0.065$ & $0.071975$ & $0.021688$\\
  \hline
  $\Lambda_a-\Lambda_s$ & \multirow{2}{*}{$\sim0.50$} & \multirow{2}{*}{$0.5723891$} & \multirow{2}{*}{$0.2140192$}\\
  $(q=0.90)$ & & &\\
@@ -409,6 +412,82 @@ The second case is demonstrated in Fig.~\ref{fig:ILQ}.
 Observe how the hybrid star EoSs do obey the I-Love-Q universal relations up to $\sim1.7$\%, slightly higher than that found here for nuclear matter EoSs, as well as that found in previous works~\cite{Yagi:ILQ}.
 Further, we observe that the universality can not be improved by much through the introduction of new fits, only bringing the max EoS variation down to $\sim1$\% for the fits constructed with only hybrid star EoSs.
 Concluding, we claim that hybrid star EoSs \emph{do} obey the I-Love-Q universal relations computed through nuclear EoS data, with the exception that the universality goes up to $\sim1.7$\%. 
+
+
+\subsection{C-Love Relations}\label{sec:clove}
+In this section we consider approximate C-Love universal relations between NS compactness $\bar{C} \equiv M/R$ and unitless tidal deformability $\Lambda$, as discussed by Yagi and Yunes~\cite{Yagi:binLove}.
+Similar to the previous section, we consider two classes of stars: nuclear matter EoSs and hybrid quark-hadron star EoSs.
+
+\subsubsection{Nuclear matter stars}\label{sec:clove-nuc}
+Following Ref.~\cite{Yagi:binLove}, we begin by fitting the data for each set of EoSs to the simple curve:
+\begin{equation}
+\bar{C} = \sum^2_{k=0} a_k (\ln{\Lambda})^k.
+\end{equation}
+Doing so yields $a_0 = 0.3616998$, $a_1 = -0.0354818$, and $a_2 = 0.0006193849$, similar to what was found in Ref.~\cite{Yagi:binLove}.
+Additionally we offer an improvement to the fits as was done in Sec.~\ref{sec:ilq}. 
+We consider the fitting function found in Eq.~\ref{eq:ILQfitNew}, with the controlling factor given by:
+\begin{equation}
+\bar{C}^N=C_{\bar{C}\Lambda}\Lambda^{-1/5}.
+\end{equation}
+The new fitting coefficients are displayed in Tab.~\ref{tab:ILQfitNew}, alongside the previously found I-Love-Q relations.
+
+Figure~\ref{fig:clove} presents the C-Love universal relations for both the constrained and unconstrained sets of EoSs, along with the relative fractional difference from the fits. 
+Observe how the constrained EoSs show a large suppression in EoS variability compared to both the unconstrained EoSs, as well as that found in previous works~\cite{Yagi:binLove}.
+The maximal EoS variation is compared between the above three cases in Tab.~\ref{tab:maxVar}.
+\begin{figure}
+\begin{center} 
+\includegraphics[width=1\columnwidth]{CL.eps}
+\end{center}
+\caption{
+Similar to Fig.~\ref{fig:ILQ} but for C-Love universal relations.
+In this figure, we similarly construct fits to  Eq.~\ref{eq:ILQfitNew}, properly limiting to the newtonian case $\bar{C} \sim \Lambda^{-1/5}$.
+Observe how, as before, the fractional difference from the fits is greatly suppressed for the constrained case, compared to both the unconstrained case, and results from previous works~\cite{Yagi:binLove}.
+The maximal EoS variation from the fits for the unconstrained and constrained sets of EoSs are compared in Tab.~\ref{tab:maxVar}.
+Additionally shown in this figure is the hybrid star C-Love relations along with their fractional difference from the constrained EoS fits (dashed green).
+}
+\label{fig:clove}
+\end{figure} 
+
+These results, similar to that found in Sec.~\ref{sec:ilq}, show the considerable improvement found in using constrained EoSs over any unconstrained set.
+We also note that the unconstrained EoSs display slightly larger EoS variability than found in Ref.~\cite{Yagi:binLove}, due to the large random sampling as discussed previously in Sec.~\ref{sec:ilq}.
+
+
+\subsubsection{Hybrid quark-hadron stars}\label{sec:clove-hyb}
+In this section, we consider the effect of hybrid star EoSs on the C-Love universal relation.
+Much like Sec.~\ref{sec:ilq-hyb}, we perform 3 separate fits (constrained and hybrid EoSs combined, constrained EoSs only, and hybrid EoSs only) and compare the maximal EoS variation for each class of EoSs.
+
+Table~\ref{tab:hybridCompareClove} compares the maximal EoS variability for the constrained and hybrid star EoSs under the fitting conditions for each case described above. 
+We observe very similar behavior to that described in Sec.~\ref{sec:ilq-hyb}, in which the maximal EoS variation for hybrid stars only fluctuate slightly ($\sim 4.5\% - 7\%$) for each case.
+From this, we similarly conclude that hybrid stars do obey the C-Love universal relation derived with nuclear matter stars, with the caveat that the maximum universality increases to $\sim 7.1\%$.
+This is exemplified in Fig.~\ref{fig:clove} by the dashed green curves.
+
+\begin{table}
+\centering
+\caption{
+Similar to Tab.~\ref{tab:hybridCompare} but for the C-Love universal relation.
+Observe how for all 3 cases, the hybrid EoSs are only universal up to a minimum of $\sim1$\%, while in each case the constrained EoSs outperform the hybrid ones.
+The second case is demonstrated in Fig.~\ref{fig:clove}.
+}\label{tab:hybridCompareClove}
+\begin{tabular}{ c  || c c } 
+ \hline
+ \hline
+ \textbf{Fitting} & \multicolumn{2}{c}{\textbf{Maximal EoS Variability}} \\
+ \cline{2-3}
+ \textbf{Case} &  \multicolumn{1}{c|}{\emph{Constrained}} & \emph{Hybrid}\\
+ \hline
+ \emph{Combined} &  \multirow{2}{*}{$0.0368589$} & \multirow{2}{*}{$0.0553262$}\\
+ \emph{(Case 1)} & &\\
+ \cline{1-1}
+ \emph{Constrained only} & \multirow{2}{*}{$0.0.0216879$} & \multirow{2}{*}{$0.0.0719104$}\\
+  \emph{(Case 2)} & &\\
+  \cline{1-1}
+ \emph{Hybrid only} & \multirow{2}{*}{$0.0.0578764$} & \multirow{2}{*}{$0.0.0447799$}\\
+  \emph{(Case 3)} & &\\
+  \cline{1-1}
+\hline
+\hline
+\end{tabular}
+\end{table}
 
 \subsection{Binary love relations}\label{sec:binary}
 Next we consider improvements to the binary Love universal relations.
@@ -572,7 +651,7 @@ $\mu_5$ & $-1.9040182$ & $\sigma_5$ & $-0.0126140$\\
 
 Figure~\ref{fig:residuals} displays the Gaussian distribution of $\tilde\Lambda$ residuals for both the constrained, and unconstrained sets of EoSs for comparison.
 Observe how the standard deviations $\sigma=7.666$ and $\sigma=40.887$ show a large decrease between the unconstrained and constrained sets of EoSs.
-In addition, we find the 90th, 99th, and 100th percentiles on $\tilde\Lambda$ to be $P_{90}=12.014$, $P_{99}=29.710$, and $P_{100}=62.240$ for the constrained EoSs.
+In addition, we find the 90th, 99th, and 100th percentiles on $\tilde\Lambda$ to be $P_{90}=12.014$, $P_{99}=29.710$, and $P_{100}=62.240$ for the constrained EoSs, computed directly from the data rather than the fitted models.
 Because the un-binned residuals seen in Fig.~\ref{fig:residuals} are dominated by the low-error regions of parameter space ($\Lambda_s \rightarrow 0$ and $q \rightarrow 1$) shown by the fits of Tab.~\ref{tab:marginalized}, we consider the 90th for the remainder of the analysis.
 We take this value of $P_{90}=12.014$ to be the systematic measurement error introduced by using the improved binary Love universal relations on the parameter extraction of $\tilde\Lambda$.
 Currently, the statistical error of $198$ on $\tilde\Lambda$ from GW170817 dominate the error budget compared to the systematic error of $12.014$.
@@ -586,7 +665,7 @@ In Sec.~\ref{sec:observations}, we analyze this further and discuss when the sys
 \end{center}
 \caption{
 Residuals on $\tilde\Lambda$ computed as $\tilde{\Lambda}^{\text{fit}}-\tilde{\Lambda}^{\text{true}}$ for the binary Love relations modeled in Sec.~\ref{sec:binLove-nuclear} for both constrained and unconstrained sets of EoSs.
-These residuals obey Gaussian distributions centered at $\mu=-1.8133 \times 10^{-4}$ and $\mu=4.2258 \times 10^{-3}$ with standard deviations of $\sigma=7.6664$ and $\sigma=40.8866$ for the constrained and unconstrained sets of EoSs, respectively.
+These residuals obey Gaussian distributions (displayed here as dashed lines) centered at $\mu=-1.8133 \times 10^{-4}$ and $\mu=4.2258 \times 10^{-3}$ with standard deviations of $\sigma=7.6664$ and $\sigma=40.8866$ for the constrained and unconstrained sets of EoSs, respectively.
 These uncertainties correspond roughly to the systematic errors introduced on the parameter extraction of $\tilde{\Lambda}$ upon the use of binary Love universal relations.
 However, to take into account the systematic errors found in high-error regions of the parameter space, we instead set the systematic error to be the 90th percentile, $P_{90}=12.014$.
 Observe that the systematic errors from using the improved (constrained) binary Love universal relations are negligible compared to the statistical errors accrued on parameter extraction from GW170817, found to be $\sigma_{\tilde{\Lambda}}=198$.
@@ -643,7 +722,7 @@ The process we use for each detector sensitivity $S_n^A(f)$ is as follows:
 \item Perform a Fisher analysis as outlined above using $S_n^A(f)$, while restricting the luminosity distance $D_L$ such that $\rho^{\text{O2}}_{\text{GW170817}}=32.4$ would be achieved on O2 sensitivity $S_n^{\text{O2}}(f)$.
 This results in SNR $\rho^A_{\text{GW170817}}$ and statistical error $\sigma_\text{GW170817}^A$ accrued in the extraction of $\tilde{\Lambda}$ on detector $A$.
 \item Generate a population of $N_A$ events corresponding to the expected binary NS merger detection rate for detector $A$, following the distribution $f=3 \rho_{\text{th}}^3/\rho^4$~\cite{Shutz:SNR,Chen:SNR} with a network SNR threshold of $\rho_{\text{th}}=8$.
-This is calculated for the upper, central, and lower limits of the local binary NS coalescence rate density $R=1540^{+3200}_{-1220} \text{ Gpc}^{-3}\text{yr}^{-1}$~\cite{Abbott2017}, giving the rates shown in the second column of Table~\ref{tab:variances}.
+This is calculated for the upper, central, and lower limits of the local binary NS coalescence rate density $\mathcal{R}=1540^{+3200}_{-1220} \text{ Gpc}^{-3}\text{yr}^{-1}$~\cite{Abbott2017}, giving the rates shown in the second column of Table~\ref{tab:variances}.
 \item Compute the population standard deviation given by:
 \begin{equation}
 \frac{1}{(\sigma_N^A)^2}=\sum_i^{N_A}\frac{1}{(\sigma_i^A)^2},
@@ -655,7 +734,7 @@ The results are compiled in Table~\ref{tab:variances}, and shown graphically in 
 \begin{table*}
 \centering
 \caption{
-Tabulated results for the estimated statistical errors on $\tilde{\Lambda}$ for the combined results of $N_A$ detections corresponding to the estimated upper, central, and lower limits of the binary NS merger detection rate $R$.
+Tabulated results for the estimated statistical errors on $\tilde{\Lambda}$ for the combined results of $N_A$ detections corresponding to the estimated upper, central, and lower limits of the binary NS merger detection rate $\mathcal{R}$.
 This is repeated for 5 future detector sensitivities: aLIGO, a\texttt{++}, Voyager, CE, and ET.
 Below, $\rho^A_{\text{GW170817}}$ and $\sigma^A_{\text{GW170817}}$ correspond to the approximate SNR and $\sigma_{\tilde{\Lambda}}$ of GW170817 had it been observed by the future interferometer, and $\sigma^A_N$ corresponds to the final uncertainty on $\tilde{\Lambda}$ after $N_A$ detections on interferometer $A$.
 It can be seen here that the statistical errors on $\tilde{\Lambda}$ become comparable with the systematics (set to be $P_{90}=12.014$) from using improved binary Love relations from Voyager and on, indicating when it may be safe to utilize new universal relations.
@@ -727,8 +806,9 @@ The recent GW observation of binary NS merger GW170817 placed constraints on the
 We take advantage of this by generating a restricted set of spectral EoSs which agree with this observation to reduce uncertainties upon the extraction of tidal parameters from future GW events.
 Important previous work by Yagi and Yunes~\cite{Yagi:ILQ,Yagi:binLove} found EoS-insensitive universal relations between symmetric and antisymmetric combinations of NS tidal deformabilities, which aid in the extraction of said tidal parameters.
 We find an improvement upon these universal relations by a factor of $\sim 59$\% for stars with mass ratios of $0.75$ by restricting to the EoS posterior samples from GW170817s 90\% credible region on pressure as a function of density.
-Similarly, we find an increase in I-Love-Q universality by a factors of $\sim 50$\%.
-In addition, we find that binaries consisting of one massive hybrid quark-hadron star, and one small-mass hadron star do not obey these universal relations -- explained by the large difference in $\tilde{\Lambda}$ displayed between the constituent stars.
+Similarly, we find an increase in C-Love and I-Love-Q universality by a factors of $\sim 76$\% and $\sim 50$\%, respectively.
+Additionally, we find that hybrid quark-hadron star EoSs \emph{do} obey the I-Love-Q and C-Love universality, albeit with a slightly higher maximum EoS variability as displayed in Tabs.~\ref{tab:hybridCompare} and ~\ref{tab:hybridCompareClove}.
+In addition, we find that binaries consisting of one massive hybrid quark-hadron star, and one small-mass hadron star do not obey the binary Love universal relations -- explained by the large difference in $\tilde{\Lambda}$ displayed between the constituent stars.
 To improve on this, we construct new ``hybrid matter binary Love relations", applied to only the hybrid branches of the transitional EoSs.
 This results in EoS variability similar to that found for the nuclear matter fits.
 Further, we analyze the impact of this improvement for future binary NS merger detections, as the current detector sensitivity is not yet small enough to accurately constrain $\tilde{\Lambda}$ enough for universal relations to make a difference.
