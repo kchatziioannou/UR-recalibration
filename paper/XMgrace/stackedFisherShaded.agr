@@ -90,7 +90,27 @@
 @timestamp rot 0
 @timestamp font 0
 @timestamp char size 1.000000
-@timestamp def "Thu Jan  3 01:54:11 2019"
+@timestamp def "Sun Jan 13 22:43:54 2019"
+@with box
+@    box on
+@    box loctype view
+@    box 0.756, 0.65, 0.83, 0.61
+@    box linestyle 3
+@    box linewidth 2.0
+@    box color 13
+@    box fill color 0
+@    box fill pattern 1
+@box def
+@with box
+@    box on
+@    box loctype view
+@    box 0.756, 0.71, 0.83, 0.67
+@    box linestyle 1
+@    box linewidth 1.0
+@    box color 14
+@    box fill color 14
+@    box fill pattern 9
+@box def
 @with string
 @    string on
 @    string loctype view
@@ -197,7 +217,7 @@
 @g0 fixedpoint format general general
 @g0 fixedpoint prec 6, 6
 @with g0
-@    world 25, 0.07, 3500, 800
+@    world 25, 0.1, 3500, 50
 @    stack world 0, 0, 0, 0
 @    znorm 1
 @    view 0.150000, 0.150000, 1.150000, 0.850000
@@ -271,7 +291,7 @@
 @    yaxis  bar color 1
 @    yaxis  bar linestyle 1
 @    yaxis  bar linewidth 1.0
-@    yaxis  label "\xs\f{}\SA\N\s\xL\f{}\h{-.65mm}\v{0.7mm}~\N"
+@    yaxis  label "\xs\f{}\SA\N\s\xl\f{}\s0\N / 10\S-25\N"
 @    yaxis  label layout para
 @    yaxis  label place auto
 @    yaxis  label char size 1.400000
@@ -319,7 +339,7 @@
 @    altyaxis  off
 @    legend on
 @    legend loctype view
-@    legend 0.73, 0.83
+@    legend 0.75, 0.84
 @    legend box color 1
 @    legend box pattern 1
 @    legend box linewidth 1.0
@@ -327,7 +347,7 @@
 @    legend box fill color 0
 @    legend box fill pattern 1
 @    legend font 0
-@    legend char size 1.400000
+@    legend char size 1.150000
 @    legend color 1
 @    legend length 6
 @    legend vgap 1
@@ -388,31 +408,31 @@
 @    s0 errorbar riser clip off
 @    s0 errorbar riser clip length 0.100000
 @    s0 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/stackedFisher/sigma1.dat"
-@    s0 legend  "\xs\f{}\SA\N\sGW170817\N"
+@    s0 legend  "\xs\f{}\SA\N\sGW170817\N (IMRD+6PN)"
 @    s1 hidden false
 @    s1 type xy
-@    s1 symbol 0
+@    s1 symbol 1
 @    s1 symbol size 1.000000
-@    s1 symbol color 14
-@    s1 symbol pattern 2
-@    s1 symbol fill color 14
-@    s1 symbol fill pattern 2
-@    s1 symbol linewidth 1.0
+@    s1 symbol color 4
+@    s1 symbol pattern 1
+@    s1 symbol fill color 4
+@    s1 symbol fill pattern 0
+@    s1 symbol linewidth 2.0
 @    s1 symbol linestyle 1
 @    s1 symbol char 65
 @    s1 symbol char font 0
 @    s1 symbol skip 0
-@    s1 line type 1
+@    s1 line type 0
 @    s1 line linestyle 1
-@    s1 line linewidth 7.0
+@    s1 line linewidth 1.0
 @    s1 line color 14
 @    s1 line pattern 1
-@    s1 baseline type 3
+@    s1 baseline type 0
 @    s1 baseline off
 @    s1 dropline off
-@    s1 fill type 2
+@    s1 fill type 0
 @    s1 fill rule 0
-@    s1 fill color 14
+@    s1 fill color 1
 @    s1 fill pattern 1
 @    s1 avalue off
 @    s1 avalue type 2
@@ -427,7 +447,7 @@
 @    s1 avalue offset 0.000000 , 0.000000
 @    s1 errorbar on
 @    s1 errorbar place both
-@    s1 errorbar color 14
+@    s1 errorbar color 4
 @    s1 errorbar pattern 1
 @    s1 errorbar size 1.000000
 @    s1 errorbar linewidth 1.0
@@ -436,33 +456,33 @@
 @    s1 errorbar riser linestyle 1
 @    s1 errorbar riser clip off
 @    s1 errorbar riser clip length 0.100000
-@    s1 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/stackedFisher/sigmaNLow.dat"
-@    s1 legend  "\xs\f{}\SA\N\sN\N"
-@    s2 hidden true
+@    s1 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/stackedFisher/sigma1_nrtidal.dat"
+@    s1 legend  "\xs\f{}\SA\N\sGW170817\N (IMRD+NRTidal)"
+@    s2 hidden false
 @    s2 type xy
-@    s2 symbol 3
+@    s2 symbol 0
 @    s2 symbol size 1.000000
-@    s2 symbol color 11
-@    s2 symbol pattern 1
-@    s2 symbol fill color 11
-@    s2 symbol fill pattern 1
+@    s2 symbol color 14
+@    s2 symbol pattern 2
+@    s2 symbol fill color 14
+@    s2 symbol fill pattern 2
 @    s2 symbol linewidth 1.0
 @    s2 symbol linestyle 1
 @    s2 symbol char 65
 @    s2 symbol char font 0
 @    s2 symbol skip 0
-@    s2 line type 0
-@    s2 line linestyle 0
+@    s2 line type 1
+@    s2 line linestyle 1
 @    s2 line linewidth 1.0
-@    s2 line color 11
-@    s2 line pattern 1
-@    s2 baseline type 0
+@    s2 line color 14
+@    s2 line pattern 9
+@    s2 baseline type 3
 @    s2 baseline off
 @    s2 dropline off
-@    s2 fill type 0
+@    s2 fill type 2
 @    s2 fill rule 0
-@    s2 fill color 1
-@    s2 fill pattern 1
+@    s2 fill color 14
+@    s2 fill pattern 9
 @    s2 avalue off
 @    s2 avalue type 2
 @    s2 avalue char size 1.000000
@@ -476,7 +496,7 @@
 @    s2 avalue offset 0.000000 , 0.000000
 @    s2 errorbar on
 @    s2 errorbar place both
-@    s2 errorbar color 11
+@    s2 errorbar color 14
 @    s2 errorbar pattern 1
 @    s2 errorbar size 1.000000
 @    s2 errorbar linewidth 1.0
@@ -485,33 +505,33 @@
 @    s2 errorbar riser linestyle 1
 @    s2 errorbar riser clip off
 @    s2 errorbar riser clip length 0.100000
-@    s2 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/stackedFisher/sigmaNMid.dat"
-@    s2 legend  "\xs\f{}\SA\N\sN\N (Center)"
-@    s3 hidden false
+@    s2 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/stackedFisher/sigmaNLow.dat"
+@    s2 legend  "\xs\f{}\SA\N\sN\N (IMRD+6PN)"
+@    s3 hidden true
 @    s3 type xy
-@    s3 symbol 0
+@    s3 symbol 3
 @    s3 symbol size 1.000000
-@    s3 symbol color 10
+@    s3 symbol color 11
 @    s3 symbol pattern 1
-@    s3 symbol fill color 10
+@    s3 symbol fill color 11
 @    s3 symbol fill pattern 1
 @    s3 symbol linewidth 1.0
 @    s3 symbol linestyle 1
 @    s3 symbol char 65
 @    s3 symbol char font 0
 @    s3 symbol skip 0
-@    s3 line type 1
+@    s3 line type 0
 @    s3 line linestyle 0
 @    s3 line linewidth 1.0
-@    s3 line color 10
+@    s3 line color 11
 @    s3 line pattern 1
 @    s3 baseline type 0
 @    s3 baseline off
 @    s3 dropline off
-@    s3 fill type 2
+@    s3 fill type 0
 @    s3 fill rule 0
-@    s3 fill color 0
-@    s3 fill pattern 14
+@    s3 fill color 1
+@    s3 fill pattern 1
 @    s3 avalue off
 @    s3 avalue type 2
 @    s3 avalue char size 1.000000
@@ -525,7 +545,7 @@
 @    s3 avalue offset 0.000000 , 0.000000
 @    s3 errorbar on
 @    s3 errorbar place both
-@    s3 errorbar color 10
+@    s3 errorbar color 11
 @    s3 errorbar pattern 1
 @    s3 errorbar size 1.000000
 @    s3 errorbar linewidth 1.0
@@ -534,33 +554,33 @@
 @    s3 errorbar riser linestyle 1
 @    s3 errorbar riser clip off
 @    s3 errorbar riser clip length 0.100000
-@    s3 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/stackedFisher/sigmaNHigh.dat"
-@    s3 legend  ""
-@    s4 hidden true
+@    s3 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/stackedFisher/sigmaNMid.dat"
+@    s3 legend  "\xs\f{}\SA\N\sN\N (Center)"
+@    s4 hidden false
 @    s4 type xy
-@    s4 symbol 10
+@    s4 symbol 0
 @    s4 symbol size 1.000000
-@    s4 symbol color 2
+@    s4 symbol color 10
 @    s4 symbol pattern 1
-@    s4 symbol fill color 2
-@    s4 symbol fill pattern 0
+@    s4 symbol fill color 10
+@    s4 symbol fill pattern 1
 @    s4 symbol linewidth 1.0
 @    s4 symbol linestyle 1
 @    s4 symbol char 65
 @    s4 symbol char font 0
 @    s4 symbol skip 0
-@    s4 line type 0
-@    s4 line linestyle 1
+@    s4 line type 1
+@    s4 line linestyle 0
 @    s4 line linewidth 1.0
-@    s4 line color 2
-@    s4 line pattern 0
+@    s4 line color 10
+@    s4 line pattern 1
 @    s4 baseline type 0
 @    s4 baseline off
 @    s4 dropline off
-@    s4 fill type 0
+@    s4 fill type 2
 @    s4 fill rule 0
-@    s4 fill color 1
-@    s4 fill pattern 1
+@    s4 fill color 0
+@    s4 fill pattern 14
 @    s4 avalue off
 @    s4 avalue type 2
 @    s4 avalue char size 1.000000
@@ -574,7 +594,7 @@
 @    s4 avalue offset 0.000000 , 0.000000
 @    s4 errorbar on
 @    s4 errorbar place both
-@    s4 errorbar color 2
+@    s4 errorbar color 10
 @    s4 errorbar pattern 1
 @    s4 errorbar size 1.000000
 @    s4 errorbar linewidth 1.0
@@ -583,26 +603,26 @@
 @    s4 errorbar riser linestyle 1
 @    s4 errorbar riser clip off
 @    s4 errorbar riser clip length 0.100000
-@    s4 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/stackedFisher/sigmaNLow.dat"
-@    s4 legend  "\xs\f{}\SA\N\sN\N"
-@    s5 hidden false
+@    s4 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/stackedFisher/sigmaNHigh.dat"
+@    s4 legend  ""
+@    s5 hidden true
 @    s5 type xy
-@    s5 symbol 0
+@    s5 symbol 10
 @    s5 symbol size 1.000000
-@    s5 symbol color 1
+@    s5 symbol color 2
 @    s5 symbol pattern 1
-@    s5 symbol fill color 1
+@    s5 symbol fill color 2
 @    s5 symbol fill pattern 0
 @    s5 symbol linewidth 1.0
 @    s5 symbol linestyle 1
 @    s5 symbol char 65
 @    s5 symbol char font 0
 @    s5 symbol skip 0
-@    s5 line type 1
-@    s5 line linestyle 2
+@    s5 line type 0
+@    s5 line linestyle 1
 @    s5 line linewidth 1.0
-@    s5 line color 1
-@    s5 line pattern 1
+@    s5 line color 2
+@    s5 line pattern 0
 @    s5 baseline type 0
 @    s5 baseline off
 @    s5 dropline off
@@ -623,7 +643,7 @@
 @    s5 avalue offset 0.000000 , 0.000000
 @    s5 errorbar on
 @    s5 errorbar place both
-@    s5 errorbar color 1
+@    s5 errorbar color 2
 @    s5 errorbar pattern 1
 @    s5 errorbar size 1.000000
 @    s5 errorbar linewidth 1.0
@@ -632,8 +652,8 @@
 @    s5 errorbar riser linestyle 1
 @    s5 errorbar riser clip off
 @    s5 errorbar riser clip length 0.100000
-@    s5 comment "Editor"
-@    s5 legend  ""
+@    s5 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/stackedFisher/sigmaNLow.dat"
+@    s5 legend  "\xs\f{}\SA\N\sN\N"
 @    s6 hidden false
 @    s6 type xy
 @    s6 symbol 0
@@ -883,27 +903,27 @@
 @    s11 type xy
 @    s11 symbol 0
 @    s11 symbol size 1.000000
-@    s11 symbol color 12
+@    s11 symbol color 1
 @    s11 symbol pattern 1
-@    s11 symbol fill color 12
+@    s11 symbol fill color 1
 @    s11 symbol fill pattern 0
 @    s11 symbol linewidth 1.0
-@    s11 symbol linestyle 3
+@    s11 symbol linestyle 1
 @    s11 symbol char 65
 @    s11 symbol char font 0
 @    s11 symbol skip 0
 @    s11 line type 1
-@    s11 line linestyle 4
-@    s11 line linewidth 2.0
-@    s11 line color 12
+@    s11 line linestyle 2
+@    s11 line linewidth 1.0
+@    s11 line color 1
 @    s11 line pattern 1
 @    s11 baseline type 0
 @    s11 baseline off
 @    s11 dropline off
-@    s11 fill type 2
+@    s11 fill type 0
 @    s11 fill rule 0
-@    s11 fill color 12
-@    s11 fill pattern 0
+@    s11 fill color 1
+@    s11 fill pattern 1
 @    s11 avalue off
 @    s11 avalue type 2
 @    s11 avalue char size 1.000000
@@ -917,7 +937,7 @@
 @    s11 avalue offset 0.000000 , 0.000000
 @    s11 errorbar on
 @    s11 errorbar place both
-@    s11 errorbar color 12
+@    s11 errorbar color 1
 @    s11 errorbar pattern 1
 @    s11 errorbar size 1.000000
 @    s11 errorbar linewidth 1.0
@@ -927,7 +947,7 @@
 @    s11 errorbar riser clip off
 @    s11 errorbar riser clip length 0.100000
 @    s11 comment "Editor"
-@    s11 legend  "Systematic Errors"
+@    s11 legend  ""
 @    s12 hidden false
 @    s12 type xy
 @    s12 symbol 1
@@ -975,27 +995,281 @@
 @    s12 errorbar riser linestyle 1
 @    s12 errorbar riser clip off
 @    s12 errorbar riser clip length 0.100000
-@    s12 comment "Editor"
+@    s12 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/stackedFisher/sigma1.dat"
 @    s12 legend  ""
+@    s13 hidden false
+@    s13 type xy
+@    s13 symbol 1
+@    s13 symbol size 1.000000
+@    s13 symbol color 4
+@    s13 symbol pattern 1
+@    s13 symbol fill color 4
+@    s13 symbol fill pattern 0
+@    s13 symbol linewidth 2.0
+@    s13 symbol linestyle 1
+@    s13 symbol char 65
+@    s13 symbol char font 0
+@    s13 symbol skip 0
+@    s13 line type 0
+@    s13 line linestyle 1
+@    s13 line linewidth 1.0
+@    s13 line color 15
+@    s13 line pattern 1
+@    s13 baseline type 0
+@    s13 baseline off
+@    s13 dropline off
+@    s13 fill type 0
+@    s13 fill rule 0
+@    s13 fill color 1
+@    s13 fill pattern 1
+@    s13 avalue off
+@    s13 avalue type 2
+@    s13 avalue char size 1.000000
+@    s13 avalue font 0
+@    s13 avalue color 1
+@    s13 avalue rot 0
+@    s13 avalue format general
+@    s13 avalue prec 3
+@    s13 avalue prepend ""
+@    s13 avalue append ""
+@    s13 avalue offset 0.000000 , 0.000000
+@    s13 errorbar on
+@    s13 errorbar place both
+@    s13 errorbar color 4
+@    s13 errorbar pattern 1
+@    s13 errorbar size 1.000000
+@    s13 errorbar linewidth 1.0
+@    s13 errorbar linestyle 1
+@    s13 errorbar riser linewidth 1.0
+@    s13 errorbar riser linestyle 1
+@    s13 errorbar riser clip off
+@    s13 errorbar riser clip length 0.100000
+@    s13 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/stackedFisher/sigma1_nrtidal.dat"
+@    s13 legend  ""
+@    s14 hidden false
+@    s14 type xy
+@    s14 symbol 0
+@    s14 symbol size 1.000000
+@    s14 symbol color 13
+@    s14 symbol pattern 1
+@    s14 symbol fill color 13
+@    s14 symbol fill pattern 0
+@    s14 symbol linewidth 1.0
+@    s14 symbol linestyle 1
+@    s14 symbol char 65
+@    s14 symbol char font 0
+@    s14 symbol skip 0
+@    s14 line type 1
+@    s14 line linestyle 3
+@    s14 line linewidth 2.5
+@    s14 line color 13
+@    s14 line pattern 1
+@    s14 baseline type 0
+@    s14 baseline off
+@    s14 dropline off
+@    s14 fill type 0
+@    s14 fill rule 0
+@    s14 fill color 9
+@    s14 fill pattern 14
+@    s14 avalue off
+@    s14 avalue type 2
+@    s14 avalue char size 1.000000
+@    s14 avalue font 0
+@    s14 avalue color 1
+@    s14 avalue rot 0
+@    s14 avalue format general
+@    s14 avalue prec 3
+@    s14 avalue prepend ""
+@    s14 avalue append ""
+@    s14 avalue offset 0.000000 , 0.000000
+@    s14 errorbar on
+@    s14 errorbar place both
+@    s14 errorbar color 13
+@    s14 errorbar pattern 1
+@    s14 errorbar size 1.000000
+@    s14 errorbar linewidth 1.0
+@    s14 errorbar linestyle 1
+@    s14 errorbar riser linewidth 1.0
+@    s14 errorbar riser linestyle 1
+@    s14 errorbar riser clip off
+@    s14 errorbar riser clip length 0.100000
+@    s14 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/stackedFisher/sigmaNLow_nrtidal.dat"
+@    s14 legend  ""
+@    s15 hidden false
+@    s15 type xy
+@    s15 symbol 0
+@    s15 symbol size 1.000000
+@    s15 symbol color 13
+@    s15 symbol pattern 1
+@    s15 symbol fill color 13
+@    s15 symbol fill pattern 0
+@    s15 symbol linewidth 1.0
+@    s15 symbol linestyle 1
+@    s15 symbol char 65
+@    s15 symbol char font 0
+@    s15 symbol skip 0
+@    s15 line type 1
+@    s15 line linestyle 3
+@    s15 line linewidth 2.5
+@    s15 line color 13
+@    s15 line pattern 1
+@    s15 baseline type 0
+@    s15 baseline off
+@    s15 dropline off
+@    s15 fill type 0
+@    s15 fill rule 0
+@    s15 fill color 9
+@    s15 fill pattern 14
+@    s15 avalue off
+@    s15 avalue type 2
+@    s15 avalue char size 1.000000
+@    s15 avalue font 0
+@    s15 avalue color 1
+@    s15 avalue rot 0
+@    s15 avalue format general
+@    s15 avalue prec 3
+@    s15 avalue prepend ""
+@    s15 avalue append ""
+@    s15 avalue offset 0.000000 , 0.000000
+@    s15 errorbar on
+@    s15 errorbar place both
+@    s15 errorbar color 13
+@    s15 errorbar pattern 1
+@    s15 errorbar size 1.000000
+@    s15 errorbar linewidth 1.0
+@    s15 errorbar linestyle 1
+@    s15 errorbar riser linewidth 1.0
+@    s15 errorbar riser linestyle 1
+@    s15 errorbar riser clip off
+@    s15 errorbar riser clip length 0.100000
+@    s15 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/stackedFisher/sigmaNHigh_nrtidal.dat"
+@    s15 legend  ""
+@    s16 hidden false
+@    s16 type xy
+@    s16 symbol 0
+@    s16 symbol size 1.000000
+@    s16 symbol color 13
+@    s16 symbol pattern 1
+@    s16 symbol fill color 13
+@    s16 symbol fill pattern 0
+@    s16 symbol linewidth 1.0
+@    s16 symbol linestyle 1
+@    s16 symbol char 65
+@    s16 symbol char font 0
+@    s16 symbol skip 0
+@    s16 line type 1
+@    s16 line linestyle 3
+@    s16 line linewidth 2.5
+@    s16 line color 13
+@    s16 line pattern 1
+@    s16 baseline type 0
+@    s16 baseline off
+@    s16 dropline off
+@    s16 fill type 0
+@    s16 fill rule 0
+@    s16 fill color 9
+@    s16 fill pattern 14
+@    s16 avalue off
+@    s16 avalue type 2
+@    s16 avalue char size 1.000000
+@    s16 avalue font 0
+@    s16 avalue color 1
+@    s16 avalue rot 0
+@    s16 avalue format general
+@    s16 avalue prec 3
+@    s16 avalue prepend ""
+@    s16 avalue append ""
+@    s16 avalue offset 0.000000 , 0.000000
+@    s16 errorbar on
+@    s16 errorbar place both
+@    s16 errorbar color 13
+@    s16 errorbar pattern 1
+@    s16 errorbar size 1.000000
+@    s16 errorbar linewidth 1.0
+@    s16 errorbar linestyle 1
+@    s16 errorbar riser linewidth 1.0
+@    s16 errorbar riser linestyle 1
+@    s16 errorbar riser clip off
+@    s16 errorbar riser clip length 0.100000
+@    s16 comment "Editor"
+@    s16 legend  "\xs\f{}\SA\N\sN\N (IMRD+NRTidal)"
+@    s18 hidden false
+@    s18 type xy
+@    s18 symbol 0
+@    s18 symbol size 1.000000
+@    s18 symbol color 12
+@    s18 symbol pattern 1
+@    s18 symbol fill color 12
+@    s18 symbol fill pattern 0
+@    s18 symbol linewidth 1.0
+@    s18 symbol linestyle 3
+@    s18 symbol char 65
+@    s18 symbol char font 0
+@    s18 symbol skip 0
+@    s18 line type 1
+@    s18 line linestyle 4
+@    s18 line linewidth 2.0
+@    s18 line color 12
+@    s18 line pattern 1
+@    s18 baseline type 0
+@    s18 baseline off
+@    s18 dropline off
+@    s18 fill type 2
+@    s18 fill rule 0
+@    s18 fill color 12
+@    s18 fill pattern 0
+@    s18 avalue off
+@    s18 avalue type 2
+@    s18 avalue char size 1.000000
+@    s18 avalue font 0
+@    s18 avalue color 1
+@    s18 avalue rot 0
+@    s18 avalue format general
+@    s18 avalue prec 3
+@    s18 avalue prepend ""
+@    s18 avalue append ""
+@    s18 avalue offset 0.000000 , 0.000000
+@    s18 errorbar on
+@    s18 errorbar place both
+@    s18 errorbar color 12
+@    s18 errorbar pattern 1
+@    s18 errorbar size 1.000000
+@    s18 errorbar linewidth 1.0
+@    s18 errorbar linestyle 1
+@    s18 errorbar riser linewidth 1.0
+@    s18 errorbar riser linestyle 1
+@    s18 errorbar riser clip off
+@    s18 errorbar riser clip length 0.100000
+@    s18 comment "Editor"
+@    s18 legend  "\xl\f{}\s0\N Systematic Errors"
 @target G0.S0
 @type xy
-32.4 168.39675
-90.74 75.438931
-180.95 31.544448
-428.89 16.685983
-1398.03 4.8521035
-2807.45 6.2619554
+32.4 26.525244
+90.74 17.103913
+180.95 7.1163412
+428.89 3.9378726
+1398.03 1.0712133
+2807.45 1.1950012
 &
 @target G0.S1
 @type xy
-32.4 168.39675
-90.74 117.02219
-180.95 27.622045
-428.89 8.568151
-1398.03 0.78426189
-2807.45 0.34598362
+32.4 17.646275
+90.74 11.266278
+180.95 4.5624432
+428.89 2.5557289
+1398.03 0.80476279
+2807.45 0.87223368
 &
 @target G0.S2
+@type xy
+32.4 26.525244
+90.74 28.506303
+180.95 9.185229
+428.89 3.2671173
+1398.03 0.60271529
+2807.45 0.57820285
+&
+@target G0.S3
 @type xy
 90.74 42.891502
 180.95 13.364638
@@ -1003,16 +1277,16 @@
 1398.03 0.35405934
 2807.45 0.15771194
 &
-@target G0.S3
-@type xy
-32.4 168.39675
-90.74 24.265168
-180.95 7.363285
-428.89 2.1618086
-1398.03 0.20224535
-2807.45 0.1
-&
 @target G0.S4
+@type xy
+32.4 26.525244
+90.74 7.3239046
+180.95 2.1264583
+428.89 0.83438109
+1398.03 0.15333342
+2807.45 0.14868866
+&
+@target G0.S5
 @type xy
 32.4 558.18228
 90.74 117.02219
@@ -1020,47 +1294,79 @@
 428.89 8.568151
 1398.03 0.78426189
 &
-@target G0.S5
+@target G0.S6
 @type xy
 32.4 0
 32.4 1000
 &
-@target G0.S6
+@target G0.S7
 @type xy
 90.74 0
 90.74 1000
 &
-@target G0.S7
+@target G0.S8
 @type xy
 180.95 0
 180.95 1000
 &
-@target G0.S8
+@target G0.S9
 @type xy
 428.89 0
 428.89 1000
 &
-@target G0.S9
+@target G0.S10
 @type xy
 1398.03 0
 1398.03 1000
 &
-@target G0.S10
+@target G0.S11
 @type xy
 2807.45 0
 2807.45 1000
 &
-@target G0.S11
-@type xy
-1 12.014
-10000 12.014
-&
 @target G0.S12
 @type xy
-32.4 168.39675
-90.74 75.438931
-180.95 31.544448
-428.89 16.685983
-1398.03 4.8521035
-2807.45 6.2619554
+32.4 26.525244
+90.74 17.103913
+180.95 7.1163412
+428.89 3.9378726
+1398.03 1.0712133
+2807.45 1.1950012
+&
+@target G0.S13
+@type xy
+32.4 17.646275
+90.74 11.266278
+180.95 4.5624432
+428.89 2.5557289
+1398.03 0.80476279
+2807.45 0.87223368
+&
+@target G0.S14
+@type xy
+32.4 17.646275
+90.74 19.452846
+180.95 5.448033
+428.89 2.1200244
+1398.03 0.45157024
+2807.45 0.42454804
+&
+@target G0.S15
+@type xy
+32.4 17.646275
+90.74 4.7744349
+180.95 1.3669518
+428.89 0.53813975
+1398.03 0.1161017
+2807.45 0.10897029
+&
+@target G0.S16
+@type xy
+2807.45 0.10897029
+2807.45 0.42454804
+&
+@target G0.S18
+@type xy
+1 2.06
+10000 2.06
 &
