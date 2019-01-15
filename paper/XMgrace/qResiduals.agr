@@ -90,7 +90,7 @@
 @timestamp rot 0
 @timestamp font 0
 @timestamp char size 1.000000
-@timestamp def "Mon Jan 14 14:42:51 2019"
+@timestamp def "Mon Jan 14 21:50:31 2019"
 @r0 off
 @link r0 to g0
 @r0 type above
@@ -603,6 +603,6 @@
 &
 @target G0.S2
 @type xy
-0.2 1.06
-1.2 1.06
+0.2 2.06
+1.2 2.06
 &
