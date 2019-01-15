@@ -75,7 +75,7 @@ We conclude that the systematic errors injected from the use of improved EoS-ins
 %Intro
 The dependence of pressure on density for cold supranuclear matter found inside neutron stars (NSs) remains to be one of the largest mysteries in both nuclear physics and astrophysics.
 This internal structure of such stars, known as the equation of state (EoS), is exceedingly important, as it is the determining factor for many NS observables - such as the mass, the radius, and many more.
-Unfortunately, terrestrial experiments can only study the EoS to around the nuclear saturation density ($\rho_{\text{sat}} \approx 2.5 \times 10^{14} \text{ g/cm}^3$)~\cite{Li:HeavyIon,Tsang:SymmetryEnergy,Centelles:NeutronSkin,Li:CrossSections,Chen:SymEnergy} (although some temperature-dependent heavy-ion collision experiments may probe higher densities \zc{Katerina do you know of any papers on this?}), making NSs ideal laboratories for constraining ultra dense nuclear matter.
+Unfortunately, terrestrial experiments can only study the EoS to around the nuclear saturation density ($\rho_{\text{sat}} \approx 2.5 \times 10^{14} \text{ g/cm}^3$)~\cite{Li:HeavyIon,Tsang:SymmetryEnergy,Centelles:NeutronSkin,Li:CrossSections,Chen:SymEnergy} (although some temperature-dependent heavy-ion collision experiments may probe higher densities \zc{Katerina do you know of any papers on this?} {\ny{Look up the PREX and CREX experiments at JLab (a good author is Horowitz, e.g. Abrahamyan:2012gp, Horowitz:2012tj, Horowitz:2013wha)}}), making NSs ideal laboratories for constraining ultra dense nuclear matter.
 
 %Constraining the EoS
 Independent measurements of NS observables can be used to constrain the nuclear EoS.
@@ -113,6 +113,7 @@ To estimate the effect of waveform mismodeling, we additionally consider two dif
 
 \subsection{Executive Summary}
 \zc{Me and Kent discussed whether or not we should include this section or not, and we decided like having the quick summary for busy readers - especially with the increasing number of figs and tables (8 tables, 14 figures so far). We can discuss this further if anyone doesn't want it included :)}
+{\ny{I'm ok with keeping this, but let's get the science finished first.}}
 %What we did
 In this paper we attempt to improve I-Love-Q, C-Love, and binary Love EoS-insensitive relations by imposing constraints on the EoS found by GW170817~\cite{LIGO:posterior,TheLIGOScientific:2017qsa}.
 First, we generate two large samples of spectral EoSs~\cite{Lindblom:2018rfr}, where we (i) impose the restriction that they must be drawn from GW170817s 90\% credible posterior in pressure as a function of density, and (ii) don't impose any restrictions for comparison purposes.
@@ -170,7 +171,7 @@ The equation of state is then determined by an integration of the differential e
 \begin{equation}
 \frac{d \epsilon(p)}{dp}=\frac{\epsilon(p)+p}{p \Gamma(p)}.
 \end{equation}
-Using this formalism, any valid EoS can be approximated through choice of 4 or more spectral coefficients $\gamma_k$, tabulated for several common EoSs in Table 1 of~\cite{Lindblom:2018rfr}.
+Using this formalism, any valid EoS can be approximated through the choice of 4 or more spectral coefficients $\gamma_k$, tabulated for several common EoSs in Table 1 of~\cite{Lindblom:2018rfr}.
 
 In the current analysis, we consider EoSs which have been constrained by the recent binary neutron star merger event, GW170817.
 Important recent work~\cite{LIGO:posterior,Carney:2018sdv} sampled EoS parameters in order to derive a marginalized posterior on the pressure as a function of mass density, as seen in Fig. 2 of~\cite{LIGO:posterior}.
@@ -243,16 +244,16 @@ Here, $\tilde{\Lambda}$ is known as the mass weighted tidal deformability, or \e
 
 \subsection{EoS insensitive relations}\label{sec:eosInsensitive}
 Current gravitational wave interferometry is not yet sensitive enough to accurately extract both tidal parameters $\tilde{\Lambda}$ and $\delta\tilde{\Lambda}$.
-In a search to remedy this, important previous work by Yagi and Yunes~\cite{Yagi:binLove} found that symmetric and antisymmetric combinations of tidal deformabilities:
+In a search to remedy this, Yagi and Yunes~\cite{Yagi:binLove} found that symmetric and antisymmetric combinations of tidal deformabilities:
 \begin{equation}
 \Lambda_s \equiv \frac{\Lambda_1 + \Lambda_2}{2}, \hspace{6mm} \Lambda_a \equiv \frac{\Lambda_1 - \Lambda_2}{2},
 \end{equation}
 display EoS-insensitive properties to a high degree, showing EoS variations up to 20\% for binaries with masses less than $1.7 \text{ M}_{\odot}$, for a representative set of 11 EoSs. 
-These relations, known as ``binary Love EoS insensitive relations" allows one to break degeneracies between coupled tidal parameters.
+These ``binary Love relations" allow one to break degeneracies between coupled tidal parameters.
 This is important for two reasons: (i) allows us to algebraically eliminate tidal parameters from the template parameter list, improving parameter estimation, and (ii) automatic measurement of second tidal parameter given observation of the first.
 It was shown through a simple Fisher analysis that the use of binary Love EoS-insensitive relations improved parameter extraction on $\tilde{\Lambda}$ by an order of magnitude.
 
-Similar EoS-insensitive relations have been found to exist between individual NS observables: moment of inertia (I), tidal deformability (Love), quadrupole moment (Q), and compactness (C), known as the ``I-Love-Q" and ``C-Love" EoS-insensitive relations~\cite{Yagi:ILQ, Yagi:binLove}.
+Similar EoS-insensitive relations have been found to exist between individual NS observables: moment of inertia (I), tidal deformability (Love), quadrupole moment (Q), and compactness (C), known as the ``I-Love-Q" and ``C-Love" relations~\cite{Yagi:ILQ, Yagi:binLove}.
 These have been found to be EoS insensitive by up to 1\% and 6.5\% respectively.
 In this paper, we show improvement in both of these EoS-insensitive relations by restricting to EoSs sampled from GW170817s posterior on pressure as a function of density.
 %%%%%%%%%%%%%%%%%%%%%%%%% Begin universal relations %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -262,8 +263,10 @@ In this section, we follow the analyses performed in~\cite{Yagi:binLove,Yagi:ILQ
 \subsection{I-Love-Q relations}\label{sec:ilq}
 Here we present our results on I-Love-Q universality as compared to Fig. 1 of Yagi and Yunes~\cite{Yagi:ILQ}.
 In particular, we consider two distinct classes of NSs: nuclear matter EoSs and hybrid quark-hadron star EoSs as described in Sec.~\ref{sec:theory}.
-We begin in Sec.~\ref{sec:ilq-nuc} by fitting the new I-Love-Q EoS-insensitive relations using the constrained set of EoSs.
+We begin in Sec.~\ref{sec:ilq-nuc} by fitting the new I-Love-Q relations using the constrained set of EoSs.
 This is followed in Sec.~\ref{sec:ilq-hyb} by an analysis and discussion into how well hybrid stars agree with the improved binary Love relations. 
+
+{\ny{Overall, let's not call these relations ``I-Love-Q EOS insensitive relations'' or ``binary love EOS insensitive relations.''  It's much better to be brief and simply call them I-Love-Q relations and Binary Love relations (like is done in the literature). It should be clear when we define them that they are EOS insensitive}}
 
 \subsubsection{Nuclear matter stars}\label{sec:ilq-nuc}
 Following the work of Ref.~\cite{Yagi:ILQ}, the data for each EoS-insensitive relation is first fit to the following curve:
@@ -324,7 +327,7 @@ This fitting relation, unlike previous versions, properly limits to the Newtonia
 \end{tabular}
 \end{table*}
 
-Fig.~\ref{fig:ILQ} shows the improved I-Love EoS-insensitive relations between the dimensionless moment of inertia $\bar{I} \equiv I/M^3$, the dimensionless quadrupole moment $\bar{Q} \equiv Q/M^3$, and the dimensionless tidal deformability $\Lambda$ for both the constrained and unconstrained sets of EoSs (each with individual fits pertaining to only that set of EoSs).
+Fig.~\ref{fig:ILQ} shows the improved I-Love EoS-insensitive relations between the dimensionless moment of inertia $\bar{I} \equiv I/M^3$, the dimensionless quadrupole moment $\bar{Q} \equiv Q/M^3$, and the dimensionless tidal deformability $\Lambda$ for both the constrained and unconstrained sets of EoSs (each with individual fits pertaining to only that set of EoSs {\ny{I think we should here say which fit we are using (I think you are using the new one.)}}).
 We observe that the constrained EoSs show considerable improvement from both the results of previous works~\cite{Yagi:ILQ}, and from the unconstrained EoSs.
 This is further validated in Tab.~\ref{tab:maxVar}, where the maximal EoS variation from each fit is tabulated; comparing the results of previous works to the unconstrained, and constrained sets of EoSs.
 Observe how the constrained EoSs outperform both other cases by a considerable amount for each I-Love-Q EoS-insensitive relation.
@@ -428,8 +431,11 @@ The second case is demonstrated in Fig.~\ref{fig:ILQ}.
 
 Observe how the hybrid star EoSs do obey the I-Love-Q EoS-insensitive relations up to $\sim1.7$\%, slightly higher than that found here for nuclear matter EoSs, as well as that found in previous works~\cite{Yagi:ILQ}.
 Further, we observe that the universality can not be improved by much through the introduction of new fits, only bringing the max EoS variation down to $\sim1$\% for the fits constructed with only hybrid star EoSs.
-Concluding, we claim that hybrid star EoSs \emph{do} obey the I-Love-Q EoS-insensitive relations computed through nuclear EoS data, with the exception that the universality goes up to $\sim1.7$\%. 
+Concluding, we claim that hybrid star EoSs \emph{do} obey the I-Love-Q EoS-insensitive relations computed through nuclear EoS data, but the lack of universality goes up to $\sim1.7$\%. 
 
+{\ny{This is a bit strange, but probably still correct. But ``this'' I mean the fact that when you fit only to the hybrid stars you do not get better than $1\%$ universality. Why is this?}}
+
+{\ny{UP TO HERE}}
 
 \subsection{C-Love Relations}\label{sec:clove}
 In this section we consider approximate C-Love EoS-insensitive relations between NS compactness $C \equiv M/R$ and unitless tidal deformability $\Lambda$, as discussed by Yagi and Yunes~\cite{Yagi:binLove}.
