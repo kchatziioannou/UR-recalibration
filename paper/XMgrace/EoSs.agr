@@ -90,7 +90,7 @@
 @timestamp rot 0
 @timestamp font 0
 @timestamp char size 1.000000
-@timestamp def "Thu Dec 20 12:56:46 2018"
+@timestamp def "Sat Jan 26 21:37:19 2019"
 @with box
 @    box on
 @    box loctype view
@@ -147,7 +147,7 @@
 @g0 fixedpoint format general general
 @g0 fixedpoint prec 6, 6
 @with g0
-@    world 8e+13, 9e+31, 4e+15, 2e+37
+@    world 8e+13, 9e+31, 2e+15, 2e+37
 @    stack world 0, 0, 0, 0
 @    znorm 1
 @    view 0.180000, 0.150000, 0.730000, 0.850000
@@ -453,7 +453,7 @@
 @g2 fixedpoint format general general
 @g2 fixedpoint prec 6, 6
 @with g2
-@    world 8e+13, 9e+31, 4e+15, 2e+37
+@    world 9e+13, 9e+31, 3.18e+15, 2e+37
 @    stack world 0, 0, 0, 0
 @    znorm 1
 @    view 0.250000, 0.150000, 1.150000, 0.850000
