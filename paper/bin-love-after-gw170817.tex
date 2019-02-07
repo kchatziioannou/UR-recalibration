@@ -123,8 +123,6 @@ Further, we estimate the viability of using improved EoS-insensitive relations o
 To estimate the effect of waveform mismodeling, we additionally consider two different tidal corrections to the injected PhenomD~\cite{PhenomDI,PhenomDII} waveform: 6PN~\cite{Wade:tidalCorrections} and NRTidal~\cite{Samajdar:NRTidal}
 
 \subsection{Executive Summary}
-\zc{Me and Kent discussed whether or not we should include this section or not, and we decided like having the quick summary for busy readers - especially with the increasing number of figs and tables (8 tables, 14 figures so far). We can discuss this further if anyone doesn't want it included :)}
-{\ny{I'm ok with keeping this, but let's get the science finished first.}}
 %What we did
 In this paper we attempt to improve I-Love-Q, C-Love, and binary Love relations by imposing constraints on the EoS found by GW170817~\cite{LIGO:posterior,TheLIGOScientific:2017qsa}.
 First, we generate two large samples of spectral EoSs~\cite{Lindblom:2018rfr}, where we (i) impose the restriction that they must be drawn from GW170817s 90\% credible posterior in pressure as a function of density, and (ii) don't impose any restrictions for comparison purposes.
@@ -148,12 +146,13 @@ Also shown in the figure is the same measurement uncertainties upon the injectio
 \includegraphics[width=\columnwidth]{stackedFisher.eps}
 \end{center}
 \caption{
-Estimated statistical uncertainties $\sigma^A_{\text{GW170817}}$ (blue circles) in the extraction of $\lambda_0$ from GW170817 (O2 detector sensitivity) as if it were observed with future interferometers aLIGO, A\texttt{+}, Voyager, CE, and ET-D as a function of the signal-to-noise-ratio $\rho^A_{\text{GW170817}}$.
-This is compared to the combined uncertainty $\sigma^A_N$ (turquoise shaded region) from the observation of multiple events from a simulated population of size $N_A$ corresponding to the upper and lower limits of the expected binary NS merger detection rates for O2, aLIGO, A\texttt{+}, Voyager, CE, and ET-D over 1 observation year.
-It can be seen that the statistical errors in the parameter extraction become comparable to the systematics from EoS variation in improved binary Love relations (indigo dashed line) for Voyager CE, and ET.
+Estimated statistical uncertainties on the extraction of $\lambda_0$ observed from interferometers $A=$(O2, aLIGO, A\texttt{+}, Voyager, CE, ET-D$)$ as a function of the signal-to-noise-ratio.
+In this figure, the filled blue circles denote the single-event statistical uncertainties $\sigma^A_{\text{GW170817}}$ of GW170817 as if it were observed on detector $A$.
+Also shown by the turquoise shaded region is combined uncertainty $\sigma^A_N$  from the observation of multiple events from a simulated population of size $N_A$ corresponding to the upper and lower limits of the expected binary NS merger detection rates for O2, aLIGO, A\texttt{+}, Voyager, CE, and ET-D over 1 observation year.
+It can be seen that the statistical errors in the parameter extraction become comparable to the systematics from EoS variation in the improved binary Love relations (indicated by the horizontal indigo dashed line) for Voyager, CE, and ET.
 These results are further tabulated in Table~\ref{tab:variances}.
 Additionally shown in the figure are the estimated statistical uncertainties on the extraction of $\lambda_0$ upon the injection of the PhenomD + NRTidal correction waveform (IMRD + NRTidal), rather than the PhenomD + 6PN tidal correction (IMRD + 6PN), in order to demonstrate the effect of waveform mismodeling uncertainties.
-The single-detection uncertainties are shown by unfilled blue circles, while the combined detection uncertainties are outlined by dashed maroon.
+The single-detection uncertainties are shown by unfilled maroon circles, while the combined detection uncertainties are outlined by dashed maroon.
 }
 \label{fig:stackedFisher}
 \end{figure} 
@@ -437,21 +436,7 @@ The second case is demonstrated in Fig.~\ref{fig:ILQ}.
 
 Observe how the hybrid star EoSs obey the I-Love-Q relations in each case by up to $\sim1.7$\%, slightly higher than that found for nuclear matter EoSs in previous works~\cite{Yagi:ILQ}.
 Further, we observe that the universality can not be improved by much through the introduction of new fits, only bringing the max EoS variation down to $\sim1$\% for the fits constructed with only hybrid star EoSs.
-Concluding, we claim that hybrid star EoSs \emph{do} obey the I-Love-Q relations computed through nuclear EoS data, with a decrease in universality to $\sim1.7$\%. 
-
-{\ny{Can I see the relative fractional different between each fit and the data for hybrid stars only? (ie. the analogous thing to the green dashed lines of the figure below, but also with the fits to the total set, to just the hybrids and to just the neutron stars.) I wonder whether there is any improvement at all when you fit just to hybrid stars or whether there are any features.}}
-{\zc{Nico, Yes of course! I've added a new figure (for example only - this can be removed later) - Fig.~\ref{fig:example} showing the fractional difference for hybrid stars only for the three cases shown in the text. Looking at the figures, they don't change much at all in shape for the first two cases - just a minor vertical shift. The third case (fits to hybrids only) looks different but not by much.}}
-{\ny{Ok, this makes more sense to me now. The universality does increase, but only by a small amount (which you did say before -- something like from 1.7 to 1 per cent.). Ok, we can remove these figures and these comments if you'd like. }}
-\begin{figure}
-\begin{center} 
-\includegraphics[width=\columnwidth]{compareHybrid.pdf}
-\end{center}
-\caption{
-\zc{Example figure applying to Nicos comment on the differences between the three different cases of Hybrid star fits: Case I - Complete set of 100 constrained EoSs combined
-with the 10 hybrid star EoSs, Case II - Complete set of 100 constrained EoSs alone, Case III - Complete set of 10 hybrid star EoSs alone.}
-}
-\label{fig:example}
-\end{figure} 
+Concluding, we claim that hybrid star EoSs \emph{do} obey the I-Love-Q relations computed through nuclear EoS data, with a decrease in universality to $\sim1.7$\%.  
 
 \subsection{C-Love Relations}\label{sec:clove}
 In this section we consider approximately EoS-insensitive C-Love relations between NS compactness $C \equiv M/R$ and unitless tidal deformability $\Lambda$, as discussed by Yagi and Yunes~\cite{Yagi:binLove}.
@@ -493,7 +478,6 @@ In addition, Fig.~\ref{fig:rlove} displays the relationship between the NS radiu
 This relationship is computed directly from the C-Love relations discussed above as $R(\Lambda)=m/C(\Lambda)$ for observed mass $m=1.48\text{ M}_{\odot}$ from GW170817.
 We also present the uncertainty on a NS radius measurement using the C-Love relations in the bottom panel of Fig.~\ref{fig:rlove}, defined as the absolute difference from the fits.
 We observe a large suppression in the radius measurement accuracy from the unconstrained set of EoSs to the constrained set, tabulated in Tab.~\ref{tab:maxVar} as the maximal EoS measurement uncertainty.
-{\ny{That's a good idea. But it is not immediately obvious that this will help. Kent and I have found that when you look at relations between dimensionless quantities, then the universality is typically stronger than when you use dimensionful quantities (incidentally, this is why the Doneva paper about rapidly-rotating I-Love-Q is wrong, as pointed out by Haris and George).}}
 
 \begin{figure}
 \begin{center} 
@@ -586,23 +570,10 @@ The bottom row corresponds to separate fits corresponding to the hybrid star bra
 \end{table*}
 
 Figure~\ref{fig:binLove} shows the improved binary Love relation for 3 different mass ratios: $q=0.9$, $q=0.75$, and $q=0.5$ for both the constrained and unconstrained sets of EoSs.
-\zc{need to decide if using fractional or actual here}
 Observe how once again, the constrained set of EoSs show a considerable improvement upon both the unconstrained set of EoSs, as well as the results found in previous works~\cite{Yagi:binLove}.
 Additionally, the unconstrained set of EoSs show similar, yet slightly larger EoS variation than was previously found in Ref.~\cite{Yagi:binLove} due to the random sampling taken into account in this analysis.
 Once again, the maximum EoS variability (in terms of fractional difference from the fit for comparison purposes) is tabulated in Tab.~\ref{tab:maxVar} for each value of mass ratio.
 
-{\ny{I get why you are plotting the absolute difference but 
-\begin{itemize}
-\item[(i)] everywhere else in the paper you are plotting the relative fractional difference, so a reader that doesn't pay much attention (and say misses the 1 sentence in the paragraph above -- by the way, I think the caption is wrong and should say the absolute difference instead of the fractional difference, no? --) will look at the axis and say: Wow! 100\% error...that's bad!. This is a problem, I don't have a solution for it (except for reverting to relative fractional differences) but it should not be ignored. 
-\item[(ii)] it is hard to see easily what this error means in terms of EoS-variability. Say for example we pick the q=0.9 hybrid star case at Lambdas of 100. I can easily read that there is EoS variability of about 20. But to see if this 20 is a lot or a little, I have to compare with the top figure, from which I get that Lambdaa is about 60 or 70 (if I use a ruler on my computer screen). Now I have to take these two approximate numbers and compare them, but because they are approximate, it's hard to see whether this is a 30 per cent difference, a 50 percent difference or what.
-\end{itemize}
-}}
-{\zc{I agree completely - and I think we should discuss over Skype what should be done for this plot (Both versions (absolute and fractional) are loaded in the images folder, just comment out the image name in the figure to change it.)
-Also, the caption is correct - It says that the absolute differences are shown in the plot, while fractional ones are listed in Table III (in order to easily compare to other universal relations and to previous works.)}}
-
-{\ny{I must have missed something. Why do the unconstrained magenta lines extend way passed the constrained green lines? I didn't see this discussed anywhere.}}
-{\zc{This is because I've cut all the EoSs off at masses of 1 M$_{\odot}$, and typically the unconstrained EoSs (maroon) have larger ranges of $\Lambda$ than the unconstrained ones. So when we take $\Lambda_1+\Lambda_2$, we end up getting higher values of $\Lambda_s$ for the unconstrained EoSs than we do for the constrained ones.}}
-{\ny{Ahh...yes, makes sense. Please add a sentence or two about this in the text.}}
 \begin{figure}
 \begin{center} 
 \includegraphics[width=\linewidth]{binLoveAbsolute.eps}%{binLove.eps}
@@ -621,8 +592,7 @@ This is shown in the bottom three panels as the absolute difference from the NS 
 
 \subsubsection{Hybrid quark-hadron stars}\label{sec:binLove-hybrid}
 As described in Sec.~\ref{sec:theory}, transitional quark-hadron matter stars undergo first-order phase transitions at pressure $P_{\text{tr}}$, where the hadronic branch departs into a quark-matter branch at the corresponding transitional mass $M_{\text{tr}}$.
-These transitions result in two distinct types of NSs, based on their observed mass: (i) massive ($M \geq M_{\text{tr}}$) hybrid stars which have quark-matter cores and nuclear matter crusts (we denote this as ``HS"), and (ii) low-mass ($M \leq M_{\text{tr}}$) hadronic stars with no internal transition to quark matter (we denote this as ``NS"). {\ny{ooohh...I'm not sure I like the acronyms here. NS typically stands for ``neutron star'' of standard type, like what you would construct from an APR EoS. But here by NS you mean a low-mass neutron star specifically. Let's pick a better acronym.}}
-{\zc{We can discuss this over Skype - me and Kent like ``NS" because the low-mass branch of the hybrid star EoS \emph{is} actually a nuclear matter ``NS" EoS - these hybrid stars are derived by introducing a transition to standard NS EoSs.}} 
+These transitions result in two distinct types of NSs, based on their observed mass: (i) massive ($M \geq M_{\text{tr}}$) hybrid stars which have quark-matter cores and nuclear matter crusts (we denote this as ``HS"), and (ii) low-mass ($M \leq M_{\text{tr}}$) hadronic stars with no internal transition to quark matter (we denote this as ``NS").
 We consider 3 classes of binary systems in this analysis:
 \begin{itemize}
 \item HS/NS binary: consists of one massive hybrid star, and one small hadronic neutron star,
@@ -652,7 +622,7 @@ In particular, these binary pairs are selected from each of the following catego
 \end{figure} 
 
 This discrepancy between the hybrid and hadronic matter EoSs can be seen in Fig.~\ref{fig:binLove}, where the binary Love relations for the 10 hybrid star EoSs are shown alongside the constrained and unconstrained nuclear matter EoSs.
-Observe how the residuals from the fit are quite good at low pressures (large $\Lambda_s$) where the the binaries consist of NS/NS combinations, before reaching the transitional pressure where the deviations become increasingly large ($\sim160$\% for $q=0.90$, $\sim37$\% for $q=0.75$, and $\sim6$\% for $q=0.50$) for HS/HS and HS/NS binaries. {\ny{Why is there a hump for the HS cases in green in Fig. 7?}}{\zc{The hump comes from the transition between NS and HS branches, as I describe in my above comment. If you are referring to the bottom panels of Fig 7, this hump is because I display the fractional difference of the \emph{HS} EoSs from the \emph{NS} fits - to show how badly they fit (although that is not as visible now that we are plotting absolute difference. Instead, I could plot their fractional difference from their own "HS" fits too. We can discuss this.}} {\ny{I was referring to the hump in the top panel (ie. in the R-Love relation). It'd be good to add a sentence to the text that points this hump out and explains it as you did above.}} 
+Observe how the residuals from the fit are quite good at low pressures (large $\Lambda_s$) where the the binaries consist of NS/NS combinations, before reaching the transitional pressure where the deviations become increasingly large ($\sim160$\% for $q=0.90$, $\sim37$\% for $q=0.75$, and $\sim6$\% for $q=0.50$) for HS/HS and HS/NS binaries.
 
 To further investigate this phenomena, we consider binary Love fits to the HS or NS branches \emph{individually}.
 It was found that the binary Love relations failed to properly fit to the collection of full hybrid star EoSs, due to the varying transitional masses $M_{\text{tr}}$ across the various EoSs.
@@ -671,9 +641,6 @@ This result is strongly consistent with the results found for the nuclear matter
 We conclude this section with the observation that the hybrid star EoSs do \emph{not} conform to the fits performed on nuclear matter EoSs.
 This is not surprising, as the hybrid branch of the EoSs forces inconsistent results between $\Lambda_1$ and $\Lambda_2$ with different masses; an issue not present for the single-star I-Love-Q relations.
 By separating the two branches of the hybrid EoSs, we find a new ``hybrid" branch binary Love fit which gives consistent results to that found for the nuclear matter fits. 
-{\ny{But wait, the Newtonian limit is not valid for this hybrid branch, since you are not allowed to go to low enough central densities, right? If so, what are you using for the controlling factor? I found the description in the 2 paragraphs above a bit muddled and short. It is not exactly clear to me what the message you were trying to send was.}}
-{\zc{You're right - I tried to change this by using leaving the polytropic index (n) as an additional fitting parameter. Doing this gives n=1.7, and all other parameters $>10^7$. The fit looks good but I'm skeptical about those fit values. Additionally, if I set n=0, the fits diverge. Instead, I wrote a few sentences in the paper saying how it doesn't properly limit to the Newtonian case, and how we tried to remedy it. I'm welcome to any suggestions!}} {\ny{Hmmm....ok.}}
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%% Begin Future Observations %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Impact on future observations}\label{sec:observations}
@@ -903,11 +870,6 @@ These results are also shown graphically in Fig.~\ref{fig:stackedFisher}.
 Next, we repeat the process upon the injection of the IMRD + NRTidal waveform in order to demonstrate the effect of waveform mismodeling.
 The results are shown in Fig.~\ref{fig:stackedFisher} as blue outlined circles (single detection uncertainties) and the outlined dashed maroon region (combined uncertainties from multiple detections).
 Observe the noticeable difference between the extraction efficiencies for the two different tidal corrections - highlighting the need for further waveform modeling for future interferometers.
-
-{\ny{Super confused about Fig. 1...}}
-\kc{me too}
-{\zc{Yes, there is a \emph{lot} of info in this figure. The filled blue circles are the statistical uncertainties on $\lambda_0$ for GW170817 as if it had been detected on Detector A=(O2, aLIGO, A+, Voyager, ET, CE), where the x-axis corresponds to the SNR on that detector as if it found GW170817. The filled turquoise region is the combined statistical uncertainty on the detection of $N_A$ events on each detector A, computed using the bulleted process above (moved to the appendix). There is some height to this shaded region because I consider the the upper and lower error bars of the local BNS merger rate $\mathcal{R}$ - giving us a range of $N_A$'s to consider for each detector. We can talk more about this over Skype.}} 
-{\ny{I'm happier with this rewrite (makes more sense to me now).}}
 
 Concluding, we find that the Voyager, ET, and CE detectors all exhibit enough uncertainty reduction that the systematics on $\lambda_0$ introduced from using improved EoS-insensitive relations (found to be $2.06 \times 10^{-25}\text{ s}^5$) no longer become negligible in the error budget.
 This was also shown for the case of $\tilde\Lambda$, only taking into account single observed events, where ET and CE detectors both observe comparable statistical and systematic errors on $\tilde\Lambda$.

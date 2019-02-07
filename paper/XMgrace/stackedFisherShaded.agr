@@ -90,7 +90,7 @@
 @timestamp rot 0
 @timestamp font 0
 @timestamp char size 1.000000
-@timestamp def "Sun Jan 13 22:43:54 2019"
+@timestamp def "Thu Feb  7 12:53:46 2019"
 @with box
 @    box on
 @    box loctype view
@@ -413,9 +413,9 @@
 @    s1 type xy
 @    s1 symbol 1
 @    s1 symbol size 1.000000
-@    s1 symbol color 4
+@    s1 symbol color 13
 @    s1 symbol pattern 1
-@    s1 symbol fill color 4
+@    s1 symbol fill color 13
 @    s1 symbol fill pattern 0
 @    s1 symbol linewidth 2.0
 @    s1 symbol linestyle 1
@@ -425,7 +425,7 @@
 @    s1 line type 0
 @    s1 line linestyle 1
 @    s1 line linewidth 1.0
-@    s1 line color 14
+@    s1 line color 13
 @    s1 line pattern 1
 @    s1 baseline type 0
 @    s1 baseline off
@@ -447,7 +447,7 @@
 @    s1 avalue offset 0.000000 , 0.000000
 @    s1 errorbar on
 @    s1 errorbar place both
-@    s1 errorbar color 4
+@    s1 errorbar color 13
 @    s1 errorbar pattern 1
 @    s1 errorbar size 1.000000
 @    s1 errorbar linewidth 1.0
@@ -1001,9 +1001,9 @@
 @    s13 type xy
 @    s13 symbol 1
 @    s13 symbol size 1.000000
-@    s13 symbol color 4
+@    s13 symbol color 13
 @    s13 symbol pattern 1
-@    s13 symbol fill color 4
+@    s13 symbol fill color 13
 @    s13 symbol fill pattern 0
 @    s13 symbol linewidth 2.0
 @    s13 symbol linestyle 1
@@ -1035,7 +1035,7 @@
 @    s13 avalue offset 0.000000 , 0.000000
 @    s13 errorbar on
 @    s13 errorbar place both
-@    s13 errorbar color 4
+@    s13 errorbar color 13
 @    s13 errorbar pattern 1
 @    s13 errorbar size 1.000000
 @    s13 errorbar linewidth 1.0
