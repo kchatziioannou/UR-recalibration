@@ -90,7 +90,7 @@
 @timestamp rot 0
 @timestamp font 0
 @timestamp char size 1.000000
-@timestamp def "Fri Jan 11 10:40:36 2019"
+@timestamp def "Sat Feb  9 14:15:45 2019"
 @with box
 @    box on
 @    box loctype view
@@ -347,7 +347,7 @@
 @    legend box fill color 0
 @    legend box fill pattern 1
 @    legend font 0
-@    legend char size 1.140000
+@    legend char size 1.270000
 @    legend color 1
 @    legend length 5
 @    legend vgap 1
@@ -28583,7 +28583,7 @@
 @    s575 errorbar riser clip off
 @    s575 errorbar riser clip length 0.100000
 @    s575 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/binLoveNew/fits/Fit50Posterior.dat"
-@    s575 legend  "NS Fits"
+@    s575 legend  "Fits"
 @    s576 hidden false
 @    s576 type xy
 @    s576 symbol 0
@@ -28829,7 +28829,7 @@
 @    s580 errorbar riser clip length 0.100000
 @    s580 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/binLoveNew/fits/Fit90Unconstrained.dat"
 @    s580 legend  ""
-@    s581 hidden false
+@    s581 hidden true
 @    s581 type xy
 @    s581 symbol 0
 @    s581 symbol size 1.000000
@@ -28878,7 +28878,7 @@
 @    s581 errorbar riser clip length 0.100000
 @    s581 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/binLoveNew/hybrid/HS90Fit.dat"
 @    s581 legend  "HS fits"
-@    s582 hidden false
+@    s582 hidden true
 @    s582 type xy
 @    s582 symbol 0
 @    s582 symbol size 1.000000
@@ -28927,7 +28927,7 @@
 @    s582 errorbar riser clip length 0.100000
 @    s582 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/binLoveNew/hybrid/HS75Fit.dat"
 @    s582 legend  ""
-@    s583 hidden false
+@    s583 hidden true
 @    s583 type xy
 @    s583 symbol 0
 @    s583 symbol size 1.000000
@@ -29184,7 +29184,7 @@
 @    frame pattern 1
 @    frame background color 0
 @    frame background pattern 0
-@    s0 hidden false
+@    s0 hidden true
 @    s0 type xy
 @    s0 symbol 0
 @    s0 symbol size 1.000000
@@ -29282,7 +29282,7 @@
 @    s1 errorbar riser clip length 0.100000
 @    s1 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/binLoveNew/absoluteDifference/hybrid/absDiff90_10.dat"
 @    s1 legend  ""
-@    s2 hidden false
+@    s2 hidden true
 @    s2 type xy
 @    s2 symbol 0
 @    s2 symbol size 1.000000
@@ -29331,7 +29331,7 @@
 @    s2 errorbar riser clip length 0.100000
 @    s2 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/binLoveNew/absoluteDifference/hybrid/absDiff90_2.dat"
 @    s2 legend  ""
-@    s3 hidden false
+@    s3 hidden true
 @    s3 type xy
 @    s3 symbol 0
 @    s3 symbol size 1.000000
@@ -29380,7 +29380,7 @@
 @    s3 errorbar riser clip length 0.100000
 @    s3 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/binLoveNew/absoluteDifference/hybrid/absDiff90_3.dat"
 @    s3 legend  ""
-@    s4 hidden false
+@    s4 hidden true
 @    s4 type xy
 @    s4 symbol 0
 @    s4 symbol size 1.000000
@@ -29429,7 +29429,7 @@
 @    s4 errorbar riser clip length 0.100000
 @    s4 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/binLoveNew/absoluteDifference/hybrid/absDiff90_4.dat"
 @    s4 legend  ""
-@    s5 hidden false
+@    s5 hidden true
 @    s5 type xy
 @    s5 symbol 0
 @    s5 symbol size 1.000000
@@ -29527,7 +29527,7 @@
 @    s6 errorbar riser clip length 0.100000
 @    s6 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/binLoveNew/absoluteDifference/hybrid/absDiff90_6.dat"
 @    s6 legend  ""
-@    s7 hidden false
+@    s7 hidden true
 @    s7 type xy
 @    s7 symbol 0
 @    s7 symbol size 1.000000
@@ -29576,7 +29576,7 @@
 @    s7 errorbar riser clip length 0.100000
 @    s7 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/binLoveNew/absoluteDifference/hybrid/absDiff90_7.dat"
 @    s7 legend  ""
-@    s8 hidden false
+@    s8 hidden true
 @    s8 type xy
 @    s8 symbol 0
 @    s8 symbol size 1.000000
@@ -29625,7 +29625,7 @@
 @    s8 errorbar riser clip length 0.100000
 @    s8 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/binLoveNew/absoluteDifference/hybrid/absDiff90_8.dat"
 @    s8 legend  ""
-@    s9 hidden false
+@    s9 hidden true
 @    s9 type xy
 @    s9 symbol 0
 @    s9 symbol size 1.000000
@@ -38746,7 +38746,7 @@
 @    frame pattern 1
 @    frame background color 0
 @    frame background pattern 0
-@    s0 hidden false
+@    s0 hidden true
 @    s0 type xy
 @    s0 symbol 0
 @    s0 symbol size 1.000000
@@ -38795,7 +38795,7 @@
 @    s0 errorbar riser clip length 0.100000
 @    s0 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/binLoveNew/absoluteDifference/hybrid/absDiff75_1.dat"
 @    s0 legend  ""
-@    s1 hidden false
+@    s1 hidden true
 @    s1 type xy
 @    s1 symbol 0
 @    s1 symbol size 1.000000
@@ -38844,7 +38844,7 @@
 @    s1 errorbar riser clip length 0.100000
 @    s1 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/binLoveNew/absoluteDifference/hybrid/absDiff75_10.dat"
 @    s1 legend  ""
-@    s2 hidden false
+@    s2 hidden true
 @    s2 type xy
 @    s2 symbol 0
 @    s2 symbol size 1.000000
@@ -38893,7 +38893,7 @@
 @    s2 errorbar riser clip length 0.100000
 @    s2 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/binLoveNew/absoluteDifference/hybrid/absDiff75_2.dat"
 @    s2 legend  ""
-@    s3 hidden false
+@    s3 hidden true
 @    s3 type xy
 @    s3 symbol 0
 @    s3 symbol size 1.000000
@@ -38942,7 +38942,7 @@
 @    s3 errorbar riser clip length 0.100000
 @    s3 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/binLoveNew/absoluteDifference/hybrid/absDiff75_3.dat"
 @    s3 legend  ""
-@    s4 hidden false
+@    s4 hidden true
 @    s4 type xy
 @    s4 symbol 0
 @    s4 symbol size 1.000000
@@ -38991,7 +38991,7 @@
 @    s4 errorbar riser clip length 0.100000
 @    s4 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/binLoveNew/absoluteDifference/hybrid/absDiff75_4.dat"
 @    s4 legend  ""
-@    s5 hidden false
+@    s5 hidden true
 @    s5 type xy
 @    s5 symbol 0
 @    s5 symbol size 1.000000
@@ -39040,7 +39040,7 @@
 @    s5 errorbar riser clip length 0.100000
 @    s5 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/binLoveNew/absoluteDifference/hybrid/absDiff75_5.dat"
 @    s5 legend  ""
-@    s6 hidden false
+@    s6 hidden true
 @    s6 type xy
 @    s6 symbol 0
 @    s6 symbol size 1.000000
@@ -39089,7 +39089,7 @@
 @    s6 errorbar riser clip length 0.100000
 @    s6 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/binLoveNew/absoluteDifference/hybrid/absDiff75_6.dat"
 @    s6 legend  ""
-@    s7 hidden false
+@    s7 hidden true
 @    s7 type xy
 @    s7 symbol 0
 @    s7 symbol size 1.000000
@@ -39138,7 +39138,7 @@
 @    s7 errorbar riser clip length 0.100000
 @    s7 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/binLoveNew/absoluteDifference/hybrid/absDiff75_7.dat"
 @    s7 legend  ""
-@    s8 hidden false
+@    s8 hidden true
 @    s8 type xy
 @    s8 symbol 0
 @    s8 symbol size 1.000000
@@ -39187,7 +39187,7 @@
 @    s8 errorbar riser clip length 0.100000
 @    s8 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/binLoveNew/absoluteDifference/hybrid/absDiff75_8.dat"
 @    s8 legend  ""
-@    s9 hidden false
+@    s9 hidden true
 @    s9 type xy
 @    s9 symbol 0
 @    s9 symbol size 1.000000
@@ -57177,7 +57177,7 @@
 @    s180 errorbar riser clip length 0.100000
 @    s180 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/binLoveNew/absoluteDifference/50LsLaPosteriorAbsDiff9.dat"
 @    s180 legend  ""
-@    s181 hidden false
+@    s181 hidden true
 @    s181 type xy
 @    s181 symbol 0
 @    s181 symbol size 1.000000
@@ -57226,7 +57226,7 @@
 @    s181 errorbar riser clip length 0.100000
 @    s181 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/binLoveNew/absoluteDifference/hybrid/absDiff50_1.dat"
 @    s181 legend  ""
-@    s182 hidden false
+@    s182 hidden true
 @    s182 type xy
 @    s182 symbol 0
 @    s182 symbol size 1.000000
@@ -57275,7 +57275,7 @@
 @    s182 errorbar riser clip length 0.100000
 @    s182 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/binLoveNew/absoluteDifference/hybrid/absDiff50_10.dat"
 @    s182 legend  ""
-@    s183 hidden false
+@    s183 hidden true
 @    s183 type xy
 @    s183 symbol 0
 @    s183 symbol size 1.000000
@@ -57324,7 +57324,7 @@
 @    s183 errorbar riser clip length 0.100000
 @    s183 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/binLoveNew/absoluteDifference/hybrid/absDiff50_2.dat"
 @    s183 legend  ""
-@    s184 hidden false
+@    s184 hidden true
 @    s184 type xy
 @    s184 symbol 0
 @    s184 symbol size 1.000000
@@ -57373,7 +57373,7 @@
 @    s184 errorbar riser clip length 0.100000
 @    s184 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/binLoveNew/absoluteDifference/hybrid/absDiff50_3.dat"
 @    s184 legend  ""
-@    s185 hidden false
+@    s185 hidden true
 @    s185 type xy
 @    s185 symbol 0
 @    s185 symbol size 1.000000
@@ -57422,7 +57422,7 @@
 @    s185 errorbar riser clip length 0.100000
 @    s185 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/binLoveNew/absoluteDifference/hybrid/absDiff50_4.dat"
 @    s185 legend  ""
-@    s186 hidden false
+@    s186 hidden true
 @    s186 type xy
 @    s186 symbol 0
 @    s186 symbol size 1.000000
@@ -57471,7 +57471,7 @@
 @    s186 errorbar riser clip length 0.100000
 @    s186 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/binLoveNew/absoluteDifference/hybrid/absDiff50_5.dat"
 @    s186 legend  ""
-@    s187 hidden false
+@    s187 hidden true
 @    s187 type xy
 @    s187 symbol 0
 @    s187 symbol size 1.000000
@@ -57520,7 +57520,7 @@
 @    s187 errorbar riser clip length 0.100000
 @    s187 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/binLoveNew/absoluteDifference/hybrid/absDiff50_6.dat"
 @    s187 legend  ""
-@    s188 hidden false
+@    s188 hidden true
 @    s188 type xy
 @    s188 symbol 0
 @    s188 symbol size 1.000000
@@ -57569,7 +57569,7 @@
 @    s188 errorbar riser clip length 0.100000
 @    s188 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/binLoveNew/absoluteDifference/hybrid/absDiff50_7.dat"
 @    s188 legend  ""
-@    s189 hidden false
+@    s189 hidden true
 @    s189 type xy
 @    s189 symbol 0
 @    s189 symbol size 1.000000
@@ -57618,7 +57618,7 @@
 @    s189 errorbar riser clip length 0.100000
 @    s189 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/binLoveNew/absoluteDifference/hybrid/absDiff50_8.dat"
 @    s189 legend  ""
-@    s190 hidden false
+@    s190 hidden true
 @    s190 type xy
 @    s190 symbol 0
 @    s190 symbol size 1.000000
