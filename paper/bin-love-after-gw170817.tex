@@ -102,11 +102,11 @@ In the case of binary NSs, each star becomes deformed via the process highlighte
 Due to high correlations between between the two parameters, independent extraction becomes very difficult at current interferometer sensitivities~\cite{Wade:tidalCorrections}.
 Typically, these high correlations can be reduced by strategically reparameterizing the waveform template with new tidal parameters constructed from linear combinations of $\Lambda_1$ and $\Lambda_2$.
 For example, utilizing the parameters $\tilde{\Lambda}$ and $\delta \tilde{\Lambda}$~\cite{Favata:2013rwa,Wade:tidalCorrections} which enter the GW waveform at different post-Newtonian (PN) orders (powers of the ratio between the orbital speed and the speed of light $v/c^{2n}$) partially mitigates these correlations.
-Similarly, the waveform may be parameterized by mass-independent tidal parameters $\lambda_0$ and $\lambda_1$, derived through a Taylor expansion about $m_0=1.4 \text{ M}_{\odot}$ of individual, unitful tidal deformability $\lambda \approx \lambda_0+\lambda+1(m_1-1.4 \text{ M}_{\odot})/\text{M}_{\odot}$~\cite{delPozzo:TaylorTidal}. 
+Similarly, the waveform may be parameterized by mass-independent tidal parameters $\lambda_0$ and $\lambda_1$, derived through a Taylor expansion about $m_0=1.4 \text{ M}_{\odot}$ of tidal deformability $\Lambda \approx \lambda_0+\lambda+1(1-\frac{m}{m_0})$~\cite{delPozzo:TaylorTidal,Yagi:binLove}. 
 Use of this set of tidal parameters allows one to effectively combine multiple events with varying mass and $\tilde\Lambda$ components, not possible in the former parameterization of $\tilde{\Lambda}$ and $\delta \tilde{\Lambda}$
 
 %Universal relations
-Unfortunately, current detectors are only sensitive enough to accurately measure the dominant tidal parameter, $\lambda_0$.
+Unfortunately, current detectors are only sensitive enough to accurately measure the dominant tidal parameter, $\lambda_0$ (also known as $\Lambda_{1.4}$, the tidal deformability at $1.4 \text{ M}_{\odot}$).
 Previous work by Yagi and Yunes~\cite{Yagi:binLove} resolved this issue by finding approximately EoS-insensitive ``binary Love relations" between symmetric and anti-symmetric combinations of tidal deformabilities $\Lambda_{s,a}=\frac{1}{2}(\Lambda_1 \pm \Lambda_2)$.
 This allows one to further break degeneracies between tidal parameters, resulting in both (i) a decrease in uncertainty upon parameter extraction of $\Lambda_s$ on the removal of parameter $\Lambda_a$ from the model, and (ii) the ability to measure the secondary tidal parameter upon measurement of the first~\cite{Katerina:residuals}.  
 Use of these relations leads to up to an order of magnitude improvement in parameter estimation of $\Lambda_s$ through a simple Fisher analysis~\cite{Yagi:binLove}, also confirmed with the detailed analysis of~\cite{Katerina:residuals}.
@@ -136,7 +136,7 @@ We also present the relationship between the NS radius and tidal deformability, 
 Additionally, we find that hybrid quark-hadron stars do obey the I-Love-Q and C-Love relations, with sightly increased EoS variability.
 We also find that binaries consisting of one massive hybrid star, and one small-mass hadronic star do not agree with derived binary Love relations, due to the large separation in $\tilde{\Lambda}$ between the constituent stars.
 Due to the current limitations in detector sensitivity, the systematic errors arising from EoS variation in the EoS-insensitive relations are far outweighed by the statistical errors accrued by extraction of high-order PN tidal parameters from GW waveforms.
-Fig.~\ref{fig:stackedFisher} compiles the results from Fisher analyses approximating the uncertainties accrued from parameter extraction for GW170817 as if it had been observed by future detectors $A \equiv ($ O2~\cite{aLIGO}, aLIGO~\cite{aLIGO}, A\texttt{+}~\cite{Ap_Voyager_CE}, Voyager~\cite{Ap_Voyager_CE}, ET~\cite{ET}, CE~\cite{Ap_Voyager_CE}$)$.
+Fig.~\ref{fig:stackedFisher} compiles the results from Fisher analyses approximating the uncertainties accrued from the parameter extraction of $\lambda_0$ (the tidal deformability at $1.4 \text{ M}_{\odot}$) for GW170817 as if it had been observed by future detectors $A \equiv ($ O2~\cite{aLIGO}, aLIGO~\cite{aLIGO}, A\texttt{+}~\cite{Ap_Voyager_CE}, Voyager~\cite{Ap_Voyager_CE}, ET~\cite{ET}, CE~\cite{Ap_Voyager_CE}$)$.
 Here, $\sigma^A_{\text{GW170817}}$ and $\rho^A_{\text{GW170817}}$ correspond to the statistical error and signal-to-noise-ratio found from observing GW170817 on detector $A$, and $\sigma^A_N$ represents the combined uncertainty after the detection of $N_A$ events (corresponding to the binary NS merger rate associated interferometer $A$).
 These values are further tabulated in Table~\ref{tab:variances}.
 It can be seen from this figure that the statistical errors from parameter extraction become comparable the EoS-insensitive relation systematics (indicated by the magenta horizontal line) for the Voyager telescope - indicating when improved binary Love relations will become necessary.
@@ -146,7 +146,7 @@ Also shown in the figure is the same measurement uncertainties upon the injectio
 \includegraphics[width=\columnwidth]{stackedFisher.eps}
 \end{center}
 \caption{
-Estimated statistical uncertainties on the extraction of $\lambda_0$ observed from interferometers $A=$(O2, aLIGO, A\texttt{+}, Voyager, CE, ET-D$)$ as a function of the signal-to-noise-ratio.
+Estimated statistical uncertainties on the extraction of the tidal deformability at $1.4 \text{ M}_{\odot}$, $\lambda_0$, observed from interferometers $A=$(O2, aLIGO, A\texttt{+}, Voyager, CE, ET-D$)$ as a function of the signal-to-noise-ratio.
 In this figure, the filled blue circles denote the single-event statistical uncertainties $\sigma^A_{\text{GW170817}}$ of GW170817 as if it were observed on detector $A$.
 Also shown by the turquoise shaded region is combined uncertainty $\sigma^A_N$  from the observation of multiple events from a simulated population of size $N_A$ corresponding to the upper and lower limits of the expected binary NS merger detection rates for O2, aLIGO, A\texttt{+}, Voyager, CE, and ET-D over 1 observation year.
 It can be seen that the statistical errors in the parameter extraction become comparable to the systematics from EoS variation in the improved binary Love relations (indicated by the horizontal indigo dashed line) for Voyager, CE, and ET.
@@ -655,11 +655,11 @@ In Sec.~\ref{sec:marginalization}, we first compute the systematic errors introd
 In Sec.~\ref{sec:futureObservations}, we compare the statistical errors on the parameter extraction of tidal parameters to the above-mentioned systematic errors.
 This is repeated for 5 future detectors, where multiple event detections become important.
 Because future events occur with weighted tidal parameters $\tilde\Lambda$ which are unknown at this time, we can not accurately combine the uncertainties on $\tilde\Lambda$ for multiple events.
-To remedy this, we re-parameterize the waveform and instead consider the $\lambda_0$ and $\lambda_1$ tidal coefficients produced by Taylor expanding the unitful tidal deformability $\lambda \equiv \Lambda m^5$ about $m_0=1.4\text{ M}_{\odot}$:
+To remedy this, we re-parameterize the waveform and instead consider the $\lambda_0$ and $\lambda_1$ tidal coefficients produced by Taylor expanding the dimensionless tidal deformability $\Lambda$ about the ``canonical" reference mass of $m_0=1.4\text{ M}_{\odot}$~\cite{delPozzo:TaylorTidal,Yagi:binLove}:
 \begin{equation}
-\lambda \approx \lambda_0 + \lambda_1 (m-1.4 \text{M}_{\odot})/\text{M}_{\odot},
+\lambda \approx \lambda_0 + \lambda_1 (1-\frac{m}{m_0}),
 \end{equation}
-as discussed in Ref.~\cite{delPozzo:TaylorTidal}.
+where $\lambda_0$ and $\lambda_1$ are the tidal deformability and its slope at $1.4 \text{ M}_{\odot}$\footnote{$\lambda_0$ is commonly known as $\Lambda_{1.4}$.}. 
 The new tidal parameters $\lambda_0$ and $\lambda_1$ do not depend on mass, thus are identical for every future binary NS merger, and may be combined in uncertainty.
 Under this reasoning, we consider the new tidal parameters $\lambda_0$ and $\lambda_1$ for the remainder of the investigation.
 
@@ -712,12 +712,12 @@ Now that we have obtained the residuals on $\Lambda_a$, we must convert them int
 Figure~\ref{fig:qLsResiduals} shows the standard deviations of these residuals (converted into $\lambda_0$) binned in both $q$ and $\Lambda_s$ as was done above. 
 To estimate the overall systematic errors on $\lambda_0$ accrued upon the use of the improved binary Love relations, we combine the errors in both $q$ and $\Lambda_s$.
 Figure~\ref{fig:residuals} displays the un-binned Gaussian distribution of $\lambda_0$ residuals for both the constrained, and unconstrained sets of EoSs for comparison.
-Observe how the standard deviations $\sigma=1.52\times10^{-25} \text{ s}^5$ and $\sigma=12.21\times10^{-25} \text{ s}^5$ show a large decrease from the unconstrained to the constrained sets of EoSs.
-Additionally, we find the 90th, 99th, and 100th percentiles on $\lambda_0$ to be $P_{90}=2.06\times10^{-25} \text{ s}^5$, $P_{99}=6.61\times10^{-25} \text{ s}^5$, and $P_{100}=17.36\times10^{-25} \text{ s}^5$ for the constrained EoSs.
+Observe how the standard deviations $\sigma=9.764$ and $\sigma=78.28$ show a large decrease from the unconstrained to the constrained sets of EoSs.
+Additionally, we find the 90th, 99th, and 100th percentiles on $\lambda_0$ to be $P_{90}=13.19$, $P_{99}=42.38$, and $P_{100}=111.32$ for the constrained EoSs.
 Because the un-binned residuals seen in Fig.~\ref{fig:residuals} are dominated by the low-error regions of the parameter space ($\Lambda_s \rightarrow 0$, $\Lambda_s \rightarrow \infty$, $q \rightarrow 0$ and $q \rightarrow 1$) shown by Fig.~\ref{fig:qLsResiduals}, we consider the 90th percentile error (indicated by the dashed green line in Fig.~\ref{fig:qLsResiduals}) for the remainder of the analysis, in order to further take into account the high-error regions of the parameter space ($\Lambda_s \sim 2000$, $q\sim0.5$).
-We take this value of $P_{90}=2.06\times10^{-25} \text{ s}^5$ to be the systematic measurement error introduced by using the improved binary Love relations on the parameter extraction of $\lambda_0$, indicated by the dashed indigo line in Fig.~\ref{fig:stackedFisher}.
+We take this value of $P_{90}=13.19$ to be the systematic measurement error introduced by using the improved binary Love relations on the parameter extraction of $\lambda_0$, indicated by the dashed indigo line in Fig.~\ref{fig:stackedFisher}.
 Similarly, we derive the systematic measurement error on $\tilde\Lambda$ to be $12.01$, shown in Fig.~\ref{fig:singleFisherLt}.
-Currently, the statistical error of $26.53 \times 10^{-25} \text{ s}^5$ on $\lambda_0$ from GW170817 dominates the error budget compared to the systematic error of $2.06\times10^{-25} \text{ s}^5$, as seen in Fig.~\ref{fig:stackedFisher}.
+Currently, the statistical error of $170.1$ on $\lambda_0$ from GW170817 dominates the error budget compared to the systematic error of $13.19$, as seen in Fig.~\ref{fig:stackedFisher}.
 This means that, for the current ``O2" detector sensitivity, the use of improved binary Love relations will only make a negligible difference on the extraction of $\tilde\Lambda$.
 However, future detectors (for example aLIGO, A\texttt{+}, Voyager, CE, and ET) are planned with large reductions in sensitivity - both decreasing the statistical errors and allowing for a larger binary NS merger detection rate; further reducing the statistical uncertainties.
 In Sec.~\ref{sec:observations}, we analyze this further and discuss when the systematic errors from EoS-insensitive relations become comparable to the statistical errors.
@@ -741,10 +741,10 @@ Also shown in the figure is the 90th percentile of the un-binned residuals seen 
 \end{center}
 \caption{
 Residuals on $\lambda_0$ computed as $\lambda_0^{\text{fit}}-\lambda_0^{\text{true}}$ for the binary Love relations modeled in Sec.~\ref{sec:binLove-nuclear} for both constrained and unconstrained sets of EoSs.
-These residuals obey Gaussian distributions centered at $\mu=-2.39 \times 10^{-27} \text{ s}^5$ and $\mu=4.22 \times 10^{-27} \text{ s}^5$ with standard deviations of $\sigma=1.52\times10^{-25} \text{ s}^5$ and $\sigma=12.21\times10^{-25} \text{ s}^5$ for the constrained and unconstrained sets of EoSs, respectively.
+These residuals obey Gaussian distributions centered at $\mu=-0.1530$ and $\mu=0.2710$ with standard deviations of $\sigma=9.764$ and $\sigma=78.28$ for the constrained and unconstrained sets of EoSs, respectively.
 These uncertainties correspond roughly to the systematic errors introduced on the parameter extraction of $\lambda_0$ upon the use of binary Love relations.
-However, to take into account the systematic errors found in high-error regions of the parameter space, we instead set the systematic error to be the 90th percentile, $P_{90}=2.06\times10^{-25} \text{ s}^5$.
-Observe that the systematic errors from using the improved (constrained) binary Love relations are negligible compared to the statistical errors accrued on parameter extraction from GW170817, found to be $\sigma_{\lambda_0}=26.53 \times 10^{-25} \text{ s}^5$.
+However, to take into account the systematic errors found in high-error regions of the parameter space, we instead set the systematic error to be the 90th percentile, $P_{90}=13.19$.
+Observe that the systematic errors from using the improved (constrained) binary Love relations are negligible compared to the statistical errors accrued on parameter extraction from GW170817, found to be $\sigma_{\lambda_0}=170.1$.
 }
 \label{fig:residuals}
 \end{figure}
@@ -796,7 +796,7 @@ Also shown is $2 \sqrt{f}$ multiplied by the amplitude of the PhenomD~\cite{Phen
 
 Next, we consider events identical to GW170817 detected on future design sensitivity upgrades and detectors $A \equiv ($O2, aLIGO, A\texttt{+}, Voyager, CE, ET-D$)$, shown in Fig.~\ref{fig:sensitivities}.
 Further, we consider the combined statistical uncertainties of $N_A$ events detected over 1 year on detector $A$, determined by integrating the local binary NS (BNS) merger rate over redshifts up to the horizon redshift of each detector.
-Here we assume low spin priors $|\chi| \leq 0.05$, as well as $0 \text{ s}^5 \leq \lambda_0 \leq 5 \times 10^{-23} \text{ s}^5$ and $-5 \times 10^{-18} \text{ s}^4\text{ M}_{\odot} \leq \lambda_1 \leq 0 \text{ s}^4\text{ M}_{\odot}$~\cite{delPozzo:TaylorTidal}.
+Here we assume low spin priors $|\chi| \leq 0.05$, as well as $0 \leq \lambda_0 \leq 3207$ and $-4490 \leq \lambda_1 \leq 0$~\cite{delPozzo:TaylorTidal}\footnote{These are converted from the dimensional forms found in Ref.~\cite{delPozzo:TaylorTidal} into their corresponding dimensionless forms.}.
 The process we utilize to compute single and combined statistical uncertainties for each detector sensitivity $S_n^A(f)$ is detailed in App.~\ref{app:stackingProcedure}.
 From this, we determine if and when the statistical errors associated with the parameter extraction of $\lambda_0$ drop below the systematic EoS variation errors from using binary Love relations.
 
@@ -818,10 +818,10 @@ This is similar to Fig.~\ref{fig:stackedFisher} where the extraction efficiency 
 \begin{table*}
 \centering
 \caption{
-Tabulated results for the estimated statistical errors on $\lambda_0$ for the combined results of $N_A$ detections corresponding to the estimated upper, central, and lower limits of the binary NS merger detection rate $\mathcal{R}$.
+Tabulated results for the estimated statistical errors on the tidal deformability at $1.4\text{ M}_{\odot}$, $\lambda_0$, for the combined results of $N_A$ detections corresponding to the estimated upper, central, and lower limits of the binary NS merger detection rate $\mathcal{R}$.
 This is repeated for 5 future detector sensitivities: aLIGO, A\texttt{+}, Voyager, CE, and ET.
 Below, $\rho^A_{\text{GW170817}}$ and $\sigma^A_{\text{GW170817}}$ correspond to the approximate SNR and $\sigma_{\lambda_0}$ of GW170817 had it been observed by the future interferometer, and $\sigma^A_N$ corresponds to the overall uncertainty on $\lambda_0$ after $N_A$ detections on interferometer $A$.
-It can be seen here that the statistical errors on $\lambda_0$ become comparable with the systematics (set to be $P_{90}=12.014$) from using improved binary Love relations from Voyager and on, indicating when it may be safe to utilize new EoS-insensitive relations.
+It can be seen here that the statistical errors on $\lambda_0$ become comparable with the systematics (set to be $P_{90}=13.19$) from using improved binary Love relations from Voyager and on, indicating when it may be safe to utilize new EoS-insensitive relations.
 Note that the approximation for $\sigma^A_N$ under the O2 detector sensitivity is left blank due to the singularity of the detected event.
 These results are also shown graphically in Fig.~\ref{fig:stackedFisher}.
 }\label{tab:variances}
@@ -833,36 +833,36 @@ These results are also shown graphically in Fig.~\ref{fig:stackedFisher}.
 \cline{2-3}\cline{4-6}\cline{7-9}
 \multicolumn{1}{c}{} & \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{} & \multicolumn{3}{|c|}{} & \multicolumn{3}{|c|}{}
 \\[-1em]
-\multicolumn{1}{c}{}  &  \multicolumn{1}{|c|}{\multirow{2}{*}{$\rho^A_{\text{GW170817}}$}}  &  \multirow{ 2}{*}{\large $\frac{\sigma^A_{\text{GW170817}}}{10^{-25}}$}  &  \multicolumn{3}{|c|}{$N_A$}  &  \multicolumn{3}{|c|}{$\sigma^A_N / 10^{-25}$}  \\
+\multicolumn{1}{c}{}  &  \multicolumn{1}{|c|}{\multirow{2}{*}{$\rho^A_{\text{GW170817}}$}}  &  \multirow{ 2}{*}{$\sigma^A_{\text{GW170817}}$}  &  \multicolumn{3}{|c|}{$N_A$}  &  \multicolumn{3}{|c|}{$\sigma^A_N$}  \\
 \cline{4-6}\cline{7-9}
 \multicolumn{1}{c}{}  &  \multicolumn{1}{|c|}{}  &  \multicolumn{1}{c|}{}  &  \multicolumn{1}{|c|}{Low}  &  \multicolumn{1}{c|}{Central} &  \multicolumn{1}{c|}{High}  & \multicolumn{1}{|c|}{Low}  &  \multicolumn{1}{c|}{Central} &  \multicolumn{1}{c|}{High}\\
 \cline{2-3}\cline{4-6}\cline{7-9}
 \noalign{\smallskip}
 \noalign{\smallskip}
 \cline{1-1}\cline{2-3}\cline{4-6}\cline{7-9}
- O2  & \multicolumn{1}{|c|}{$32.40$}  & $26.53$ &  \multicolumn{1}{|c|}{--} & -- & -- & \multicolumn{1}{|c|}{--} & -- & --\\
+ O2  & \multicolumn{1}{|c|}{$32.40$}  & $170.13$ &  \multicolumn{1}{|c|}{--} & -- & -- & \multicolumn{1}{|c|}{--} & -- & --\\
 \cline{1-1}\cline{2-3}\cline{4-6}\cline{7-9}
- aLIGO  & \multicolumn{1}{|c|}{$90.74$}  & $17.10$ &  \multicolumn{1}{|c|}{$20$} & $98$ & $304$ & \multicolumn{1}{|c|}{$28.51$} & $12.99$ & $7.32$\\
+ aLIGO  & \multicolumn{1}{|c|}{$90.74$}  & $109.7$ &  \multicolumn{1}{|c|}{$20$} & $98$ & $304$ & \multicolumn{1}{|c|}{$182.8$} & $83.31$ & $46.95$\\
 \cline{1-1}\cline{2-3}\cline{4-6}\cline{7-9}
- A\texttt{+}  & \multicolumn{1}{|c|}{$180.95$}  & $7.12$ &  \multicolumn{1}{|c|}{163} & 786 & 2,419 & \multicolumn{1}{|c|}{$9.19$} & $3.85$ & $2.13$\\
-\cline{1-1}\cline{2-3}\cline{4-6}\cline{7-9}
-
-\multicolumn{1}{|c|}{} & \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{}
-\\[-1em]
-
- Voyager  & \multicolumn{1}{|c|}{$428.89$}  & $3.94$ &  \multicolumn{1}{|c|}{2,191} & 10,544 & 32,454 & \multicolumn{1}{|c|}{$3.27$} & $1.49$ & $0.83$\\
+ A\texttt{+}  & \multicolumn{1}{|c|}{$180.95$}  & $45.64$ &  \multicolumn{1}{|c|}{163} & 786 & 2,419 & \multicolumn{1}{|c|}{$58.94$} & $24.69$ & $13.66$\\
 \cline{1-1}\cline{2-3}\cline{4-6}\cline{7-9}
 
 \multicolumn{1}{|c|}{} & \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{}
 \\[-1em]
 
- ET-D  & \multicolumn{1}{|c|}{$1398.03$}  & $1.07$ &  \multicolumn{1}{|c|}{71,536} & 344,270 & 1,059,638 & \multicolumn{1}{|c|}{$0.60$} & $0.27$ & $0.15$\\
+ Voyager  & \multicolumn{1}{|c|}{$428.89$}  & $25.26$ &  \multicolumn{1}{|c|}{2,191} & 10,544 & 32,454 & \multicolumn{1}{|c|}{$20.97$} & $9.556$ & $5.323$\\
 \cline{1-1}\cline{2-3}\cline{4-6}\cline{7-9}
 
 \multicolumn{1}{|c|}{} & \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{}
 \\[-1em]
 
- CE  & \multicolumn{1}{|c|}{$2807.45$}  & $1.20$ &  \multicolumn{1}{|c|}{295,200} & 1,420,650 & 4,372,653 & \multicolumn{1}{|c|}{$0.58$} & $0.26$ & $0.14$\\
+ ET-D  & \multicolumn{1}{|c|}{$1398.03$}  & $6.871$ &  \multicolumn{1}{|c|}{71,536} & 344,270 & 1,059,638 & \multicolumn{1}{|c|}{$3.848$} & $1.732$ & $0.9621$\\
+\cline{1-1}\cline{2-3}\cline{4-6}\cline{7-9}
+
+\multicolumn{1}{|c|}{} & \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{}
+\\[-1em]
+
+ CE  & \multicolumn{1}{|c|}{$2807.45$}  & $7.664$ &  \multicolumn{1}{|c|}{295,200} & 1,420,650 & 4,372,653 & \multicolumn{1}{|c|}{$3.720$} & $1.668$ & $0.8979$\\
 \cline{1-1}\cline{2-3}\cline{4-6}\cline{7-9}
 \end{tabular}
 \end{table*}
@@ -871,7 +871,7 @@ Next, we repeat the process upon the injection of the IMRD + NRTidal waveform in
 The results are shown in Fig.~\ref{fig:stackedFisher} as blue outlined circles (single detection uncertainties) and the outlined dashed maroon region (combined uncertainties from multiple detections).
 Observe the noticeable difference between the extraction efficiencies for the two different tidal corrections - highlighting the need for further waveform modeling for future interferometers.
 
-Concluding, we find that the Voyager, ET, and CE detectors all exhibit enough uncertainty reduction that the systematics on $\lambda_0$ introduced from using improved EoS-insensitive relations (found to be $2.06 \times 10^{-25}\text{ s}^5$) no longer become negligible in the error budget.
+Concluding, we find that the Voyager, ET, and CE detectors all exhibit enough uncertainty reduction that the systematics on $\lambda_0$ introduced from using improved EoS-insensitive relations (found to be $13.19$) no longer become negligible in the error budget.
 This was also shown for the case of $\tilde\Lambda$, only taking into account single observed events, where ET and CE detectors both observe comparable statistical and systematic errors on $\tilde\Lambda$.
 This implies that the use and further improvement of EoS-insensitive relations is not only justified, but necessary, for future binary NS merger detections.
 Additionally, we find that the effect of waveform mismodeling is indeed important for future observations as the statistical errors continue to decrease.
@@ -919,7 +919,7 @@ The process used to achieve this is outlined below:
 
 \begin{enumerate}
 \item[(i)] Perform a Fisher analysis as outlined in Sec.~\ref{sec:futureObservations} using detector sensitivity $S_n^A(f)$, while restricting the luminosity distance $D_L$ such that an SNR of $\rho^{\text{O2}}_{\text{GW170817}}=32.4$ would be achieved on O2 sensitivity $S_n^{\text{O2}}(f)$.
-Here we assume low spin priors $|\chi| \leq 0.05$, as well as $0 \text{ s}^5 \leq \lambda_0 \leq 5 \times 10^{-23} \text{ s}^5$ and $-5 \times 10^{-18} \text{ s}^4\text{ M}_{\odot} \leq \lambda_1 \leq 0 \text{ s}^4\text{ M}_{\odot}$~\cite{delPozzo:TaylorTidal}.
+Here we assume low spin priors $|\chi| \leq 0.05$, as well as $0 \leq \lambda_0 \leq 3207$ and $-4490 \leq \lambda_1 \leq 0$~\cite{delPozzo:TaylorTidal} (These are converted from their corresponding dimensional forms).
 This results in a SNR $\rho^A_{\text{GW170817}}$ and a single-event statistical error $\sigma_\text{GW170817}^A$ accrued in the extraction of $\lambda_0$ on detector $A$.
 
 \item[(ii)] Generate a population of $N_A$ events corresponding to the expected binary NS merger detection rate for detector $A$, following the probability distribution~\cite{Shutz:SNR,Chen:SNR}:
