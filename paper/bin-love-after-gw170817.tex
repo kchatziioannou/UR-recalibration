@@ -358,7 +358,7 @@ Additionally shown in this figure is the fractional difference from the nuclear 
 \centering
 \caption{
 Comparison between the EoS-insensitive relations (I-Love-Q, C-Love, R-Love, and binary Love) maximal EoS variability for the results of previous works~\cite{Yagi:ILQ,Yagi:binLove}, and the unconstrained and constrained sets of EoSs analyzed here. 
-The maximum EoS variation, given by the largest fractional difference (the R-Love variability is shown as the absolute difference in m here) from the fits as shown in Figs.~\ref{fig:ILQ},~\ref{fig:clove},~\ref{fig:rlove} and~\ref{fig:binLove}, observes a considerable improvement for the constrained set of EoSs, compared to the unconstrained set as well as that found in previous works.
+The maximum EoS variation, given by the largest fractional difference (the absolute difference is also shown in parenthesis for the C-Love, R-Love, and binary Love fits) from the fits as shown in Figs.~\ref{fig:ILQ},~\ref{fig:clove},~\ref{fig:rlove} and~\ref{fig:binLove}, observes a considerable improvement for the constrained set of EoSs, compared to the unconstrained set as well as that found in previous works.
 Additionally, note how the maximal EoS variation for the unconstrained set of EoSs is slightly larger than that found in Refs.~\cite{Yagi:ILQ,Yagi:binLove} - due to the effects of large random sampling taking into account more sources of uncertainty.
 }\label{tab:maxVar}
 \begin{tabular}{ c  || c c c } 
@@ -372,17 +372,30 @@ Additionally, note how the maximal EoS variation for the unconstrained set of Eo
  $\bar{Q}-\Lambda$ & $0.010$ & $0.01262$ & $0.004661$\\
  $\bar{I}-\bar{Q}$ & $0.012$ & $0.01490$ & $0.005716$\\
  \hline
- $C-\Lambda$ & $0.065$ & $0.07198$ & $0.02169$\\
- $R-\Lambda$ & -- & $358.9 \text{ m}$ & $881.4 \text{ m}$\\
+ \noalign{\smallskip}
+\noalign{\smallskip}
+ \noalign{\smallskip}
+\noalign{\smallskip}
+\hline
  \hline
- $\Lambda_a-\Lambda_s$ & \multirow{2}{*}{$\sim0.50$} & \multirow{2}{*}{$0.5724$} & \multirow{2}{*}{$0.2140$}\\
- $(q=0.90)$ & & &\\
+ \textbf{EoS-insensitive} & \multicolumn{3}{c}{\textbf{Maximal EoS Variability}} \\
+ \cline{2-4}
+ \textbf{Relation} & \multicolumn{1}{c|}{\emph{Previous}} & \multicolumn{1}{c|}{\emph{Unconstrained}} & \emph{Constrained}\\
+ \hline
+ \multirow{2}{*}{$C-\Lambda$} & $0.065$ & $0.07198$ & $0.02169$\\
+ & (--) & ($0.01837$) & ($0.006582$)\\
+  \hline
+ \multirow{2}{*}{$R-\Lambda$} & -- & $0.02172$ & $0.05649$\\
+ & (--) & ($358.9 \text{ m}$) & ($881.4 \text{ m}$)\\
+ \hline
+ $\Lambda_a-\Lambda_s$ & $\sim0.50$ & $0.5724$ & $0.2140$\\
+ $q=0.90$ & (--) & ($190.1$) & ($37.23$) \\
  \cline{1-1}
- $\Lambda_a-\Lambda_s$ & \multirow{2}{*}{$\sim0.20$} & \multirow{2}{*}{$0.2447$} & \multirow{2}{*}{$0.08284$}\\
-  $(q=0.7)$ & & &\\
+ $\Lambda_a-\Lambda_s$ & $\sim0.20$ & $0.2447$ & $0.08284$\\
+  $q=0.7$ & (--) & ($320.4$) & ($51.62$) \\
   \cline{1-1}
- $\Lambda_a-\Lambda_s$ & \multirow{2}{*}{$\sim0.025$} & \multirow{2}{*}{$0.03841$} & \multirow{2}{*}{$0.01823$}\\
-  $(q=0.50)$ & & &\\
+ $\Lambda_a-\Lambda_s$ & $\sim0.025$ & $0.03841$ & $0.01823$\\
+  $q=0.50$ & (--) & ($244.1$) & ($28.96$) \\
   \cline{1-1}
 \hline
 \hline
@@ -461,7 +474,7 @@ Observe how the constrained EoSs show a large suppression in EoS variability com
 The maximal EoS variation is compared between the above three cases in Tab.~\ref{tab:maxVar}.
 \begin{figure}
 \begin{center} 
-\includegraphics[width=.86\columnwidth]{CL.eps}
+\includegraphics[width=\columnwidth]{CL.eps}
 \end{center}
 \caption{
 Similar to Fig.~\ref{fig:ILQ} but for C-Love relations.
@@ -481,7 +494,7 @@ We observe a large suppression in the radius measurement accuracy from the uncon
 
 \begin{figure}
 \begin{center} 
-\includegraphics[width=1\columnwidth]{RL.eps}
+\includegraphics[width=\columnwidth]{RL.eps}
 \end{center}
 \caption{
 Similar to Fig.~\ref{fig:clove} but for the R-Love relationship between the NS radius and tidal deformability.
