@@ -1,7 +1,6 @@
 \documentclass[prd,twocolumn,nofootinbib,superscriptaddress,amsmath,amssymb]{revtex4-1}
 \include{preamble}
 
-
 \begin{document}
 
 \title{EoS-insensitive relations after GW170817}
@@ -43,7 +42,12 @@
 
 \date{\today}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Begin Abstract %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%
+%%%% ABSTRACT %%%%
+%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%
+
 \begin{abstract}
 % Intro
 The thermodynamic relationship between pressure and density (the equation of state, or EoS) of cold supranuclear matter, accessible in neutron stars, is critical to the study of such stars, and is one of the largest uncertainties in nuclear physics to date. 
@@ -54,25 +58,28 @@ Previous studies have shown that approximately EoS-insensitive ``binary Love rel
 % What was done before - I-Love-Q
 Similarly, another set of EoS-insensitive relations exist between individual neutron star parameters: moment of inertia (I), tidal deformability (Love number), quadrupole moment (Q), and compactness (C) - known as the ``I-Love-Q" and ``C-Love" relations.
 % What universal relations do
-Such EoS-insensitive relations allow the elimination of some tidal parameters from the list of model parameters, thus breaking degeneracies and ultimately reducing parameter extraction uncertainties.
+Such EoS-insensitive relations allow the elimination of some tidal parameters from the list of model parameters, thus breaking degeneracies and ultimately reducing the parameter extraction uncertainties.
 % What we will do
-However, even the most precise of EoS insensitive relations carry EoS variation which inject systematic errors into the parameter extraction process.
-In this document, we explain how one can reduce equation of state variation for I-Love-Q, C-Love, and binary Love relations, which helps to reduce systematic errors on the tidal measurement of binary neutron star mergers.
-However, we show that the systematic effects of these relations is very small until next-generation detectors. 
+However, even the most precise of EoS-insensitive relations carry EoS variation uncertainties which inject systematic errors into the parameter extraction process.
+In this document, we explain how one can reduce the equation of state variation for the I-Love-Q, C-Love, and binary Love relations, which helps to reduce the systematic errors on the tidal measurement of binary neutron star mergers.
+However, we show that the systematic effects of these relations are negligible until next-generation detector sensitivities. 
 We achieve this  by restricting to only equations of state drawn from the 90\% posterior constraint on pressure as a function of density, as derived by the LIGO Collaboration.
 % What we found
 We find an improvement in binary Love universality by a factor of $\sim 59$\% for stars with a mass ratio of 0.75, in C-Love universality by a factor of $\sim 67\%$, and in I-Love-Q universality by factors of $\sim 50$\%.
 % Conclude
-We end by comparing systematic errors on tidal measurement due to the equation of state variation with statistical errors and comment on whether one can safely use these EoS-insensitive relations with future gravitational wave observations.
-We conclude that the systematic errors injected from the use of improved EoS-insensitive relations become comparable to the statistical errors for future design upgrade Voyager.
+We end by comparing the systematic errors on tidal measurements due to the equation of state variation with statistical errors and comment on whether one can safely use these EoS-insensitive relations with future gravitational wave observations.
+We conclude that the systematic errors injected from the use of improved EoS-insensitive relations become comparable to the statistical errors for future detector upgrade Voyager.
 \end{abstract}
 
 \maketitle
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Begin Introduction %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+%%%% INTRODUCTION %%%%
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Introduction}\label{sec:intro}
-%Intro
 
 {\ny{Just some general comments so that we don't forget:
 \begin{itemize}
@@ -84,13 +91,14 @@ We conclude that the systematic errors injected from the use of improved EoS-ins
 \item Let's remove all commented out text.  
 \end{itemize}
 }}
+%Intro
 The dependence of pressure on density for cold supranuclear matter found inside neutron stars (NSs) remains to be one of the largest mysteries in both nuclear physics and astrophysics.
-This internal structure of such stars, known as the equation of state (EoS), is exceedingly important, as it is the determining factor for many NS observables - such as the mass, the radius, and many more.
+This internal structure of such stars, known as the equation of state (EoS), is exceedingly important, as it is the determining factor for many NS observables - such as the mass and the radius.
 Unfortunately, terrestrial experiments can only study the EoS to around the nuclear saturation density ($\rho_{\text{sat}} \approx 2.5 \times 10^{14} \text{ g/cm}^3$)~\cite{Li:HeavyIon,Tsang:SymmetryEnergy,Centelles:NeutronSkin,Li:CrossSections,Chen:SymEnergy} (although some temperature-dependent heavy-ion collision experiments may probe higher densities~\cite{Danielewicz:2002pu}), making NSs ideal laboratories for constraining ultra dense nuclear matter.
 
 %Constraining the EoS
 Independent measurements of NS observables can be used to constrain the nuclear EoS.
-For example, electromagnetic observations of the mass-radius relationship of NSs have been used to place limits on the NS EoS~\cite{guver,ozel-baym-guver,steiner-lattimer-brown,Lattimer2014,Ozel:2016oaf}.
+For example, electromagnetic observations of the NS mass-radius relationship have been used to place limits on the EoS~\cite{guver,ozel-baym-guver,steiner-lattimer-brown,Lattimer2014,Ozel:2016oaf}.
 However, these implications potentially suffer from large systematic errors due to various x-ray burst astrophysical mismodeling uncertainties.
 Alternatively, the emission of gravitational waves (GWs) from binary NS merger events have proven to be a unique method of probing nuclear physics.
 During the early inspiral portion of the merger, the orbital separation is large enough that the effect of companion tidal fields is negligible. 
@@ -98,58 +106,67 @@ As the separation decreases through GW emission, tidal forces are magnified and 
 This deformation is characterized by the \textit{tidal deformability} $\Lambda$ as the linear response of the NSs quadrupole moment $Q_{ij}$ to the neighboring tidal field $\varepsilon_{ij}$~\cite{hinderer-love,Flanagan2008}.
 
 %reparameterization of the template
-In the case of binary NSs, each star becomes deformed via the process highlighted above, resulting in two highly correlated tidal parameters $\Lambda_1$ and $\Lambda_2$ entering in the gravitational waveform\cite{Flanagan2008,Vines:2011ud}.
+In the case of binary NSs, each star becomes deformed via the process highlighted above, resulting in two highly correlated tidal parameters $\Lambda_1$ and $\Lambda_2$ entering the gravitational waveform~\cite{Flanagan2008,Vines:2011ud}.
 Due to high correlations between between the two parameters, independent extraction becomes very difficult at current interferometer sensitivities~\cite{Wade:tidalCorrections}.
 Typically, these high correlations can be reduced by strategically reparameterizing the waveform template with new tidal parameters constructed from linear combinations of $\Lambda_1$ and $\Lambda_2$.
-For example, utilizing the parameters $\tilde{\Lambda}$ and $\delta \tilde{\Lambda}$~\cite{Favata:2013rwa,Wade:tidalCorrections} which enter the GW waveform at different post-Newtonian (PN) orders (powers of the ratio between the orbital speed and the speed of light $v/c^{2n}$) partially mitigates these correlations.
-Similarly, the waveform may be parameterized by mass-independent tidal parameters $\lambda_0$ and $\lambda_1$, derived through a Taylor expansion about $m_0=1.4 \text{ M}_{\odot}$ of tidal deformability $\Lambda \approx \lambda_0+\lambda+1(1-\frac{m}{m_0})$~\cite{delPozzo:TaylorTidal,Yagi:binLove}. 
+For example, utilizing the parameters $\tilde{\Lambda}$ and $\delta \tilde{\Lambda}$~\cite{Favata:2013rwa,Wade:tidalCorrections} which enter the GW waveform at different post-Newtonian (pN) orders\footnote{n-pN order corrections enter the gravitational waveform at powers of the ratio between the orbital speed and the speed of light $v/c^{2n}$.} partially mitigates these correlations.
+Similarly, the waveform may be parameterized by mass-independent tidal parameters $\lambda_0$ and $\lambda_1$, derived through a Taylor expansion about $m_0=1.4 \text{ M}_{\odot}$ of tidal deformability $\Lambda \approx \lambda_0+\lambda_1(1-\frac{m}{m_0})$~\cite{delPozzo:TaylorTidal,Yagi:binLove}. 
 Use of this set of tidal parameters allows one to effectively combine multiple events with varying mass and $\tilde\Lambda$ components, not possible in the former parameterization of $\tilde{\Lambda}$ and $\delta \tilde{\Lambda}$
 
 %Universal relations
-Unfortunately, current detectors are only sensitive enough to accurately measure the dominant tidal parameter, $\lambda_0$ (also known as $\Lambda_{1.4}$, the tidal deformability at $1.4 \text{ M}_{\odot}$).
+Unfortunately, current detectors are not sensitive enough to accurately measure the dominant tidal parameter, $\lambda_0$ (also known as $\Lambda_{1.4}$, the tidal deformability at $1.4 \text{ M}_{\odot}$).
 Previous work by Yagi and Yunes~\cite{Yagi:binLove} resolved this issue by finding approximately EoS-insensitive ``binary Love relations" between symmetric and anti-symmetric combinations of tidal deformabilities $\Lambda_{s,a}=\frac{1}{2}(\Lambda_1 \pm \Lambda_2)$.
-This allows one to further break degeneracies between tidal parameters, resulting in both (i) a decrease in uncertainty upon parameter extraction of $\Lambda_s$ on the removal of parameter $\Lambda_a$ from the model, and (ii) the ability to measure the secondary tidal parameter upon measurement of the first~\cite{Katerina:residuals}.  
-Use of these relations leads to up to an order of magnitude improvement in parameter estimation of $\Lambda_s$ through a simple Fisher analysis~\cite{Yagi:binLove}, also confirmed with the detailed analysis of~\cite{Katerina:residuals}.
-Similar ``I-Love-Q" and ``C-Love" relations~\cite{Yagi:ILQ} have been found between individual NS observables: quadrupole moment , moment of inertia, tidal deformability, and compactness; similarly allowing the removal of tidal parameters from the model list, and allowing an automatic determination of one observable through the measurement of another.
-However, these relations have been tuned to a collection of EoS models, and each have intrinsic uncertainties associated with their use.
+This allows one to further break degeneracies between tidal parameters, resulting in both (i) a decrease in uncertainty upon parameter extraction of $\Lambda_s$ on the removal of parameter $\Lambda_a$ from the model; and (ii) the ability to measure the secondary tidal parameter upon measurement of the first~\cite{Katerina:residuals}.  
+Use of these relations leads to up to an order of magnitude improvement in parameter estimation of $\Lambda_s$ through a simple Fisher analysis~\cite{Yagi:binLove}, also confirmed with the detailed analysis seen in Ref.~\cite{Katerina:residuals}.
+Similar ``I-Love-Q" and ``C-Love" relations~\cite{Yagi:ILQ} have been found between individual NS observables: quadrupole moment, moment of inertia, tidal deformability, and compactness; similarly allowing the removal of tidal parameters from the model list, and allowing an automatic determination of one observable through the measurement of another.
+However, these relations have been tuned to a specific collection of EoS models, and each have intrinsic uncertainties associated with their use.
 
 %How we improved this
 In this analysis, we aim to improve this important work by imposing the restrictions found on the EoS~\cite{LIGO:posterior} derived from the recent binary NS merger observation, GW170817~\cite{TheLIGOScientific:2017qsa}.
-By restricting to only EoSs which lie within the the 90\% credible region on pressure as a function of density found in~\cite{LIGO:posterior}, we repeat the analyses done in~\cite{Yagi:binLove,Yagi:ILQ} and show an increase in universality for I-Love-Q, C-Love, and binary Love relations.
-We also investigate the relationship between the NS radius and its tidal deformability, or the R-Love relations, determining if the uncertainties can be reduced.
-In addition, we consider hybrid star EoSs seen in~\cite{Paschalidis2018}, which experience strong first-order transitions from hadronic matter to quark matter.
-These provide a departure from the nuclear matter relations considered here - providing valuable insight into them.
-Further, we estimate the viability of using improved EoS-insensitive relations on future GW detections by performing simple Fisher analyses to approximate when the statistical errors from parameter extraction become comparable to the systematic errors due to EoS variation in the relations.
-To estimate the effect of waveform mismodeling, we additionally consider two different tidal corrections to the injected PhenomD~\cite{PhenomDI,PhenomDII} waveform: 6PN~\cite{Wade:tidalCorrections} and NRTidal~\cite{Samajdar:NRTidal}
+By restricting to only EoSs which lie within the the 90\% credible region on pressure as a function of density found in Ref.~\cite{LIGO:posterior}, we repeat the analyses done in Refs.~\cite{Yagi:binLove,Yagi:ILQ} and show an increase in universality for the I-Love-Q, C-Love, and binary Love relations.
+We also investigate the relationship between the NS radius and its tidal deformability, or the R-Love relations, determining whether the NS radius uncertainties can be reduced.
+In addition, we consider hybrid star EoSs seen in Ref.~\cite{Paschalidis2018}, which experience strong first-order transitions from hadronic matter to quark matter in the core.
+These provide a departure from the nuclear matter relations considered here - providing valuable insight into such EoSs.
+Lastly, we estimate the viability of using the improved EoS-insensitive relations on future GW detections by performing simple Fisher analyses to approximate when the statistical errors from parameter extraction become comparable to the systematic errors due to EoS variation in the relations.
+To further estimate the effect of waveform mismodeling, we additionally consider two different tidal corrections to the injected PhenomD~\cite{PhenomDI,PhenomDII} waveform: 6PN~\cite{Wade:tidalCorrections} and NRTidal~\cite{Samajdar:NRTidal}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% EXECUTIVE SUMMARY %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsection{Executive Summary}
 %What we did
-In this paper we attempt to improve I-Love-Q, C-Love, and binary Love relations by imposing constraints on the EoS found by GW170817~\cite{LIGO:posterior,TheLIGOScientific:2017qsa}.
-First, we generate two large samples of spectral EoSs~\cite{Lindblom:2018rfr}, where we (i) impose the restriction that they must be drawn from GW170817s 90\% credible posterior in pressure as a function of density, and (ii) don't impose any restrictions for comparison purposes.
-Next, we follow the important works of~\cite{Yagi:binLove} and~\cite{Yagi:ILQ} to show how the ``constrained" set of EoSs show improved universality (binary Love, I-Love-Q, and C-Love) from both the previous works, and the ``unconstrained" sample, shown by Fig.~\ref{fig:ILQ}.
-In addition, we determine the degree to which hybrid star EoSs obey binary Love relations.
+In this paper we attempt to improve the I-Love-Q, C-Love, and binary Love relations by imposing constraints on the EoS found by GW170817~\cite{LIGO:posterior,TheLIGOScientific:2017qsa}.
+First, we generate two large samples of spectral EoSs~\cite{Lindblom:2018rfr}, where we (i) impose the restriction that they must be drawn from GW170817s 90\% credible posterior in pressure as a function of density; and (ii) don't impose any restrictions for comparison purposes.
+Next, we follow the important works of Refs.~\cite{Yagi:binLove} and~\cite{Yagi:ILQ} to show how the ``constrained" set of EoSs show improved universality (binary Love, I-Love-Q, and C-Love) from both the previous works, and the ``unconstrained" sample, shown by Fig.~\ref{fig:ILQ}.
+In addition, we determine the degree to which hybrid star EoSs obey the various EoS-insensitive relations.
 Finally, through a simple Fisher analysis, we consider the value in improving EoS-insensitive relations by approximating when the statistical errors from parameter extraction become comparable to the systematic errors due to EoS variation in the relations.
 
 %Final Results
 Upon use of the constrained set of EoSs, we find an improvement in binary Love universality by a factor of $\sim 59$\% for stars with mass ratios of $0.75$, in C-Love universality by a factor of $\sim 67\%$, and in I-Love-Q universality by factors of $\sim50$\%, tabulated in Tab.~\ref{tab:maxVar}.
 We also present the relationship between the NS radius and tidal deformability, computed directly from the C-Love relations, showing maximum EoS variability of $358.9 \text{ km}$ from the fit discussed in Sec.~\ref{sec:clove}.
-Additionally, we find that hybrid quark-hadron stars do obey the I-Love-Q and C-Love relations, with sightly increased EoS variability.
-We also find that binaries consisting of one massive hybrid star, and one small-mass hadronic star do not agree with derived binary Love relations, due to the large separation in $\tilde{\Lambda}$ between the constituent stars.
-Due to the current limitations in detector sensitivity, the systematic errors arising from EoS variation in the EoS-insensitive relations are far outweighed by the statistical errors accrued by extraction of high-order PN tidal parameters from GW waveforms.
-Fig.~\ref{fig:stackedFisher} compiles the results from Fisher analyses approximating the uncertainties accrued from the parameter extraction of $\lambda_0$ (the tidal deformability at $1.4 \text{ M}_{\odot}$) for GW170817 as if it had been observed by future detectors $A \equiv ($ O2~\cite{aLIGO}, aLIGO~\cite{aLIGO}, A\texttt{+}~\cite{Ap_Voyager_CE}, Voyager~\cite{Ap_Voyager_CE}, ET~\cite{ET}, CE~\cite{Ap_Voyager_CE}$)$.
-Here, $\sigma^A_{\text{GW170817}}$ and $\rho^A_{\text{GW170817}}$ correspond to the statistical error and signal-to-noise-ratio found from observing GW170817 on detector $A$, and $\sigma^A_N$ represents the combined uncertainty after the detection of $N_A$ events (corresponding to the binary NS merger rate associated interferometer $A$).
+Additionally, we find that the hybrid quark-hadron star EoSs do obey the I-Love-Q and C-Love relations, with sightly increased EoS variability.
+We also find that binaries consisting of one massive hybrid star, and one small-mass hadronic star do not agree with the derived binary Love relations, due to the large separation in $\tilde{\Lambda}$ between the constituent stars.
+
+Due to the current limitations in detector sensitivity, the systematic errors arising from EoS variation in the EoS-insensitive relations are far outweighed by the statistical errors accrued by the extraction of high pN order tidal parameters from GW waveforms.
+Fig.~\ref{fig:stackedFisher} compiles the results from Fisher analyses approximating the uncertainties accrued from the parameter extraction of $\lambda_0$ (the tidal deformability at $1.4 \text{ M}_{\odot}$) for GW170817 as if it had been observed by various detectors $A \equiv ($ O2~\cite{aLIGO}, aLIGO~\cite{aLIGO}, A\texttt{+}~\cite{Ap_Voyager_CE}, Voyager~\cite{Ap_Voyager_CE}, ET~\cite{ET}, CE~\cite{Ap_Voyager_CE}$)$.
+Here, $\sigma^A_{\text{GW170817}}$ and $\rho^A_{\text{GW170817}}$ correspond to the statistical error and signal-to-noise-ratio found from observing GW170817 on detector $A$, and $\sigma^A_N$ represents the combined uncertainty after the detection of $N_A$ events (corresponding to the binary NS merger rate associated with interferometer $A$).
 These values are further tabulated in Table~\ref{tab:variances}.
-It can be seen from this figure that the statistical errors from parameter extraction become comparable the EoS-insensitive relation systematics (indicated by the magenta horizontal line) for the Voyager telescope - indicating when improved binary Love relations will become necessary.
-Also shown in the figure is the same measurement uncertainties upon the injection of the PhenomD + NRTidal waveform, rather than the PhenomD + 6PN tidal correction to demonstrate the effect of waveform mismodeling.
+It can be seen from this figure that the statistical errors from parameter extraction become comparable the EoS-insensitive relation systematics (indicated by the magenta horizontal line) for the Voyager interferometer - indicating when the improved binary Love relations will become necessary.
+Also shown in the figure is the same measurement uncertainties upon the injection of the PhenomD + NRTidal~\cite{PhenomDI,PhenomDII,Samajdar:NRTidal} waveform, rather than the PhenomD + 6PN~\cite{PhenomDI,PhenomDII,Wade:tidalCorrections} tidal correction to demonstrate the effect of waveform mismodeling.
+
 \begin{figure}
 \begin{center} 
 \includegraphics[width=\columnwidth]{stackedFisher.eps}
 \end{center}
 \caption{
-Estimated statistical uncertainties on the extraction of the tidal deformability at $1.4 \text{ M}_{\odot}$, $\lambda_0$, observed from interferometers $A=$(O2, aLIGO, A\texttt{+}, Voyager, CE, ET-D$)$ as a function of the signal-to-noise-ratio.
-In this figure, the filled blue circles denote the single-event statistical uncertainties $\sigma^A_{\text{GW170817}}$ of GW170817 as if it were observed on detector $A$.
-Also shown by the turquoise shaded region is combined uncertainty $\sigma^A_N$  from the observation of multiple events from a simulated population of size $N_A$ corresponding to the upper and lower limits of the expected binary NS merger detection rates for O2, aLIGO, A\texttt{+}, Voyager, CE, and ET-D over 1 observation year.
-It can be seen that the statistical errors in the parameter extraction become comparable to the systematics from EoS variation in the improved binary Love relations (indicated by the horizontal indigo dashed line) for Voyager, CE, and ET.
+Estimated statistical uncertainties on the extraction of the tidal deformability at $1.4 \text{ M}_{\odot}$, $\lambda_0$, observed from interferometers $A=$(O2, aLIGO, A\texttt{+}, Voyager, CE, ET-D$)$ as a function of the signal-to-noise-ratio $\rho^{\text{A}}_{\text{GW170817}}$.
+%evaluated from $300 \text{ Hz} \leq f \leq 1649 \text{ Hz}$\footnote{This was done for demonstrative purposes, as computing the SNR with $1 \text{ Hz} \leq f \leq 1649 \text{ Hz}$ resulted in smaller statistical uncertainties for ET than CE, albeit having a smaller SNR - a relic originating from ET being more sensitive to the high frequency tidal effects than CE.}.
+In this figure, the filled blue circles denote the single-event statistical uncertainties $\sigma^A_{\text{GW170817}}$ of GW170817 as if it were observed on detector $A$\footnote{We note that ET more accurately measures single events than CE albeit having a smaller SNR - a relic originating from ET being more sensitive to the high frequency tidal effects than CE. See Sec.~\ref{sec:futureObservations} for a discussion on this.}.
+Also shown by the cyan shaded region is the combined uncertainty $\sigma^A_N$ from the observation of multiple events from a simulated population of size $N_A$ corresponding to the upper and lower limits of the expected binary NS merger detection rates for detector $A$ over 1 observation year.
+It can be seen that the statistical errors in the parameter extraction become comparable to the systematics from EoS variation in the improved binary Love relations (indicated by the horizontal indigo dashed line) for the Voyager, CE, and ET detectors.
 These results are further tabulated in Table~\ref{tab:variances}.
 Additionally shown in the figure are the estimated statistical uncertainties on the extraction of $\lambda_0$ upon the injection of the PhenomD + NRTidal correction waveform (IMRD + NRTidal), rather than the PhenomD + 6PN tidal correction (IMRD + 6PN), in order to demonstrate the effect of waveform mismodeling uncertainties.
 The single-detection uncertainties are shown by unfilled maroon circles, while the combined detection uncertainties are outlined by dashed maroon.
@@ -159,17 +176,22 @@ The single-detection uncertainties are shown by unfilled maroon circles, while t
 
 %outline
 The organization of this paper is outlined below.
-We begin with a complementary background and theory material in Sec.~\ref{sec:theory}.
+We begin with complementary background and theory material in Sec.~\ref{sec:theory}.
 We continue in Sec.~\ref{sec:universal} by finding new and improved binary Love, I-Love-Q, and C-Love relations, and considering how well hybrid star EoSs agree with the EoS-insensitive relations.
 We next examine these improved relations and question whether or not they are useful for future interferometers in Sec.~\ref{sec:observations}.
 We conclude in Sec.~\ref{sec:conclusion} by discussing our results and mentioning avenues of future work.
 Throughout this paper, we have adopted geometric units of $G=c=1$, unless otherwise stated.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Begin theory %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% BACKGROUND AND THEORY %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \section{Background and theory}\label{sec:theory}
 
 \subsection{Spectral representations of neutron star equations of state}\label{sec:eos}
-The structure of a NS and its tidal interactions in a binary system rely heavily on the underlying state function (or equation of state) describing the relationship between pressure ($p$) and energy density ($\epsilon$) of nuclear matter.
+The structure of a NS and its tidal interactions in a binary system rely heavily on the underlying state function (or equation of state - EoS) describing the relationship between the pressure ($p$) and energy density ($\epsilon$) of nuclear matter.
 Given that all currently proposed EoSs utilize certain approximations~\cite{Oertel:Review,Baym:Review}, one method to study a wide range of physically realizable EoSs is to parameterize them such that any realistic EoS can be represented with a small number of parameters.
 Spectral representations~\cite{Lindblom:2010bb,Lindblom:2012zi,Lindblom:2013kra,Lindblom:2018rfr,Abbott:2018exr} parameterize EoSs by performing spectral expansions on the adiabatic index $\Gamma(p)$\footnote{Another way of parameterizing EoSs is the piecewise polytropic formulation~\cite{Read2009,Lackey:2014fwa,Carney:2018sdv}.}:
 \begin{equation}
@@ -180,17 +202,17 @@ The equation of state is then determined by an integration of the differential e
 \begin{equation}
 \frac{d \epsilon(p)}{dp}=\frac{\epsilon(p)+p}{p \Gamma(p)}.
 \end{equation}
-Using this formalism, any valid EoS can be approximated through the choice of 4 or more spectral coefficients $\gamma_k$, tabulated for several common EoSs in Table 1 of~\cite{Lindblom:2018rfr}.
+Using this formalism, any valid EoS can be approximated through the choice of 4 spectral coefficients $\gamma_k$, tabulated for several common EoSs in Table 1 of Ref.~\cite{Lindblom:2018rfr}.
 
 In the current analysis, we consider EoSs which have been constrained by the recent binary neutron star merger event, GW170817.
-Important recent work~\cite{LIGO:posterior,Carney:2018sdv} sampled EoS parameters in order to derive a marginalized posterior on the pressure as a function of mass density, as seen in Fig. 2 of~\cite{LIGO:posterior}.
-The spectral coefficients were sampled within the ranges: $\gamma_0 \in \lbrack 0.2,2 \rbrack$, $\gamma_1 \in \lbrack -1.6,1.7 \rbrack$, $\gamma_2 \in \lbrack -0.6,0.6 \rbrack$, $\gamma_0 \in \lbrack -0.02,0.02 \rbrack$, and further restricted the adiabatic index to be $\Gamma \in \lbrack 0.6,4.5 \rbrack$, ensuring the parameterization exposed a wide range of viable EoSs~\cite{Lindblom:parameters}.
+Important recent work by the LIGO Collaboration~\cite{LIGO:posterior,Carney:2018sdv} sampled the EoS parameter space in order to derive a marginalized posterior on the pressure as a function of mass density, as seen in Fig. 2 of~\cite{LIGO:posterior}.
+The spectral coefficients were sampled within the ranges: $\gamma_0 \in \lbrack 0.2,2 \rbrack$, $\gamma_1 \in \lbrack -1.6,1.7 \rbrack$, $\gamma_2 \in \lbrack -0.6,0.6 \rbrack$, $\gamma_3 \in \lbrack -0.02,0.02 \rbrack$, and further restricted the adiabatic index to be $\Gamma \in \lbrack 0.6,4.5 \rbrack$, ensuring the parameterization exposed a wide range of viable EoSs~\cite{Lindblom:parameters}.
 Additional constraints imposed upon the generated EoSs were as follows~\cite{LIGO:posterior}: (i) causality within 10\%, and (ii) EoS priors must support NS masses up to $1.97 \text{ M}_{\odot}$, consistent with astrophysical observations~\cite{Zhao:massiveNS}.
 We utilize a random set of 100 of the above posterior samples defined by GW170817, furthermore referenced as the ``constrained EoSs", as shown in Fig.~\ref{fig:eos}.
-Following~\cite{Read2009}, the parameterized high-density core EoSs generated above are matched to the low-density crust EoS Sly~\cite{Douchin:2001sv} at about half of the nuclear saturation density, $\rho_{\text{stitch}}=1.3 \times 10^{14} \text{ g/cm}^3$.
 For comparison, we also include a second sample of 100 ``unconstrained" EoSs, randomly sampled in the pressure-density plane to be unrestricted by GW170817s posterior.
+Following~\cite{Read2009}, the parameterized high-density core EoSs generated above are matched to the low-density crust EoS of Sly~\cite{Douchin:2001sv} at about half of the nuclear saturation density, $\rho_{\text{stitch}}=1.3 \times 10^{14} \text{ g/cm}^3$.
 
-In addition, we investigate 10 transitional quark-hadron matter stars, which undergo first-order phase transitions at pressure $P_{\text{tr}}$, where the hadronic branch departs into a quark-matter branch at a given mass transition~\cite{Paschalidis2018,Alford:2017qgh,1971SvA....15..347S,Zdunik:2012dj,Alford:2013aca}.
+In addition, we investigate 10 transitional quark-hadron matter stars, which undergo first-order phase transitions at pressure $P_{\text{tr}}$, where the hadronic branch departs into a quark-matter branch at a given transitional mass~\cite{Paschalidis2018,Alford:2017qgh,1971SvA....15..347S,Zdunik:2012dj,Alford:2013aca}.
 In particular, we focus on the ACS and ACB models described in Ref.~\cite{Paschalidis2018}, shown in Fig.~\ref{fig:hybridML}.
 These result in two distinct types of NSs, based on their observed mass: (i) massive ($M \geq \text{ M}_{\text{tr}}$) hybrid stars which have quark-matter cores and nuclear matter crusts (we denote this as ``HS"), and (ii) low-mass ($M \leq \text{ M}_{\text{tr}}$) hadronic stars with no internal transition to quark matter (we denote this as ``NS").
 
@@ -202,7 +224,7 @@ These result in two distinct types of NSs, based on their observed mass: (i) mas
 Small representative sets of the unconstrained (dotted) and constrained (solid) EoSs used in this analysis. 
 The constrained EoSs were populated by randomly selecting 100 posterior samples obtained from the GW170817 90\% credible level shown in cyan~\cite{LIGO:posterior}.
 Additionally, 100 unconstrained EoSs were generated by randomly sampling spectral coefficients of physically valid EoSs, with no further constraints applied.
-The following restrictions were also applied to both sets of EoSs: (i) the EoS must have a causal structure within 10\%, and (ii) the EoS must support maximum NS mass of at least $1.97 \text{ M}_{\odot}$, consistent with astrophysical observations.
+The following restrictions were also applied to both sets of EoSs: (i) each EoS must have a causal structure within 10\%, and (ii) each EoS must support a maximum NS mass of at least $1.97 \text{ M}_{\odot}$, consistent with astrophysical observations.
 Finally, the high density core EoSs generated above were stitched to the low-density crust EoS of SLy~\cite{Douchin:2001sv} at $\rho_{\text{stitch}}=1.3 \times 10^{14} \text{ g/cm}^3$.}
 \label{fig:eos}
 \end{figure} 
@@ -214,8 +236,6 @@ Finally, the high density core EoSs generated above were stitched to the low-den
 \caption{
 $M-\Lambda$ relations for the ACS and ACB class model hybrid stars. 
 Observe the transitional points where the NS transitions from the hadronic branch into a quark-matter branch.
-As described in the text, HS/HS and NS/NS binaries have individual masses chosen such that both stars are contained within one branch -- resulting in high $q$ values.
-Constrastingly, HS/NS binaries have individual masses chosen from each branch resulting in small $q$-values.
 }
 \label{fig:hybridML}
 \end{figure} 
@@ -246,10 +266,10 @@ Next we consider binary NS systems, as was found in GW170817, where each star in
 Thus each star possesses tidal deformabilities $\Lambda_1$ and $\Lambda_2$ entering the gravitational waveform.
 Due to strong correlations between these parameters, individual extraction is very difficult with current interferometer sensitivity limitations.
 However, the waveform templates can be strategically reparameterized to instead include independent linear combinations of $\Lambda_1$ and $\Lambda_2$ to mitigate correlations between them. 
-Any set of two independent functions may be used, for example: tidal parameters $\tilde{\Lambda}=\tilde{\Lambda}(\Lambda_1,\Lambda_2)$ and $\delta \tilde{\Lambda}=\delta \tilde{\Lambda}(\Lambda_1,\Lambda_2)$~\cite{Wade:tidalCorrections} first enter the gravitational waveform at 5PN and 6PN orders respectively, thus partially breaking degeneracies.
+Any set of two independent functions may be used, for example: tidal parameters $\tilde{\Lambda}=\tilde{\Lambda}(\Lambda_1,\Lambda_2)$ and $\delta \tilde{\Lambda}=\delta \tilde{\Lambda}(\Lambda_1,\Lambda_2)$~\cite{Wade:tidalCorrections} first enter the gravitational waveform at 5pN and 6pN orders respectively, thus partially breaking degeneracies.
 Here, $\tilde{\Lambda}$ is known as the mass weighted tidal deformability and is the dominant tidal parameter in the waveform. 
 
-\subsection{EoS insensitive relations}\label{sec:eosInsensitive}
+\subsection{EoS-insensitive relations}\label{sec:eosInsensitive}
 Current gravitational wave interferometry is not yet sensitive enough to accurately extract both tidal parameters $\tilde{\Lambda}$ and $\delta\tilde{\Lambda}$.
 In a search to remedy this, Yagi and Yunes~\cite{Yagi:binLove} found that symmetric and antisymmetric combinations of tidal deformabilities:
 \begin{equation}
@@ -257,21 +277,33 @@ In a search to remedy this, Yagi and Yunes~\cite{Yagi:binLove} found that symmet
 \end{equation}
 display EoS-insensitive properties to a high degree, showing EoS variations up to 20\% for binaries with masses less than $1.7 \text{ M}_{\odot}$, for a representative set of 11 EoSs. 
 These ``binary Love relations" allow one to break degeneracies between coupled tidal parameters.
-This is important for two reasons: (i) they allow one to algebraically eliminate tidal parameters from the template parameter list, improving overall parameter estimation, and (ii) they allow the automatic measurement of a second tidal parameter given observation of the first.
-It was shown through a simple Fisher analysis that the use of binary Love relations improved parameter extraction on $\tilde{\Lambda}$ by up to an order of magnitude.
+This is important for two reasons: (i) they allow one to algebraically eliminate tidal parameters from the template parameter list, improving overall parameter estimation; and (ii) they allow the automatic measurement of a second tidal parameter given observation of the first.
+It was shown through a simple Fisher analysis that the use of the binary Love relations improved the parameter extraction of $\tilde{\Lambda}$ by up to an order of magnitude.
 
 Similar EoS-insensitive relations have been found to exist between individual NS observables: moment of inertia (I), tidal deformability (Love), quadrupole moment (Q), and compactness (C), known as the ``I-Love-Q" and ``C-Love" relations~\cite{Yagi:ILQ, Yagi:binLove}.
-These have been found to be EoS insensitive by up to 1\% and 6.5\% respectively.
-In this paper, we show improvement in all of these relations by restricting to EoSs sampled from GW170817s posterior on pressure as a function of density.
-%%%%%%%%%%%%%%%%%%%%%%%%% Begin universal relations %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+These have been found to be EoS-insensitive by up to 1\% and 6.5\% respectively.
+In this paper, we show an improvement in all of these relations by restricting to EoSs sampled from GW170817s posterior on pressure as a function of density.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% UNIVERSAL RELATIONS %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \section{EoS-insensitive relations}\label{sec:universal}
-In this section, we follow the analyses performed in~\cite{Yagi:binLove,Yagi:ILQ} with two new sets of 100 spectrally generated EoS: (i) posterior samples randomly selected from GW170817s 90\% posterior on on pressure as a function of density as shown by the solid green curves in Fig.~\ref{fig:eos}, and (ii) those unconstrained by any prior EoS information, as shown by the dotted maroon curves in Fig.~\ref{fig:eos}.
+In this section, we follow the analyses performed in Refs.~\cite{Yagi:binLove,Yagi:ILQ} with two new sets of 100 spectrally generated EoS: (i) posterior samples randomly selected from GW170817s 90\% posterior on the pressure as a function of density as shown by the solid green curves in Fig.~\ref{fig:eos}; and (ii) those unconstrained by any prior EoS information, as shown by the dotted maroon curves in Fig.~\ref{fig:eos}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% I-LOVE-Q RELATIONS %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsection{I-Love-Q relations}\label{sec:ilq}
-Here we present our results on I-Love-Q universality as compared to Fig. 1 of Ref.~\cite{Yagi:ILQ}.
+Here we present our results on the I-Love-Q universality as compared to Fig. 1 of Ref.~\cite{Yagi:ILQ}.
 In particular, we consider two distinct classes of NSs: nuclear matter EoSs and hybrid quark-hadron star EoSs as described in Sec.~\ref{sec:theory}.
 We begin in Sec.~\ref{sec:ilq-nuc} by fitting the new I-Love-Q relations using the constrained set of EoSs.
-This is followed in Sec.~\ref{sec:ilq-hyb} by an analysis and discussion into how well hybrid stars agree with the improved binary Love relations. 
+This is followed in Sec.~\ref{sec:ilq-hyb} by an analysis and discussion into how well the hybrid star EoSs agree with the improved binary Love relations. 
 
 \subsubsection{Nuclear matter stars}\label{sec:ilq-nuc}
 Following the work of Ref.~\cite{Yagi:ILQ}, the data for each EoS-insensitive relation is first fit to the following curve:
@@ -291,7 +323,7 @@ y=K_{yx} x^{\alpha} \frac{1+\sum_{i=1}^3 a_i x^{-i/5}}{1+\sum_{i=1}^3 b_i x^{-i/
 \end{equation}
 where $y$ and $x$ correspond to NS observables $\bar{I}$, $\bar{Q}$, and $\Lambda$, and $\alpha$ is given by $2/5$, $1/5$, and $2$ for the $\bar{I}-\Lambda$, $\bar{Q}-\Lambda$, and $\bar{I}-\bar{Q}$ relations, respectively.
 The new fitting coefficients are presented in Table~\ref{tab:ILQfitNew}.
-While the two above curves both result in fits with similar $R^2$ values (Coefficient of determination, defined as $R^2=\sum_i(f_i-\bar{y})^2/\sum_i(y_i-\bar{y})^2$, where $\bar{y}$ is the mean data value, and $f_i$, $y_i$ are the modeled and actual data values) of $\sim 0.9999995$ for the data presented, the latter has the advantage that it properly limits to the Newtonian case as $\Lambda \rightarrow \infty$~\cite{Yagi:binLove}.
+While the two above curves both result in fits with similar $R^2$ values\footnote{$R^2$ is the coefficient of determination, defined as $\sum_i(f_i-\bar{y})^2/\sum_i(y_i-\bar{y})^2$, where $\bar{y}$ is the mean data value, and $f_i$, $y_i$ are the modeled and actual data values} of $\sim 0.999995$ for the data presented, the latter has the advantage that it properly limits to the Newtonian case as $\Lambda \rightarrow \infty$~\cite{Yagi:binLove}.
 
 \begin{table*}
 \centering
@@ -331,10 +363,11 @@ This fitting relation, unlike previous versions, properly limits to the Newtonia
 \end{tabular}
 \end{table*}
 
-Figure~\ref{fig:ILQ} shows the improved I-Love relations between the dimensionless moment of inertia $\bar{I} \equiv I/M^3$, the dimensionless quadrupole moment $\bar{Q} \equiv Q/M^3$, and the dimensionless tidal deformability $\Lambda$ for both the constrained and unconstrained sets of EoSs.
+Figure~\ref{fig:ILQ} shows the improved I-Love-Q relations between the dimensionless moment of inertia $\bar{I} \equiv I/M^3$, the dimensionless quadrupole moment $\bar{Q} \equiv Q/M^3$, and the dimensionless tidal deformability $\Lambda$ for both the constrained and unconstrained sets of EoSs.
 Here, each category of EoS are fit individually using the curve found in Eq.~\ref{eq:ILQfitNew}.
 We observe that the constrained EoSs show considerable improvement from the unconstrained EoSs.
-Additionally, we note a large improvement from the results of previous works~\cite{Yagi:ILQ}, validated in Tab.~\ref{tab:maxVar}, where the maximal EoS variation from each fit is tabulated; comparing the results of previous works to the unconstrained and constrained sets of EoSs.
+Additionally, we note a large improvement from the results of previous works~\cite{Yagi:ILQ}.
+This is validated in Tab.~\ref{tab:maxVar}, where the maximal EoS variation from each fit is tabulated; comparing the results of previous works to the unconstrained and constrained sets of EoSs.
 Observe how the constrained EoSs outperform both other cases by a considerable amount for each I-Love-Q relation.
 
 \begin{figure*}
@@ -344,8 +377,8 @@ Observe how the constrained EoSs outperform both other cases by a considerable a
 \includegraphics[width=.32\textwidth]{IQ.pdf}
 \end{center}
 \caption{
-Individual I-Love relations $\bar{I}-\Lambda$ (left), $\bar{Q}-\Lambda$ (center), and $\bar{I}-\bar{Q}$ (right), shown for both the constrained EoSs (solid green) and unconstrained EoSs (dotted maroon).
-In these figures, the black dashed lines corresponds to the fits given by Eq.~\ref{eq:ILQfitNew} (note: each panel contains individual fits for the constrained and unconstrained EoSs, indistinguishable on such a large scale).
+Individual I-Love-Q relations $\bar{I}-\Lambda$ (left), $\bar{Q}-\Lambda$ (center), and $\bar{I}-\bar{Q}$ (right), shown for both the constrained EoSs (solid green) and unconstrained EoSs (dotted maroon).
+In these figures, the black dashed lines corresponds to the fits given by Eq.~\ref{eq:ILQfitNew}.
 Observe how the fractional difference from the fits, shown in the bottom panels, is greatly suppressed for the constrained case, compared to both the unconstrained case, and results from previous works~\cite{Yagi:ILQ}.
 The maximal EoS variation from the fits for the unconstrained and constrained sets of EoSs are compared in Tab.~\ref{tab:maxVar}.
 Additionally shown in this figure is the fractional difference from the nuclear matter fits for the 10 hybrid star EoSs (dashed green).
@@ -404,20 +437,20 @@ Additionally, note how the maximal EoS variation for the unconstrained set of Eo
 
 
 These results indicate that EoS-insensitive relations can indeed be greatly improved upon by restricting to EoSs in agreeance with physical observations.
-In addition, we confirm the validity of this method by noting that the unconstrained EoSs observe more EoS variability than that found in Ref.~\cite{Yagi:ILQ} due to the nature of large random sampling taking into account more sources of uncertainty than previously studied.
+In addition, we confirm the validity of this method by noting that the unconstrained EoSs observe more EoS variability than that found in Ref.~\cite{Yagi:ILQ} due to the nature of large random sampling taking into account more sources of uncertainty than was previously studied.
 On the other hand, the constrained set of EoSs show significant improvement from that found in previous works.
 
 \subsubsection{Hybrid quark-hadron stars}\label{sec:ilq-hyb}
 In this section, we investigate the I-Love-Q universality of hybrid stars, and their compatibility with their nuclear matter counterparts.
 We consider three different sets of data to be fit by Eq.~\ref{eq:ILQfitNew}:
 \begin{enumerate}
-\item Complete set of 100 constrained EoSs combined with the 10 hybrid star EoSs,
-\item Complete set of 100 constrained EoSs alone,
-\item Complete set of 10 hybrid star EoSs alone.
+\item the complete set of 100 constrained EoSs combined with the 10 hybrid star EoSs,
+\item the complete set of 100 constrained EoSs alone,
+\item the complete set of 10 hybrid star EoSs alone.
 \end{enumerate}
 Following this, we compute the fractional difference from the fits for all three cases for the 10 hybrid star EoSs.
 The fractional differences for the second case (fit to only the constrained EoSs) is shown by the dashed green lines in Fig.~\ref{fig:ILQ} for example.
-To compare the three different fits, Tab.~\ref{tab:hybridCompare} displays the maximal EoS variation in the $I-\Lambda$ relation for both the constrained and hybrid star EoSs in each case.
+For comparison purposes, Tab.~\ref{tab:hybridCompare} displays the maximal EoS variation in the $I-\Lambda$ relation for both the constrained and hybrid star EoSs in each case.
 
 \begin{table}
 \centering
@@ -448,13 +481,19 @@ The second case is demonstrated in Fig.~\ref{fig:ILQ}.
 \end{table}
 
 Observe how the hybrid star EoSs obey the I-Love-Q relations in each case by up to $\sim1.7$\%, slightly higher than that found for nuclear matter EoSs in previous works~\cite{Yagi:ILQ}.
-Further, we observe that the universality can not be improved by much through the introduction of new fits, only bringing the max EoS variation down to $\sim1$\% for the fits constructed with only hybrid star EoSs.
-Concluding, we claim that hybrid star EoSs \emph{do} obey the I-Love-Q relations computed through nuclear EoS data, with a decrease in universality to $\sim1.7$\%.  
+Further, we observe that the universality can not be improved by much through the introduction of new fits, only bringing the maximal EoS variation down to $\sim1$\% for the fits constructed with only hybrid star EoSs.
+Concluding, we claim that hybrid star EoSs \emph{do} obey the traditional nuclear I-Love-Q relations computed through nuclear EoS data, with a slight decrease in universality to $\sim1.7$\%.  
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% C-LOVE RELATIONS %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsection{C-Love Relations}\label{sec:clove}
-In this section we consider approximately EoS-insensitive C-Love relations between NS compactness $C \equiv M/R$ and unitless tidal deformability $\Lambda$, as discussed by Yagi and Yunes~\cite{Yagi:binLove}.
+In this section we consider approximately EoS-insensitive C-Love relations between the NS compactness $C \equiv M/R$ and the unitless tidal deformability $\Lambda$, as discussed by Yagi and Yunes in ref.~\cite{Yagi:binLove}.
 Additionally in this section, we compute the relationship between the NS radius and tidal deformability from the C-Love relations.
-This allows one to compare the approximate uncertainty on NS radius computed from the C-Love relations for both the constrained and unconstrained sets of EoSs. 
+This allows one to compare the approximate uncertainty on the NS radius computed from the C-Love relations for both the constrained and unconstrained sets of EoSs. 
 Similar to the previous section, we consider two classes of stars in this section: nuclear matter EoSs and hybrid quark-hadron star EoSs.
 
 \subsubsection{Nuclear matter stars}\label{sec:clove-nuc}
@@ -469,7 +508,7 @@ C^N=K_{C\Lambda}\Lambda^{-1/5}.\label{eq:cloveFit}
 \end{equation}
 The new fitting coefficients are displayed in Tab.~\ref{tab:ILQfitNew}, alongside the previously found I-Love-Q relations.
 
-Figure~\ref{fig:clove} presents the C-Love relations for both the constrained and unconstrained sets of EoSs, along with the relative fractional difference from the fits. 
+Figure~\ref{fig:clove} presents the C-Love relations for both the constrained and unconstrained sets of EoSs, along with the corresponding absolute differences from the fits. 
 Observe how the constrained EoSs show a large suppression in EoS variability compared to the unconstrained EoSs, as well as to that found in previous works~\cite{Yagi:binLove}.
 The maximal EoS variation is compared between the above three cases in Tab.~\ref{tab:maxVar}.
 \begin{figure}
@@ -477,11 +516,11 @@ The maximal EoS variation is compared between the above three cases in Tab.~\ref
 \includegraphics[width=\columnwidth]{CL.eps}
 \end{center}
 \caption{
-Similar to Fig.~\ref{fig:ILQ} but for C-Love relations.
+Similar to Fig.~\ref{fig:ILQ} but for the C-Love relations, and the absolute differences (rather than fractional) from the fit.
 In this figure, we similarly construct fits to  Eq.~\ref{eq:ILQfitNew}, properly limiting to the Newtonian case $C \sim \Lambda^{-1/5}$.
-Observe how, as before, the fractional difference from the fits is greatly suppressed for the constrained case, compared to both the unconstrained case, and results from previous works~\cite{Yagi:binLove}.
-The maximal EoS variation from the fits for the unconstrained and constrained sets of EoSs are compared in Tab.~\ref{tab:maxVar}.
-Additionally shown in this figure is the hybrid star C-Love relations along with their fractional difference from the constrained EoS fits (dashed green).
+Observe how, as before, the absolute difference from the fits is greatly suppressed for the constrained case, compared to both the unconstrained case, and results from previous works~\cite{Yagi:binLove}.
+The maximal EoS variation from the fits for the unconstrained and constrained sets of EoSs are compared in Tab.~\ref{tab:maxVar} for both fractional and absolute differences.
+Additionally shown in this figure is the hybrid star C-Love relations along with their absolute differences from the constrained EoS fits (dashed green).
 }
 \label{fig:clove}
 \end{figure} 
@@ -505,13 +544,13 @@ Observe how the absolute difference from the fit is reduced significantly betwee
 \label{fig:rlove}
 \end{figure} 
 
-The results for the C-Love and R-Love relations, similar to that found in Sec.~\ref{sec:ilq}, show the considerable improvement found in using constrained EoSs over any unconstrained set.
+The results for the C-Love and R-Love relations, similar to that found in Sec.~\ref{sec:ilq}, shows considerable improvement in using the constrained EoSs over any unconstrained set.
 We also note that the unconstrained EoSs display slightly larger EoS variability than found in Ref.~\cite{Yagi:binLove}, due to the large random sampling as discussed previously in Sec.~\ref{sec:ilq}.
 
 
 \subsubsection{Hybrid quark-hadron stars}\label{sec:clove-hyb}
 In this section, we consider the effect of hybrid star EoSs on the C-Love relation.
-Much like Sec.~\ref{sec:ilq-hyb}, we perform 3 separate fits (constrained and hybrid EoSs combined, constrained EoSs only, and hybrid EoSs only) and compare the maximal EoS variation for each class of EoSs.
+Much like Sec.~\ref{sec:ilq-hyb}, we perform 3 separate fits (constrained and hybrid EoSs combined, constrained EoSs only, and hybrid EoSs only) and compare the maximal EoS variation for each set of EoSs.
 
 Table~\ref{tab:hybridCompareClove} compares the maximal EoS variability for the constrained and hybrid star EoSs under the fitting conditions for each case described above. 
 We observe very similar behavior to that described in Sec.~\ref{sec:ilq-hyb}, in which the maximal EoS variation for hybrid stars only fluctuate slightly ($\sim 4.5\% - 7\%$) for each case.
@@ -546,6 +585,12 @@ The second case is demonstrated in Fig.~\ref{fig:clove}.
 \end{tabular}
 \end{table}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% BINARY LOVE RELATIONS %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \subsection{Binary love relations}\label{sec:binary}
 Next we consider improvements to the binary Love relations.
 Similar to Sec.~\ref{sec:ilq}, we consider two distinct classes of NSs: nuclear matter EoSs and hybrid quark-hadron star EoSs~\cite{Paschalidis2018,Alford:2017qgh,1971SvA....15..347S,Zdunik:2012dj,Alford:2013aca}.
@@ -558,7 +603,8 @@ Here, q is the mass ratio $q \equiv m_1/m_2$ with $m_1 \leq m_2$, and $F_n(q)$ i
 F_n(q) \equiv \frac{1-q^{10/(3-n)}}{1+q^{10/(3-n)}}.
 \end{equation}
 The updated fit parameters for the constrained set of EoSs can be found in Table~\ref{tab:binLovefit}.
-Notice how, unlike the individual NS I-Love-Q relations, these relations also depend on the ratio of constituent masses in the binary system.
+Notice how, unlike the individual NS I-Love-Q relations, these relations additionally depend on the ratio of constituent masses in the binary system.
+
 \begin{table*}
 \centering
 \caption{
@@ -585,106 +631,111 @@ We take note that while the fractional errors increase rapidly with increasing m
 This can be explained by the control factor $F_n(q)$ given by Eq.~\ref{eq:control}, which similarly observes a peak for central mass ratio values of $q\approx0.75$.
 We additionally make two observations about the effective ranges of $\Lambda_s$ seen in Fig.~\ref{fig:binLove}: (i) as the constituent masses in the binary system become further separated, the range of $\Lambda_s$ values shrinks; and (ii) the constrained set of EoSs typically display smaller values of $\Lambda_s$ than the unconstrained set do.
 The former observation can be explained by the following reasoning: as the masses further separate, there is a limited range of tidal deformabilities $\Lambda_{1,2}$ in the M-L relationships which satisfy the mass ratio constraint.
-From this we suggest the reader take note that as the mass ratio decreases, the allowable paramreter space for the binary Love relations shrinks.
+From this we suggest the reader take note that as the mass ratio decreases, the allowable parameter space for the binary Love relations shrinks.
 The latter observation originates from the EoS generation process: the unconstrained EoSs are randomly generated -- resulting in various EoSs which are both stiffer and softer than those constrained by GW170817.
 This results in the unconstrained EoSs containing a larger range of tidal deformabilities $\Lambda$ (both above and below) than the constrained ones, which ultimately gives \emph{larger} values of $\Lambda_s=\frac{1}{2}(\Lambda_1+\Lambda_2)$.
 
 \begin{figure}
 \begin{center} 
-\includegraphics[width=\linewidth]{binLoveAbsolute.eps}%{binLove.eps}
+\includegraphics[width=\linewidth]{binLoveAbsolute.eps}
 \end{center}
 \caption{
 Binary Love relations shown for the constrained EoSs (dotted maroon) and unconstrained EoSs (solid green) for various values of mass ratio: $q=0.9$, $q=0.75$, and $q=0.50$.
 In this figure, the top panel displays the EoS-insensitive relations with fits given by Eq.~\ref{eq:binLovefit} shown by dashed black lines (note there are 2 fits for each mass ratio, corresponding to the constrained and unconstrained sets of EoSs), while the bottom 3 panels correspond to the absolute EoS variation for each mass ratio.
 Observe how the constrained set of EoSs show a reduction in EoS variation for both the unconstrained set, and from the results shown in Ref.~\cite{Yagi:binLove}.
-The maximal EoS variability (shown as a the fractional difference for comparison purposes) for each case is tabulated and compared in Tab.~\ref{tab:maxVar}.
+The maximal EoS variability (shown as both the fractional and absolute differences) for each case is tabulated and compared in Tab.~\ref{tab:maxVar}.
 Additionally shown are the binary Love relations for the 10 hybrid star EoSs (dashed bright green curves).
 Observe the large deviations from the fit as the mass ratio $q$ increases, returning near the fit before the transitional pressure at large values of $\Lambda_s$.
 }
 \label{fig:binLove}
 \end{figure} 
 
-Additionally shown in Fig.~\ref{fig:binLove} are the binary Love relations for the 10 hybrid EoSs discussed in previous sections.
+Additionally shown in Fig.~\ref{fig:binLove} are the binary Love relations for the 10 hybrid star EoSs discussed in previous sections.
 As described in Sec.~\ref{sec:theory}, transitional quark-hadron matter stars undergo first-order phase transitions at pressure $P_{\text{tr}}$, where the hadronic branch departs into a quark-matter branch at the corresponding transitional mass $M_{\text{tr}}$.
-These transitions result in two distinct types of NSs, based on their observed mass: (i) massive ($M \geq M_{\text{tr}}$) hybrid stars which have quark-matter cores and nuclear matter crusts (we denote these as ``HS"), and (ii) low-mass ($M \leq M_{\text{tr}}$) hadronic stars with no internal transition to quark matter (we denote these as ``NS").
+These transitions result in two distinct types of NSs, based on their observed mass: (i) massive ($M \geq M_{\text{tr}}$) hybrid stars which have quark-matter cores and nuclear matter crusts (we denote these as ``HS"); and (ii) low-mass ($M \leq M_{\text{tr}}$) hadronic stars with no internal transition to quark matter (we denote these as ``NS").
 Contrary to the single-star relations (I-Love-Q, C-Love, and R-Love) where the hybrid stars moderately agree with their nuclear matter counterparts, the binary-star relations show large disagreement, which can be seen in Fig.~\ref{fig:binLove}.
 Observe how the agreement with the fit is quite good at low pressures (large $\Lambda_s$) where the the binaries consist of NS/NS combinations (here, both stars' EoSs consist of the same class of nuclear matter as the constrained EoSs).
 Once the critical pressure is reached, one or both stars transition into the hybrid branches, resulting in large reductions in tidal deformability as shown in Fig.~\ref{fig:hybridML}.
 When one star lies on the hadronic-matter branch while the other is on the quark-matter branch, 
 the difference between tidal deformabilities becomes larger than expected for pure hadronic-matter stars.
-This results in a large deviation in the sums and differences of tidal deformabilities $(\Lambda_1 \pm \Lambda_2)$, disrupting the overall universality and generating the large ``bump" in the binary love relations for hybrid stars\footnote{This discrepancy is not present in the I-Love-Q and C-Love relations due to their singular nature.} seen in Fig~\ref{fig:binLove}.
+This results in large deviations in the sums and differences of tidal deformabilities $(\Lambda_1 \pm \Lambda_2)$, disrupting the overall universality and generating the large ``bump" in the binary love relations for hybrid stars\footnote{This discrepancy is not present in the I-Love-Q and C-Love relations due to their single-star nature.} seen in Fig~\ref{fig:binLove}.
 
 Due to the inconsistencies in the sums and differences of tidal deformabilities for binary hybrid star systems, we conclude that hybrid stars do \emph{not} agree with the traditional nuclear matter binary Love relations.
 A number of attempts were made to reconcile these differences, such as performing separate ``HS" binary Love relations fitted directly to the hybrid star branches of the EoSs.
 This analysis quickly left the scope of the paper due to the large number of parameters required to control the varying transitional pressures through different EoSs.
-Therefore, we leave this analysis on the hybrid star binary Love relations to be discussed in future works.
-There, we anticipate generating large numbers of hybrid star EoSs with varying transition masses to be taken into account as an additional fitting parameter in a piece-wise fitting function designed to take into account the ``bumps" in the binary Love relations.
+Therefore, we leave an analysis on the hybrid star binary Love relations to be discussed in future works.
+There, we anticipate the generation of large numbers of hybrid star EoSs with varying transition masses to be taken into account as an additional fitting parameter in a piece-wise fitting function designed to take into account the ``bumps" seen in the binary Love relations.
 
-\iffalse%%%%%%%%%%%%%%%%%%% COMMENTED OUT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{Hybrid quark-hadron stars}\label{sec:binLove-hybrid}
-As described in Sec.~\ref{sec:theory}, transitional quark-hadron matter stars undergo first-order phase transitions at pressure $P_{\text{tr}}$, where the hadronic branch departs into a quark-matter branch at the corresponding transitional mass $M_{\text{tr}}$.
-These transitions result in two distinct types of NSs, based on their observed mass: (i) massive ($M \geq M_{\text{tr}}$) hybrid stars which have quark-matter cores and nuclear matter crusts (we denote this as ``HS"), and (ii) low-mass ($M \leq M_{\text{tr}}$) hadronic stars with no internal transition to quark matter (we denote this as ``NS").
-We consider 3 classes of binary systems in this analysis:
-\begin{itemize}
-\item HS/NS binary: consists of one massive hybrid star, and one small hadronic neutron star,
-\item NS/NS binary: consists of two small-mass hadronic neutron stars,
-\item HS/HS binary: consists of two massive hybrid stars.
-\end{itemize}
+%\iffalse%%%%%%%%%%%%%%%%%%% COMMENTED OUT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\subsubsection{Hybrid quark-hadron stars}\label{sec:binLove-hybrid}
+%As described in Sec.~\ref{sec:theory}, transitional quark-hadron matter stars undergo first-order phase transitions at pressure $P_{\text{tr}}$, where the hadronic branch departs into a quark-matter branch at the corresponding transitional mass $M_{\text{tr}}$.
+%These transitions result in two distinct types of NSs, based on their observed mass: (i) massive ($M \geq M_{\text{tr}}$) hybrid stars which have quark-matter cores and nuclear matter crusts (we denote this as ``HS"), and (ii) low-mass ($M \leq M_{\text{tr}}$) hadronic stars with no internal transition to quark matter (we denote this as ``NS").
+%We consider 3 classes of binary systems in this analysis:
+%\begin{itemize}
+%\item HS/NS binary: consists of one massive hybrid star, and one small hadronic neutron star,
+%\item NS/NS binary: consists of two small-mass hadronic neutron stars,
+%\item HS/HS binary: consists of two massive hybrid stars.
+%\end{itemize}
 
-To determine how each of class of binary NS systems obey our improved binary Love relations, we pick a representative set of 10 binary pairs from each class from the ACB5 hybrid EoS, with a transition at $M_{\text{tr}} \approx 1.4 \text{ M}_{\odot}$.
-Binary Love values are computed for each pair, and fractional residuals from the binary Love curve found in Sec.~\ref{sec:binary} are determined and compared to the values from the constrained set of EoSs.
-The results are shown in Fig.~\ref{fig:hybrid}.
-First, we note that the NS/NS combination of stars gives consistent results to that found earlier -- as expected.
-Next, we observe that HS/HS combinations agree moderately with previous relations\footnote{Note that these EoSs do not fit within GW170817s 90\% posterior on EoS - so we expect deviations consistent with the ``unconstrained" set of EoSs, rather than the ``constrained" set.}, while HS/NS combinations disagree significantly.
-This can be explained by the large reduction in tidal deformability proceeding the transition pressure for hybrid stars, as shown in Fig.~\ref{fig:hybrid}.
-When one star lies on the hadronic-matter branch while the other is on the quark-matter branch, 
-the difference between tidal deformabilities becomes larger than expected for pure hadronic-matter stars.
-This results in a large deviation in the NS binary Love relations $\frac{1}{2}(\Lambda_1 \pm \Lambda_2)$, disrupting the overall universality.
+%To determine how each of class of binary NS systems obey our improved binary Love relations, we pick a representative set of 10 binary pairs from each class from the ACB5 hybrid EoS, with a transition at $M_{\text{tr}} \approx 1.4 \text{ M}_{\odot}$.
+%Binary Love values are computed for each pair, and fractional residuals from the binary Love curve found in Sec.~\ref{sec:binary} are determined and compared to the values from the constrained set of EoSs.
+%The results are shown in Fig.~\ref{fig:hybrid}.
+%First, we note that the NS/NS combination of stars gives consistent results to that found earlier -- as expected.
+%Next, we observe that HS/HS combinations agree moderately with previous relations\footnote{Note that these EoSs do not fit within GW170817s 90\% posterior on EoS - so we expect deviations consistent with the ``unconstrained" set of EoSs, rather than the ``constrained" set.}, while HS/NS combinations disagree significantly.
+%This can be explained by the large reduction in tidal deformability proceeding the transition pressure for hybrid stars, as shown in Fig.~\ref{fig:hybrid}.
+%When one star lies on the hadronic-matter branch while the other is on the quark-matter branch, 
+%the difference between tidal deformabilities becomes larger than expected for pure hadronic-matter stars.
+%This results in a large deviation in the NS binary Love relations $\frac{1}{2}(\Lambda_1 \pm \Lambda_2)$, disrupting the overall universality.
 
-\begin{figure}
-\begin{center} 
-\includegraphics[width=\columnwidth]{hybrid.eps}
-\end{center}
-\caption{
-Fractional difference from the improved binary Love relations fit for a representative set of constrained nuclear matter EoSs (gray circles), and 30 selected NS binaries from the ACB5 hybrid EoS.
-In particular, these binary pairs are selected from each of the following categories: (i) binaries with which one massive star has a quark matter core, while the other is pure hadronic matter (i.e. small enough mass that the transition point has not yet been reached), denoted HS/NS (green triangles); (ii) binaries with two small-mass hadron stars, denoted NS/NS (red squares); and (iii) binaries with two large-mass stars with quark matter cores, denoted HS/HS (magenta diamonds).
-}
-\label{fig:hybrid}
-\end{figure} 
+%\begin{figure}
+%\begin{center} 
+%\includegraphics[width=\columnwidth]{hybrid.eps}
+%\end{center}
+%\caption{
+%Fractional difference from the improved binary Love relations fit for a representative set of constrained nuclear matter EoSs (gray circles), and 30 selected NS binaries from the ACB5 hybrid EoS.
+%In particular, these binary pairs are selected from each of the following categories: (i) binaries with which one massive star has a quark matter core, while the other is pure hadronic matter (i.e. small enough mass that the transition point has not yet been reached), denoted HS/NS (green triangles); (ii) binaries with two small-mass hadron stars, denoted NS/NS (red squares); and (iii) binaries with two large-mass stars with quark matter cores, denoted HS/HS (magenta diamonds).
+%}
+%\label{fig:hybrid}
+%\end{figure} 
 
-This discrepancy between the hybrid and hadronic matter EoSs can be seen in Fig.~\ref{fig:binLove}, where the binary Love relations for the 10 hybrid star EoSs are shown alongside the constrained and unconstrained nuclear matter EoSs.
-Observe how the residuals from the fit are quite good at low pressures (large $\Lambda_s$) where the the binaries consist of NS/NS combinations, before reaching the transitional pressure where the deviations become increasingly large ($\sim160$\% for $q=0.90$, $\sim37$\% for $q=0.75$, and $\sim6$\% for $q=0.50$) for HS/HS and HS/NS binaries.
+%This discrepancy between the hybrid and hadronic matter EoSs can be seen in Fig.~\ref{fig:binLove}, where the binary Love relations for the 10 hybrid star EoSs are shown alongside the constrained and unconstrained nuclear matter EoSs.
+%Observe how the residuals from the fit are quite good at low pressures (large $\Lambda_s$) where the the binaries consist of NS/NS combinations, before reaching the transitional pressure where the deviations become increasingly large ($\sim160$\% for $q=0.90$, $\sim37$\% for $q=0.75$, and $\sim6$\% for $q=0.50$) for HS/HS and HS/NS binaries.
 
-To further investigate this phenomena, we consider binary Love fits to the HS or NS branches \emph{individually}.
-It was found that the binary Love relations failed to properly fit to the collection of full hybrid star EoSs, due to the varying transitional masses $M_{\text{tr}}$ across the various EoSs.
-To compensate for these differences, we separate the two branches into the NS (hadronic matter) and HS (hybrid matter) branches.
-We first observe that the NS branches obey the ``hadronic" binary Love relations derived in Sec.~\ref{sec:binary} within the same EoS variability, indicating no further need for additional fits.
-However, the HS branches do not follow the same relations, suggesting the need for a new ``hybrid binary love fit" pertaining to this branch alone.
-We begin by fitting the binary Love curve in Eq.~\ref{eq:binLovefit} to the HS branches, resulting in the fit coefficients tabulated in the bottom row of Tab.~\ref{tab:binLovefit}.
-We note here that the Newtonian limit for this fit is not physical for quark-star matter, which does not reach low enough central densities.
-Attempts were made to remedy this by allowing the polytropic index $n$ to be either $0$ or a free fitting parameter, both of which failed.
-We instead leave the fits as they are, with the disclaimer that they do not properly limit to the Newtonian case.
-The fits are displayed in the top panel of Fig.~\ref{fig:binLove} as dot-dashed blue curves, showing a good relationship with the hybrid star branches used in the analysis.
-We urge caution with the use of these fits, as the limited sample size of 10 EoSs results in a less accurate fit than its nuclear-matter counterpart.
-Similar to the previous section, the fractional difference from the fit for each HS branch is computed, resulting in a maximum EoS variability of $18.49$\% for $q=0.90$.
-This result is strongly consistent with the results found for the nuclear matter fits of Sec.~\ref{sec:binary}.
+%To further investigate this phenomena, we consider binary Love fits to the HS or NS branches \emph{individually}.
+%It was found that the binary Love relations failed to properly fit to the collection of full hybrid star EoSs, due to the varying transitional masses $M_{\text{tr}}$ across the various EoSs.
+%To compensate for these differences, we separate the two branches into the NS (hadronic matter) and HS (hybrid matter) branches.
+%We first observe that the NS branches obey the ``hadronic" binary Love relations derived in Sec.~\ref{sec:binary} within the same EoS variability, indicating no further need for additional fits.
+%However, the HS branches do not follow the same relations, suggesting the need for a new ``hybrid binary love fit" pertaining to this branch alone.
+%We begin by fitting the binary Love curve in Eq.~\ref{eq:binLovefit} to the HS branches, resulting in the fit coefficients tabulated in the bottom row of Tab.~\ref{tab:binLovefit}.
+%We note here that the Newtonian limit for this fit is not physical for quark-star matter, which does not reach low enough central densities.
+%Attempts were made to remedy this by allowing the polytropic index $n$ to be either $0$ or a free fitting parameter, both of which failed.
+%We instead leave the fits as they are, with the disclaimer that they do not properly limit to the Newtonian case.
+%The fits are displayed in the top panel of Fig.~\ref{fig:binLove} as dot-dashed blue curves, showing a good relationship with the hybrid star branches used in the analysis.
+%We urge caution with the use of these fits, as the limited sample size of 10 EoSs results in a less accurate fit than its nuclear-matter counterpart.
+%Similar to the previous section, the fractional difference from the fit for each HS branch is computed, resulting in a maximum EoS variability of $18.49$\% for $q=0.90$.
+%This result is strongly consistent with the results found for the nuclear matter fits of Sec.~\ref{sec:binary}.
 
-We conclude this section with the observation that the hybrid star EoSs do \emph{not} conform to the fits performed on nuclear matter EoSs.
-This is not surprising, as the hybrid branch of the EoSs forces inconsistent results between $\Lambda_1$ and $\Lambda_2$ with different masses; an issue not present for the single-star I-Love-Q relations.
-By separating the two branches of the hybrid EoSs, we find a new ``hybrid" branch binary Love fit which gives consistent results to that found for the nuclear matter fits. 
-\fi%%%%%%%%%%%%%%%%%%% COMMENTED OUT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%We conclude this section with the observation that the hybrid star EoSs do \emph{not} conform to the fits performed on nuclear matter EoSs.
+%This is not surprising, as the hybrid branch of the EoSs forces inconsistent results between $\Lambda_1$ and $\Lambda_2$ with different masses; an issue not present for the single-star I-Love-Q relations.
+%By separating the two branches of the hybrid EoSs, we find a new ``hybrid" branch binary Love fit which gives consistent results to that found for the nuclear matter fits. 
+%\fi%%%%%%%%%%%%%%%%%%% COMMENTED OUT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%%%%%%%%%%%%%%%%%%%%%%%% Begin Future Observations %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% FUTURE OBSERVATIONS %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \section{Impact on future observations}\label{sec:observations}
 
-We have now shown that binary NS merger observations can help improve EoS-insensitive relations - the question is: is it worth it?
-Current interferometer sensitivities are not yet small enough to accurately constrain $\tilde{\Lambda}$.
-For example, GW170817 was detected by LIGO observing run 2 (``O2")~\cite{aLIGO} and was able to constrain $\tilde{\Lambda}$ to a $90\%$ confidence interval of 325 (or $\sigma_{\tilde{\Lambda}}=198$) centered at $\mu_{\tilde{\Lambda}}=395$.
-This corresponds to statistical uncertainties on the order of $\sim 82\%$, which vastly dominates the error budget compared to the small systematic errors picked up by EoS variation in the EoS-insensitive relations.
+We have now shown that binary NS merger observations can help improve the EoS-insensitive relations - the question is: is it worth it?
+Current interferometer sensitivities are not yet small enough to accurately constrain the dominant tidal parameter $\tilde{\Lambda}$.
+For example, GW170817 was detected by LIGO observing run 2 (``O2")~\cite{aLIGO} and was able to constrain $\tilde{\Lambda}$ to a $90\%$ confidence interval of 325 (or $\sigma_{\tilde{\Lambda}} \approx 198$) centered at $\mu_{\tilde{\Lambda}}=395$.
+This corresponds to statistical uncertainties on the order of $\sim 82\%$, which dominates the error budget compared to the small systematic errors picked up by EoS variation in the EoS-insensitive relations.
 This implies that currently, the use of improved EoS-insensitive relations will only make a negligible difference on the extraction of tidal parameters.
 
-In Sec.~\ref{sec:marginalization}, we first compute the systematic errors introduced by using the improved binary Love relations derived earlier.
-In Sec.~\ref{sec:futureObservations}, we compare the statistical errors on the parameter extraction of tidal parameters to the above-mentioned systematic errors.
+In Sec.~\ref{sec:marginalization}, we first estimate the systematic errors introduced by using the improved binary Love relations derived earlier.
+In Sec.~\ref{sec:futureObservations}, we estimate the statistical errors on the parameter extraction of tidal parameters, and compare them to the above-mentioned systematic errors.
 This is repeated for 5 future detectors, where multiple event detections become important.
 Because future events occur with weighted tidal parameters $\tilde\Lambda$ which are unknown at this time, we can not accurately combine the uncertainties on $\tilde\Lambda$ for multiple events.
 To remedy this, we re-parameterize the waveform and instead consider the $\lambda_0$ and $\lambda_1$ tidal coefficients produced by Taylor expanding the dimensionless tidal deformability $\Lambda$ about the ``canonical" reference mass of $m_0=1.4\text{ M}_{\odot}$~\cite{delPozzo:TaylorTidal,Yagi:binLove}:
@@ -719,7 +770,7 @@ The fitting parameters $\mu_i$ and $\sigma_i$ are tabulated in Table~\ref{tab:ma
 \begin{table}
 \centering
 \caption{
-Coefficients to the fits given by Eqs.(~\ref{eq:margFit1})-(\ref{eq:margFit4}) for the relative error on $\Lambda_a$ in the improved binary Love EoS-insensitive relations presented in this paper.
+Coefficients to the fits given by Eqs.~(\ref{eq:margFit1})-(\ref{eq:margFit4}) for the relative error on $\Lambda_a$ in the improved binary Love EoS-insensitive relations presented in this paper.
 }\label{tab:marginalized}
 \addtolength{\tabcolsep}{1pt} 
 \begin{tabular}{ c | c || c | c}
@@ -751,8 +802,8 @@ We take this value of $P_{90}=13.19$ to be the systematic measurement error intr
 Similarly, we derive the systematic measurement error on $\tilde\Lambda$ to be $12.01$, shown in Fig.~\ref{fig:singleFisherLt}.
 Currently, the statistical error of $170.1$ on $\lambda_0$ from GW170817 dominates the error budget compared to the systematic error of $13.19$, as seen in Fig.~\ref{fig:stackedFisher}.
 This means that, for the current ``O2" detector sensitivity, the use of improved binary Love relations will only make a negligible difference on the extraction of $\tilde\Lambda$.
-However, future detectors (for example aLIGO, A\texttt{+}, Voyager, CE, and ET) are planned with large reductions in sensitivity - both decreasing the statistical errors and allowing for a larger binary NS merger detection rate; further reducing the statistical uncertainties.
-In Sec.~\ref{sec:observations}, we analyze this further and discuss when the systematic errors from EoS-insensitive relations become comparable to the statistical errors.
+However, future detectors (for example aLIGO, A\texttt{+}, Voyager, CE, and ET) are planned with large reductions in sensitivity - both decreasing the statistical errors and allowing for larger binary NS merger detection rates; further reducing the statistical uncertainties.
+In Sec.~\ref{sec:futureObservations}, we analyze this further and discuss when the systematic errors from EoS-insensitive relations become comparable to the statistical errors.
 
 \begin{figure}
 \begin{center} 
@@ -760,7 +811,7 @@ In Sec.~\ref{sec:observations}, we analyze this further and discuss when the sys
 \includegraphics[width=\columnwidth]{LsResiduals.eps}
 \end{center}
 \caption{$\lambda_0$ residuals binned in $q$ (top) and $\Lambda_s$ (bottom), highlighting the different error weights across the entire $(q,\Lambda_s)$ parameter space.
-In this figure, the violet circles indicate the standard deviation of each bin in $q$-space ($\Lambda_s$-space), while the black dashed lines represent the best fit given by Eqs. (\ref{eq:margFit3})-(\ref{eq:margFit4}).
+In this figure, the violet circles indicate the standard deviation of each bin in $q$-space ($\Lambda_s$-space), while the solid black lines represent the best fit given by Eqs. (\ref{eq:margFit3})-(\ref{eq:margFit4}).
 Observe how the error is maximal for $q\sim0.5$ and $\Lambda_s\sim2000$, while it becomes minimal for both low and high values of $q$ and $\Lambda_s$.
 Also shown in the figure is the 90th percentile of the un-binned residuals seen in Fig.~\ref{fig:residuals}, taken to be the overall systematic uncertainty introduced by using binary Love relations.
 }
@@ -783,14 +834,14 @@ Observe that the systematic errors from using the improved (constrained) binary 
 
 \subsection{Future Observations}\label{sec:futureObservations}
 In this section, we estimate the feasibility of utilizing the improved EoS-insensitive relations in future binary NS merger events.
-This estimate is acquired through a simple Fisher analysis~\cite{Finn:Fisher,Cutler:Fisher} which approximates the accuracy with which one can extract best-fit parameters $\theta^a$, given a prior template waveform.
+This estimate is acquired through a simple Fisher analysis~\cite{Finn:Fisher,Cutler:Fisher} which approximates the accuracy with which one can extract the best-fit parameters $\theta^a$, given a prior template waveform.
 For the remainder of the paper, we consider a template parameter vector consisting of:
 \begin{equation}\label{eq:template}
 \theta^a=(\ln{A},\phi_c,t_c,\ln{\mathcal{M}},\ln{\mathcal{\eta}},\chi_s,\chi_a,\lambda_0, \lambda_1),
 \end{equation}
-where $A \equiv \sqrt{\frac{2 \eta}{3 \pi^{1/3}}}$ is a normalized amplitude factor, $\eta \equiv m_1 m_2/M^2$ is the symmetric mass ratio with $m_{1,2}$ and $M$ being the individual and total masses, $\mathcal{M}=M \eta^{3/5}$ is the chirp mass, and $\chi_{s,a}=\frac{1}{2}(\chi_1\pm\chi_2)$ are the symmetric and antisymmetric total spins, where $\chi_{1,2}$ are the NSs individual spins. 
+where $\eta \equiv m_1 m_2/M^2$ is the symmetric mass ratio with $m_{1,2}$ and $M$ being the individual and total masses, $\mathcal{M}=M \eta^{3/5}$ is the chirp mass, $A \equiv \frac{\mathcal{M}^{5/6}}{\sqrt{30}\pi^{2/3}D_L}$ is a normalized amplitude factor with $D_L$ being the luminosity distance, and $\chi_{s,a}=\frac{1}{2}(\chi_1\pm\chi_2)$ are the symmetric and antisymmetric total spins, where $\chi_{1,2}$ are the NSs individual spins. 
 Following Refs.~\cite{Cutler:Fisher,Berti:Fisher,Poisson:Fisher}, this method relies on the crude assumption of Gaussian prior distributions\footnote{Typically, the more valid assumption is a uniform prior distribution; an improvement made in a more detailed Bayesian analysis.}.
-The resulting posterior distribution is Gaussian with root-mean-square given by:
+The resulting posterior distribution is Gaussian with a root-mean-square given by:
 \begin{equation}
 \Delta \theta^a=\sqrt{\Big( \tilde{\Gamma}^{-1}\Big)^{aa}}.
 \end{equation}
@@ -798,16 +849,16 @@ Here, the Fisher matrix $\tilde{\Gamma}$ is defined by:
 \begin{equation}
 \tilde{\Gamma}_{ab} \equiv \Big( \frac{\partial h}{\partial \theta^a} \Big| \frac{\partial h}{\partial \theta^a}\Big) + \frac{1}{\sigma_{\theta^a}^2} \delta_{ab}
 \end{equation}
-where $h$ is the waveform template, $\sigma_{\theta^a}$ is the parameters' prior root-mean-square estimate, and the inner product is defined by:
+where $h$ is the waveform template, $\sigma_{\theta^a}$ are the parameters' prior root-mean-square estimate, and the inner product is defined by:
 \begin{equation}
 (a|b) \equiv 2 \int^{\infty}_0\frac{\tilde{a}^*\tilde{b}+\tilde{b}^*\tilde{a}}{S_n(f)}df.
 \end{equation}
 
 In this analysis, we consider the ``PhenomD" (IMRD) waveform template~\cite{PhenomDI,PhenomDII} modified by two different tidal corrections: the 6PN tidal correction shown in Ref.~\cite{Wade:tidalCorrections} (IMRD + 6PN), and the NRTidal correction shown in Ref.~\cite{Samajdar:NRTidal} (IMRD + NRTidal).
-Comparing the two tidal corrections to the IMRD waveform returns an estimate on the magnitude of waveform mismodeling systematics.
-Lastly, we consider the spectral noise density $S_n^A(f)$ for 6 different interferometer designs: $A \equiv ($O2~\cite{aLIGO}, aLIGO~\cite{aLIGO}, A\texttt{+}~\cite{Ap_Voyager_CE}, Voyager~\cite{Ap_Voyager_CE}, CE~\cite{ET}, ET-D~\cite{Ap_Voyager_CE}$)$ in order to compare the statistical errors accrued on parameter extraction using future upgraded detectors.
+Comparing the two different tidal corrections to the IMRD waveform returns a rough estimate on the magnitude of waveform mismodeling systematics.
+Lastly, we consider the spectral noise densities $S_n^A(f)$ for 6 different interferometer designs: $A \equiv ($O2~\cite{aLIGO}, aLIGO~\cite{aLIGO}, A\texttt{+}~\cite{Ap_Voyager_CE}, Voyager~\cite{Ap_Voyager_CE}, CE~\cite{ET}, ET-D~\cite{Ap_Voyager_CE}$)$ in order to compare the statistical errors accrued on parameter extraction using future upgraded LIGO detectors as well as third generation detectors.
 
-We begin by authenticating this approach by applying a Fisher analysis (IMRD + 6PN waveform injection) to GW170817, as observed by LIGO with O2 detector sensitivity~\cite{aLIGO}.
+We begin by authenticating this approach by applying a Fisher analysis (with an IMRD + 6PN waveform injection) to GW170817, as observed by LIGO with O2 detector sensitivity~\cite{aLIGO}.
 Because only 1 event was detected, we utilize $\tilde\Lambda$ and $\delta\tilde\Lambda$ as the tidal parameters for comparison purposes.
 Further, we scale the luminosity distance such that the signal-to-noise-ratio ($SNR \equiv \rho$) is fixed to be $\rho=32.4$, as was found in GW170817.
 We also assume low spin priors $|\chi| \leq 0.05$, as well as $\tilde{\Lambda} \leq 3000$ and $|\delta \tilde{\Lambda}| \leq 500$~\cite{Wade:LambdaPriors}.
@@ -834,8 +885,12 @@ From this, we determine if and when the statistical errors associated with the p
 
 The results for this process upon the injection of the IMRD + 6PN waveform are compiled in Table~\ref{tab:variances}, and shown graphically in Fig.~\ref{fig:stackedFisher} where $\sigma^A_{\text{GW170817}}$ and $\sigma^A_N$ are plotted as a function of $\rho^A_{\text{GW170817}}$ (the SNR as if GW170817 were detected on future detector $A$) for 5 future detector sensitivities.
 For reference, Fig.~\ref{fig:singleFisherLt} also displays the estimated $\tilde\Lambda$ extraction efficiency for \emph{one} event on each detector; as these events can not be combined like was done in the case of $\lambda_0$.
-Observe how this figure shows similar results on $\tilde\Lambda$ to that found on $\lambda_0$ for the case of one event - that is, future detectors ET and CE both observe statistical errors on $\tilde\Lambda$ dropping below the systematic binary Love errors for a single event.
-\red{We note that in Figs.~\ref{fig:stackedFisher} and~\ref{fig:singleFisherLt}, the single-event measurement uncertainty is slightly higher for CE than ET despite observing a larger SNR, due to the frequency-dependant detector sensitivities seen in Fig.~\ref{fig:sensitivities}.}
+Observe how this figure shows similar results on $\tilde\Lambda$ to that found on $\lambda_0$ for the case of one event - that is, future third-generation detectors ET and CE both observe statistical errors on $\tilde\Lambda$ (and $\lambda_0$) dropping below the systematic binary Love errors for a single event.
+This result is amplified when multiple events are combined as shown in Fig.~\ref{fig:stackedFisher}, further motivating the need to improve the systematic errors in the binary Love relations for upcoming detectors Voyager, CE and ET.
+We note that in Figs.~\ref{fig:stackedFisher} and~\ref{fig:singleFisherLt}, the single-event measurement uncertainties are slightly larger for CE than for ET despite having a larger SNR.
+This relic originates from the high-frequency dependence of CE and ETs detector sensitivities: due to the 3-detector geometry of ET, it is able to more accurately measure the tidal effects emergent at high frequencies.
+However, when computing the SNRs from $1 \text{ Hz} \leq f \leq 1649 \text{ Hz}$, CE dominates over ET and observes a larger SNR.
+When instead setting the minimum frequency to $f_{\text{min}} \geq 68$ Hz however, the SNR for ET instead dominates that for CE, validating our hypothesis on this effect.
 
 \begin{figure}
 \begin{center} 
@@ -854,8 +909,8 @@ This is similar to Fig.~\ref{fig:stackedFisher} where the extraction efficiency 
 \caption{
 Tabulated results for the estimated statistical errors on the tidal deformability at $1.4\text{ M}_{\odot}$, $\lambda_0$, for the combined results of $N_A$ detections corresponding to the estimated upper, central, and lower limits of the binary NS merger detection rate $\mathcal{R}$.
 This is repeated for 5 future detector sensitivities: aLIGO, A\texttt{+}, Voyager, CE, and ET.
-Below, $\rho^A_{\text{GW170817}}$ and $\sigma^A_{\text{GW170817}}$ correspond to the approximate SNR and $\sigma_{\lambda_0}$ of GW170817 had it been observed by the future interferometer, and $\sigma^A_N$ corresponds to the overall uncertainty on $\lambda_0$ after $N_A$ detections on interferometer $A$.
-It can be seen here that the statistical errors on $\lambda_0$ become comparable with the systematics (set to be $P_{90}=13.19$) from using improved binary Love relations from Voyager and on, indicating when it may be safe to utilize new EoS-insensitive relations.
+Below, $\rho^A_{\text{GW170817}}$ and $\sigma^A_{\text{GW170817}}$ correspond to the approximate SNR and $\sigma_{\lambda_0}$ of GW170817 had it been observed by future interferometer $A$, and $\sigma^A_N$ corresponds to the overall uncertainty on $\lambda_0$ after $N_A$ detections on interferometer $A$.
+It can be seen here that the statistical errors on $\lambda_0$ become comparable with the systematics (set to be $P_{90}=13.19$) from using improved binary Love relations for future detectors Voyager, ET, and CE, indicating when it will become important to improve the EoS-insensitive relations.
 Note that the approximation for $\sigma^A_N$ under the O2 detector sensitivity is left blank due to the singularity of the detected event.
 These results are also shown graphically in Fig.~\ref{fig:stackedFisher}.
 }\label{tab:variances}
@@ -902,67 +957,85 @@ These results are also shown graphically in Fig.~\ref{fig:stackedFisher}.
 \end{table*}
 
 Next, we repeat the process upon the injection of the IMRD + NRTidal waveform in order to demonstrate the effect of waveform mismodeling.
-The results are shown in Fig.~\ref{fig:stackedFisher} as blue outlined circles (single detection uncertainties) and the outlined dashed maroon region (combined uncertainties from multiple detections).
+The results are shown in Fig.~\ref{fig:stackedFisher} as maroon outlined circles (single detection uncertainties) and an outlined dashed maroon region (combined uncertainties from multiple detections).
 Observe the noticeable difference between the extraction efficiencies for the two different tidal corrections - highlighting the need for further waveform modeling for future interferometers.
 
-Concluding, we find that the Voyager, ET, and CE detectors all exhibit enough uncertainty reduction that the systematics on $\lambda_0$ introduced from using improved EoS-insensitive relations (found to be $13.19$) no longer become negligible in the error budget.
-This was also shown for the case of $\tilde\Lambda$, only taking into account single observed events, where ET and CE detectors both observe comparable statistical and systematic errors on $\tilde\Lambda$.
+Concluding, we find that the Voyager, ET, and CE detectors all exhibit enough statistical uncertainty reduction that the systematics on $\lambda_0$ and $\tilde\Lambda$ introduced from using improved EoS-insensitive relations (found to be $13.19$ and $12.01$, respectively) no longer become negligible in the error budget.
 This implies that the use and further improvement of EoS-insensitive relations is not only justified, but necessary, for future binary NS merger detections.
 Additionally, we find that the effect of waveform mismodeling is indeed important for future observations as the statistical errors continue to decrease.
-Further, we investigate the dependence of the measurement accuracy on $\tilde\Lambda$ on the binary NS mass ratio $q$ for fixed chirp mass $\mathcal{M}=1.88\text{ M}_{\odot}$ in Appendix~\ref{app:measurement}.
+In Appendix~\ref{app:measurement}, we additionally investigate the dependence of the measurement accuracy on $\tilde\Lambda$ on the binary NS mass ratio $q$ for fixed chirp mass $\mathcal{M}=1.88\text{ M}_{\odot}$.
 
-%%%%%%%%%%%%%%%%%%%%%%%%% Begin Discussion %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+%%%% DISCUSSION %%%%
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+
 \section{Conclusion and Discussion}\label{sec:conclusion}
 The recent GW observation of binary NS merger GW170817 placed constraints on the supranuclear matter EoS for NSs.
 We take advantage of this by generating a restricted set of spectral EoSs which agree with this observation in order to reduce the uncertainties upon the extraction of tidal parameters from future GW events.
 Important previous work by Yagi and Yunes~\cite{Yagi:ILQ,Yagi:binLove} found EoS-insensitive relations between symmetric and antisymmetric combinations of NS tidal deformabilities, which aid in the extraction of said tidal parameters.
 We find an improvement upon these EoS-insensitive relations by a factor of $\sim 59$\% for stars with mass ratios of $0.75$ by restricting to the EoS posterior samples from GW170817s 90\% credible region on pressure as a function of density.
 Similarly, we find an increase in C-Love and I-Love-Q universality by factors of $\sim 76$\% and $\sim 50$\%, respectively.
-We also show the relation between the NS radius and its tidal deformability, computed directly from the C-Love relations.
+We also show the relationship between the NS radius and its tidal deformability, computed directly from the C-Love relations.
 We find this relation to display a maximum error of $358.9\text{ m}$ from the fit discussed in Sec.~\ref{sec:clove}.
-Additionally, we find that hybrid quark-hadron star EoSs \emph{do} obey the I-Love-Q and C-Love universality, albeit with slightly higher maximum EoS variabilities as displayed in Tabs.~\ref{tab:hybridCompare} and ~\ref{tab:hybridCompareClove}.
-In addition, we find that binaries consisting of one massive hybrid quark-hadron star, and one small-mass hadron star do not obey the binary Love relations -- explained by the large difference in $\tilde{\Lambda}$ displayed between the constituent stars.
-To improve on this, we construct new ``hybrid matter binary Love relations", applied to only the hybrid branches of the transitional EoSs.
-This results in a maximal EoS variability similar to that found for the nuclear matter fits.
-Further, we analyze the impact of this improvement for future binary NS merger detections, as the current detectors are not yet sensitive enough to accurately constrain $\tilde{\Lambda}$ for the improved EoS-insensitive relations to make a difference.
-We find that future interferometers Voyager, CE, and ET-D all experience statistical uncertainties upon the extraction of $\tilde{\Lambda}$ small enough to become comparable to the systematic errors injected through the use of improved EoS-insensitive relations, as depicted in Fig.~\ref{fig:stackedFisher} and Table~\ref{tab:variances}.
+Additionally, we find that hybrid quark-hadron star EoSs \emph{do} obey the I-Love-Q and C-Love relations, albeit with slightly higher maximum EoS variabilities as displayed in Tabs.~\ref{tab:hybridCompare} and ~\ref{tab:hybridCompareClove}.
+We additionally find that binaries consisting of one massive hybrid quark-hadron star, and one small-mass hadron star do not obey the binary Love relations -- explained by the large difference in $\tilde{\Lambda}$ displayed between the constituent stars.
+From this we state that the hybrid star EoSs do \emph{not} obey the binary Love relations.
+Future work currently in progress will attempt to remedy this through a series of new piecewise hybrid star binary Love relations.
+
+In the second half of this paper, we analyze the impact of this improvement for future binary NS merger detections.
+Currently detectors are not yet sensitive enough to accurately constrain $\tilde{\Lambda}$ for the improved EoS-insensitive relations to make a difference.
+We find that future interferometers Voyager, CE, and ET-D all experience a reduction in the statistical uncertainties upon the extraction of $\tilde{\Lambda}$ enough to become comparable to the systematic errors injected through the use of improved EoS-insensitive relations, as depicted in Fig.~\ref{fig:stackedFisher} and Table~\ref{tab:variances}.
 Additionally, we considered the effect of waveform mismodeling by comparing Fisher analyses using two different tidal corrections to the PhenomD waveform: 6PN and NRTidal.
 Doing so revealed a noticeable difference between the extraction uncertainties derived under injection of each waveform - indicating the need for further waveform modeling.
 Finally, in Appendix~\ref{app:measurement} we investigate the effect of NS binary mass ratio q on the measurement accuracy of $\tilde\Lambda$.
 We find that the second generation interferometers lose accuracy as one increases the mass ratio, while the third generation detectors observe a large increase in accuracy due to the correlations between $\tilde\Lambda$ and $\delta\tilde\Lambda$.
 This indicates that the use and further improvement of EoS-insensitive relations is justified for future GW observations of binary NS merger events.
 
-Future work on this subject entails an investigation into the improvement of alternative EoS insensitive relations, such as the multipole Love relations between various $l$-th order electric, magnetic, and shape tidal deformabilities as discussed in Ref.~\cite{Yagi:Multipole}.
+Future work on this subject entails an investigation into the improvement of alternative EoS-insensitive relations, such as the multipole Love relations between various $l$-th order electric, magnetic, and shape tidal deformabilities as discussed in Ref.~\cite{Yagi:Multipole}.
 Additionally, Lackey \emph{et al}. presented surrogate models of non-spinning effective-one-body waveform models with the the use of universal relations in Refs.~\cite{Lackey:Surrogate, Lackey:EOB}.
 By reducing the number of required waveform model parameters, surrogate models aid in the extraction of NS observables from GW detections.
-The improvement in the multipole love relations can then be used to increase the accuracy of surrogate models.
+The improvement in the multipole love relations can then be used to increase the accuracy of such surrogate models.
 Additionally, we plan on a more comprehensive analysis into the intricacies of new hybrid star binary Love relations, as discussed in Sec.~\ref{sec:binary}.
+Work along this direction is currently in progress.
 
-%%%%%%%%%%%%%%%%%%%%%%%%% Begin Acknowledgements %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% ACKNOWLEDGEMENTS %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \section*{Acknowledgments}\label{acknowledgments}
 K.Y. would like to acknowledge networking support by the COST Action GWverse CA16104.
 
-%%%%%%%%%%%%%%%%%%%%%%%%% Begin Appendix A: Stacked events process %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% APPENDIX A: STACKED EVENTS PROCESS %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \appendix
+
 \section{Computation of statistical uncertainties}\label{app:stackingProcedure}
 
 In this appendix, we detail the process used to compute the statistical uncertainties on the extraction of $\lambda_0$ from the gravitational waveform.
 This is accomplished with a simple Fisher analysis described in Sec.~\ref{sec:futureObservations}, where we first consider single-events identical to GW170817 as if they were detected on future detectors $A \equiv ($ O2~\cite{aLIGO}, aLIGO~\cite{aLIGO}, A\texttt{+}~\cite{Ap_Voyager_CE}, Voyager~\cite{Ap_Voyager_CE}, ET~\cite{ET}, CE~\cite{Ap_Voyager_CE}$)$.
-We conclude by simulating a population of $N_A$ events for each interferometer, approximating the number of events detected on detector $A$ over an observing period of one year.
+We conclude by simulating a population of $N_A$ events for each interferometer, approximating the number of events detected on interferometer $A$ over an observing period of one year.
 This is used to combine the statistical uncertainties, resulting in an approximation on the overall measurement accuracy of $\lambda_0$, which is compared to the systematic errors computed in Sec.~\ref{sec:marginalization}.
 The process used to achieve this is outlined below:
 
 \begin{enumerate}
 \item[(i)] Perform a Fisher analysis as outlined in Sec.~\ref{sec:futureObservations} using detector sensitivity $S_n^A(f)$, while restricting the luminosity distance $D_L$ such that an SNR of $\rho^{\text{O2}}_{\text{GW170817}}=32.4$ would be achieved on O2 sensitivity $S_n^{\text{O2}}(f)$.
-Here we assume low spin priors $|\chi| \leq 0.05$, as well as $0 \leq \lambda_0 \leq 3207$ and $-4490 \leq \lambda_1 \leq 0$~\cite{delPozzo:TaylorTidal} (These are converted from their corresponding dimensional forms).
-This results in a SNR $\rho^A_{\text{GW170817}}$ and a single-event statistical error $\sigma_\text{GW170817}^A$ accrued in the extraction of $\lambda_0$ on detector $A$.
+Here we assume low spin priors $|\chi_{1,2}| \leq 0.05$, as well as $0 \leq \lambda_0 \leq 3207$ and $-4490 \leq \lambda_1 \leq 0$~\cite{delPozzo:TaylorTidal} (these are converted from their corresponding dimensional forms).
+This results in an SNR $\rho^A_{\text{GW170817}}$ and a single-event statistical error $\sigma_\text{GW170817}^A$ accrued in the extraction of $\lambda_0$ on detector $A$.
 
 \item[(ii)] Generate a population of $N_A$ events corresponding to the expected binary NS merger detection rate for detector $A$, following the probability distribution~\cite{Shutz:SNR,Chen:SNR}:
 \begin{equation}\label{eq:population}
 f(\rho)=3 \rho_{\text{th}}^3/\rho^4
 \end{equation}
 with a network SNR threshold of $\rho_{\text{th}}=8$.
-The number of events $N_A$ is calculated by taking into account the BNS merger rate history throughout all redshift values within detector As' horizon distance $z_h$, as shown by Eq. (10) of Ref.~\cite{Cutler:BNSmerger}:
+The number of events $N_A$ is calculated by taking into account the BNS merger rate history throughout all redshift values within detector As' horizon redshift $z_h$, as shown by Eq. (10) of Ref.~\cite{Cutler:BNSmerger}:
 \begin{equation}
 N_A=\Delta \tau_0 \int\limits^{z_{h}}_0 4 \pi \lbrack  a_0r_1(z)\rbrack^2 \mathcal{R} r(z) \frac{d \tau}{dz} dz.
 \end{equation}
@@ -984,7 +1057,7 @@ r(z) = \left\{
 \end{equation}
 
 where $H_0 = 70 \text{km s}^{-1}\text{Mpc}^{-1}$ is the local Hubble constant, and $\Omega_{\Lambda}=0.67$ is the universe's vacuum energy density.
-Here we choose an observing period $\Delta \tau_0 = 1$ year, and calculate the detection rate for the upper, central, and lower limits of the local binary NS coalescence rate density $\mathcal{R}=1540^{+3200}_{-1220} \text{ Gpc}^{-3}\text{yr}^{-1}$~\cite{Abbott2017}, giving the rates $N_A$ shown in the second column of Table~\ref{tab:variances}, as well as the turquoise shaded region in Fig.~\ref{fig:stackedFisher}.
+Here we choose an observing period of $\Delta \tau_0 = 1$ year, and calculate the detection rate for the upper, central, and lower limits of the local binary NS coalescence rate density $\mathcal{R}=1540^{+3200}_{-1220} \text{ Gpc}^{-3}\text{yr}^{-1}$~\cite{Abbott2017}, giving the rates $N_A$ shown in the second column of Table~\ref{tab:variances}.
 
 \item[(iii)] Compute the combined population standard deviation $\sigma_{N_A}$, taking into account sources at varying redshifts as was done in Eq. (3) of Ref.~\cite{Takahiro}:
 \begin{equation}
@@ -994,14 +1067,21 @@ Here, we compute the populations' single-event uncertainties $\sigma_i^A(z)$ via
 \begin{equation}
 \frac{\rho_i^A}{\rho_{\text{GW170817}}^A} = \frac{\sigma_{\text{GW170817}}^A}{\sigma_i^A},
 \end{equation}
-where $\rho_i^A$ is the SNR of simulated event $i$ computed from Eq.~\ref{eq:population}, and $\rho_{\text{GW170817}}^A$ and $\sigma_{\text{GW170817}}^A$ are the known SNR and uncertainties of the GW170817 event from step (i).
+where $\rho_i^A$ is the SNR of simulated event $i$ computed from Eq.~\ref{eq:population}, and $\rho_{\text{GW170817}}^A$ and $\sigma_{\text{GW170817}}^A$ are the known SNRs and uncertainties of the GW170817 event from step (i).
+This results in the combined statistical errors for the lower, central, and upper limits of the local binary NS coalescence rate density $\mathcal{R}$, depicted by the cyan shaded region in Fig.~\ref{fig:stackedFisher}.
 \end{enumerate}
 
-%%%%%%%%%%%%%%%%%%%%%%%%% Begin Appendix A: measurement accuracy as a functino of q %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% APPENDIX B: MEASUREMENT ACCURACY AS A FUNCTION OF Q %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \section{Measurement accuracy as a function of binary mass ratio}\label{app:measurement}
+
 In this appendix, we discuss the effects of the binary NS mass ratio $q$ on the measurement accuracy of $\tilde\Lambda$ for various interferometers. 
 The top panel of Fig.~\ref{fig:massVariation} displays an approximation of the $\tilde\Lambda$ measurement accuracy as a function of increasing mass ratio $q$ (for a fixed chirp mass of $\mathcal{M}=1.188 \text{ M}_{\odot}$ corresponding to GW170817), using the Fisher analysis techniques described in Sec.~\ref{sec:observations}.
-We observe two points of interest about these trends: (i) the second generation detectors (O2, aLIGO, A\texttt{+}, and Voyager) typically become less accurate as the mass ratio approaches unity, and (ii) the third generation detectors (CE and ET) observe the opposite behavior-- a fast growth in accuracy as the mass ratio increases.
+We observe two points of interest about these trends: (i) the second generation detectors (O2, aLIGO, A\texttt{+}, and Voyager) typically become less accurate as the mass ratio approaches unity; and (ii) the third generation detectors (CE and ET) observe the opposite behavior-- a fast growth in accuracy as the mass ratio increases.
 For the remainder of this appendix, we attempt to explain the opposing behaviors of the second and third generation interferometers on the extraction of $\tilde\Lambda$.
 
 \begin{figure}
@@ -1015,19 +1095,19 @@ Measurement accuracy of $\tilde\Lambda$ as a function of increasing mass ratio $
 Evaluated at a fixed chirp mass of $\mathcal{M}=1.188\text{ M}_{\odot}$ corresponding to GW170817, this is repeated for three cases: (i) (top) with correlations between all template waveform parameters $\theta^a$ intact; (ii) (center) with the correlations between $\tilde\Lambda$ and $\delta\tilde\Lambda$ removed; and (iii) (bottom) with correlations between all parameters removed.
 The removal of parameter correlations is approximated by setting certain Fisher matrix elements to 0, as described in Appendix.~\ref{app:measurement}.
 Observe how the top panel shows strong disagreement between second and third generation detectors, while the bottom panel shows identical behavior.
-This indicates that parameter correlations between $\tilde\Lambda$ and higher PN order parameter $\delta\tilde\Lambda$ is the culprit in such a disagreement.
+This indicates that parameter correlations between $\tilde\Lambda$ and higher PN order parameter $\delta\tilde\Lambda$ are the culprit in such a disagreement.
 }
 \label{fig:massVariation}
 \end{figure} 
 
-We begin by considering the correlations between individual template parameters and $\tilde\Lambda$, given in Eq.~\ref{eq:template}.
+We begin by considering the correlations between individual template parameters $\theta^a$ and $\tilde\Lambda$, given in Eq.~\ref{eq:template}.
 A simple approximation for the amplitude of these correlations can be performed by assuming that all of the other correlations are non-existing.
 Individual correlations between parameters $\tilde\Lambda$ and $\theta^a$ is achieved by setting all of the off-diagonal Fisher matrix elements to $0$, except for the $(i,j)$ components such that both $i$ and $j$ correspond to the $\tilde\Lambda$ and $\theta^a$ parameters.
 We follow this process for each parameter in turn, and display the results in Fig.~\ref{fig:correlations} for each interferometer.
 This figure, showing only the relative differences between correlations of different parameters $\theta^a$ and $\tilde\Lambda$, reveals a few things.
-First, the coalescence time $t_c$ is highly correlated with $\tilde\Lambda$ equally for each interferometer, an unsurprising fact due to the high 4PN order at which the parameter enters the waveform.
-Secondly, correlations with 6PN tidal parameter $\delta\tilde\Lambda$ shows high correlations with $\tilde\Lambda$ for only the third generation detectors.
-This can be explained by the high PN order at which $\delta\tilde\Lambda$ enters the waveform, an effect that only the most sensitive of detectors can probe. 
+First, the coalescence time $t_c$ is highly correlated with $\tilde\Lambda$ equally for each interferometer, an unsurprising fact due to the high 4pN order at which the parameter enters the waveform.
+Secondly, correlations with 6pN tidal parameter $\delta\tilde\Lambda$ shows high correlations with $\tilde\Lambda$ for only the third generation detectors.
+This can be explained by the high pN order at which $\delta\tilde\Lambda$ enters the waveform, an effect that only the most sensitive of detectors can probe. 
 
 \begin{figure}
 \begin{center} 
@@ -1046,12 +1126,17 @@ This is due to the small effect that $\delta\tilde\Lambda$ has on the waveform, 
 \end{figure} 
 
 Following this conclusion on the difference of correlations between tidal parameters $\tilde\Lambda$ and $\delta\tilde\Lambda$ for second and third generation detectors, we attempt to describe the opposing behaviors of measurement accuracy between the two.
-Shown in the center panel of Fig.~\ref{fig:massVariation}, we approximate the measurement accuracy on $\tilde\Lambda$ with the correlations between $\delta\tilde\Lambda$ and $\tilde\Lambda$ removed, through a process similar to that described above. 
+Shown in the central panel of Fig.~\ref{fig:massVariation}, we approximate the measurement accuracy on $\tilde\Lambda$ with the correlations between $\delta\tilde\Lambda$ and $\tilde\Lambda$ removed, through a process similar to that described above. 
 Notice how the trends between detector generations become more similar -- implying that the correlations between tidal parameters may be the cause of the opposing behaviors.
 This is confirmed by the bottom panel of Fig.~\ref{fig:massVariation} where all parameter correlations have been removed from the Fisher matrix.
-We see that this results in identical behaviors between all 6 representative interferometers, leading us to conclude that the discrepancy between interferometers comes from the degeneracies between different parameters in the gravitational waveform, namely the 6PN tidal parameter $\delta\tilde\Lambda$ which is only detectable by the highly sensitive third generation detectors CE and ET.
+We see that this results in identical behaviors between all 6 representative interferometers, leading us to conclude that the discrepancy between the interferometers originates from the degeneracies between different parameters in the gravitational waveform, namely the 6pN tidal parameter $\delta\tilde\Lambda$ which is only detectable by the highly sensitive third generation detectors CE and ET.
 
-%%%%%%%%%%%%%%%%%%%%%%%%% Begin Bibliography  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+%%%% BIBLIOGRAPHY %%%%
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+
 \clearpage
 \bibliography{Zack}
 \end{document}
