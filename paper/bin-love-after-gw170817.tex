@@ -281,8 +281,9 @@ This is important for two reasons: (i) they allow one to algebraically eliminate
 It was shown through a simple Fisher analysis that the use of the binary Love relations improved the parameter extraction of $\tilde{\Lambda}$ by up to an order of magnitude.
 
 Similar EoS-insensitive relations have been found to exist between individual NS observables: moment of inertia (I), tidal deformability (Love), quadrupole moment (Q), and compactness (C), known as the ``I-Love-Q" and ``C-Love" relations~\cite{Yagi:ILQ, Yagi:binLove}.
-These have been found to be EoS-insensitive by up to 1\% and 6.5\% respectively.
-In this paper, we show an improvement in all of these relations by restricting to EoSs sampled from GW170817s posterior on pressure as a function of density.
+These relations, found to be EoS-insensitive by up to 1\% and 6.5\% respectively, have been used for many important applications including deriving constraints on several stellar properties such as the moment of inertia (I), tidal deformability ($\Lambda$), compactness (C), spin ($\chi$), and radius (R)~\cite{Kumar:2019xgp}.
+Analyses such as that done in Ref.~\cite{Kumar:2019xgp} would benefit greatly from the improvement of such EoS-insensitive relations.
+In this paper, we show an improvement on these relations by restricting to EoSs sampled from GW170817s posterior on pressure as a function of density.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -439,6 +440,7 @@ Additionally, note how the maximal EoS variation for the unconstrained set of Eo
 These results indicate that EoS-insensitive relations can indeed be greatly improved upon by restricting to EoSs in agreeance with physical observations.
 In addition, we confirm the validity of this method by noting that the unconstrained EoSs observe more EoS variability than that found in Ref.~\cite{Yagi:ILQ} due to the nature of large random sampling taking into account more sources of uncertainty than was previously studied.
 On the other hand, the constrained set of EoSs show significant improvement from that found in previous works.
+This improvement can be beneficial to many future analyses, such as improvements to the constraints found on the moment of inertia, tidal deformability, compactness, spin, and radius found in Ref.~\cite{Kumar:2019xgp}.
 
 \subsubsection{Hybrid quark-hadron stars}\label{sec:ilq-hyb}
 In this section, we investigate the I-Love-Q universality of hybrid stars, and their compatibility with their nuclear matter counterparts.
@@ -525,11 +527,12 @@ Additionally shown in this figure is the hybrid star C-Love relations along with
 \label{fig:clove}
 \end{figure} 
 
-
 In addition, Fig.~\ref{fig:rlove} displays the relationship between the NS radius and tidal deformability for the constrained and unconstrained sets of EoSs.
 This relationship is computed directly from the C-Love relations discussed above as $R(\Lambda)=m/C(\Lambda)$ for observed mass $m=1.48\text{ M}_{\odot}$ from GW170817.
 We also present the uncertainty on a NS radius measurement using the C-Love relations in the bottom panel of Fig.~\ref{fig:rlove}, defined as the absolute difference from the fits.
 This indicates that one can reliably measure the NS radius within $\sim 180 \text{ m} -350$ m, using the C-Love relations computed using the constrained set of EoSs.
+The uncertainty quoted here is comparable to the $140\text{ m}$ error found in Ref.~\cite{Gamba:2019kwu}, which investigated the uncertainty owed to the choice of the SLy EoS model for the crust.
+The radius uncertainty for the unconstrained EoSs of $\sim1\text{ km}$ however, would dominate the corresponding error budget on stellar radius compared to the crust errors.
 We further observe a large suppression in the radius measurement accuracy from the unconstrained set of EoSs to the constrained set, tabulated in Tab.~\ref{tab:maxVar} as the maximal EoS measurement uncertainty.
 
 \begin{figure}
@@ -740,7 +743,7 @@ This is repeated for 5 future detectors, where multiple event detections become 
 Because future events occur with weighted tidal parameters $\tilde\Lambda$ which are unknown at this time, we can not accurately combine the uncertainties on $\tilde\Lambda$ for multiple events.
 To remedy this, we re-parameterize the waveform and instead consider the $\lambda_0$ and $\lambda_1$ tidal coefficients produced by Taylor expanding the dimensionless tidal deformability $\Lambda$ about the ``canonical" reference mass of $m_0=1.4\text{ M}_{\odot}$~\cite{delPozzo:TaylorTidal,Yagi:binLove}:
 \begin{equation}
-\lambda \approx \lambda_0 + \lambda_1 (1-\frac{m}{m_0}),
+\Lambda \approx \lambda_0 + \lambda_1 (1-\frac{m}{m_0}),
 \end{equation}
 where $\lambda_0$ and $\lambda_1$ are the tidal deformability and its slope at $1.4 \text{ M}_{\odot}$\footnote{$\lambda_0$ is commonly known as $\Lambda_{1.4}$.}. 
 The new tidal parameters $\lambda_0$ and $\lambda_1$ do not depend on mass, thus are identical for every future binary NS merger, and may be combined in uncertainty.
@@ -870,7 +873,7 @@ This confirms the approximate validity of this method, allowing a continuation o
 \includegraphics[width=\columnwidth]{sensitivities.eps}
 \end{center}
 \caption{
-Square root of of the spectral noise densities $\sqrt{S_n^A(f)}$ plotted for detectors ($A$): LIGO O2 (orange), aLIGO (green), A\texttt{+} (purple), Voyager (magenta), CE (red), and ET-D (blue) as interpolated from publicly available data.
+Square root of of the spectral noise densities $\sqrt{S_n^A(f)}$ plotted for detectors ($A$): LIGO O2, aLIGO, A\texttt{+}, Voyager, CE, and ET-D as interpolated from publicly available data.
 Spectral noise densities are plotted from $f_{\text{min}}=(23,10,10,7,1,1) \text{ Hz}$, respectively, to $f_{\text{max}}=1649 \text{ Hz}$.
 Also shown is $2 \sqrt{f}$ multiplied by the amplitude of the PhenomD~\cite{PhenomDI,PhenomDII} waveform template.
 }
@@ -977,6 +980,7 @@ We take advantage of this by generating a restricted set of spectral EoSs which 
 Important previous work by Yagi and Yunes~\cite{Yagi:ILQ,Yagi:binLove} found EoS-insensitive relations between symmetric and antisymmetric combinations of NS tidal deformabilities, which aid in the extraction of said tidal parameters.
 We find an improvement upon these EoS-insensitive relations by a factor of $\sim 59$\% for stars with mass ratios of $0.75$ by restricting to the EoS posterior samples from GW170817s 90\% credible region on pressure as a function of density.
 Similarly, we find an increase in C-Love and I-Love-Q universality by factors of $\sim 76$\% and $\sim 50$\%, respectively.
+These improvements on the I-Love-Q and C-Love relations can be very beneficial in many important analyses, including that done in Ref.~\cite{Kumar:2019xgp}, where constraints on the moment of inertia, tidal deformability, compactness, spin, and radius were found using such relations.
 We also show the relationship between the NS radius and its tidal deformability, computed directly from the C-Love relations.
 We find this relation to display a maximum error of $358.9\text{ m}$ from the fit discussed in Sec.~\ref{sec:clove}.
 Additionally, we find that hybrid quark-hadron star EoSs \emph{do} obey the I-Love-Q and C-Love relations, albeit with slightly higher maximum EoS variabilities as displayed in Tabs.~\ref{tab:hybridCompare} and ~\ref{tab:hybridCompareClove}.
@@ -1137,6 +1141,6 @@ We see that this results in identical behaviors between all 6 representative int
 %%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%
 
-\clearpage
+%\clearpage
 \bibliography{Zack}
 \end{document}
