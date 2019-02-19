@@ -88,7 +88,7 @@ The GWs emitted by binary NSs in the late inspiral must then depend on the \emph
 %Universal relations
 Lacking enough sensitivity in current GW observations, one is forced to only estimate the mass-weighted tidal deformability, but this prevents the independent extraction of $\Lambda_{1}$ and $\Lambda_{2}$. Yagi and Yunes~\cite{Yagi:binLove} solved this problem by finding ``approximately universal'' or ``EoS-insensitive'' relations between the symmetric and anti-symmetric combinations of the tidal deformabilities $\Lambda_{s,a}=\frac{1}{2}(\Lambda_1 \pm \Lambda_2)$, the so-called ``binary Love relations." These relations can be used to analytically express $\Lambda_{s}$ in terms of $\Lambda_{a}$ (or vice-versa), making the mass-weighted tidal deformability a function of only $\Lambda_{a}$. A measurement of the mass-weighted tidal deformability then implies a measurement of $\Lambda_{a}$, and through the use of the binary Love relations, also a measurement of $\Lambda_{s}$, which then allows for the inference of the individual tidal deformabilities $\Lambda_{1}$ and $\Lambda_{2}$~\cite{Yagi:binLove}. With those at hand, one can further use EoS-insensitive relations between the tidal deformabilities and the compactness, the so-called ``C-Love relations''~\cite{Yagi:ILQ}, to infer the radii of the NSs, and thus, to place two constraints in the mass-radius plane, one for each star in the binary~\cite{Yagi:binLove}. This idea was recently implemented in GW170817, allowing for the first EoS-independent constraints on the mass-radius curve using GW data~\cite{LIGO:posterior}.     
 
-EoS-insensitive relations can in fact be used for more than just measuring the nuclear EoS. For years, the theoretical physics community considered the possibility of using measurements of NS properties, like the mass, the radius and the moment of inertia, to constrain deviations from General Relativity in the strong-field regime. Certain modified theories of gravity, like scalar tensor theories with spontaneous scalarization~\cite{Damour:1996ke}, Einstein-Aether and Horava gravity~\cite{Eling:2007xh,Yagi:2013ava,Yagi:2013qpa}, dynamical Chern-Simons gravity~\cite{Yunes:2009ch}, beyond Horndesky theories~\cite{Sakstein:2016oel}, modify such NS observables, but unfortunately, these modifications are typically degenerate with the nuclear EoS. Yagi and Yunes solved this problem by finding EoS-insensitive relations between the moment of inertia, the tidal deformability (or Love number) and the quadrupole moment, the so-called ``I-Love-Q'' relations~\cite{Yagi:ILQ}. Given a measurement of the Love number for a given NS, for example through GW observations, the I-Love-Q relations can be used to infer the moment of inertia or the quadrupole moment. A second independent measurement of either of these two quantities, for example through binary pulsar observations~\cite{Lattimer:2004nj} or observations with the Neutron star Interior Composition ExploreR (NICER)~\cite{Ozel:2015ykl}, then allows an EoS-insensitive test of General Relativity in the strong field regime~\cite{Yagi:ILQ}. 
+EoS-insensitive relations can in fact be used for more than just measuring the nuclear EoS. For years, the theoretical physics community considered the possibility of using measurements of NS properties, like the mass, the radius and the moment of inertia, to constrain deviations from General Relativity in the strong-field regime. Certain modified theories of gravity, like scalar tensor theories with spontaneous scalarization~\cite{Damour:1996ke}, Einstein-Aether and Horava gravity~\cite{Eling:2007xh,Yagi:2013ava,Yagi:2013qpa}, dynamical Chern-Simons gravity~\cite{Yunes:2009ch}, beyond Horndesky theories~\cite{Sakstein:2016oel}, modify such NS observables, but unfortunately, these modifications are typically degenerate with the nuclear EoS. Yagi and Yunes solved this problem by finding EoS-insensitive relations between the moment of inertia, the tidal deformability (or Love number) and the quadrupole moment, the so-called ``I-Love-Q'' relations~\cite{Yagi:ILQ}. Given a measurement of the Love number for a given NS, for example through GW observations, the I-Love-Q relations can be used to infer the moment of inertia or the quadrupole moment. A second independent measurement of either of these two quantities, for example through binary pulsar observations~\cite{Lattimer:2004nj} or observations with the Neutron star Interior Composition ExploreR (NICER)~\cite{Ozel:2015ykl}, then allows an EoS-insensitive test of General Relativity in the strong field regime~\cite{Yagi:ILQ,Gupta:2017vsl}. 
 
 The implementation of the EoS-insensitive relations in data analysis has to somehow contend with the fact that these relations are in fact not exactly universal, but rather present different (albeit small) levels of EoS variability. In the case of the binary Love and C-Love relations to infer the radii of NSs with GW170817, the problem is solved by marginalizing over the EoS variability~\cite{Katerina:residuals}. Presumably, this same procedure can be applied in the future when carrying out tests of General Relativity with the I-Love-Q relations, using a combination of binary pulsar, NICER and GW data. But this marginalization procedure may not always be as important; as constraints in the mass-radius plane become more stringent with future GW observations, the allowed space of EoSs will shrink, which in turn must naturally decrease the degree of EoS variability in all EoS-insensitive relations. This is the main focus of this paper.  
 
@@ -211,7 +211,7 @@ display EoS-insensitive properties to a high degree, showing EoS variations of a
 These ``binary Love relations" allow one to analytically break degeneracies between the tidal parameters: one can substitute $\Lambda_{a}=\Lambda_{a}(\Lambda_{s})$ in the GW model, thus completing eliminating $\Lambda_{a}$ from the parameter list (or vice-versa). This is important for two reasons: (i) the new model allows for the more accurate extraction of $\Lambda_{s}$ (or $\Lambda_{a}$ if $\Lambda_{s}$ is eliminated), and (ii) the relations allow for the inference of $\Lambda_{a}$ given a measurement of $\Lambda_{s}$ (or vice-versa), and from this for the inference of the individual tidal deformabilities $\Lambda_{1}$ and $\Lambda_{2}$. A simple Fisher analysis has shown that the binary Love relations improve parameter estimation of $\tilde{\Lambda}$ by up to an order of magnitude~\cite{Yagi:binLove}.
 
 Similar EoS-insensitive relations have been found between individual NS observables: the moment of inertia (I), the tidal deformability (Love), the quadrupole moment (Q), and the compactness (C), known as the ``I-Love-Q" and ``C-Love" relations~\cite{Yagi:ILQ, Yagi:binLove}.
-These relations are EoS-insensitive to better than 1\% and 6\% respectively, and they have been important applications in both GW astrophysics and experimental relativity. For example, these relations and the measurement of the tidal deformabilities allow for the inference of several other stellar properties, such as the moment of inertia, the  compactness, the spin ($\chi$), and the radius of NSs~\cite{Kumar:2019xgp}.
+These relations are EoS-insensitive to better than 1\% and 6\% respectively, and they have been important applications in both GW astrophysics~\cite{Kumar:2019xgp} and experimental relativity~\cite{Gupta:2017vsl}. For example, these relations and the measurement of the tidal deformabilities allow for the inference of several other stellar properties, such as the moment of inertia, the  compactness, the spin ($\chi$), and the radius of NSs~\cite{Kumar:2019xgp}.
 Analyses such as that of~\cite{Kumar:2019xgp} could benefit from the improvement of such EoS-insensitive relations, which we derive in this paper. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -219,6 +219,30 @@ Analyses such as that of~\cite{Kumar:2019xgp} could benefit from the improvement
 %%%% UNIVERSAL RELATIONS %%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table*}[htb]
+\centering
+\begin{tabular}{ c  c  | c c c c c c c c c c} 
+ \hline
+ \hline
+ $y$ & $x$ & $\alpha$ & $K_{yx}$ & $a_1$ & $a_2$ & $a_3$ & $a_{4}$ & $a_{5}$ & $b_1$ & $b_2$ & $b_3$ \\
+ \hline
+  $\bar{I}$ & $\Lambda$ & (--) & (--) & $1.493$ & $0.06410$ & $0.02085$ & $-5.018 \times 10^{-4}$ & $3.16 \times 10^{-7}$ & (--) & (--) & (--)  \\
+ $\bar{Q}$ & $\Lambda$ & (--) & (--) & $0.2093$ & $0.07404$ & $-0.05382$ & $-5.018 \times 10^{-3}$ & $1.576 \times 10^{-4}$ & (--)  &(--)  & (--) \\ 
+  $\bar{I}$ & $\bar{Q}$ & (--) & (--) & $1.383$ & $0.5931$ & $-0.02161$ & $0.04190$ & $-2.968 \times 10^{-3}$ &(--)  &(--) & (--) \\
+ \hline 
+ $\bar{I}$ & $\Lambda$ & $2/5$ & $0.5313$ & $1.287$ & $0.09888$ & $-2.300$ & (--) & (--) & $-1.347$ & $0.3857$ & $-0.02870$\\
+ $\bar{Q}$ & $\Lambda$ & $1/5$ & $3.555$ & $-2.122$ & $2.72$ & $-1.491$ & (--) & (--) & $0.8644$ & $-0.1428$ & $-1.397$\\
+ $\bar{I}$ & $\bar{Q}$ & $2$ & $0.008921$ & $10.59$ & $-37.46$ & $43.18$ &(--)  &(--)  & $-2.361$ & $1.967$ & $-0.5678$\\
+ $C$ & $\Lambda$ & $-1/5$ & $0.2496$ & $-919.6$ & $330.3$ & $-857.2$ & (--) & (--) & $-383.5$ & $192.5$ & $-811.1$\\
+\hline
+\hline
+\end{tabular}
+\caption{
+Fit parameters for the I-Love-Q and C-Love relations using the constrained set and the fitting functions in Eq.~\eqref{eq:ILQfit} (top) and in Eq.~\eqref{eq:ILQfitNew} (bottom).
+}\label{tab:ILQfitNew}
+\end{table*}
+
 
 \section{EoS-insensitive relations}
 \label{sec:universal}
@@ -244,9 +268,9 @@ This is followed in Sec.~\ref{sec:ilq-hyb} by an analysis and discussion of how 
 
 Following~\cite{Yagi:ILQ}, we first fit the data for each EoS-insensitive relation to the following function:
 \begin{equation}\label{eq:ILQfit}
-\ln{y_i}=a_i+b_i \ln{x_i} + c_i (\ln{x_i})^2 + d_i (\ln{x_i})^3 + e_i (\ln{x_i})^4,
+\ln{y}=a_{1}+a_{2} \ln{x} + a_{3} (\ln{x})^2 + a_{4} (\ln{x})^3 + a_{5} (\ln{x})^4,
 \end{equation}
-where $y$ and $x$ correspond to NS observables $\bar{I}$, $\bar{Q}$, and $\Lambda$, and the updated coefficients are given in Table~\ref{tab:ILQfit}. This fitting function, however, does not limit properly to the Newtonian results~\cite{Yagi:ILQ}:
+where $y$ and $x$ correspond to NS observables $\bar{I}$, $\bar{Q}$, and $\Lambda$, and the updated coefficients are given in the top of Table~\ref{tab:ILQfitNew}. This fitting function, however, does not limit properly to the Newtonian results~\cite{Yagi:ILQ}:
 \begin{equation}\label{eq:Newtonian}
 \bar{I}^{\text{N}} = K_{\bar{I}\Lambda}\Lambda^{2/5}, \hspace{3mm} \bar{Q}^{\text{N}} = K_{\bar{Q}\Lambda}\Lambda^{1/5}, \hspace{3mm} \bar{I}^{\text{N}} = K_{\bar{I}\bar{Q}}\bar{Q}^{2},
 \end{equation}
@@ -254,55 +278,11 @@ where $\Lambda^{-1/5} \sim C$ when $C \ll 1$. One can thus improve the fitting f
 \begin{equation}\label{eq:ILQfitNew}
 y=K_{yx} x^{\alpha} \frac{1+\sum_{i=1}^3 a_i x^{-i/5}}{1+\sum_{i=1}^3 b_i x^{-i/5}},
 \end{equation}
-where $\alpha$ is either $2/5$, $1/5$, or $2$ for the $\bar{I}-\Lambda$, $\bar{Q}-\Lambda$, and $\bar{I}-\bar{Q}$ relations respectively, and where the new fitting coefficients are presented in Table~\ref{tab:ILQfitNew}. While the two fits result in similar $R^2$ values\footnote{$R^2$ is the coefficient of determination, defined as $\sum_i(f_i-\bar{y})^2/\sum_i(y_i-\bar{y})^2$, where $\bar{y}$ is the mean data value, and $f_i$, $y_i$ are the modeled and actual data values} of $\sim 0.999995$, the fit in Eq.~\eqref{eq:ILQfitNew} has the advantage that it properly limits to the Newtonian result as $\Lambda \gg 1$~\cite{Yagi:binLove}.
+where $\alpha$ is either $2/5$, $1/5$, or $2$ for the $\bar{I}-\Lambda$, $\bar{Q}-\Lambda$, and $\bar{I}-\bar{Q}$ relations respectively, and where the new fitting coefficients are presented in the bottom of Table~\ref{tab:ILQfitNew}. While the two fits result in similar $R^2$ values\footnote{$R^2$ is the coefficient of determination, defined as $\sum_i(f_i-\bar{y})^2/\sum_i(y_i-\bar{y})^2$, where $\bar{y}$ is the mean data value, and $f_i$, $y_i$ are the modeled and actual data values} of $\sim 0.999995$, the fit in Eq.~\eqref{eq:ILQfitNew} has the advantage that it properly limits to the Newtonian result as $\Lambda \gg 1$~\cite{Yagi:binLove}.
 
-{\ny{Too many tables. Please combine Tables 1 and 2 into a single table and change the notation of the fits appropriately.}}
-\begin{table*}
-\centering
-\caption{
-Updated fit parameters for the I-Love-Q relations, fitted to the constrained EoS data by the curve found in Eq.~\ref{eq:ILQfit}.
-}\label{tab:ILQfit}
-\begin{tabular}{ c  c | c c c c c } 
- \hline
- \hline
- $y_i$ & $x_i$ & $a_i$ & $b_i$ & $c_i$ & $d_i$ & $e_i$ \\
- \hline
- $\bar{I}$ & $\Lambda$ & $1.493$ & $0.06410$ & $0.02085$ & $-5.018 \times 10^{-4}$ & $3.16 \times 10^{-7}$ \\
- $\bar{Q}$ & $\Lambda$ & $0.2093$ & $0.07404$ & $-0.05382$ & $-5.018 \times 10^{-3}$ & $1.576 \times 10^{-4}$ \\ 
-  $\bar{I}$ & $\bar{Q}$ & $1.383$ & $0.5931$ & $-0.02161$ & $0.04190$ & $-2.968 \times 10^{-3}$ \\
- \hline
- \hline
-\end{tabular}
-\end{table*}
+Figure~\ref{fig:ILQ} shows the improved I-Love-Q relations between the dimensionless moment of inertia $\bar{I} \equiv I/M^3$, the dimensionless quadrupole moment $\bar{Q} \equiv Q/M^3$, and the dimensionless tidal deformability $\Lambda$. The fits are done using the new fitting function in Eq.~\eqref{eq:ILQfitNew} and over either the constrained set or the unconstrained set separately. The bottom panels show the relative fractional difference between the fit and the data for each set of EoSs. Observe that the new fits to the constrained set shows considerable more EoS-insensitivity than that fit to the unconstrained set. These results are summarized in Table~\ref{tab:maxVar}, which tabulates the maximum EoS variation in each fit. Clearly then, the EoS-insensitive relations can be made more universal by restricting the EoSs through the use of observations. Such improvements can be beneficial to future studies in GW astrophysics, such as those of~\cite{Kumar:2019xgp}, and in experimental relativity, such as those of~\cite{Gupta:2017vsl}. 
 
-\begin{table*}
-\centering
-\caption{
-I-Love-Q and C-Love, relations fit parameters for the constrained EoS data using the improved fitting relations found in Eq.~\ref{eq:ILQfitNew}.
-This fitting relation, unlike previous versions, properly limits to the Newtonian case as $\Lambda \rightarrow \infty$.
-}\label{tab:ILQfitNew}
-\begin{tabular}{ c  c  | c c c c c c c c} 
- \hline
- \hline
- $y$ & $x$ & $\alpha$ & $K_{yx}$ & $a_1$ & $a_2$ & $a_3$ & $b_1$ & $b_2$ & $b_3$ \\
- \hline
- $\bar{I}$ & $\Lambda$ & $2/5$ & $0.5313$ & $1.287$ & $0.09888$ & $-2.300$ & $-1.347$ & $0.3857$ & $-0.02870$\\
- $\bar{Q}$ & $\Lambda$ & $1/5$ & $3.555$ & $-2.122$ & $2.72$ & $-1.491$ & $0.8644$ & $-0.1428$ & $-1.397$\\
- $\bar{I}$ & $\bar{Q}$ & $2$ & $0.008921$ & $10.59$ & $-37.46$ & $43.18$ & $-2.361$ & $1.967$ & $-0.5678$\\
- $C$ & $\Lambda$ & $-1/5$ & $0.2496$ & $-919.6$ & $330.3$ & $-857.2$ & $-383.5$ & $192.5$ & $-811.1$\\
-\hline
-\hline
-\end{tabular}
-\end{table*}
-
-Figure~\ref{fig:ILQ} shows the improved I-Love-Q relations between the dimensionless moment of inertia $\bar{I} \equiv I/M^3$, the dimensionless quadrupole moment $\bar{Q} \equiv Q/M^3$, and the dimensionless tidal deformability $\Lambda$ for both the constrained and unconstrained sets of EoSs.
-Here, each category of EoS are fit individually using the curve found in Eq.~\ref{eq:ILQfitNew}.
-We observe that the constrained EoSs show considerable improvement from the unconstrained EoSs.
-Additionally, we note a large improvement from the results of previous works~\cite{Yagi:ILQ}.
-This is validated in Tab.~\ref{tab:maxVar}, where the maximal EoS variation from each fit is tabulated; comparing the results of previous works to the unconstrained and constrained sets of EoSs.
-Observe how the constrained EoSs outperform both other cases by a considerable amount for each I-Love-Q relation.
-
-\begin{figure*}
+\begin{figure*}[htb]
 \begin{center} 
 \includegraphics[width=.32\textwidth]{IL.pdf}
 \includegraphics[width=.32\textwidth]{QL.pdf}
@@ -319,13 +299,8 @@ Additionally shown in this figure is the fractional difference from the nuclear 
 \end{figure*} 
 
 
-\begin{table}
+\begin{table}[htb]
 \centering
-\caption{
-Comparison between the EoS-insensitive relations (I-Love-Q, C-Love, R-Love, and binary Love) maximal EoS variability for the results of previous works~\cite{Yagi:ILQ,Yagi:binLove}, and the unconstrained and constrained sets of EoSs analyzed here. 
-The maximum EoS variation, given by the largest fractional difference (the absolute difference is also shown in parenthesis for the C-Love, R-Love, and binary Love fits) from the fits as shown in Figs.~\ref{fig:ILQ},~\ref{fig:clove},~\ref{fig:rlove} and~\ref{fig:binLove}, observes a considerable improvement for the constrained set of EoSs, compared to the unconstrained set as well as that found in previous works.
-Additionally, note how the maximal EoS variation for the unconstrained set of EoSs is slightly larger than that found in Refs.~\cite{Yagi:ILQ,Yagi:binLove} - due to the effects of large random sampling taking into account more sources of uncertainty.
-}\label{tab:maxVar}
 \begin{tabular}{ c  || c c c } 
  \hline
  \hline
@@ -336,16 +311,6 @@ Additionally, note how the maximal EoS variation for the unconstrained set of Eo
  $\bar{I}-\Lambda$ &  $0.0059$ & $0.007673$ & $0.003138$\\
  $\bar{Q}-\Lambda$ & $0.010$ & $0.01262$ & $0.004661$\\
  $\bar{I}-\bar{Q}$ & $0.012$ & $0.01490$ & $0.005716$\\
- \hline
- \noalign{\smallskip}
-\noalign{\smallskip}
- \noalign{\smallskip}
-\noalign{\smallskip}
-\hline
- \hline
- \textbf{EoS-insensitive} & \multicolumn{3}{c}{\textbf{Maximal EoS Variability}} \\
- \cline{2-4}
- \textbf{Relation} & \multicolumn{1}{c|}{\emph{Previous}} & \multicolumn{1}{c|}{\emph{Unconstrained}} & \emph{Constrained}\\
  \hline
  \multirow{2}{*}{$C-\Lambda$} & $0.065$ & $0.07198$ & $0.02169$\\
  & (--) & ($0.01837$) & ($0.006582$)\\
@@ -365,35 +330,23 @@ Additionally, note how the maximal EoS variation for the unconstrained set of Eo
 \hline
 \hline
 \end{tabular}
+\caption{Maximum relative and fractional EoS variation in the I-Love-Q, C-Love, R-Love, and binary Love relations using the unconstrained set, the constrained set and variations reported in previous work~\cite{Yagi:ILQ,Yagi:binLove}. The maximum absolute EoS variation is also reported in the C-Love, R-Love and binary Love cases in parenthesis. Observe that the maximum variation in the constrained set case is better than a factor of two smaller than the variability in the unconstrained case and in previous work. The maximum EoS variation in the unconstrained set is slightly larger than that found in previous work because the former is built from a large random sampling of EoSs. {\ny{Do we really need these many significant digits?}} 
+}\label{tab:maxVar}
 \end{table}
-
-
-These results indicate that EoS-insensitive relations can indeed be greatly improved upon by restricting to EoSs in agreeance with physical observations.
-In addition, we confirm the validity of this method by noting that the unconstrained EoSs observe more EoS variability than that found in Ref.~\cite{Yagi:ILQ} due to the nature of large random sampling taking into account more sources of uncertainty than was previously studied.
-On the other hand, the constrained set of EoSs show significant improvement from that found in previous works.
-This improvement can be beneficial to many future analyses, such as improvements to the constraints found on the moment of inertia, tidal deformability, compactness, spin, and radius found in Ref.~\cite{Kumar:2019xgp}.
 
 \subsubsection{Hybrid quark-hadron stars}
 \label{sec:ilq-hyb}
 
-In this section, we investigate the I-Love-Q universality of hybrid stars, and their compatibility with their nuclear matter counterparts.
-We consider three different sets of data to be fit by Eq.~\ref{eq:ILQfitNew}:
+Let us now focus on the I-Love-Q relations of hybrid stars, and their compatibility with their nuclear matter counterparts. For concreteness, we consider three different sets of EoSs in the hybrid case:
 \begin{enumerate}
 \item the complete set of 100 constrained EoSs combined with the 10 hybrid star EoSs,
 \item the complete set of 100 constrained EoSs alone,
 \item the complete set of 10 hybrid star EoSs alone.
 \end{enumerate}
-Following this, we compute the fractional difference from the fits for all three cases for the 10 hybrid star EoSs.
-The fractional differences for the second case (fit to only the constrained EoSs) is shown by the dashed green lines in Fig.~\ref{fig:ILQ} for example.
-For comparison purposes, Tab.~\ref{tab:hybridCompare} displays the maximal EoS variation in the $I-\Lambda$ relation for both the constrained and hybrid star EoSs in each case.
+For each of these cases, we compute the I-Love-Q relations, we fit the data to Eq.~\eqref{eq:ILQfitNew} and we compute the relative fractional difference. 
 
-\begin{table}
+\begin{table}[htb]
 \centering
-\caption{
-Comparison between the $I-\Lambda$ maximal EoS variability (fractional difference from the fit) for the constrained EoSs and the hybrid EoSs for three different cases of fitting data to Eq.~\ref{eq:ILQfitNew}: (1) fit to the combined data of constrained and hybrid EoS, (2) fit to the constrained EoS data alone, and (3) fit to the hybrid EoS data alone.
-Observe how for all 3 cases, the hybrid EoSs are only universal up to a minimum of $\sim1$\%, while in each case the constrained EoSs outperform the hybrid ones.
-The second case is demonstrated in Fig.~\ref{fig:ILQ}.
-}\label{tab:hybridCompare}
 \begin{tabular}{ c  || c c } 
  \hline
  \hline
@@ -413,11 +366,12 @@ The second case is demonstrated in Fig.~\ref{fig:ILQ}.
 \hline
 \hline
 \end{tabular}
+\caption{
+Maximum relative and fractional EoS variation in the I-Love relation, fitting to three different sets of data: using the constrained set plus hybrid EoSs, using the constrained set alone, EoS data alone, and using only the hybrid EoSs. In all 3 cases the hybrid EoSs are EoS-insensitive to $\sim1$\%, which is a slight decrease in universality relative to the hadronic only EoSs. {\ny{Do we really need these many significant digits?}}
+}\label{tab:hybridCompare}
 \end{table}
 
-Observe how the hybrid star EoSs obey the I-Love-Q relations in each case by up to $\sim1.7$\%, slightly higher than that found for nuclear matter EoSs in previous works~\cite{Yagi:ILQ}.
-Further, we observe that the universality can not be improved by much through the introduction of new fits, only bringing the maximal EoS variation down to $\sim1$\% for the fits constructed with only hybrid star EoSs.
-Concluding, we claim that hybrid star EoSs \emph{do} obey the traditional nuclear I-Love-Q relations computed through nuclear EoS data, with a slight decrease in universality to $\sim1.7$\%.  
+The fractional differences for the second case (fit to only the constrained EoSs) is shown with dashed green lines in Fig.~\ref{fig:ILQ}, while the maximum EoS variation for the I-Love relation is shown in Table~\ref{tab:hybridCompare} for both the constrained and hybrid star cases. Observe how the hybrid star EoSs obey the I-Love-Q relations in each case to better than $\sim1.7$\%, a variability that is slightly higher than that found when using only nuclear matter EoSs in previous works~\cite{Yagi:ILQ}. Observe also that the universality cannot be improved much through the introduction of new fits, only bringing the maximal EoS variation down to $\sim1$\% for the fits constructed with only hybrid star EoSs. From this study, we conclude that hybrid star EoSs \emph{do} obey the traditional nuclear I-Love-Q relations computed with nuclear EoS data, albeit with a slight decrease in universality to $\sim1.7$\%.  
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%
