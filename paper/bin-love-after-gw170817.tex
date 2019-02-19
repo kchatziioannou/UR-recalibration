@@ -155,11 +155,9 @@ The equation of state is then determined by an integration of the differential e
 \end{equation}
 Using this formalism, any valid EoS can be approximated through the choice of $N$ spectral coefficients $\gamma_k$, and we here choose $N=4$, tabulated for several common EoSs in Table 1 of~\cite{Lindblom:2018rfr}.
 
-{\ny{Zack, I rewrote what's below, but please check.}}
-
 We here wish to consider EoS-insensitive relations using two sets of EoSs: a ``constrained set'' consistent with the observation of GW170817 and an ``unconstrained set'' that does not impose this prior. In \emph{both} cases, we model the EoS with a $C^{0}$-piecewise function that equals the low-density crust EoS of SLy~\cite{Douchin:2001sv} below half nuclear saturation density $\rho_{\text{stitch}}=1.3 \times 10^{14} \text{ g/cm}^3$~\cite{Read2009}, and equals the spectral decomposition described above outside the crust. For the latter, we restrict the spectral coefficients to the ranges $\gamma_0 \in \lbrack 0.2,2 \rbrack$, $\gamma_1 \in \lbrack -1.6,1.7 \rbrack$, $\gamma_2 \in \lbrack -0.6,0.6 \rbrack$, $\gamma_3 \in \lbrack -0.02,0.02 \rbrack$, and the adiabatic index is further restricted to $\Gamma \in \lbrack 0.6,4.5 \rbrack$~\cite{Lindblom:parameters}. Moreover, we impose the following two restrictions:  (i) causality within 10\%, i.e. that the speed of sound of the fluid be less than the speed of light to 10\%, and (ii) a high maximum mass, i.e.~that the resulting EoS supports NSs with masses at least as high as $1.97 \text{ M}_{\odot}$, consistent with astrophysical observations~\cite{Zhao:massiveNS}. 
 
-The unconstrained set is then defined by drawing random samples in the spectral coefficients (within their allowed prior ranges), and then eliminating any EoS that either leads to a polytropic index $\Gamma$ outside the allowed range, or breaks the causality restriction, or breaks the maximum mass restriction. The constrained set is defined in a similar way, with the addition of the restriction that the resulting EoS be inside the 90\% marginalized posterior distribution on the pressure-mass density plane derived from the GW170817 observation~\cite{LIGO:posterior,Carney:2018sdv}  (see Fig.~2 in~\cite{LIGO:posterior}). In both cases, each set consists of 100 members, with a subset of these shown in Fig.~\ref{fig:eos}.
+The unconstrained set is then defined by drawing random samples in the spectral coefficients (within their allowed prior ranges), and then eliminating any EoS that either leads to a polytropic index $\Gamma$ outside the allowed range, breaks the causality restriction, or breaks the maximum mass restriction. The constrained set is defined in a similar way, with the addition of the restriction that the resulting EoS be inside the 90\% marginalized posterior distribution on the pressure-mass density plane derived from the GW170817 observation~\cite{LIGO:posterior,Carney:2018sdv}  (see Fig.~2 in~\cite{LIGO:posterior}). In both cases, each set consists of 100 members, with a subset of these shown in the left panel of Fig.~\ref{fig:eos}.
 
 %In the current analysis, we consider EoSs which have been constrained by the recent binary neutron star merger event, GW170817.
 %Important recent work by the LIGO Collaboration~\cite{LIGO:posterior,Carney:2018sdv} sampled the EoS parameter space in order to derive a marginalized posterior on the pressure as a function of mass density, as seen in Fig. 2 of~\cite{LIGO:posterior}.
@@ -169,30 +167,18 @@ The unconstrained set is then defined by drawing random samples in the spectral 
 %For comparison, we also include a second sample of 100 ``unconstrained" EoSs, randomly sampled in the pressure-density plane to be unrestricted by GW170817s posterior.
 %Following~\cite{Read2009}, the parameterized high-density core EoSs generated above are matched to the low-density crust EoS of Sly~\cite{Douchin:2001sv} at about half of the nuclear saturation density, $\rho_{\text{stitch}}=1.3 \times 10^{14} \text{ g/cm}^3$.
 
-{\ny{Zack, I think the description here was wrong because the hybrid stars do not just have hadronic matter in the crust, but also in the outer core, no? Please check.}}
+In addition, we investigate 10 transitional quark-hadron matter stars, which undergo strong first-order phase transitions at a pressure $P_{\text{tr}}$, leading to the hadronic branch departing into a quark-matter branch at a given transitional mass~\cite{Paschalidis2018,Alford:2017qgh,1971SvA....15..347S,Zdunik:2012dj,Alford:2013aca}. In particular, we focus on the ACS and ACB models described in~\cite{Paschalidis2018}, and also shown in the right panel of Fig.~\ref{fig:eos}. These result in two distinct types of NSs, based on their mass: (i) massive ($M \geq \text{ M}_{\text{tr}}$) hybrid stars which have quark-matter inner cores and nuclear matter elsewhere (henceforth, we denote such stars as hybrid stars (HSs)), and (ii) low-mass ($M \leq \text{ M}_{\text{tr}}$) hadronic stars with no internal transition to quark matter (henceforth, we denote these stars as simply NSs).
 
-In addition, we investigate 10 transitional quark-hadron matter stars, which undergo strong first-order phase transitions at a pressure $P_{\text{tr}}$, leading to the hadronic branch departing into a quark-matter branch at a given transitional mass~\cite{Paschalidis2018,Alford:2017qgh,1971SvA....15..347S,Zdunik:2012dj,Alford:2013aca}. In particular, we focus on the ACS and ACB models described in~\cite{Paschalidis2018}, and also shown in Fig.~\ref{fig:hybridML}. These result in two distinct types of NSs, based on their mass: (i) massive ($M \geq \text{ M}_{\text{tr}}$) hybrid stars which have quark-matter inner cores and nuclear matter elsewhere (henceforth, we denote such stars as hybrid stars (HSs)), and (ii) low-mass ($M \leq \text{ M}_{\text{tr}}$) hadronic stars with no internal transition to quark matter (henceforth, we denote these stars as simply NSs).
-
-\begin{figure}
+\begin{figure*}
 \begin{center} 
 \includegraphics[width=\columnwidth]{EoSs.eps}
+\includegraphics[width=\columnwidth]{hybridEoSs.eps}
 \end{center}
-\caption{(Color Online) Small representative samples of the unconstrained (dotted) and constrained (solid) sets, together with the 90\% marginalized posterior distribution from the observation of GW170817 (cyan shaded region)~\cite{LIGO:posterior}. Observe that the there is significantly less variability in the constrained set of EoSs due to the requirement that they be consistent with the GW170817 observation.}
-\label{fig:eos}
-\end{figure} 
-
-\begin{figure}
-\begin{center} 
-\includegraphics[width=\linewidth]{hybridML.eps}
-\end{center}
-\caption{
-$M-\Lambda$ relations for the ACS and ACB class model hybrid stars. 
-Observe the transitional points where the NS transitions from the hadronic branch into a quark-matter branch.
+\caption{(Color Online) (left) Small representative samples of the unconstrained (dotted) and constrained (solid) sets, together with the 90\% marginalized posterior distribution from the observation of GW170817 (cyan shaded region)~\cite{LIGO:posterior}. Observe that the there is significantly less variability in the constrained set of EoSs due to the requirement that they be consistent with the GW170817 observation.
+(right) ACS and ACB model hybrid stars investigated in our analysis, each transitioning from a hadronic branch (corresponging to a pure hadronic-matter NS) into a quark-matter branch (quark-matter inner core surrounded by hadronic matter) at various transition pressures $P_{\text{tr}}$.
 }
-\label{fig:hybridML}
-\end{figure} 
-
-{\ny{Zack, it's a bit weird to show p-rho in Fig. 2 (for the NSs) and then show M-Lambda in Fig. 3 for the hybrid stars. Why not plot also p-rho here and make these two figures into widetext? I think this would make the comparison between them cleaner, specially considering that we haven't introduced Lambda yet.}} 
+\label{fig:eos}
+\end{figure*} 
 
 \subsection{NS Tidal deformability}\label{tidal}
 
@@ -202,21 +188,19 @@ Consider a NS of mass $M$ in the presence of the (spatial) tidal tensor $\vareps
 \begin{equation}
 Q_{ij}=-\lambda \; \varepsilon_{ij}.
 \end{equation}
-One can extract $Q_{ij}$ and $\varepsilon_{ij}$ -- and thus $\lambda$, or its dimensionless form $\Lambda \equiv \lambda/M^5$ -- via a double asymptotic expansion of the gravitational potential in a buffer zone, defined by ${\cal{L}} \gg r \gg R$ {\ny{This was inaccurate so I rewrote it}}:
+One can extract $Q_{ij}$ and $\varepsilon_{ij}$ -- and thus $\lambda$, or its dimensionless form $\Lambda \equiv \lambda/M^5$ -- via a double asymptotic expansion of the gravitational potential in a buffer zone, defined by ${\cal{L}} \gg r \gg R$:
 \begin{align}
 \Phi=\frac{1+g_{tt}}{2}&=-\frac{M}{r} - \frac{3}{2}\frac{Q_{ij}}{r^3} \Bigg(\frac{x^i}{r} \frac{x^j}{r}-\frac{1}{3}\delta_{ij} \Bigg) + \mathcal{O} \Bigg( \frac{{\cal{L}}^4}{r^4} \Bigg)
 \nonumber \\ &+ \frac{1}{2} \varepsilon_{ij} x^i x^j + \mathcal{O} \Bigg( \frac{r^3}{R^3} \Bigg),
 \end{align}
 where $R$ is the radius of the star and ${\cal{L}}$ is the length scale associated with the radius of curvature induced by the companion. 
 
-The calculation of the tidal deformability therefore requires the calculation of the metric component $g_{tt}$. One typically stars by first constructing a spherically symmetric, non-spinning background solution, whose stellar mass and radius are determined from $p(R)=0$. One then perturbatively introduces a tidal deformation and solves the perturbed Einstein equations in the NS interior, and matches this solution to an exterior Schwarzschild solution at the surface, modulo a constant. The requirement that the metric be at least $C^{1}$ fixes all constants of integration, yielding the tidal deformability, as discussed in more detail in~\cite{hinderer-love}. One can similarly obtain the moment of inertia from the asymptotic behavior of the $g_{t \phi}$ metric component.
+The calculation of the tidal deformability therefore requires the calculation of the metric component $g_{tt}$. One typically starts by first constructing a spherically symmetric, non-spinning background solution, whose stellar mass and radius are determined from $p(R)=0$. One then perturbatively introduces a tidal deformation and solves the perturbed Einstein equations in the NS interior, and matches this solution to an exterior Schwarzschild solution at the surface, modulo a constant. The requirement that the metric be at least $C^{1}$ fixes all constants of integration, yielding the tidal deformability, as discussed in more detail in~\cite{hinderer-love}. One can similarly obtain the moment of inertia from the asymptotic behavior of the $g_{t \phi}$ metric component.
 
-{\ny{Wait, is $\tilde{\Lambda}$ the ``mass-weighted tidal deformability'' or is it the ``chirp deformability''? Is there a difference? Please look it up and correct the nomenclature.}}
-
-Consider now a binary NS systems, as that which produced the GW170817 event, where each star individually experiences the tidal field of the other star.
+Consider now a binary NS system, as that which produced the GW170817 event, where each star individually experiences the tidal field of the other star.
 Thus, each star possesses tidal deformabilities $\Lambda_1$ and $\Lambda_2$ that enter the GW phase and encode information about each star's EoS.
 Due to strong correlations between these parameters, individual extraction is very difficult with current interferometer sensitivity limitations.
-However, the waveform templates can be strategically reparameterized to instead include independent linear combinations of $\Lambda_1$ and $\Lambda_2$ that mitigate correlations. One common reparameterization is through the introduction of the chirp deformability $\tilde{\Lambda}=\tilde{\Lambda}(\Lambda_1,\Lambda_2)$ and the parameter $\delta \tilde{\Lambda}=\delta \tilde{\Lambda}(\Lambda_1,\Lambda_2)$~\cite{Wade:tidalCorrections}. Since these parameters enter the GW phase at 5 and 6PN orders respectively\footnote{A term of NPN order is proportional to $v^{2N}$ relative to the leading-order term in the expression.}, the partially break the degeneracies between $\Lambda_{1}$ and $\Lambda_{2}$.
+However, the waveform templates can be strategically reparameterized to instead include independent linear combinations of $\Lambda_1$ and $\Lambda_2$ that mitigate correlations. One common reparameterization is through the introduction of the chirp deformability $\tilde{\Lambda}=\tilde{\Lambda}(\Lambda_1,\Lambda_2)$ and the parameter $\delta \tilde{\Lambda}=\delta \tilde{\Lambda}(\Lambda_1,\Lambda_2)$~\cite{Wade:tidalCorrections}. Since these parameters enter the GW phase at 5 and 6PN orders respectively\footnote{A term of NPN order is proportional to $v^{2N}$ relative to the leading-order term in the expression.}, they partially break the degeneracies between $\Lambda_{1}$ and $\Lambda_{2}$.
 
 \subsection{EoS-insensitive relations}\label{sec:eosInsensitive}
 Current GW interferometry is not yet sensitive enough to accurately extract both tidal parameters $\tilde{\Lambda}$ and $\delta\tilde{\Lambda}$.
@@ -616,7 +600,7 @@ As described in Sec.~\ref{sec:theory}, transitional quark-hadron matter stars un
 These transitions result in two distinct types of NSs, based on their observed mass: (i) massive ($M \geq M_{\text{tr}}$) hybrid stars which have quark-matter cores and nuclear matter crusts (we denote these as ``HS"); and (ii) low-mass ($M \leq M_{\text{tr}}$) hadronic stars with no internal transition to quark matter (we denote these as ``NS").
 Contrary to the single-star relations (I-Love-Q, C-Love, and R-Love) where the hybrid stars moderately agree with their nuclear matter counterparts, the binary-star relations show large disagreement, which can be seen in Fig.~\ref{fig:binLove}.
 Observe how the agreement with the fit is quite good at low pressures (large $\Lambda_s$) where the the binaries consist of NS/NS combinations (here, both stars' EoSs consist of the same class of nuclear matter as the constrained EoSs).
-Once the critical pressure is reached, one or both stars transition into the hybrid branches, resulting in large reductions in tidal deformability as shown in Fig.~\ref{fig:hybridML}.
+Once the critical pressure is reached, one or both stars transition into the hybrid branches, resulting in large reductions in tidal deformability as shown in the right panel of Fig.~\ref{fig:eos}.
 When one star lies on the hadronic-matter branch while the other is on the quark-matter branch, 
 the difference between tidal deformabilities becomes larger than expected for pure hadronic-matter stars.
 This results in large deviations in the sums and differences of tidal deformabilities $(\Lambda_1 \pm \Lambda_2)$, disrupting the overall universality and generating the large ``bump" in the binary love relations for hybrid stars\footnote{This discrepancy is not present in the I-Love-Q and C-Love relations due to their single-star nature.} seen in Fig~\ref{fig:binLove}.
@@ -645,7 +629,7 @@ This implies that currently, the use of improved EoS-insensitive relations will 
 In Sec.~\ref{sec:marginalization}, we first estimate the systematic uncertainties introduced by using the improved binary Love relations derived earlier.
 In Sec.~\ref{sec:futureObservations}, we estimate the statistical uncertainties on the parameter extraction of tidal parameters, and compare them to the above-mentioned systematic uncertainties.
 This is repeated for 5 future detectors, where multiple event detections become important.
-Because future events occur with weighted tidal parameters $\tilde\Lambda$ which are unknown at this time, we can not accurately combine the uncertainties on $\tilde\Lambda$ for multiple events.
+Because future events occur with chirp tidal parameter $\tilde\Lambda$ which are unknown at this time, we can not accurately combine the uncertainties on $\tilde\Lambda$ for multiple events.
 To remedy this, we re-parameterize the waveform and instead consider the $\lambda_0$ and $\lambda_1$ tidal coefficients produced by Taylor expanding the dimensionless tidal deformability $\Lambda$ about the ``canonical" reference mass of $m_0=1.4\text{ M}_{\odot}$~\cite{delPozzo:TaylorTidal,Yagi:binLove}:
 \begin{equation}
 \Lambda \approx \lambda_0 + \lambda_1 (1-\frac{m}{m_0}),
