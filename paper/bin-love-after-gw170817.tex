@@ -188,21 +188,19 @@ Consider a NS of mass $M$ in the presence of the (spatial) tidal tensor $\vareps
 \begin{equation}
 Q_{ij}=-\lambda \; \varepsilon_{ij}.
 \end{equation}
-One can extract $Q_{ij}$ and $\varepsilon_{ij}$ -- and thus $\lambda$, or its dimensionless form $\Lambda \equiv \lambda/M^5$ -- via a double asymptotic expansion of the gravitational potential in a buffer zone, defined by ${\cal{L}} \gg r \gg R$ {\ny{This was inaccurate so I rewrote it}}:
+One can extract $Q_{ij}$ and $\varepsilon_{ij}$ -- and thus $\lambda$, or its dimensionless form $\Lambda \equiv \lambda/M^5$ -- via a double asymptotic expansion of the gravitational potential in a buffer zone, defined by ${\cal{L}} \gg r \gg R$:
 \begin{align}
 \Phi=\frac{1+g_{tt}}{2}&=-\frac{M}{r} - \frac{3}{2}\frac{Q_{ij}}{r^3} \Bigg(\frac{x^i}{r} \frac{x^j}{r}-\frac{1}{3}\delta_{ij} \Bigg) + \mathcal{O} \Bigg( \frac{{\cal{L}}^4}{r^4} \Bigg)
 \nonumber \\ &+ \frac{1}{2} \varepsilon_{ij} x^i x^j + \mathcal{O} \Bigg( \frac{r^3}{R^3} \Bigg),
 \end{align}
 where $R$ is the radius of the star and ${\cal{L}}$ is the length scale associated with the radius of curvature induced by the companion. 
 
-The calculation of the tidal deformability therefore requires the calculation of the metric component $g_{tt}$. One typically stars by first constructing a spherically symmetric, non-spinning background solution, whose stellar mass and radius are determined from $p(R)=0$. One then perturbatively introduces a tidal deformation and solves the perturbed Einstein equations in the NS interior, and matches this solution to an exterior Schwarzschild solution at the surface, modulo a constant. The requirement that the metric be at least $C^{1}$ fixes all constants of integration, yielding the tidal deformability, as discussed in more detail in~\cite{hinderer-love}. One can similarly obtain the moment of inertia from the asymptotic behavior of the $g_{t \phi}$ metric component.
+The calculation of the tidal deformability therefore requires the calculation of the metric component $g_{tt}$. One typically starts by first constructing a spherically symmetric, non-spinning background solution, whose stellar mass and radius are determined from $p(R)=0$. One then perturbatively introduces a tidal deformation and solves the perturbed Einstein equations in the NS interior, and matches this solution to an exterior Schwarzschild solution at the surface, modulo a constant. The requirement that the metric be at least $C^{1}$ fixes all constants of integration, yielding the tidal deformability, as discussed in more detail in~\cite{hinderer-love}. One can similarly obtain the moment of inertia from the asymptotic behavior of the $g_{t \phi}$ metric component.
 
-{\ny{Wait, is $\tilde{\Lambda}$ the ``mass-weighted tidal deformability'' or is it the ``chirp deformability''? Is there a difference? Please look it up and correct the nomenclature.}}
-
-Consider now a binary NS systems, as that which produced the GW170817 event, where each star individually experiences the tidal field of the other star.
+Consider now a binary NS system, as that which produced the GW170817 event, where each star individually experiences the tidal field of the other star.
 Thus, each star possesses tidal deformabilities $\Lambda_1$ and $\Lambda_2$ that enter the GW phase and encode information about each star's EoS.
 Due to strong correlations between these parameters, individual extraction is very difficult with current interferometer sensitivity limitations.
-However, the waveform templates can be strategically reparameterized to instead include independent linear combinations of $\Lambda_1$ and $\Lambda_2$ that mitigate correlations. One common reparameterization is through the introduction of the chirp deformability $\tilde{\Lambda}=\tilde{\Lambda}(\Lambda_1,\Lambda_2)$ and the parameter $\delta \tilde{\Lambda}=\delta \tilde{\Lambda}(\Lambda_1,\Lambda_2)$~\cite{Wade:tidalCorrections}. Since these parameters enter the GW phase at 5 and 6PN orders respectively\footnote{A term of NPN order is proportional to $v^{2N}$ relative to the leading-order term in the expression.}, the partially break the degeneracies between $\Lambda_{1}$ and $\Lambda_{2}$.
+However, the waveform templates can be strategically reparameterized to instead include independent linear combinations of $\Lambda_1$ and $\Lambda_2$ that mitigate correlations. One common reparameterization is through the introduction of the chirp deformability $\tilde{\Lambda}=\tilde{\Lambda}(\Lambda_1,\Lambda_2)$ and the parameter $\delta \tilde{\Lambda}=\delta \tilde{\Lambda}(\Lambda_1,\Lambda_2)$~\cite{Wade:tidalCorrections}. Since these parameters enter the GW phase at 5 and 6PN orders respectively\footnote{A term of NPN order is proportional to $v^{2N}$ relative to the leading-order term in the expression.}, they partially break the degeneracies between $\Lambda_{1}$ and $\Lambda_{2}$.
 
 \subsection{EoS-insensitive relations}\label{sec:eosInsensitive}
 Current GW interferometry is not yet sensitive enough to accurately extract both tidal parameters $\tilde{\Lambda}$ and $\delta\tilde{\Lambda}$.
@@ -633,7 +631,7 @@ This implies that currently, the use of improved EoS-insensitive relations will 
 In Sec.~\ref{sec:marginalization}, we first estimate the systematic uncertainties introduced by using the improved binary Love relations derived earlier.
 In Sec.~\ref{sec:futureObservations}, we estimate the statistical uncertainties on the parameter extraction of tidal parameters, and compare them to the above-mentioned systematic uncertainties.
 This is repeated for 5 future detectors, where multiple event detections become important.
-Because future events occur with weighted tidal parameters $\tilde\Lambda$ which are unknown at this time, we can not accurately combine the uncertainties on $\tilde\Lambda$ for multiple events.
+Because future events occur with chirp tidal parameter $\tilde\Lambda$ which are unknown at this time, we can not accurately combine the uncertainties on $\tilde\Lambda$ for multiple events.
 To remedy this, we re-parameterize the waveform and instead consider the $\lambda_0$ and $\lambda_1$ tidal coefficients produced by Taylor expanding the dimensionless tidal deformability $\Lambda$ about the ``canonical" reference mass of $m_0=1.4\text{ M}_{\odot}$~\cite{delPozzo:TaylorTidal,Yagi:binLove}:
 \begin{equation}
 \Lambda \approx \lambda_0 + \lambda_1 (1-\frac{m}{m_0}),
