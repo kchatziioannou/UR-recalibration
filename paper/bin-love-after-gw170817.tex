@@ -508,37 +508,34 @@ From this analysis, we conclude that binaries containing one or more hybrid star
 \section{Impact on future observations}
 \label{sec:observations}
 
-We have now shown that binary NS merger observations can help improve the EoS-insensitive relations - the question is: is it worth it?
-Current interferometer sensitivities are not yet small enough to accurately constrain the dominant tidal parameter $\tilde{\Lambda}$.
-For example, GW170817 was detected by LIGO observing run 2 (``O2")~\cite{aLIGO} and was able to constrain $\tilde{\Lambda}$ to a $90\%$ confidence interval of 325 (or $\sigma_{\tilde{\Lambda}} \approx 198$) centered at $\mu_{\tilde{\Lambda}}=395$.
-This corresponds to statistical uncertainties on the order of $\sim 82\%$, which dominates the error budget compared to the small systematic uncertainties picked up by EoS variation in the EoS-insensitive relations.
+We have now shown that binary NS merger observations can help improve the EoS-insensitive relations, but the question remains: is it worth it?
+Current interferometer sensitivities are not yet high enough to accurately constrain the dominant tidal parameter $\tilde{\Lambda}$.
+For example, GW170817 was detected by LIGO observing run 2 (``O2")~\cite{aLIGO} and was able to constrain $\tilde{\Lambda}$ to a $90\%$ confidence interval centered at $\mu_{\tilde{\Lambda}}=395$ and with a width of 325 (or $\sigma_{\tilde{\Lambda}} \approx 198$).  This corresponds to statistical uncertainties of ${\cal{O}}(80\%)$, which dominates the error budget compared to the small systematic uncertainties picked up by EoS variation in the EoS-insensitive relations.
 This implies that currently, the use of improved EoS-insensitive relations will only make a negligible difference on the extraction of tidal parameters.
 
-In Sec.~\ref{sec:marginalization}, we first estimate the systematic uncertainties introduced by using the improved binary Love relations derived earlier.
-In Sec.~\ref{sec:futureObservations}, we estimate the statistical uncertainties on the parameter extraction of tidal parameters, and compare them to the above-mentioned systematic uncertainties.
-This is repeated for 5 future detectors, where multiple event detections become important.
-Because future events occur with mass-weighted tidal deformability $\tilde\Lambda$ which are unknown at this time, we can not accurately combine the uncertainties on $\tilde\Lambda$ for multiple events.
-To remedy this, we re-parameterize the waveform and instead consider the $\lambda_0$ and $\lambda_1$ tidal coefficients produced by Taylor expanding the dimensionless tidal deformability $\Lambda$ about the ``canonical" reference mass of $m_0=1.4\text{ M}_{\odot}$~\cite{delPozzo:TaylorTidal,Yagi:binLove}:
+In this section, we further explore this question and study when in the future the new set of improved relations will become important as current detectors are improved and new ones are built. In Sec.~\ref{sec:marginalization}, we first estimate the systematic uncertainties introduced by using the improved binary Love relations.
+In Sec.~\ref{sec:futureObservations}, we estimate the statistical uncertainties on the extraction of tidal parameters, and compare them to the above-mentioned systematic uncertainties.
+This is repeated for 5 future detectors, where multiple detections become important, but to combine constraints from multiple events we cannot use the $\tilde\Lambda$ parameterization, as this depends on the masses of the binary constituents. To remedy this, we re-parameterize the waveform in terms of the coefficients $\lambda_0$ (sometimes called $\Lambda_{1.4}$) and $\lambda_1$, obtained from a Taylor expansion of the dimensionless tidal deformability $\Lambda$ about a ``canonical" reference mass $M_0=1.4\text{ M}_{\odot}$~\cite{delPozzo:TaylorTidal,Yagi:binLove}:
 \begin{equation}
-\Lambda \approx \lambda_0 + \lambda_1 (1-\frac{m}{m_0}),
+\Lambda = \lambda_0 + \lambda_1 \left(1-\frac{M}{M_0}\right) + {\cal{O}}\left[\left(1-\frac{M_{0}}{M}\right)^{2}\right].
 \end{equation}
-where $\lambda_0$ and $\lambda_1$ are the tidal deformability and its slope at $1.4 \text{ M}_{\odot}$\footnote{$\lambda_0$ is commonly known as $\Lambda_{1.4}$.}. 
-The new tidal parameters $\lambda_0$ and $\lambda_1$ do not depend on mass, thus are identical for every future binary NS merger, and may be combined in uncertainty.
-Under this reasoning, we consider the new tidal parameters $\lambda_0$ and $\lambda_1$ for the remainder of the investigation.
+The Taylor coefficients $\lambda_0$ and $\lambda_1$ are mass independent, and thus they are identical in all binary NS observations, and their posteriors may be combined.
 
 \subsection{Marginalization over Uncertainties}\label{sec:marginalization}
 
-In this section, we investigate the residuals on $\Lambda_a(\Lambda_s,q)$ in order to marginalize over the intrinsic uncertainty found in the binary Love EoS-insensitive relations.
+Let us begin by investigating the residuals on $\Lambda_a(\Lambda_s,q)$ and the induced residuals on $\lambda_{0}$, in order to marginalize over the intrinsic uncertainty found in the binary Love relations.
 In particular, we restrict our focus to only the constrained set of EoSs.
-Residuals in $\Lambda_a$ are computed as $\Lambda_a^{\text{relation}}(\Lambda_s,q)-\Lambda_a^{\text{true}}$, where $\Lambda_a^{\text{true}}$ corresponds to the true value predicted by the sample EoSs, and $\Lambda_a^{\text{relation}}(\Lambda_s,q)$ corresponds to the value obtained through the EoS-insensitive relations found in Sec.~\ref{sec:binary}.
-We follow this up by converting the $\Lambda_a$ residuals into $\lambda_0$, allowing us to approximate the overall systematic uncertainties on $\lambda_0$ from using the improved binary Love relations.
+Residuals in $\Lambda_a$ are computed as $\Lambda_a^{\text{relation}}(\Lambda_s,q)-\Lambda_a^{\text{true}}$, where $\Lambda_a^{\text{true}}$ corresponds to the true value predicted by the sampled EoSs, and $\Lambda_a^{\text{relation}}(\Lambda_s,q)$ corresponds to the fit found in Sec.~\ref{sec:binary}.
+We then convert the $\Lambda_a$ residuals into $\lambda_0$ residuals, as we describe below.
 
+{\ny{Please rewrite everything from here to Subsection B. It is not clear at all what you've done, why you've done it, and what you got.}}
 Following Ref.~\cite{Katerina:residuals}, we assume the residuals on $\Lambda_a$ observe a Gaussian distribution with mean and standard deviation given by:
 \begin{align}
 \mu_{\Lambda_a}(\Lambda_s,q) &=\frac{\mu_{\Lambda_s}(\Lambda_s)+\mu_{q}(q)}{2},\\ 
 \sigma_{\Lambda_a} &=\sqrt{\sigma_{\Lambda_s}^2(\Lambda_s) + \sigma_{q}^2(q)}. 
 \end{align}
-Similar to Ref.~\cite{Katerina:residuals}, we fit the individual components to the following power functions:
+%The mean and standard deviation of the Gaussian distribution of the residuals on 
+We then fit the individual components using the following power functions {\ny{to what data? This is confusing}}:
 \begin{align}
 \mu_{\Lambda_s}(x) &= \mu_1 x + \mu_2, \label{eq:margFit1}\\ 
 \mu_{q}(x) &= \mu_3 x^2 + \mu_4 x + \mu_5, \label{eq:margFit2}\\ 
@@ -549,9 +546,6 @@ The fitting parameters $\mu_i$ and $\sigma_i$ are tabulated in Table~\ref{tab:ma
 
 \begin{table}
 \centering
-\caption{
-Coefficients to the fits given by Eqs.~(\ref{eq:margFit1})-(\ref{eq:margFit4}) for the relative error on $\Lambda_a$ in the improved binary Love EoS-insensitive relations presented in this paper.
-}\label{tab:marginalized}
 \addtolength{\tabcolsep}{1pt} 
 \begin{tabular}{ c | c || c | c}
 \hline 
@@ -568,11 +562,14 @@ $\mu_5$ & $-10.10$ & $\sigma_5$ & $-1.308$\\
  \noalign{\smallskip}
  \hline
 \end{tabular}
+\caption{
+Coefficients to the fits given by Eqs.~(\ref{eq:margFit1})-(\ref{eq:margFit4}) for the relative error on $\Lambda_a$ in the improved binary Love EoS-insensitive relations presented in this paper.
+}\label{tab:marginalized}
 \addtolength{\tabcolsep}{-1pt}
 \end{table}
 
-Now that we have obtained the residuals on $\Lambda_a$, we must convert them into the new tidal parameter $\lambda_0$, in order to compute and easily compare the systematic uncertainties to the statistical uncertainties on $\lambda_0$, found in Sec.~\ref{sec:futureObservations}.
-Figure~\ref{fig:qLsResiduals} shows the standard deviations of these residuals (converted into $\lambda_0$) binned in both $q$ and $\Lambda_s$ as was done above. 
+Now that we have obtained the residuals on $\Lambda_a$, we must convert them into residuals on the new tidal parameter $\lambda_0$, in order to compute and easily compare the systematic uncertainties to the statistical uncertainties on $\lambda_0$. {\ny{You need to say explicitly how you did this.}}
+Figure~\ref{fig:qLsResiduals} shows the standard deviations of these residuals (converted into $\lambda_0$) binned in both $q$ and $\Lambda_s$. 
 To estimate the overall systematic uncertainties on $\lambda_0$ accrued upon the use of the improved binary Love relations, we combine the uncertainties in both $q$ and $\Lambda_s$.
 Figure~\ref{fig:residuals} displays the un-binned Gaussian distribution of $\lambda_0$ residuals for both the constrained, and unconstrained sets of EoSs for comparison.
 Observe how the standard deviations $\sigma=9.764$ and $\sigma=78.28$ show a large decrease from the unconstrained to the constrained sets of EoSs.
@@ -613,15 +610,12 @@ Observe that the systematic uncertainties from using the improved (constrained) 
 \end{figure}
 
 \subsection{Future Observations}\label{sec:futureObservations}
-In this section, we estimate the feasibility of utilizing the improved EoS-insensitive relations in future binary NS merger events.
-This estimate is acquired through a simple Fisher analysis~\cite{Finn:Fisher,Cutler:Fisher} which approximates the accuracy with which one can extract the best-fit parameters $\theta^a$, given a prior template waveform.
-For the remainder of the paper, we consider a template parameter vector consisting of:
+
+We now estimate the feasibility of using the improved EoS-insensitive relations in future GW observations of the coalescence of binary NSs. We estimate the statistical accuracy to which parameters can be extracted through a simple Fisher analysis~\cite{Finn:Fisher,Cutler:Fisher}, assuming sufficiently high signal-to-noise ratio and Gaussian noise~\cite{Cutler:Fisher,Berti:Fisher,Poisson:Fisher}. Henceforth, we consider a waveform template parametrized in terms of
 \begin{equation}\label{eq:template}
 \theta^a=(\ln{A},\phi_c,t_c,\ln{\mathcal{M}},\ln{\mathcal{\eta}},\chi_s,\chi_a,\lambda_0, \lambda_1),
 \end{equation}
-where $\eta \equiv m_1 m_2/M^2$ is the symmetric mass ratio with $m_{1,2}$ and $M$ being the individual and total masses, $\mathcal{M}=M \eta^{3/5}$ is the chirp mass, $A \equiv \frac{\mathcal{M}^{5/6}}{\sqrt{30}\pi^{2/3}D_L}$ is a normalized amplitude factor with $D_L$ being the luminosity distance, and $\chi_{s,a}=\frac{1}{2}(\chi_1\pm\chi_2)$ are the symmetric and antisymmetric total spins, where $\chi_{1,2}$ are the NSs individual spins. 
-Following Refs.~\cite{Cutler:Fisher,Berti:Fisher,Poisson:Fisher}, this method relies on the crude assumption of Gaussian prior distributions\footnote{Typically, the more valid assumption is a uniform prior distribution; an improvement made in a more detailed Bayesian analysis.}.
-The resulting posterior distribution is Gaussian with a root-mean-square given by:
+where $\eta \equiv m_1 m_2/m^2$ is the symmetric mass ratio with $m_{1,2}$ and $m$ being the individual and total masses, $\mathcal{M}=m \eta^{3/5}$ is the chirp mass, $A \equiv {\mathcal{M}^{5/6}}/({\sqrt{30}\pi^{2/3}D_L})$ is a normalized amplitude factor with $D_L$ the luminosity distance, and $\chi_{s,a}=\frac{1}{2}(\chi_1\pm\chi_2)$ are the symmetric and antisymmetric dimensionless spin parameters. The resulting posterior distribution is Gaussian with a root-mean-square given by:
 \begin{equation}
 \Delta \theta^a=\sqrt{\Big( \tilde{\Gamma}^{-1}\Big)^{aa}}.
 \end{equation}
