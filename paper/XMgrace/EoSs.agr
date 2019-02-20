@@ -90,7 +90,7 @@
 @timestamp rot 0
 @timestamp font 0
 @timestamp char size 1.000000
-@timestamp def "Tue Feb 19 15:44:39 2019"
+@timestamp def "Wed Feb 20 16:05:00 2019"
 @with box
 @    box on
 @    box loctype view
@@ -155,7 +155,7 @@
 @    title font 0
 @    title size 1.500000
 @    title color 1
-@    subtitle "Neutron Star EoSs"
+@    subtitle ""
 @    subtitle font 0
 @    subtitle size 1.000000
 @    subtitle color 1
@@ -461,7 +461,7 @@
 @    title font 0
 @    title size 1.500000
 @    title color 1
-@    subtitle "Neutron Star EoSs"
+@    subtitle ""
 @    subtitle font 0
 @    subtitle size 1.500000
 @    subtitle color 1

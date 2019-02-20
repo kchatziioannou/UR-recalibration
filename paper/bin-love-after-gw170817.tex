@@ -157,10 +157,10 @@ Using this formalism, any valid EoS can be approximated through the choice of $N
 
 \begin{figure*}
 \begin{center} 
-\includegraphics[width=\columnwidth]{EoSs.eps}
+\includegraphics[width=.97\columnwidth]{EoSs.eps}
 \includegraphics[width=\columnwidth]{hybridEoSs.eps}
 \end{center}
-\caption{(Color Online) Left: Small representative samples of the unconstrained (dotted) and constrained (solid) sets, together with the 90\% marginalized posterior distribution from the observation of GW170817 (cyan shaded region)~\cite{LIGO:posterior}. Observe that the there is significantly less variability in the constrained set of EoSs due to the requirement that they be consistent with the GW170817 observation. Right: EoSs for ACS and ACB hybrid stars, each transitioning from a hadronic branch (corresponding to a pure hadronic-matter NS) into a quark-matter branch (quark-matter inner core surrounded by hadronic matter) at various transition pressures $P_{\text{tr}}$. {\ny{There shouldn't be a title in the figures, no?}}
+\caption{(Color Online) Left: Small representative samples of the unconstrained (dotted) and constrained (solid) sets, together with the 90\% marginalized posterior distribution from the observation of GW170817 (cyan shaded region)~\cite{LIGO:posterior}. Observe that the there is significantly less variability in the constrained set of EoSs due to the requirement that they be consistent with the GW170817 observation. Right: EoSs for ACS and ACB hybrid stars, each transitioning from a hadronic branch (corresponding to a pure hadronic-matter NS) into a quark-matter branch (quark-matter inner core surrounded by hadronic matter) at various transition pressures $P_{\text{tr}}$.
 }
 \label{fig:eos}
 \end{figure*} 
@@ -486,12 +486,13 @@ c_{ij} = \begin{bmatrix}
     -29.93 & 35.18   
 \end{bmatrix},
 \end{align}
-{\ny{Zack, why did you pick a non-square matrix of coefficients to fit to? Typically, fits are better behaved when you stay with square matrices}}
-and $n = 0.743$, where we set $\alpha = 1$ {\ny{Zack, is this right? I think you didn't fit for $\alpha$, but rather you set it to unity, but you did fit to $n$.  Please confirm.}} Unlike the individual I-Love-Q relations, the binary Love relations depend also depend on the mass ratio. 
+{\zc{I'll Decide whether to use 3x3 or 3x2 coefficient matrices and change this (or not) later.}}
+where we set $n = 0.743$ and $\alpha = 1$ as was done in Ref.~\cite{Yagi:binLove}.
+Unlike the individual I-Love-Q relations, the binary Love relations depend also depend on the mass ratio. 
 
 Figure~\ref{fig:binLove} shows the improved binary Love relation for 3 different mass ratios ($q=0.9$, $q=0.75$, and $q=0.5$) for both the constrained and unconstrained sets of EoSs. Observe how, once again, the constrained set shows a considerable increase in EoS-insensitivity relative to both the unconstrained set and previous works~\cite{Yagi:binLove}. As before, the fit to the unconstrained set shows similar, yet slightly larger EoS variation than that found in previous work~\cite{Yagi:binLove} due to the random sampling used in our analysis. Observe that absolute error between the fit and the data is approximately independent of the mass ratio $q$, with a subtle maximum at $q=0.75$, which mimics the behavior of the controlling factor $F_n(q)$. As before, maximum EoS variation is tabulated in Tab.~\ref{tab:maxVar} for each value of mass ratio considered here.
 
-We can extract two additional conclusions from from this Fig.~\ref{fig:binLove}. First, as the mass ratio becomes more extreme (i.e.~away from unity), the ranges of values that $\Lambda_s$ and $\Lambda_a$ can take decrease. This is because as $q$ decreases, there is a limited range of tidal deformabilities $\Lambda_{1,2}$ in the M-L relationships that satisfy the mass ratio constraint {\ny{What? I didn't understand the previous clause enough to rewrite it.}}, and thus, the allowed parameter space shrinks. Second, the fit to the constrained set does not extend to as high values of $\Lambda_s$ as the fit to the unconstrained set does. This is because of how the sets of EoSs were generated in our analysis, with the unconstrained set including some EoSs that are stiffer and and others that are softer than those constrained by the GW170817 event. This results in the unconstrained set  containing a larger range of tidal deformabilities $\Lambda_{1,2}$ (from both above and below) than the constrained set, which ultimately leads to a \emph{larger} range of $\Lambda_s=\frac{1}{2}(\Lambda_1+\Lambda_2)$ values.
+We can extract two additional conclusions from from Fig.~\ref{fig:binLove}. First, as the mass ratio becomes more extreme (i.e.~away from unity), the ranges of values that $\Lambda_s$ and $\Lambda_a$ can take decrease. This is because \textbf{as the separation between $m_1$ and $m_2$ increases, the effective number of possible $\Lambda_1(m_1)$-$\Lambda_2(m_2)$ configurations decrease}, and thus, the allowed parameter space shrinks. Second, the fit to the constrained set does not extend to as high values of $\Lambda_s$ as the fit to the unconstrained set does. This is because of how the sets of EoSs were generated in our analysis, with the unconstrained set including some EoSs that are stiffer and and others that are softer than those constrained by the GW170817 event. This results in the unconstrained set  containing a larger range of tidal deformabilities $\Lambda_{1,2}$ (from both above and below) than the constrained set, which ultimately leads to a \emph{larger} range of $\Lambda_s=\frac{1}{2}(\Lambda_1+\Lambda_2)$ values.
 
 Let us now consider the binary Love relations for hybrid stars. As described in Sec.~\ref{sec:theory}, transitional quark-hadron matter stars undergo strong first-order phase transitions at a transitional pressure $P_{\text{tr}}$, where the hadronic branch departs into a quark-matter branch at the corresponding transitional mass $M_{\text{tr}}$. These transitions result in two distinct types of NSs, based on their observed mass: (i) massive ($M \geq M_{\text{tr}}$) hybrid stars that have quark-matter inner cores and nuclear matter elsewhere (which recall we denote ``HS"); and (ii) low-mass ($M \leq M_{\text{tr}}$) hadronic stars with no internal transition to quark matter (which recall we denote ``NS"). We therefore expect the binary Love relations for hybrid stars to present behavior identical to their purely hadronic counterparts below the transitional mass (or correspondingly above a transitional $\Lambda_{s,\textrm{tr}}$), and very different behavior for higher masses (or correspondingly for smaller $\Lambda_{s,\textrm{tr}}$). 
 
@@ -526,7 +527,7 @@ The Taylor coefficients $\lambda_0$ and $\lambda_1$ are mass independent, and th
 Although the improved binary Love relation $\Lambda_a^{\text{relation}}(\Lambda_s,q)$ shows high levels of accuracy, any residual errors in the relation could confuse deduction about the correct EoS.
 In this section, we offer a method for which readers can marginalize over the binary Love relations' intrinsic errors.
 This is done by investigating its residuals, which are defined to be $\Lambda_a^{\text{relation}}(\Lambda_s,q)-\Lambda_a^{\text{true}}$.
-Given sampled parameters $q$ and $\Lambda_s$, $\Lambda_a^{\text{relation}}(\Lambda_s,q)$ corresponds to the value found from the binary Love fit found in Sec.~\ref{sec:binary}, and $\Lambda_a^{\text{true}}$ corresponds to the true value predicted by the various sampled EoSs for the same values of $q$ and $\Lambda_s$
+Given sampled parameters $\Lambda_s$ and $q$, $\Lambda_a^{\text{relation}}(\Lambda_s,q)$ corresponds to the value found from the binary Love fit found in Sec.~\ref{sec:binary}, and $\Lambda_a^{\text{true}}$ corresponds to the true value predicted by the various sampled EoSs for the same values of $q$ and $\Lambda_s$
 
 Following the analysis done in Ref.~\cite{Katerina:residuals}, we assume that such residuals in $\Lambda_a$ observe a Gaussian distribution with mean and standard deviation given by:
 \begin{align}
@@ -577,7 +578,7 @@ Finally, in order to marginalize over such errors, one would compute $\Lambda_a$
 where $\mathcal{N}(\mu,\sigma)$ is a normal distribution with mean and variance $\mu$ and $\sigma^2$.
 
 However, for the extent of this analysis we are interested in obtaining an estimate for the amount of systematic uncertainties in $\lambda_0$ accrued upon the use of the improved binary Love relations. 
-Such an approximation would allow us to compare the systematic and statistical uncertaintes in order to determine when the former will dominate the latter.
+Such an approximation would allow us to compare the systematic and statistical uncertainties in order to determine when the former will dominate the latter.
 Similar to what was previously done, we sample $q$ and $\Lambda_s$ in order compute the residuals from the binary Love fits in $\lambda_0$ as $\lambda_0^{\text{relation}}(\Lambda_s,q)-\lambda_0^{\text{true}}$.
 Figure~\ref{fig:residuals} displays the probability distribution of such $\lambda_0$ residuals (for both the constrained and unconstrained EoSs for comparison), which is observed to approximately obey a Gaussian distribution, as assumed.
 Observe how the standard deviations $\sigma=9.764$ and $\sigma=78.28$ show a large decrease from the unconstrained to the constrained sets of EoSs.
@@ -585,7 +586,7 @@ Additionally, we find the 90th, 99th, and 100th percentiles on $\lambda_0$ to be
 
 For demonstration purposes, Fig.~\ref{fig:qLsResiduals} displays the standard deviations of $\lambda_0$ residuals binned in $q$ and $\Lambda_s$, as was done previously for $\Lambda_s$ residuals.
 Observe how the uncertainties in $\lambda_0$ are dominated by the low-error regions of the parameter space ($\Lambda_s \rightarrow 0$, $\Lambda_s \rightarrow \infty$, $q \rightarrow 0$ and $q \rightarrow 1$).
-in order to take into account the high-error regions of the parameter space ($\Lambda_s \sim 2000$, $q\sim0.5$), we conservatively approximate the systematic error in the binary Love relations to be the 90th percentile uncertainty $P_{90}=13.19$ (indicated by the dashed green line in Fig.~\ref{fig:qLsResiduals} and the dashed indigo line in Fig.~\ref{fig:stackedFisher}) for the remainder of the analysis.
+In order to take into account the high-error regions of the parameter space ($\Lambda_s \sim 2000$, $q\sim0.5$), we conservatively approximate the systematic error in the binary Love relations to be the 90th percentile uncertainty $P_{90}=13.19$ (indicated by the dashed green line in Fig.~\ref{fig:qLsResiduals} and the dashed indigo line in Fig.~\ref{fig:stackedFisher}) for the remainder of the analysis.
 Similarly, we derive the systematic measurement uncertainty on $\tilde\Lambda$ to be $12.01$, shown in Fig.~\ref{fig:singleFisherLt}.
 Currently, the statistical uncertainty of $170.1$ on $\lambda_0$ from GW170817 dominates the error budget compared to the systematic uncertainty of $13.19$, as seen in Fig.~\ref{fig:stackedFisher}.
 This means that, for the current ``O2" detector sensitivity, the use of improved binary Love relations will only make a negligible difference on the extraction of $\tilde\Lambda$.
@@ -623,7 +624,7 @@ Also shown in the figure is the 90th percentile of the un-binned residuals seen 
 
 We now estimate the feasibility of using the improved EoS-insensitive relations in future GW observations of the coalescence of binary NSs. We estimate the statistical accuracy to which parameters can be extracted through a simple Fisher analysis~\cite{Finn:Fisher,Cutler:Fisher}, assuming sufficiently high signal-to-noise ratio and Gaussian noise~\cite{Cutler:Fisher,Berti:Fisher,Poisson:Fisher}. 
 
-Consider then a waveform template $h$ parametrized in terms of
+Consider then a waveform template $h$ parameterized in terms of
 \begin{equation}\label{eq:template}
 \theta^a=(\ln{A},\phi_c,t_c,\ln{\mathcal{M}},\ln{\mathcal{\eta}},\chi_s,\chi_a,\lambda_0, \lambda_1),
 \end{equation}
@@ -715,11 +716,11 @@ Figures~\ref{fig:singleFisherLt} and~\ref{fig:stackedFisher}, and Table~\ref{tab
 \cline{1-1}\cline{2-3}\cline{4-6}\cline{7-9}
 \end{tabular}
 \caption{
-Approximate signal-to-noise ratio $\rho^A_{\text{GW170817}}$ and ($1\sigma$ {\ny{Zack, 1 sigma or $90\%$?}}) statistical uncertainty on the extraction of $\lambda_{0}$ had a single event like GW170817 been observed by future interferometer $A$ and had interferometer $A$ observed $N_{A}$ events in a 1 year observation, using aLIGO, A\texttt{+}, Voyager, CE, and ET. The number of events $N_{A}$, and the combined statistical uncertainty depends on the binary NS merger detection rate, and thus we include results assuming an upper, a central and a lower limit on this rate. The statistical uncertainties on $\lambda_0$ becomes comparable with the systematic uncertainty (set to be $P_{90}=13.19$) from using the improved binary Love relations with detectors of Voyager-class or better.
+Approximate signal-to-noise ratio $\rho^A_{\text{GW170817}}$ and ($1\sigma$) statistical uncertainty on the extraction of $\lambda_{0}$ had a single event like GW170817 been observed by future interferometer $A$ and had interferometer $A$ observed $N_{A}$ events in a 1 year observation, using aLIGO, A\texttt{+}, Voyager, CE, and ET. The number of events $N_{A}$, and the combined statistical uncertainty depends on the binary NS merger detection rate, and thus we include results assuming an upper, a central and a lower limit on this rate. The statistical uncertainties on $\lambda_0$ becomes comparable with the systematic uncertainty (set to be $P_{90}=13.19$) from using the improved binary Love relations with detectors of Voyager-class or better.
 }\label{tab:variances}
 \end{table*}
 
-But is the statistical error calculated here robust to mismodeling systematics in the template? We repeat the analysis above using an IMRD + NRTidal template model  and find results consistent with those presented above. Indeed, Fig.~\ref{fig:stackedFisher} shows the individual and combined statistical error on $\lambda_{0}$ when using this template model (maroon circles and dashed region). Observe that the accuracy to which $\lambda_{0}$ can be measured with this template model is systematically better than when using the IMRD+6PN model (by roughly a factor of two). This implies that more accurate template models will indeed be required in the third-generation detector era, as previously pointed out in~\cite{XXX} {\ny{CITE SOMEBODY}}. However, our conclusion that for Voyager-class detectors or better the statistical and binary Love systematic uncertainties become comparable seems robust.   
+But is the statistical error calculated here robust to mismodeling systematics in the template? We repeat the analysis above using an IMRD + NRTidal template model  and find results consistent with those presented above. Indeed, Fig.~\ref{fig:stackedFisher} shows the individual and combined statistical error on $\lambda_{0}$ when using this template model (maroon circles and dashed region). Observe that the accuracy to which $\lambda_{0}$ can be measured with this template model is systematically better than when using the IMRD+6PN model (by roughly a factor of two). This implies that more accurate template models will indeed be required in the third-generation detector era, as previously pointed out in~\cite{Samajdar:NRTidal}. However, our conclusion that for Voyager-class detectors or better the statistical and binary Love systematic uncertainties become comparable seems robust.   
 
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
