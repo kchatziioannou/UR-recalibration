@@ -161,7 +161,7 @@ Using this formalism, any valid EoS can be approximated through the choice of $N
 \includegraphics[width=\columnwidth]{EoSs.eps}
 \includegraphics[width=\columnwidth]{hybridEoSs.eps}
 \end{center}
-\caption{(Color Online) Left: Small representative samples of the unconstrained (dotted) and constrained (solid) sets, together with the 90\% marginalized posterior distribution from the observation of GW170817 (cyan shaded region)~\cite{LIGO:posterior}. Observe that the there is significantly less variability in the constrained set of EoSs due to the requirement that they be consistent with the GW170817 observation. Right: EoSs for ACS and ACB hybrid stars, each transitioning from a hadronic branch (corresponding to a pure hadronic-matter NS) into a quark-matter branch (quark-matter inner core surrounded by hadronic matter) at various transition pressures $P_{\text{tr}}$.
+\caption{(Color Online) Left: Small representative samples of the unconstrained (dotted) and constrained (solid) sets, together with the 90\% marginalized posterior distribution from the observation of GW170817 (cyan shaded region)~\cite{LIGO:posterior}. Observe that the there is significantly less variability in the constrained set of EoSs due to the requirement that they be consistent with the GW170817 observation. Right: EoSs for ACS and ACB hybrid stars, each transitioning from a hadronic branch (corresponding to a pure hadronic-matter NS) into a quark-matter branch (quark-matter inner core surrounded by hadronic matter) at various transition pressures $P_{\text{tr}}$. {\ny{There shouldn't be a title in the figures, no?}}
 }
 \label{fig:eos}
 \end{figure*} 
@@ -383,24 +383,20 @@ The fractional differences for the second case (fit to only the constrained EoSs
 \subsection{C-Love Relations}
 \label{sec:clove}
 
-In this section we consider approximately EoS-insensitive C-Love relations between the NS compactness $C \equiv M/R$ and the unit-less tidal deformability $\Lambda$, as discussed by Yagi and Yunes in ref.~\cite{Yagi:binLove}.
-Additionally in this section, we compute the relationship between the NS radius and tidal deformability from the C-Love relations.
-This allows one to compare the approximate uncertainty on the NS radius computed from the C-Love relations for both the constrained and unconstrained sets of EoSs. 
-Similar to the previous section, we consider two classes of stars in this section: nuclear matter EoSs and hybrid quark-hadron star EoSs.
+In this subsection we focus on the EoS-insensitive C-Love relations, as introduced by Yagi and Yunes in~\cite{Yagi:binLove}, as well as on the R-Love relations, since these play a key role in GW data analysis for the extraction of M-R credible intervals. As in the previous subsection, we consider both nuclear matter EoSs, as well as hybrid quark-hadron star EoSs.
 
 \subsubsection{Nuclear matter stars}
 \label{sec:clove-nuc}
 
-Following Ref.~\cite{Yagi:binLove}, we begin by fitting the data for each set of EoSs to the simple curve:
+Following Ref.~\cite{Yagi:binLove}, we begin by fitting the data for each set of EoSs to the simple curve
 \begin{equation}
 C = \sum^2_{k=0} a_k (\ln{\Lambda})^k.
 \end{equation}
-Doing so yields $a_0 = 0.3617$, $a_1 = -0.03548$, and $a_2 = 0.0006194$, similar to that found in Ref.~\cite{Yagi:binLove}.
-Additionally we offer an improvement to the fits as was done in Sec.~\ref{sec:ilq}, by considering the fitting function found in Eq.~\ref{eq:ILQfitNew}, with the controlling factor given by:
+Doing so, yields $a_0 = 0.3617$, $a_1 = -0.03548$, and $a_2 = 0.0006194$, similar to what was found in~\cite{Yagi:binLove} {\ny{Wait, this is for the constrained set or the unconstrained set? I'm guessing you used the constrained set, but we should say so here.}}. As in the I-Love-Q case, however, the above fitting function does not limit properly to the Newtonian result 
 \begin{equation}
 C^N=K_{C\Lambda}\Lambda^{-1/5}.\label{eq:cloveFit}
 \end{equation}
-The new fitting coefficients are displayed in Tab.~\ref{tab:ILQfitNew}, alongside the previously found I-Love-Q relations.
+We thus repeat the fit using Eq.~\ref{eq:ILQfitNew} as the fitting function, with the new fitting coefficients presented in Table~\ref{tab:ILQfitNew}.
 
 Figure~\ref{fig:clove} presents the C-Love relations for both the constrained and unconstrained sets of EoSs, along with the corresponding absolute differences from the fits. 
 Observe how the constrained EoSs show a large suppression in EoS variability compared to the unconstrained EoSs, as well as to that found in previous works~\cite{Yagi:binLove}.
