@@ -491,7 +491,7 @@ Unlike the individual I-Love-Q relations, the binary Love relations depend also 
 
 Figure~\ref{fig:binLove} shows the improved binary Love relation for 3 different mass ratios ($q=0.9$, $q=0.75$, and $q=0.5$) for both the constrained and unconstrained sets of EoSs. Observe how, once again, the constrained set shows a considerable increase in EoS-insensitivity relative to both the unconstrained set and previous works~\cite{Yagi:binLove}. As before, the fit to the unconstrained set shows similar, yet slightly larger EoS variation than that found in previous work~\cite{Yagi:binLove} due to the random sampling used in our analysis. Observe that absolute error between the fit and the data is approximately independent of the mass ratio $q$, with a subtle maximum at $q=0.75$, which mimics the behavior of the controlling factor $F_n(q)$. As before, maximum EoS variation is tabulated in Tab.~\ref{tab:maxVar} for each value of mass ratio considered here.
 
-We can extract two additional conclusions from from Fig.~\ref{fig:binLove}. First, as the mass ratio becomes more extreme (i.e.~away from unity), the ranges of values that $\Lambda_s$ and $\Lambda_a$ can take decrease. This is because \textbf{as the separation between $m_1$ and $m_2$ increases, the effective number of possible $\Lambda_1(m_1)$-$\Lambda_2(m_2)$ configurations decrease}, and thus, the allowed parameter space shrinks. Second, the fit to the constrained set does not extend to as high values of $\Lambda_s$ as the fit to the unconstrained set does. This is because of how the sets of EoSs were generated in our analysis, with the unconstrained set including some EoSs that are stiffer and and others that are softer than those constrained by the GW170817 event. This results in the unconstrained set  containing a larger range of tidal deformabilities $\Lambda_{1,2}$ (from both above and below) than the constrained set, which ultimately leads to a \emph{larger} range of $\Lambda_s=\frac{1}{2}(\Lambda_1+\Lambda_2)$ values.
+We can extract two additional conclusions from from Fig.~\ref{fig:binLove}. First, as the mass ratio becomes more extreme (i.e.~away from unity), the ranges of values that $\Lambda_s$ and $\Lambda_a$ can take decrease. This is because as the separation between $m_1$ and $m_2$ increases, the effective number of possible $\Lambda_1(m_1)$-$\Lambda_2(m_2)$ configurations decrease, and thus, the allowed parameter space shrinks. Second, the fit to the constrained set does not extend to as high values of $\Lambda_s$ as the fit to the unconstrained set does. This is because of how the sets of EoSs were generated in our analysis, with the unconstrained set including some EoSs that are stiffer and and others that are softer than those constrained by the GW170817 event. This results in the unconstrained set  containing a larger range of tidal deformabilities $\Lambda_{1,2}$ (from both above and below) than the constrained set, which ultimately leads to a \emph{larger} range of $\Lambda_s=\frac{1}{2}(\Lambda_1+\Lambda_2)$ values.
 
 Let us now consider the binary Love relations for hybrid stars. As described in Sec.~\ref{sec:theory}, transitional quark-hadron matter stars undergo strong first-order phase transitions at a transitional pressure $P_{\text{tr}}$, where the hadronic branch departs into a quark-matter branch at the corresponding transitional mass $M_{\text{tr}}$. These transitions result in two distinct types of NSs, based on their observed mass: (i) massive ($M \geq M_{\text{tr}}$) hybrid stars that have quark-matter inner cores and nuclear matter elsewhere (which recall we denote ``HS"); and (ii) low-mass ($M \leq M_{\text{tr}}$) hadronic stars with no internal transition to quark matter (which recall we denote ``NS"). We therefore expect the binary Love relations for hybrid stars to present behavior identical to their purely hadronic counterparts below the transitional mass (or correspondingly above a transitional $\Lambda_{s,\textrm{tr}}$), and very different behavior for higher masses (or correspondingly for smaller $\Lambda_{s,\textrm{tr}}$). 
 
@@ -523,28 +523,33 @@ The Taylor coefficients $\lambda_0$ and $\lambda_1$ are mass independent, and th
 
 \subsection{Error Marginalization}\label{sec:marginalization}
 
-Although the improved binary Love relation $\Lambda_a^{\text{relation}}(\Lambda_s,q)$ shows high levels of accuracy, any residual errors in the relation could confuse deduction about the correct EoS.
-In this section, we offer a method for which readers can marginalize over the binary Love relations' intrinsic errors.
-This is done by investigating its residuals, which are defined to be $\Lambda_a^{\text{relation}}(\Lambda_s,q)-\Lambda_a^{\text{true}}$.
-Given sampled parameters $\Lambda_s$ and $q$, $\Lambda_a^{\text{relation}}(\Lambda_s,q)$ corresponds to the value found from the binary Love fit found in Sec.~\ref{sec:binary}, and $\Lambda_a^{\text{true}}$ corresponds to the true value predicted by the various sampled EoSs for the same values of $q$ and $\Lambda_s$
+Although the improved binary Love relation $\Lambda_a^{\text{relation}}(\Lambda_s,q)$ shows a high degree of universality, any residual EoS dependance in the relation could introduce a systematic bias and lead to incorrect inferences about the correct EoS. Let us then discuss a method to marginalize over the residual EoS-dependence of the binary Love relations. The residual is here defined as 
+\begin{equation}
+\label{eq:residual}
+r(\Lambda_{s},q) \equiv \Lambda_a^{\text{relation}}(\Lambda_s,q)-\Lambda_a^{\text{true}}\,,
+\end{equation}
+where $\Lambda_a^{\text{relation}}(\Lambda_s,q)$ is given by the binary Love fit found in Sec.~\ref{sec:binary}, while $\Lambda_a^{\text{true}}$ is the true value predicted by choosing a particular EoS in the constrained set and solving for the tidal deformabilities numerically. 
 
-Following the analysis done in Ref.~\cite{Katerina:residuals}, we assume that such residuals in $\Lambda_a$ observe a Gaussian distribution with mean and standard deviation given by:
+Following the proposal in~\cite{Katerina:residuals}, one can model the residual EoS-sensitivity by enhancing the binary Love relations through 
+\begin{equation}
+\Lambda_a^{{\textrm{new relation}}}=\Lambda_a^{\text{relation}}(\Lambda_s,q)+\mathcal{N}(\mu_{r}(\Lambda_s,q),\sigma_{r}(\Lambda_s,q)),
+\end{equation}
+where $\mathcal{N}(\mu,\sigma)$ is a normal distribution with mean and variance $\mu_{r}$ and $\sigma_{r}^2$. Let us further assume that the residuals $r$ obey a Gaussian distribution with mean and standard deviation that can be decomposed as
 \begin{align}
-\mu_{\Lambda_a}(\Lambda_s,q) &=\frac{\mu_{\Lambda_s}(\Lambda_s)+\mu_{q}(q)}{2},\\ 
-\sigma_{\Lambda_a} &=\sqrt{\sigma_{\Lambda_s}^2(\Lambda_s) + \sigma_{q}^2(q)}. 
+\mu_{r}(\Lambda_s,q) &=\frac{\mu_{r}(\Lambda_s)+\mu_{r}(q)}{2},\\ 
+\sigma_{r}(\Lambda_s,q) &=\sqrt{\sigma_{r}^2(\Lambda_s) + \sigma_{r}^2(q)},
 \end{align}
-In order to find such relations, we generate data by sampling through various values of mass ratio $q\in \lbrack0.36,1\rbrack$.
-For each value of $q$ and $\Lambda_s$ sampled, the corresponding $\Lambda_a^{\text{true}}$ values for each of the 100 constrained EoS used in our analysis are computed, as well as the values of $\Lambda_a^{\text{relation}}$ from the binary Love fit. 
-Lastly, we compute the residuals between the two as $\Lambda_a^{\text{relation}}(\Lambda_s,q)-\Lambda_a^{\text{true}}$.
-We then proceed to bin such residuals in both $q$ and $\Lambda_s$, computing the means $\mu(x)$ and standard deviations $\sigma(x)$ within each individual bin.
-The resulting distributions $\mu_{\Lambda_s}(\Lambda_s)$, $\mu_q(q)$, $\sigma_{\Lambda_s}(\Lambda_s)$, and $\sigma_q(q)$ can then be fit by the following power functions, as was done in Ref.~\cite{Katerina:residuals}:
+where $\mu_{r}(q)$ and $\mu_{r}(\Lambda_{s})$ are the means marginalized over $\Lambda_{s}$ and $q$ respectively, while $\sigma_{r}(q)$ and $\sigma_{r}(\Lambda_{s})$ are the standard deviations marginalized over $\Lambda_{s}$ and $q$ respectively.
+
+Clearly then, to account for the residual EoS-sensitivity, we must first find the marginalized mean and standard deviation of the residual function, which we accomplish as follows. We first generate $\Lambda_{s}^{\textrm{true}}$ data by sampling through various values of mass ratio $q\in \lbrack0.36,1\rbrack$ and symmetric tidal deformability $\Lambda_{s} \in \lbrack XXX,XXX\rbrack$ {\ny{Please complete}} over all 100 elements of the constrained set of EoSs. For each value of $(q,\Lambda_{s})$ we then compute $\Lambda_{a}^{\textrm{relation}}$ from the binary Love relation, and then compute the residuals through Eq.~\eqref{eq:residual}. We then proceed to marginalize over $q$ by binning the residuals in $\Lambda_{s}$, which returns a distribution of residuals that is only a function of the binned $\Lambda_{s}$, and from which we can compute the mean $\mu_{s}(\Lambda_{s})$ and the standard deviation $\sigma_{r}(\Lambda_{s})$. Repeating this procedure by marginalizing over $\Lambda_{s}$ then allows us to compute the mean $\mu_{s}(q)$ and the standard deviation $\sigma_{r}(q)$. Finally, we fit the means and standard deviations to the functions~\cite{Katerina:residuals}
 \begin{align}
-\mu_{\Lambda_s}(x) &= \mu_1 x + \mu_2, \label{eq:margFit1}\\ 
-\mu_{q}(x) &= \mu_3 x^2 + \mu_4 x + \mu_5, \label{eq:margFit2}\\ 
-\sigma_{\Lambda_s}(x) &= \sigma_1 x^{5/2} + \sigma_2 x^{3/2} + \sigma_3 x \sigma_4 x^{1/2} + \sigma_5, \label{eq:margFit3}\\ 
-\sigma_{q}(x) &= \sigma_6 x^3 + \sigma_7 x^2 + \sigma_8 x + \sigma_9. \label{eq:margFit4}
+\mu_{r}(\Lambda_s) &= \mu_1 \Lambda_s + \mu_2, \label{eq:margFit1}\\ 
+\mu_{r}(q) &= \mu_3 q^2 + \mu_4 q + \mu_5, \label{eq:margFit2}\\ 
+\sigma_{r}(\Lambda_s) &= \sigma_1 \Lambda_s^{5/2} + \sigma_2 \Lambda_s^{3/2} + \sigma_3 \Lambda_s +  \sigma_4 \Lambda_s^{1/2} + \sigma_5, \label{eq:margFit3}\\ 
+\sigma_{r}(q) &= \sigma_6 q^3 + \sigma_7 q^2 + \sigma_8 q + \sigma_9, 
+\label{eq:margFit4}
 \end{align}
-The fitting parameters $\mu_i$ and $\sigma_i$ for these distributions are tabulated in Table~\ref{tab:marginalized}.
+where the fitting parameters $\mu_i$ and $\sigma_i$ are tabulated in Table~\ref{tab:marginalized}. 
 
 \begin{table}
 \centering
@@ -570,27 +575,14 @@ Coefficients to the fits given by Eqs.~(\ref{eq:margFit1})-(\ref{eq:margFit4}) f
 \addtolength{\tabcolsep}{-1pt}
 \end{table}
 
-Finally, in order to marginalize over such errors, one would compute $\Lambda_a$ given selected values of $q$ and $\Lambda_s$ like so:
+In what follows, however, we will be interested in comparing an estimate of the systematic uncertainties in $\lambda_0$ due to the residual EoS-sensitivity in the binary Love relations to the statistical error in the extraction of this parameter. To estimate the former, we first numerically calculate $\lambda_{0}^{\textrm{true}}$ by sampling again in $(q,\Lambda_{s})$ within the same ranges as before and over all 100 elements of the constrained and the unconstrained sets of EoSs. We then use the binary Love relation to calculate $\lambda_0^{\text{relation}}$ over the $(q,\Lambda_{s})$ sampled points, and from this we compute the residual.  
 \begin{equation}
-\Lambda_a=\Lambda_a^{\text{relation}}(\Lambda_s,q)+\mathcal{N}(\mu(\Lambda_s,q),\sigma(\Lambda_s,q)),
+{\cal{R}}(\Lambda_{s},q) = \lambda_0^{\text{relation}}(\Lambda_s,q)-\lambda_0^{\text{true}}.
 \end{equation}
-where $\mathcal{N}(\mu,\sigma)$ is a normal distribution with mean and variance $\mu$ and $\sigma^2$.
+Figure~\ref{fig:residuals} shows a histogram of ${\cal{R}}$ for both the constrained and unconstrained set of EoSs, which approximately obeys a Gaussian distribution. The standard deviations of the two histograms, $\sigma=9.764$ and $\sigma=78.28$, show a large decrease in EoS-variability from the unconstrained to the constrained sets of EoSs. From this distribution, we can additionally find the 90\%, 99\%, and 100\% credible interval on $\lambda_0$, namely $P_{90}=13.19$, $P_{99}=42.38$, and $P_{100}=111.32$ for the constrained EoSs.
 
-However, for the extent of this analysis we are interested in obtaining an estimate for the amount of systematic uncertainties in $\lambda_0$ accrued upon the use of the improved binary Love relations. 
-Such an approximation would allow us to compare the systematic and statistical uncertainties in order to determine when the former will dominate the latter.
-Similar to what was previously done, we sample $q$ and $\Lambda_s$ in order compute the residuals from the binary Love fits in $\lambda_0$ as $\lambda_0^{\text{relation}}(\Lambda_s,q)-\lambda_0^{\text{true}}$.
-Figure~\ref{fig:residuals} displays the probability distribution of such $\lambda_0$ residuals (for both the constrained and unconstrained EoSs for comparison), which is observed to approximately obey a Gaussian distribution, as assumed.
-Observe how the standard deviations $\sigma=9.764$ and $\sigma=78.28$ show a large decrease from the unconstrained to the constrained sets of EoSs.
-Additionally, we find the 90th, 99th, and 100th percentiles on $\lambda_0$ to be $P_{90}=13.19$, $P_{99}=42.38$, and $P_{100}=111.32$ for the constrained EoSs.
+Figure~\ref{fig:qLsResiduals} shows the standard deviations of the $\lambda_0$ residuals binned in $q$ (top panel) and $\Lambda_{s}$ (bottom panel), as was done previously for the $\Lambda_a$ residuals. Observe how the EoS-variability in $\lambda_0$ is dominated by the region around $q \sim 0.5$ and $\Lambda_{s} \sim 2,000$. Henceforth, we approximate the EoS-variability in the binary Love relations with the 90\% credible interval, which for the $\lambda_{0}$ parameter is $P_{90}=13.19$ (indicated by the dashed green line in Fig.~\ref{fig:qLsResiduals} and the dashed indigo line in Fig.~\ref{fig:stackedFisher}). We can similarly derive a conservative estimate of the systematic uncertainty due to EoS-variability in the binary Love relations in terms of $\tilde\Lambda_{a}$ to find $12.01$, which is what we use later in Fig.~\ref{fig:singleFisherLt}.
 
-For demonstration purposes, Fig.~\ref{fig:qLsResiduals} displays the standard deviations of $\lambda_0$ residuals binned in $q$ and $\Lambda_s$, as was done previously for $\Lambda_s$ residuals.
-Observe how the uncertainties in $\lambda_0$ are dominated by the low-error regions of the parameter space ($\Lambda_s \rightarrow 0$, $\Lambda_s \rightarrow \infty$, $q \rightarrow 0$ and $q \rightarrow 1$).
-In order to take into account the high-error regions of the parameter space ($\Lambda_s \sim 2000$, $q\sim0.5$), we conservatively approximate the systematic error in the binary Love relations to be the 90th percentile uncertainty $P_{90}=13.19$ (indicated by the dashed green line in Fig.~\ref{fig:qLsResiduals} and the dashed indigo line in Fig.~\ref{fig:stackedFisher}) for the remainder of the analysis.
-Similarly, we derive the systematic measurement uncertainty on $\tilde\Lambda$ to be $12.01$, shown in Fig.~\ref{fig:singleFisherLt}.
-Currently, the statistical uncertainty of $170.1$ on $\lambda_0$ from GW170817 dominates the error budget compared to the systematic uncertainty of $13.19$, as seen in Fig.~\ref{fig:stackedFisher}.
-This means that, for the current ``O2" detector sensitivity, the use of improved binary Love relations will only make a negligible difference on the extraction of $\tilde\Lambda$.
-However, future detectors (for example aLIGO at design sensitivity, A\texttt{+}, Voyager, CE, and ET) are planned with large reductions in sensitivity - both decreasing the statistical uncertainties and allowing for larger binary NS merger detection rates; further reducing the statistical uncertainties.
-In Sec.~\ref{sec:futureObservations}, we analyze this further and discuss when the systematic uncertainties from EoS-insensitive relations become comparable to the statistical uncertainties.
 
 \begin{figure}
 \begin{center} 
