@@ -581,7 +581,7 @@ Figure~\ref{fig:qLsResiduals} shows the standard deviations of the $\lambda_0$ r
 \includegraphics[width=\columnwidth]{residuals.pdf}
 \end{center}
 \caption{
-Residuals on $\lambda_0$ computed as $\lambda_0^{\text{fit}}-\lambda_0^{\text{true}}$ for the binary Love relations modeled in Sec.~\ref{sec:binary} for both constrained and unconstrained sets of EoSs.
+Residuals on $\lambda_0$ computed as $\mathcal{R}=\lambda_0^{\text{relation}}-\lambda_0^{\text{true}}$ for the binary Love relations modeled in Sec.~\ref{sec:binary} for both constrained and unconstrained sets of EoSs.
 These residuals obey Gaussian distributions centered at $\mu=-0.1530$ and $\mu=0.2710$ with standard deviations of $\sigma=9.764$ and $\sigma=78.28$ for the constrained and unconstrained sets of EoSs, respectively.
 These uncertainties correspond roughly to the systematic uncertainties introduced on the parameter extraction of $\lambda_0$ upon the use of binary Love relations.
 However, to take into account the systematic uncertainties found in high-error regions of the parameter space, we instead set the systematic uncertainty to be the 90th percentile, $P_{90}=13.19$.
@@ -592,10 +592,14 @@ Observe that the systematic uncertainties from using the improved (constrained) 
 
 \begin{figure}
 \begin{center} 
-\includegraphics[width=\columnwidth]{qResiduals.eps}
-\includegraphics[width=\columnwidth]{LsResiduals.eps}
+\begin{overpic}[width=\columnwidth]{qResiduals.eps}
+\put(7,94){\tiny\rotatebox{90}{$\mathcal{R}$}}
+\end{overpic}
+\begin{overpic}[width=\columnwidth]{LsResiduals.eps}
+\put(7,95){\tiny\rotatebox{90}{$\mathcal{R}$}}
+\end{overpic}
 \end{center}
-\caption{$\lambda_0$ residuals binned in $q$ (top) and $\Lambda_s$ (bottom), highlighting the different error weights across the entire $(q,\Lambda_s)$ parameter space.
+\caption{Standard deviations of the $\lambda_0$ residuals $\mathcal{R}$ binned in $q$ (top) and $\Lambda_s$ (bottom), highlighting the different error weights across the entire $(q,\Lambda_s)$ parameter space.
 In this figure, the violet circles indicate the standard deviation of each bin in $q$-space ($\Lambda_s$-space), while the solid black lines represent the best fit given by Eqs. (\ref{eq:margFit3})-(\ref{eq:margFit4}).
 Observe how the uncertainty is maximal for $q\sim0.5$ and $\Lambda_s\sim2000$, while it becomes minimal for both low and high values of $q$ and $\Lambda_s$.
 Also shown in the figure is the 90th percentile of the un-binned residuals seen in Fig.~\ref{fig:residuals}, taken to be the overall systematic uncertainty introduced by using binary Love relations.

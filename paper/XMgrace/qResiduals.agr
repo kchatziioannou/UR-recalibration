@@ -90,7 +90,7 @@
 @timestamp rot 0
 @timestamp font 0
 @timestamp char size 1.000000
-@timestamp def "Sun Feb 10 18:19:05 2019"
+@timestamp def "Thu Feb 21 17:51:52 2019"
 @r0 off
 @link r0 to g0
 @r0 type above
@@ -211,7 +211,7 @@
 @    yaxis  bar color 1
 @    yaxis  bar linestyle 1
 @    yaxis  bar linewidth 1.0
-@    yaxis  label "\xs\f{}\s\xl\f{}\s0\N\N(q) "
+@    yaxis  label "\xs\f{}   (q)"
 @    yaxis  label layout para
 @    yaxis  label place auto
 @    yaxis  label char size 1.400000
