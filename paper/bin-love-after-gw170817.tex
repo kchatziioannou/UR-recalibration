@@ -509,7 +509,6 @@ This behavior is exactly what we observe in Fig.~\ref{fig:binLove} for the binar
 
 From this analysis, we conclude that binaries containing one or more hybrid stars do \emph{not} satisfy the same binary Love relations as binaries that contain only traditional nuclear matter stars. This does not imply, however, that more sophisticated binary Love relations cannot be constructed that will remain EoS-insensitive and able to model both types of binary systems. Such relations, however, would necessarily have to include (at least) one new parameter that determines the transition between the hadronic and the quark branches, such that the ``bump'' in the binary Love relations can be properly modeled. Work along these lines is outside the scope of this paper. 
 
-\ky{UP TO HERE}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -546,7 +545,7 @@ Following the proposal in~\cite{Katerina:residuals}, one can model the residual 
 \begin{equation}
 \Lambda_a^{{\textrm{new relation}}}=\Lambda_a^{\text{relation}}(\Lambda_s,q)+\mathcal{N}(\mu_{r}(\Lambda_s,q),\sigma_{r}(\Lambda_s,q)),
 \end{equation}
-where $\mathcal{N}(\mu,\sigma)$ is a normal distribution with mean and variance $\mu_{r}$ and $\sigma_{r}^2$. Let us further assume that the residuals $r$ obey a Gaussian distribution with mean and standard deviation that can be decomposed as
+where $\mathcal{N}(\mu_r,\sigma_r)$ is a normal distribution with mean and variance $\mu_{r}$ and $\sigma_{r}^2$. Let us further assume that the residuals $r$ obey a Gaussian distribution with mean and standard deviation that can be decomposed as \ky{Are you }
 \begin{align}
 \mu_{r}(\Lambda_s,q) &=\frac{\mu_{r}(\Lambda_s)+\mu_{r}(q)}{2},\\ 
 \sigma_{r}(\Lambda_s,q) &=\sqrt{\sigma_{r}^2(\Lambda_s) + \sigma_{r}^2(q)},
@@ -593,7 +592,7 @@ In what follows, however, we will be interested in comparing an estimate of the 
 \end{equation}
 Figure~\ref{fig:residuals} shows a histogram of ${\cal{R}}$ for both the constrained and unconstrained set of EoSs. The standard deviations of the two histograms, $\sigma=9.764$ and $\sigma=78.28$, show a large decrease in EoS-variability from the unconstrained to the constrained sets of EoSs. From this distribution, we can additionally find the 90\%, 99\%, and 100\% credible interval on $\lambda_0$, namely $P_{90}=13.19$, $P_{99}=42.38$, and $P_{100}=111.32$ for the constrained EoSs.
 
-Figure~\ref{fig:qLsResiduals} shows the standard deviations of the $\lambda_0$ residuals binned in $q$ (top panel) and $\Lambda_{s}$ (bottom panel), as was done previously for the $\Lambda_a$ residuals. The EoS-variability in $\lambda_0$ is dominated by the region around $q \sim 0.5$ and $\Lambda_{s} \sim 2,000$. Henceforth, we approximate the EoS-variability in the binary Love relations with the 90\% credible interval, which for the $\lambda_{0}$ parameter is $P_{90}=13.19$ (indicated by the dashed green line in Fig.~\ref{fig:qLsResiduals} and the dashed indigo line in Fig.~\ref{fig:stackedFisher}). We can similarly derive a conservative estimate of the systematic uncertainty due to EoS-variability in the binary Love relations in terms of $\tilde\Lambda_{a}$ to find $12.01$, which is what we use later in Fig.~\ref{fig:singleFisherLt}.
+Figure~\ref{fig:qLsResiduals} shows the standard deviations of the $\lambda_0$ residuals binned in $q$ (top panel) and $\Lambda_{s}$ (bottom panel), as was done previously for the $\Lambda_a$ residuals. The EoS-variability in $\lambda_0$ is dominated by the region around $q \sim 0.5$ and $\Lambda_{s} \sim 2000$. \ky{I don't see the connection between this sentence and the previous one. (How did we arrive at using $P_{90}=13.19$ from the fact that the EoS variability peaks around $q \sim 0.5$ and $\Lambda_{s} \sim 2000$?)} Henceforth, we approximate the EoS-variability in the binary Love relations with the 90\% credible interval, which for the $\lambda_{0}$ parameter is $P_{90}=13.19$ (indicated by the dashed green line in Fig.~\ref{fig:qLsResiduals} and the dashed indigo line in Fig.~\ref{fig:stackedFisher}). We can similarly derive a conservative estimate of the systematic uncertainty due to EoS-variability in the binary Love relations in terms of $\tilde\Lambda_{a}$ to find $12.01$, which is what we use later in Fig.~\ref{fig:singleFisherLt}.
 
 
 \begin{figure}
@@ -601,6 +600,7 @@ Figure~\ref{fig:qLsResiduals} shows the standard deviations of the $\lambda_0$ r
 \includegraphics[width=\columnwidth]{residuals.pdf}
 \end{center}
 \caption{
+\ky{What are $\Lambda_s$ and $q$ used to produce this plot?}
 Residuals on $\lambda_0$ computed as $\mathcal{R}=\lambda_0^{\text{relation}}-\lambda_0^{\text{true}}$ for the binary Love relations modeled in Sec.~\ref{sec:binary} for both constrained and unconstrained sets of EoSs.
 We fit these residuals with Gaussian distributions centered at $\mu=-0.1530$ and $\mu=0.2710$ with standard deviations of $\sigma=9.764$ and $\sigma=78.28$ for the constrained and unconstrained sets of EoSs, respectively.
 These uncertainties correspond roughly to the systematic uncertainties introduced on the parameter extraction of $\lambda_0$ upon the use of binary Love relations.
@@ -623,6 +623,7 @@ The systematic uncertainties from using the improved (constrained) binary Love r
 In this figure, the violet circles indicate the standard deviation of each bin in $q$-space ($\Lambda_s$-space), while the solid black lines represent the best fit given by Eqs. (\ref{eq:margFit3})-(\ref{eq:margFit4}).
 The uncertainty is maximal for $q\sim0.5$ and $\Lambda_s\sim2000$, while it becomes minimal for both low and high values of $q$ and $\Lambda_s$.
 Also shown in the figure is the 90th percentile of the un-binned residuals seen in Fig.~\ref{fig:residuals}, taken to be the overall systematic uncertainty introduced by using binary Love relations.
+\ky{Can we have 4 small ticks between large ticks instead of 3?}
 }
 \label{fig:qLsResiduals}
 \end{figure}
@@ -635,15 +636,15 @@ Consider then a waveform template $h$ parameterized in terms of
 \begin{equation}\label{eq:template}
 \theta^a=(\ln{A},\phi_c,t_c,\ln{\mathcal{M}},\ln{\mathcal{\eta}},\chi_s,\chi_a,\lambda_0, \lambda_1),
 \end{equation}
-where $\eta \equiv m_1 m_2/m^2$ is the symmetric mass ratio with $m_{1,2}$ and $m$ being the individual and total masses, $\mathcal{M}=m \eta^{3/5}$ is the chirp mass, $A \equiv {\mathcal{M}^{5/6}}/({\sqrt{30}\pi^{2/3}D_L})$ is a normalized amplitude factor with $D_L$ the luminosity distance, and $\chi_{s,a}=\frac{1}{2}(\chi_1\pm\chi_2)$ are the symmetric and antisymmetric dimensionless spin parameters. Given a sufficiently loud observation and Gaussian noise, the resulting posterior distribution on the estimated parameters is Gaussian with a root-mean-square given by
+where $\eta \equiv m_1 m_2/m^2$ is the symmetric mass ratio with $m_{1,2}$ and $m$ being the individual and total masses, $\mathcal{M}=m \eta^{3/5}$ is the chirp mass, $A \equiv {\mathcal{M}^{5/6}}/({\sqrt{30}\pi^{2/3}D_L})$ is a normalized amplitude factor with $D_L$ the luminosity distance, and $\chi_{s,a}=\frac{1}{2}(\chi_1\pm\chi_2)$ are the symmetric and antisymmetric dimensionless spin parameters. Given a sufficiently loud observation and Gaussian noise, the resulting posterior distribution on the estimated parameters is Gaussian with a root-mean-square error given by
 \begin{equation}
 \Delta \theta^a=\sqrt{\Big( \tilde{\Gamma}^{-1}\Big)^{aa}},
 \end{equation}
 where the Fisher information matrix $\tilde{\Gamma}$ is
 \begin{equation}
-\tilde{\Gamma}_{ab} \equiv \Big( \frac{\partial h}{\partial \theta^b} \Big| \frac{\partial h}{\partial \theta^a}\Big) + \frac{1}{\sigma_{\theta^a}^2} \delta_{ab}
+\tilde{\Gamma}_{ab} \equiv \Big( \frac{\partial h}{\partial \theta^b} \Big| \frac{\partial h}{\partial \theta^a}\Big) + \frac{1}{\sigma_{\theta^a}^2} \delta_{ab}\,.
 \end{equation}
-$\sigma_{\theta^a}$ are the parameters' prior root-mean-square estimate, and the inner product is defined by:
+Here $\sigma_{\theta^a}$ are the parameters' prior root-mean-square estimate, and the inner product is defined by:
 \begin{equation}
 (a|b) \equiv 2 \int^{\infty}_0\frac{\tilde{a}^*\tilde{b}+\tilde{b}^*\tilde{a}}{S_n(f)}df,
 \end{equation}
@@ -651,7 +652,7 @@ with the overhead tilde and the star standing for the Fourier transform and comp
 
 The inner product, and thus the root-mean-square error, depends on the spectral noise density $S_{n}(f)$ and the waveform template $\tilde{h}$. We consider here 6 different interferometer designs, O2~\cite{aLIGO}, aLIGO at design sensitivity~\cite{aLIGO}, A\texttt{+}~\cite{Ap_Voyager_CE}, Voyager~\cite{Ap_Voyager_CE}, CE~\cite{ET}, ET-D~\cite{Ap_Voyager_CE} shown in Fig.~\ref{fig:sensitivities}, in order to compare the statistical uncertainties accrued on parameter extraction using future upgraded LIGO detectors, as well as third generation detectors. The inner product also depends on the particular waveform model we use for the template. We here consider a ``PhenomD" (IMRD) waveform template~\cite{PhenomDI,PhenomDII} modified by a 6PN tidal correction~\cite{Wade:tidalCorrections} (IMRD + 6PN), as well as a ``PhenomD'' template modified with a NRTidal correction~\cite{Samajdar:NRTidal} (IMRD + NRTidal). Considering two template models will allow us to estimate systematic uncertainties due to mismodeling. 
 
-We begin by testing our Fisher analysis (with an IMRD + 6PN waveform injection) against a simulated event identical to GW170817 with O2 detector sensitivity~\cite{aLIGO}. Because only 1 event was detected, we use $\tilde\Lambda$ and $\delta\tilde\Lambda$ as the tidal parameters for comparison purposes. Further, we scale the luminosity distance such that the signal-to-noise-ratio ($SNR \equiv \rho$) is fixed to $\rho=32.4$, as found in GW170817. We also assume low spin priors $|\chi| \leq 0.05$, as well as $\tilde{\Lambda} \leq 3000$ and $|\delta \tilde{\Lambda}| \leq 500$~\cite{Wade:LambdaPriors}. The resulting $90\%$ credible region of the posterior distribution on $\tilde{\Lambda}$ has a range of $\pm 276.99$, which is in close agreement to that found by LIGO~\cite{TheLIGOScientific:2017qsa,Abbott2018}
+We begin by testing our Fisher analysis (with an IMRD + 6PN waveform injection) against a simulated event identical to GW170817 with O2 detector sensitivity~\cite{aLIGO}. Because only 1 event was detected, we use $\tilde\Lambda$ and $\delta\tilde\Lambda$ as the tidal parameters for comparison purposes. Further, we scale the luminosity distance such that the signal-to-noise-ratio ($SNR \equiv \rho$) is fixed to $\rho=32.4$, as found in GW170817. \ky{I think we should also explain what fiducial values we used for all the other parameters, like masses and $\tilde \Lambda$.} We also assume low spin priors $|\chi| \leq 0.05$, as well as $\tilde{\Lambda} \leq 3000$ and $|\delta \tilde{\Lambda}| \leq 500$~\cite{Wade:LambdaPriors}. The resulting $90\%$ credible region of the posterior distribution on $\tilde{\Lambda}$ has a range of $\pm 276.99$, which is in close agreement to that found by LIGO~\cite{TheLIGOScientific:2017qsa,Abbott2018}
 
 \begin{figure}
 \begin{center} 
@@ -661,21 +662,22 @@ We begin by testing our Fisher analysis (with an IMRD + 6PN waveform injection) 
 Amplitude spectral noise densities $\sqrt{S_n^A(f)}$ plotted for LIGO O2, aLIGO at design sensitivity, A\texttt{+}, Voyager, CE, and ET-D as interpolated from publicly available data.
 Spectral noise densities are plotted from $f_{\text{min}}=(23,10,10,7,1,1) \text{ Hz}$, respectively, to $f_{\text{max}}=1649 \text{ Hz}$.
 Also shown is $2 \sqrt{f}$ multiplied by the amplitude of the PhenomD~\cite{PhenomDI,PhenomDII} waveform template.
+\ky{Please change ``a++'' to ``A+'' in the legend. Same comment applies to Fig.~9.}
 }
 \label{fig:sensitivities}
 \end{figure}
 
-Next, we consider events similar to GW170817 detected on upgraded detectors and future detectors, as well as the combined statistical uncertainties of $N_A$ events detected over a 1 year observation with each detector. The later is calculated by integrating the local binary NS merger rate over redshifts up to the horizon redshift of each detector. As before, for each Fisher calculation we assume low spin priors $|\chi| \leq 0.05$, as well as $0 \leq \lambda_0 \leq 3207$ and $-4490 \leq \lambda_1 \leq 0$~\cite{delPozzo:TaylorTidal}\footnote{These are converted from the dimensional forms found in~\cite{delPozzo:TaylorTidal} into their corresponding dimensionless forms.}.
+Next, we consider events similar to GW170817 detected on upgraded detectors and future detectors, as well as the combined statistical uncertainties of $N_A$ events detected over a 1 year observation with each detector. The latter is calculated by integrating the local binary NS merger rate over redshifts up to the horizon redshift of each detector. As before, for each Fisher calculation we assume low spin priors $|\chi| \leq 0.05$, as well as $0 \leq \lambda_0 \leq 3207$ and $-4490 \leq \lambda_1 \leq 0$~\cite{delPozzo:TaylorTidal}\footnote{These are converted from the dimensional forms found in~\cite{delPozzo:TaylorTidal} into their corresponding dimensionless forms.}.
 The process we use to compute single and combined statistical uncertainties for each detector sensitivity $S_n^A(f)$ is detailed in App.~\ref{app:stackingProcedure}.
 From this, we determine if and when the statistical uncertainties associated with the parameter extraction of $\lambda_0$ drop below the systematic EoS variation errors from using the binary Love relations.
 
-Figures~\ref{fig:singleFisherLt} and~\ref{fig:stackedFisher}, and Table~\ref{tab:variances} summarize our results graphically using an IMRD + 6PN template. In the latter, you can see the statistical accuracy to which $\tilde{\Lambda}$ can be estimated as a function of $\rho^A_{\text{GW170817}}$ for single GW170817-like events, i.e.~the signal-to-noise ratio that future detector $A$ would have measured for a GW170817 event. The systematic uncertainty in $\tilde{\Lambda}$ (the horizontal dashed line) becomes comparable to the statistical uncertainty for Voyager-class detectors or better. Figure~\ref{fig:singleFisherLt} presents similar results but for the parameter $\lambda_{0}$, for which one can combine posteriors and obtained a reduced combined statistical error. This figure also shows that the statistical and systematic uncertainties become comparable for Voyager-class detectors or better. The careful reader will notice that Figs.~\ref{fig:stackedFisher} and~\ref{fig:singleFisherLt} show that the single-event statistical uncertainties using CE is higher than using ET despite the later having a larger SNR for a GW170817-like event. This is because the 3-detector geometry of ET enables it to have higher sensitivity than ET at frequencies above 300Hz, which is precisely where the tidal deformabilities is encoded, but ET has lower sensitivity at lower frequencies, where a lot of the signal-to-noise ratio accumulates.  
+Figures~\ref{fig:stackedFisher} and~\ref{fig:singleFisherLt}, and Table~\ref{tab:variances} summarize our results graphically using an IMRD + 6PN template. In Fig.~\ref{fig:singleFisherLt}, one can see the statistical accuracy to which $\tilde{\Lambda}$ can be estimated as a function of $\rho^A_{\text{GW170817}}$ for single GW170817-like events, i.e.~the signal-to-noise ratio that future detector $A$ would have measured for a GW170817 event. The systematic uncertainty in $\tilde{\Lambda}$ (the horizontal dashed line) becomes comparable to the statistical uncertainty for Voyager-class detectors or better. Figure~\ref{fig:stackedFisher} presents similar results but for the parameter $\lambda_{0}$, for which one can combine posteriors and obtained a reduced combined statistical error. This figure also shows that the statistical and systematic uncertainties become comparable for Voyager-class detectors or better. The careful reader will notice that Figs.~\ref{fig:stackedFisher} and~\ref{fig:singleFisherLt} show that the single-event statistical uncertainties using CE is higher than using ET despite the latter having a larger SNR for a GW170817-like event. This is because the 3-detector geometry of ET enables it to have higher sensitivity than ET at frequencies above 300Hz, which is precisely where the tidal deformabilities is encoded, but ET has lower sensitivity at lower frequencies, where a lot of the signal-to-noise ratio accumulates.  
 
 \begin{figure}
 \begin{center} 
 \includegraphics[width=\columnwidth]{singleFisherLt.eps}
 \end{center}
-\caption{(Color Online) Estimated statistical uncertainty $\sigma^A_{\text{GW170817}}$ in the extraction of $\tilde\Lambda$ from a single GW170817-like event as if observed with aLIGO at design sensitivity, A\texttt{+}, Voyager, CE, and ET-D, plotted as a function of the signal-to-noise-ratio $\rho^A_{\text{GW170817}}$ that those detectors would measure for such an event. For comparison, we also plot the systematic uncertainty on $\tilde\Lambda$ due to the use of the binary Love relations. The statistical and the systematic errors become comparable for Voyager-class detectors or better.
+\caption{(Color Online) Estimated statistical uncertainty $\sigma^A_{\text{GW170817}}$ in the extraction of $\tilde\Lambda$ from a single GW170817-like event as if observed with aLIGO at design sensitivity, A\texttt{+}, Voyager, CE, and ET-D, plotted as a function of the signal-to-noise-ratio $\rho^A_{\text{GW170817}}$ that those detectors would measure for such an event. For comparison, we also plot the systematic uncertainty on $\tilde\Lambda$ due to the use of the binary Love relations. The statistical and the systematic errors become comparable for Voyager-class detectors or better. \ky{I sort of feel that we only need to show $\sigma > 1$. }
 }
 \label{fig:singleFisherLt}
 \end{figure} 
@@ -724,6 +726,7 @@ Figures~\ref{fig:singleFisherLt} and~\ref{fig:stackedFisher}, and Table~\ref{tab
 \end{tabular}
 \caption{
 Approximate signal-to-noise ratio $\rho^A_{\text{GW170817}}$ and ($1\sigma$) statistical uncertainty on the extraction of $\lambda_{0}$ had a single event like GW170817 been observed by future interferometer $A$ and had interferometer $A$ observed $N_{A}$ events in a 1 year observation, using aLIGO, A\texttt{+}, Voyager, CE, and ET. The number of events $N_{A}$, and the combined statistical uncertainty depends on the binary NS merger detection rate, and thus we include results assuming an upper, a central and a lower limit on this rate. The statistical uncertainties on $\lambda_0$ becomes comparable with the systematic uncertainty (set to be $P_{90}=13.19$) from using the improved binary Love relations with detectors of Voyager-class or better.
+\ky{Do we really need to show numbers with 7 digits...? I think it's enough to just show the first few digits in a form $a.b \times 10^X$ in each cell.}
 }\label{tab:variances}
 \end{table*}
 
@@ -738,11 +741,11 @@ But is the statistical error calculated here robust to mismodeling systematics i
 \section{Conclusion and Discussion}
 \label{sec:conclusion}
 
-The recent GW observation of a binary NS coalescence, GW170817, placed constraints on the supranuclear matter EoS for NSs. We used this observation to generate a restricted set of spectral EoSs that agree with it, in order to reduce the uncertainties upon the extraction of tidal parameters from future GW events. Previous work by Yagi and Yunes~\cite{Yagi:ILQ,Yagi:binLove} had found EoS-insensitive relations between symmetric and antisymmetric combinations of NS tidal deformabilities, which aid in the extraction of said tidal parameters. We here found that the GW170817-constrained set of EoSs are more EoS-insensitive by a factor of $\sim 60$\% for stars with mass ratios of $0.75$ relative to previous work. Similarly, we find an increase in EoS-insensitivity in the C-Love and I-Love-Q  relations by factors of $\sim 75$\% and $\sim 50$\% respectively. The former further allowed us to improve the R-Love relation leading to uncertainties below $400$ meters in the entire parameter space. We also studied the EoS-insensitive relations of hybrid stars and found that for the most part the relations remain insensitive for isolated stars, albeit with slightly higher EoS variability. The binary Love relations, however, do not satisfy the same EoS-insensitive relations as in the case of purely hadronic star, when the binary contains at least one hybrid star. 
+The recent GW observation of a binary NS coalescence, GW170817, placed constraints on the supranuclear matter EoS for NSs. We used this observation to generate a restricted set of spectral EoSs that agree with it, in order to reduce the uncertainties upon the extraction of tidal parameters from future GW events. Previous work by Yagi and Yunes~\cite{Yagi:2013bca,Yagi:ILQ,Yagi:2015pkc,Yagi:binLove} had found EoS-insensitive relations between symmetric and antisymmetric combinations of NS tidal deformabilities, which aid in the extraction of said tidal parameters. We here found that the GW170817-constrained set of EoSs are more EoS-insensitive by a factor of $\sim 60$\% for stars with mass ratios of $0.75$ relative to previous work. Similarly, we find an increase in EoS-insensitivity in the C-Love and I-Love-Q  relations by factors of $\sim 75$\% and $\sim 50$\% respectively. The former further allowed us to improve the R-Love relation leading to uncertainties below $400$ meters in the entire parameter space. We also studied the EoS-insensitive relations of hybrid stars and found that for the most part the relations remain insensitive for isolated stars, albeit with slightly higher EoS variability. The binary Love relations, however, do not satisfy the same EoS-insensitive relations as in the case of purely hadronic star, when the binary contains at least one hybrid star. 
 
 The second half of this paper focused on when the improvements in the EoS-insensitive relations would become necessary in future detectors. Current detectors are not yet sensitive enough that the systematic uncertainties in the EoS-insensitive relations make a large difference. However, we did find that for Voyager-class detectors or better, the systematic uncertainties in the EoS-insensitive relations due to EoS variability become comparable to statistical uncertainties in the estimation of $\tilde{\Lambda}$ and $\lambda_{0}$. We also considered the effect of waveform mismodeling and found that the above conclusion remains robust, but that more accurate waveform models will be necessary to take full advantage of the improved sensitivity of future detectors. 
 
-Future work on this subject could entail an investigation into the improvement of alternative EoS-insensitive relations, such as the multipole Love relations between various $\ell$-th order electric, magnetic, and shape tidal deformabilities, as discussed in~\cite{Yagi:Multipole}. Additionally, Lackey \emph{et al}~\cite{Lackey:Surrogate, Lackey:EOB} presented surrogate models of non-spinning effective-one-body waveforms with the use of universal relations. By reducing the number of waveform model parameters, surrogate models aid in the extraction of NS observables from GW detections. The improvement in the multipole love relations can then be used to increase the accuracy of such surrogate models. Another possible avenue for future research includes a more comprehensive analysis into the intricacies of new hybrid star binary Love relations.
+Future work on this subject could entail an investigation into the improvement of alternative EoS-insensitive relations, such as the multipole Love relations between various $\ell$-th order electric, magnetic, and shape tidal deformabilities, as discussed in~\cite{Yagi:Multipole}. Lackey \emph{et al}~\cite{Lackey:Surrogate, Lackey:EOB} presented surrogate models of non-spinning effective-one-body waveforms with the use of universal relations. By reducing the number of waveform model parameters, surrogate models aid in the extraction of NS observables from GW detections. The improvement in the multipole Love relations can then be used to increase the accuracy of such surrogate models. Another possible avenue for future research includes a more comprehensive analysis into the intricacies of new hybrid star binary Love relations.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -802,11 +805,11 @@ r(z) = \left\{
       1+2z & z \leq 1 \\
       \frac{3}{4}(5-z) & 1\leq z\leq 5 \\
       0 & z\geq 5\\ 
-\end{array} 
+\end{array}\,, 
 \right.
 \end{equation}
 
-where $H_0 = 70 \text{km s}^{-1}\text{Mpc}^{-1}$ is the local Hubble constant, and $\Omega_{\Lambda}=0.67$ is the universe's vacuum energy density.
+where $H_0 = 70 \text{km s}^{-1}\text{Mpc}^{-1}$ is the local Hubble constant and $\Omega_{\Lambda}=0.67$ is the universe's vacuum energy density.
 Here we choose an observing period of $\Delta \tau_0 = 1$ year, and calculate the detection rate for the upper, central, and lower limits of the local binary NS coalescence rate density $\mathcal{R}=1540^{+3200}_{-1220} \text{ Gpc}^{-3}\text{yr}^{-1}$~\cite{Abbott2017}, giving the rates $N_A$ shown in the second column of Table~\ref{tab:variances}.
 
 \item[(iii)] Compute the combined population standard deviation $\sigma_{N_A}$, taking into account sources at varying redshifts as was done in Eq. (3) of Ref.~\cite{Takahiro}:
@@ -817,7 +820,7 @@ Here, we compute the populations' single-event uncertainties $\sigma_i^A(z)$ via
 \begin{equation}
 \frac{\rho_i^A}{\rho_{\text{GW170817}}^A} = \frac{\sigma_{\text{GW170817}}^A}{\sigma_i^A},
 \end{equation}
-where $\rho_i^A$ is the SNR of simulated event $i$ computed from Eq.~\ref{eq:population}, and $\rho_{\text{GW170817}}^A$ and $\sigma_{\text{GW170817}}^A$ are the known SNRs and uncertainties of the GW170817 event from step (i).
+where $\rho_i^A$ is the SNR of simulated event $i$ computed from Eq.~\eqref{eq:population}, and $\rho_{\text{GW170817}}^A$ and $\sigma_{\text{GW170817}}^A$ are the known SNRs and uncertainties of the GW170817 event from step (i).
 This results in the combined statistical uncertainties for the lower, central, and upper limits of the local binary NS coalescence rate density $\mathcal{R}$, depicted by the cyan shaded region in Fig.~\ref{fig:stackedFisher}.
 \end{enumerate}
 
