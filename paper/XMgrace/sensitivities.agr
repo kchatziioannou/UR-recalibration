@@ -90,7 +90,7 @@
 @timestamp rot 0
 @timestamp font 0
 @timestamp char size 1.000000
-@timestamp def "Thu Feb 14 15:09:11 2019"
+@timestamp def "Tue Feb 26 21:32:47 2019"
 @r0 off
 @link r0 to g0
 @r0 type above
@@ -426,7 +426,7 @@
 @    s2 errorbar riser clip off
 @    s2 errorbar riser clip length 0.100000
 @    s2 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/sensitivities/App.dat"
-@    s2 legend  "[S\sn\N\Sa++\N(f)]\S1/2\N"
+@    s2 legend  "[S\sn\N\SA+\N(f)]\S1/2\N"
 @    s3 hidden false
 @    s3 type xy
 @    s3 symbol 0

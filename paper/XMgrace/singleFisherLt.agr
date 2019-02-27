@@ -90,7 +90,7 @@
 @timestamp rot 0
 @timestamp font 0
 @timestamp char size 1.000000
-@timestamp def "Sun Jan 13 13:52:27 2019"
+@timestamp def "Tue Feb 26 21:34:36 2019"
 @with string
 @    string on
 @    string loctype view
@@ -197,7 +197,7 @@
 @g0 fixedpoint format general general
 @g0 fixedpoint prec 6, 6
 @with g0
-@    world 25, 0.07, 3500, 800
+@    world 25, 2, 3500, 300
 @    stack world 0, 0, 0, 0
 @    znorm 1
 @    view 0.150000, 0.150000, 1.150000, 0.850000

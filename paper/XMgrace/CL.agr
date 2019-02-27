@@ -90,7 +90,7 @@
 @timestamp rot 0
 @timestamp font 0
 @timestamp char size 1.000000
-@timestamp def "Sat Feb  9 13:40:35 2019"
+@timestamp def "Wed Feb 27 10:23:03 2019"
 @r0 off
 @link r0 to g0
 @r0 type above
@@ -284,9 +284,9 @@
 @    s0 type xy
 @    s0 symbol 0
 @    s0 symbol size 1.000000
-@    s0 symbol color 3
+@    s0 symbol color 1
 @    s0 symbol pattern 1
-@    s0 symbol fill color 3
+@    s0 symbol fill color 1
 @    s0 symbol fill pattern 0
 @    s0 symbol linewidth 1.0
 @    s0 symbol linestyle 1
@@ -294,9 +294,9 @@
 @    s0 symbol char font 0
 @    s0 symbol skip 0
 @    s0 line type 1
-@    s0 line linestyle 3
-@    s0 line linewidth 1.5
-@    s0 line color 3
+@    s0 line linestyle 4
+@    s0 line linewidth 3.5
+@    s0 line color 1
 @    s0 line pattern 1
 @    s0 baseline type 0
 @    s0 baseline off
@@ -318,7 +318,7 @@
 @    s0 avalue offset 0.000000 , 0.000000
 @    s0 errorbar on
 @    s0 errorbar place both
-@    s0 errorbar color 3
+@    s0 errorbar color 1
 @    s0 errorbar pattern 1
 @    s0 errorbar size 1.000000
 @    s0 errorbar linewidth 1.0
@@ -327,8 +327,8 @@
 @    s0 errorbar riser linestyle 1
 @    s0 errorbar riser clip off
 @    s0 errorbar riser clip length 0.100000
-@    s0 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/Hybrid/LChybrid4.dat"
-@    s0 legend  ""
+@    s0 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcFitUnconstrained.dat"
+@    s0 legend  "Fits"
 @    s1 hidden false
 @    s1 type xy
 @    s1 symbol 0
@@ -376,7 +376,7 @@
 @    s1 errorbar riser linestyle 1
 @    s1 errorbar riser clip off
 @    s1 errorbar riser clip length 0.100000
-@    s1 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/Hybrid/LChybrid5.dat"
+@    s1 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/Hybrid/LChybrid4.dat"
 @    s1 legend  ""
 @    s2 hidden false
 @    s2 type xy
@@ -425,7 +425,7 @@
 @    s2 errorbar riser linestyle 1
 @    s2 errorbar riser clip off
 @    s2 errorbar riser clip length 0.100000
-@    s2 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/Hybrid/LChybrid6.dat"
+@    s2 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/Hybrid/LChybrid5.dat"
 @    s2 legend  ""
 @    s3 hidden false
 @    s3 type xy
@@ -474,7 +474,7 @@
 @    s3 errorbar riser linestyle 1
 @    s3 errorbar riser clip off
 @    s3 errorbar riser clip length 0.100000
-@    s3 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/Hybrid/LChybrid7.dat"
+@    s3 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/Hybrid/LChybrid6.dat"
 @    s3 legend  ""
 @    s4 hidden false
 @    s4 type xy
@@ -523,7 +523,7 @@
 @    s4 errorbar riser linestyle 1
 @    s4 errorbar riser clip off
 @    s4 errorbar riser clip length 0.100000
-@    s4 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/Hybrid/LChybrid8.dat"
+@    s4 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/Hybrid/LChybrid7.dat"
 @    s4 legend  ""
 @    s5 hidden false
 @    s5 type xy
@@ -572,7 +572,7 @@
 @    s5 errorbar riser linestyle 1
 @    s5 errorbar riser clip off
 @    s5 errorbar riser clip length 0.100000
-@    s5 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/Hybrid/LChybrid9.dat"
+@    s5 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/Hybrid/LChybrid8.dat"
 @    s5 legend  ""
 @    s6 hidden false
 @    s6 type xy
@@ -621,15 +621,15 @@
 @    s6 errorbar riser linestyle 1
 @    s6 errorbar riser clip off
 @    s6 errorbar riser clip length 0.100000
-@    s6 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/Hybrid/LChybrid3.dat"
+@    s6 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/Hybrid/LChybrid9.dat"
 @    s6 legend  ""
 @    s7 hidden false
 @    s7 type xy
 @    s7 symbol 0
 @    s7 symbol size 1.000000
-@    s7 symbol color 13
+@    s7 symbol color 3
 @    s7 symbol pattern 1
-@    s7 symbol fill color 13
+@    s7 symbol fill color 3
 @    s7 symbol fill pattern 0
 @    s7 symbol linewidth 1.0
 @    s7 symbol linestyle 1
@@ -637,9 +637,9 @@
 @    s7 symbol char font 0
 @    s7 symbol skip 0
 @    s7 line type 1
-@    s7 line linestyle 2
-@    s7 line linewidth 3.0
-@    s7 line color 13
+@    s7 line linestyle 3
+@    s7 line linewidth 1.5
+@    s7 line color 3
 @    s7 line pattern 1
 @    s7 baseline type 0
 @    s7 baseline off
@@ -661,7 +661,7 @@
 @    s7 avalue offset 0.000000 , 0.000000
 @    s7 errorbar on
 @    s7 errorbar place both
-@    s7 errorbar color 13
+@    s7 errorbar color 3
 @    s7 errorbar pattern 1
 @    s7 errorbar size 1.000000
 @    s7 errorbar linewidth 1.0
@@ -670,8 +670,8 @@
 @    s7 errorbar riser linestyle 1
 @    s7 errorbar riser clip off
 @    s7 errorbar riser clip length 0.100000
-@    s7 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained1.dat"
-@    s7 legend  "Unconstrained EoSs"
+@    s7 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/Hybrid/LChybrid3.dat"
+@    s7 legend  ""
 @    s8 hidden false
 @    s8 type xy
 @    s8 symbol 0
@@ -687,7 +687,7 @@
 @    s8 symbol skip 0
 @    s8 line type 1
 @    s8 line linestyle 2
-@    s8 line linewidth 2.0
+@    s8 line linewidth 3.0
 @    s8 line color 13
 @    s8 line pattern 1
 @    s8 baseline type 0
@@ -719,8 +719,8 @@
 @    s8 errorbar riser linestyle 1
 @    s8 errorbar riser clip off
 @    s8 errorbar riser clip length 0.100000
-@    s8 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained10.dat"
-@    s8 legend  ""
+@    s8 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained1.dat"
+@    s8 legend  "Unconstrained EoSs"
 @    s9 hidden false
 @    s9 type xy
 @    s9 symbol 0
@@ -736,7 +736,7 @@
 @    s9 symbol skip 0
 @    s9 line type 1
 @    s9 line linestyle 2
-@    s9 line linewidth 2.5
+@    s9 line linewidth 2.0
 @    s9 line color 13
 @    s9 line pattern 1
 @    s9 baseline type 0
@@ -768,7 +768,7 @@
 @    s9 errorbar riser linestyle 1
 @    s9 errorbar riser clip off
 @    s9 errorbar riser clip length 0.100000
-@    s9 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained11.dat"
+@    s9 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained10.dat"
 @    s9 legend  ""
 @    s10 hidden false
 @    s10 type xy
@@ -817,7 +817,7 @@
 @    s10 errorbar riser linestyle 1
 @    s10 errorbar riser clip off
 @    s10 errorbar riser clip length 0.100000
-@    s10 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained12.dat"
+@    s10 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained11.dat"
 @    s10 legend  ""
 @    s11 hidden false
 @    s11 type xy
@@ -866,7 +866,7 @@
 @    s11 errorbar riser linestyle 1
 @    s11 errorbar riser clip off
 @    s11 errorbar riser clip length 0.100000
-@    s11 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained13.dat"
+@    s11 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained12.dat"
 @    s11 legend  ""
 @    s12 hidden false
 @    s12 type xy
@@ -915,7 +915,7 @@
 @    s12 errorbar riser linestyle 1
 @    s12 errorbar riser clip off
 @    s12 errorbar riser clip length 0.100000
-@    s12 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained14.dat"
+@    s12 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained13.dat"
 @    s12 legend  ""
 @    s13 hidden false
 @    s13 type xy
@@ -964,7 +964,7 @@
 @    s13 errorbar riser linestyle 1
 @    s13 errorbar riser clip off
 @    s13 errorbar riser clip length 0.100000
-@    s13 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained15.dat"
+@    s13 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained14.dat"
 @    s13 legend  ""
 @    s14 hidden false
 @    s14 type xy
@@ -1013,7 +1013,7 @@
 @    s14 errorbar riser linestyle 1
 @    s14 errorbar riser clip off
 @    s14 errorbar riser clip length 0.100000
-@    s14 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained16.dat"
+@    s14 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained15.dat"
 @    s14 legend  ""
 @    s15 hidden false
 @    s15 type xy
@@ -1062,7 +1062,7 @@
 @    s15 errorbar riser linestyle 1
 @    s15 errorbar riser clip off
 @    s15 errorbar riser clip length 0.100000
-@    s15 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained17.dat"
+@    s15 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained16.dat"
 @    s15 legend  ""
 @    s16 hidden false
 @    s16 type xy
@@ -1111,7 +1111,7 @@
 @    s16 errorbar riser linestyle 1
 @    s16 errorbar riser clip off
 @    s16 errorbar riser clip length 0.100000
-@    s16 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained18.dat"
+@    s16 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained17.dat"
 @    s16 legend  ""
 @    s17 hidden false
 @    s17 type xy
@@ -1160,7 +1160,7 @@
 @    s17 errorbar riser linestyle 1
 @    s17 errorbar riser clip off
 @    s17 errorbar riser clip length 0.100000
-@    s17 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained19.dat"
+@    s17 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained18.dat"
 @    s17 legend  ""
 @    s18 hidden false
 @    s18 type xy
@@ -1209,7 +1209,7 @@
 @    s18 errorbar riser linestyle 1
 @    s18 errorbar riser clip off
 @    s18 errorbar riser clip length 0.100000
-@    s18 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained2.dat"
+@    s18 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained19.dat"
 @    s18 legend  ""
 @    s19 hidden false
 @    s19 type xy
@@ -1258,7 +1258,7 @@
 @    s19 errorbar riser linestyle 1
 @    s19 errorbar riser clip off
 @    s19 errorbar riser clip length 0.100000
-@    s19 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained20.dat"
+@    s19 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained2.dat"
 @    s19 legend  ""
 @    s20 hidden false
 @    s20 type xy
@@ -1307,7 +1307,7 @@
 @    s20 errorbar riser linestyle 1
 @    s20 errorbar riser clip off
 @    s20 errorbar riser clip length 0.100000
-@    s20 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained21.dat"
+@    s20 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained20.dat"
 @    s20 legend  ""
 @    s21 hidden false
 @    s21 type xy
@@ -1356,7 +1356,7 @@
 @    s21 errorbar riser linestyle 1
 @    s21 errorbar riser clip off
 @    s21 errorbar riser clip length 0.100000
-@    s21 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained22.dat"
+@    s21 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained21.dat"
 @    s21 legend  ""
 @    s22 hidden false
 @    s22 type xy
@@ -1405,7 +1405,7 @@
 @    s22 errorbar riser linestyle 1
 @    s22 errorbar riser clip off
 @    s22 errorbar riser clip length 0.100000
-@    s22 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained23.dat"
+@    s22 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained22.dat"
 @    s22 legend  ""
 @    s23 hidden false
 @    s23 type xy
@@ -1454,7 +1454,7 @@
 @    s23 errorbar riser linestyle 1
 @    s23 errorbar riser clip off
 @    s23 errorbar riser clip length 0.100000
-@    s23 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained24.dat"
+@    s23 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained23.dat"
 @    s23 legend  ""
 @    s24 hidden false
 @    s24 type xy
@@ -1503,7 +1503,7 @@
 @    s24 errorbar riser linestyle 1
 @    s24 errorbar riser clip off
 @    s24 errorbar riser clip length 0.100000
-@    s24 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained25.dat"
+@    s24 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained24.dat"
 @    s24 legend  ""
 @    s25 hidden false
 @    s25 type xy
@@ -1552,7 +1552,7 @@
 @    s25 errorbar riser linestyle 1
 @    s25 errorbar riser clip off
 @    s25 errorbar riser clip length 0.100000
-@    s25 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained26.dat"
+@    s25 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained25.dat"
 @    s25 legend  ""
 @    s26 hidden false
 @    s26 type xy
@@ -1601,7 +1601,7 @@
 @    s26 errorbar riser linestyle 1
 @    s26 errorbar riser clip off
 @    s26 errorbar riser clip length 0.100000
-@    s26 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained27.dat"
+@    s26 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained26.dat"
 @    s26 legend  ""
 @    s27 hidden false
 @    s27 type xy
@@ -1650,7 +1650,7 @@
 @    s27 errorbar riser linestyle 1
 @    s27 errorbar riser clip off
 @    s27 errorbar riser clip length 0.100000
-@    s27 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained28.dat"
+@    s27 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained27.dat"
 @    s27 legend  ""
 @    s28 hidden false
 @    s28 type xy
@@ -1699,7 +1699,7 @@
 @    s28 errorbar riser linestyle 1
 @    s28 errorbar riser clip off
 @    s28 errorbar riser clip length 0.100000
-@    s28 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained29.dat"
+@    s28 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained28.dat"
 @    s28 legend  ""
 @    s29 hidden false
 @    s29 type xy
@@ -1748,7 +1748,7 @@
 @    s29 errorbar riser linestyle 1
 @    s29 errorbar riser clip off
 @    s29 errorbar riser clip length 0.100000
-@    s29 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained3.dat"
+@    s29 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained29.dat"
 @    s29 legend  ""
 @    s30 hidden false
 @    s30 type xy
@@ -1797,7 +1797,7 @@
 @    s30 errorbar riser linestyle 1
 @    s30 errorbar riser clip off
 @    s30 errorbar riser clip length 0.100000
-@    s30 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained30.dat"
+@    s30 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained3.dat"
 @    s30 legend  ""
 @    s31 hidden false
 @    s31 type xy
@@ -1846,7 +1846,7 @@
 @    s31 errorbar riser linestyle 1
 @    s31 errorbar riser clip off
 @    s31 errorbar riser clip length 0.100000
-@    s31 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained31.dat"
+@    s31 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained30.dat"
 @    s31 legend  ""
 @    s32 hidden false
 @    s32 type xy
@@ -1895,7 +1895,7 @@
 @    s32 errorbar riser linestyle 1
 @    s32 errorbar riser clip off
 @    s32 errorbar riser clip length 0.100000
-@    s32 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained32.dat"
+@    s32 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained31.dat"
 @    s32 legend  ""
 @    s33 hidden false
 @    s33 type xy
@@ -1944,7 +1944,7 @@
 @    s33 errorbar riser linestyle 1
 @    s33 errorbar riser clip off
 @    s33 errorbar riser clip length 0.100000
-@    s33 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained33.dat"
+@    s33 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained32.dat"
 @    s33 legend  ""
 @    s34 hidden false
 @    s34 type xy
@@ -1993,7 +1993,7 @@
 @    s34 errorbar riser linestyle 1
 @    s34 errorbar riser clip off
 @    s34 errorbar riser clip length 0.100000
-@    s34 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained34.dat"
+@    s34 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained33.dat"
 @    s34 legend  ""
 @    s35 hidden false
 @    s35 type xy
@@ -2042,7 +2042,7 @@
 @    s35 errorbar riser linestyle 1
 @    s35 errorbar riser clip off
 @    s35 errorbar riser clip length 0.100000
-@    s35 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained35.dat"
+@    s35 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained34.dat"
 @    s35 legend  ""
 @    s36 hidden false
 @    s36 type xy
@@ -2091,7 +2091,7 @@
 @    s36 errorbar riser linestyle 1
 @    s36 errorbar riser clip off
 @    s36 errorbar riser clip length 0.100000
-@    s36 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained36.dat"
+@    s36 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained35.dat"
 @    s36 legend  ""
 @    s37 hidden false
 @    s37 type xy
@@ -2140,7 +2140,7 @@
 @    s37 errorbar riser linestyle 1
 @    s37 errorbar riser clip off
 @    s37 errorbar riser clip length 0.100000
-@    s37 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained37.dat"
+@    s37 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained36.dat"
 @    s37 legend  ""
 @    s38 hidden false
 @    s38 type xy
@@ -2189,7 +2189,7 @@
 @    s38 errorbar riser linestyle 1
 @    s38 errorbar riser clip off
 @    s38 errorbar riser clip length 0.100000
-@    s38 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained38.dat"
+@    s38 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained37.dat"
 @    s38 legend  ""
 @    s39 hidden false
 @    s39 type xy
@@ -2238,7 +2238,7 @@
 @    s39 errorbar riser linestyle 1
 @    s39 errorbar riser clip off
 @    s39 errorbar riser clip length 0.100000
-@    s39 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained39.dat"
+@    s39 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained38.dat"
 @    s39 legend  ""
 @    s40 hidden false
 @    s40 type xy
@@ -2287,7 +2287,7 @@
 @    s40 errorbar riser linestyle 1
 @    s40 errorbar riser clip off
 @    s40 errorbar riser clip length 0.100000
-@    s40 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained4.dat"
+@    s40 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained39.dat"
 @    s40 legend  ""
 @    s41 hidden false
 @    s41 type xy
@@ -2336,7 +2336,7 @@
 @    s41 errorbar riser linestyle 1
 @    s41 errorbar riser clip off
 @    s41 errorbar riser clip length 0.100000
-@    s41 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained40.dat"
+@    s41 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained4.dat"
 @    s41 legend  ""
 @    s42 hidden false
 @    s42 type xy
@@ -2385,7 +2385,7 @@
 @    s42 errorbar riser linestyle 1
 @    s42 errorbar riser clip off
 @    s42 errorbar riser clip length 0.100000
-@    s42 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained41.dat"
+@    s42 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained40.dat"
 @    s42 legend  ""
 @    s43 hidden false
 @    s43 type xy
@@ -2434,7 +2434,7 @@
 @    s43 errorbar riser linestyle 1
 @    s43 errorbar riser clip off
 @    s43 errorbar riser clip length 0.100000
-@    s43 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained42.dat"
+@    s43 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained41.dat"
 @    s43 legend  ""
 @    s44 hidden false
 @    s44 type xy
@@ -2483,7 +2483,7 @@
 @    s44 errorbar riser linestyle 1
 @    s44 errorbar riser clip off
 @    s44 errorbar riser clip length 0.100000
-@    s44 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained43.dat"
+@    s44 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained42.dat"
 @    s44 legend  ""
 @    s45 hidden false
 @    s45 type xy
@@ -2532,7 +2532,7 @@
 @    s45 errorbar riser linestyle 1
 @    s45 errorbar riser clip off
 @    s45 errorbar riser clip length 0.100000
-@    s45 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained44.dat"
+@    s45 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained43.dat"
 @    s45 legend  ""
 @    s46 hidden false
 @    s46 type xy
@@ -2581,7 +2581,7 @@
 @    s46 errorbar riser linestyle 1
 @    s46 errorbar riser clip off
 @    s46 errorbar riser clip length 0.100000
-@    s46 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained45.dat"
+@    s46 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained44.dat"
 @    s46 legend  ""
 @    s47 hidden false
 @    s47 type xy
@@ -2630,7 +2630,7 @@
 @    s47 errorbar riser linestyle 1
 @    s47 errorbar riser clip off
 @    s47 errorbar riser clip length 0.100000
-@    s47 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained46.dat"
+@    s47 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained45.dat"
 @    s47 legend  ""
 @    s48 hidden false
 @    s48 type xy
@@ -2679,7 +2679,7 @@
 @    s48 errorbar riser linestyle 1
 @    s48 errorbar riser clip off
 @    s48 errorbar riser clip length 0.100000
-@    s48 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained47.dat"
+@    s48 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained46.dat"
 @    s48 legend  ""
 @    s49 hidden false
 @    s49 type xy
@@ -2728,7 +2728,7 @@
 @    s49 errorbar riser linestyle 1
 @    s49 errorbar riser clip off
 @    s49 errorbar riser clip length 0.100000
-@    s49 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained48.dat"
+@    s49 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained47.dat"
 @    s49 legend  ""
 @    s50 hidden false
 @    s50 type xy
@@ -2777,7 +2777,7 @@
 @    s50 errorbar riser linestyle 1
 @    s50 errorbar riser clip off
 @    s50 errorbar riser clip length 0.100000
-@    s50 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained49.dat"
+@    s50 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained48.dat"
 @    s50 legend  ""
 @    s51 hidden false
 @    s51 type xy
@@ -2826,7 +2826,7 @@
 @    s51 errorbar riser linestyle 1
 @    s51 errorbar riser clip off
 @    s51 errorbar riser clip length 0.100000
-@    s51 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained5.dat"
+@    s51 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained49.dat"
 @    s51 legend  ""
 @    s52 hidden false
 @    s52 type xy
@@ -2875,7 +2875,7 @@
 @    s52 errorbar riser linestyle 1
 @    s52 errorbar riser clip off
 @    s52 errorbar riser clip length 0.100000
-@    s52 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained50.dat"
+@    s52 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained5.dat"
 @    s52 legend  ""
 @    s53 hidden false
 @    s53 type xy
@@ -2924,7 +2924,7 @@
 @    s53 errorbar riser linestyle 1
 @    s53 errorbar riser clip off
 @    s53 errorbar riser clip length 0.100000
-@    s53 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained51.dat"
+@    s53 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained50.dat"
 @    s53 legend  ""
 @    s54 hidden false
 @    s54 type xy
@@ -2973,7 +2973,7 @@
 @    s54 errorbar riser linestyle 1
 @    s54 errorbar riser clip off
 @    s54 errorbar riser clip length 0.100000
-@    s54 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained52.dat"
+@    s54 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained51.dat"
 @    s54 legend  ""
 @    s55 hidden false
 @    s55 type xy
@@ -3022,7 +3022,7 @@
 @    s55 errorbar riser linestyle 1
 @    s55 errorbar riser clip off
 @    s55 errorbar riser clip length 0.100000
-@    s55 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained53.dat"
+@    s55 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained52.dat"
 @    s55 legend  ""
 @    s56 hidden false
 @    s56 type xy
@@ -3071,7 +3071,7 @@
 @    s56 errorbar riser linestyle 1
 @    s56 errorbar riser clip off
 @    s56 errorbar riser clip length 0.100000
-@    s56 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained54.dat"
+@    s56 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained53.dat"
 @    s56 legend  ""
 @    s57 hidden false
 @    s57 type xy
@@ -3120,7 +3120,7 @@
 @    s57 errorbar riser linestyle 1
 @    s57 errorbar riser clip off
 @    s57 errorbar riser clip length 0.100000
-@    s57 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained55.dat"
+@    s57 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained54.dat"
 @    s57 legend  ""
 @    s58 hidden false
 @    s58 type xy
@@ -3169,7 +3169,7 @@
 @    s58 errorbar riser linestyle 1
 @    s58 errorbar riser clip off
 @    s58 errorbar riser clip length 0.100000
-@    s58 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained56.dat"
+@    s58 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained55.dat"
 @    s58 legend  ""
 @    s59 hidden false
 @    s59 type xy
@@ -3218,7 +3218,7 @@
 @    s59 errorbar riser linestyle 1
 @    s59 errorbar riser clip off
 @    s59 errorbar riser clip length 0.100000
-@    s59 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained57.dat"
+@    s59 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained56.dat"
 @    s59 legend  ""
 @    s60 hidden false
 @    s60 type xy
@@ -3267,7 +3267,7 @@
 @    s60 errorbar riser linestyle 1
 @    s60 errorbar riser clip off
 @    s60 errorbar riser clip length 0.100000
-@    s60 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained58.dat"
+@    s60 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained57.dat"
 @    s60 legend  ""
 @    s61 hidden false
 @    s61 type xy
@@ -3316,7 +3316,7 @@
 @    s61 errorbar riser linestyle 1
 @    s61 errorbar riser clip off
 @    s61 errorbar riser clip length 0.100000
-@    s61 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained59.dat"
+@    s61 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained58.dat"
 @    s61 legend  ""
 @    s62 hidden false
 @    s62 type xy
@@ -3365,7 +3365,7 @@
 @    s62 errorbar riser linestyle 1
 @    s62 errorbar riser clip off
 @    s62 errorbar riser clip length 0.100000
-@    s62 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained6.dat"
+@    s62 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained59.dat"
 @    s62 legend  ""
 @    s63 hidden false
 @    s63 type xy
@@ -3414,7 +3414,7 @@
 @    s63 errorbar riser linestyle 1
 @    s63 errorbar riser clip off
 @    s63 errorbar riser clip length 0.100000
-@    s63 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained60.dat"
+@    s63 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained6.dat"
 @    s63 legend  ""
 @    s64 hidden false
 @    s64 type xy
@@ -3463,7 +3463,7 @@
 @    s64 errorbar riser linestyle 1
 @    s64 errorbar riser clip off
 @    s64 errorbar riser clip length 0.100000
-@    s64 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained61.dat"
+@    s64 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained60.dat"
 @    s64 legend  ""
 @    s65 hidden false
 @    s65 type xy
@@ -3512,7 +3512,7 @@
 @    s65 errorbar riser linestyle 1
 @    s65 errorbar riser clip off
 @    s65 errorbar riser clip length 0.100000
-@    s65 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained62.dat"
+@    s65 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained61.dat"
 @    s65 legend  ""
 @    s66 hidden false
 @    s66 type xy
@@ -3561,7 +3561,7 @@
 @    s66 errorbar riser linestyle 1
 @    s66 errorbar riser clip off
 @    s66 errorbar riser clip length 0.100000
-@    s66 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained63.dat"
+@    s66 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained62.dat"
 @    s66 legend  ""
 @    s67 hidden false
 @    s67 type xy
@@ -3610,7 +3610,7 @@
 @    s67 errorbar riser linestyle 1
 @    s67 errorbar riser clip off
 @    s67 errorbar riser clip length 0.100000
-@    s67 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained64.dat"
+@    s67 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained63.dat"
 @    s67 legend  ""
 @    s68 hidden false
 @    s68 type xy
@@ -3659,7 +3659,7 @@
 @    s68 errorbar riser linestyle 1
 @    s68 errorbar riser clip off
 @    s68 errorbar riser clip length 0.100000
-@    s68 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained65.dat"
+@    s68 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained64.dat"
 @    s68 legend  ""
 @    s69 hidden false
 @    s69 type xy
@@ -3708,7 +3708,7 @@
 @    s69 errorbar riser linestyle 1
 @    s69 errorbar riser clip off
 @    s69 errorbar riser clip length 0.100000
-@    s69 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained66.dat"
+@    s69 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained65.dat"
 @    s69 legend  ""
 @    s70 hidden false
 @    s70 type xy
@@ -3757,7 +3757,7 @@
 @    s70 errorbar riser linestyle 1
 @    s70 errorbar riser clip off
 @    s70 errorbar riser clip length 0.100000
-@    s70 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained67.dat"
+@    s70 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained66.dat"
 @    s70 legend  ""
 @    s71 hidden false
 @    s71 type xy
@@ -3806,7 +3806,7 @@
 @    s71 errorbar riser linestyle 1
 @    s71 errorbar riser clip off
 @    s71 errorbar riser clip length 0.100000
-@    s71 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained68.dat"
+@    s71 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained67.dat"
 @    s71 legend  ""
 @    s72 hidden false
 @    s72 type xy
@@ -3855,7 +3855,7 @@
 @    s72 errorbar riser linestyle 1
 @    s72 errorbar riser clip off
 @    s72 errorbar riser clip length 0.100000
-@    s72 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained69.dat"
+@    s72 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained68.dat"
 @    s72 legend  ""
 @    s73 hidden false
 @    s73 type xy
@@ -3904,7 +3904,7 @@
 @    s73 errorbar riser linestyle 1
 @    s73 errorbar riser clip off
 @    s73 errorbar riser clip length 0.100000
-@    s73 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained7.dat"
+@    s73 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained69.dat"
 @    s73 legend  ""
 @    s74 hidden false
 @    s74 type xy
@@ -3953,7 +3953,7 @@
 @    s74 errorbar riser linestyle 1
 @    s74 errorbar riser clip off
 @    s74 errorbar riser clip length 0.100000
-@    s74 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained70.dat"
+@    s74 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained7.dat"
 @    s74 legend  ""
 @    s75 hidden false
 @    s75 type xy
@@ -4002,7 +4002,7 @@
 @    s75 errorbar riser linestyle 1
 @    s75 errorbar riser clip off
 @    s75 errorbar riser clip length 0.100000
-@    s75 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained71.dat"
+@    s75 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained70.dat"
 @    s75 legend  ""
 @    s76 hidden false
 @    s76 type xy
@@ -4051,7 +4051,7 @@
 @    s76 errorbar riser linestyle 1
 @    s76 errorbar riser clip off
 @    s76 errorbar riser clip length 0.100000
-@    s76 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained72.dat"
+@    s76 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained71.dat"
 @    s76 legend  ""
 @    s77 hidden false
 @    s77 type xy
@@ -4100,7 +4100,7 @@
 @    s77 errorbar riser linestyle 1
 @    s77 errorbar riser clip off
 @    s77 errorbar riser clip length 0.100000
-@    s77 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained73.dat"
+@    s77 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained72.dat"
 @    s77 legend  ""
 @    s78 hidden false
 @    s78 type xy
@@ -4149,7 +4149,7 @@
 @    s78 errorbar riser linestyle 1
 @    s78 errorbar riser clip off
 @    s78 errorbar riser clip length 0.100000
-@    s78 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained74.dat"
+@    s78 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained73.dat"
 @    s78 legend  ""
 @    s79 hidden false
 @    s79 type xy
@@ -4198,7 +4198,7 @@
 @    s79 errorbar riser linestyle 1
 @    s79 errorbar riser clip off
 @    s79 errorbar riser clip length 0.100000
-@    s79 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained75.dat"
+@    s79 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained74.dat"
 @    s79 legend  ""
 @    s80 hidden false
 @    s80 type xy
@@ -4247,7 +4247,7 @@
 @    s80 errorbar riser linestyle 1
 @    s80 errorbar riser clip off
 @    s80 errorbar riser clip length 0.100000
-@    s80 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained76.dat"
+@    s80 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained75.dat"
 @    s80 legend  ""
 @    s81 hidden false
 @    s81 type xy
@@ -4296,7 +4296,7 @@
 @    s81 errorbar riser linestyle 1
 @    s81 errorbar riser clip off
 @    s81 errorbar riser clip length 0.100000
-@    s81 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained77.dat"
+@    s81 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained76.dat"
 @    s81 legend  ""
 @    s82 hidden false
 @    s82 type xy
@@ -4345,7 +4345,7 @@
 @    s82 errorbar riser linestyle 1
 @    s82 errorbar riser clip off
 @    s82 errorbar riser clip length 0.100000
-@    s82 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained78.dat"
+@    s82 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained77.dat"
 @    s82 legend  ""
 @    s83 hidden false
 @    s83 type xy
@@ -4394,7 +4394,7 @@
 @    s83 errorbar riser linestyle 1
 @    s83 errorbar riser clip off
 @    s83 errorbar riser clip length 0.100000
-@    s83 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained79.dat"
+@    s83 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained78.dat"
 @    s83 legend  ""
 @    s84 hidden false
 @    s84 type xy
@@ -4443,7 +4443,7 @@
 @    s84 errorbar riser linestyle 1
 @    s84 errorbar riser clip off
 @    s84 errorbar riser clip length 0.100000
-@    s84 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained8.dat"
+@    s84 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained79.dat"
 @    s84 legend  ""
 @    s85 hidden false
 @    s85 type xy
@@ -4492,7 +4492,7 @@
 @    s85 errorbar riser linestyle 1
 @    s85 errorbar riser clip off
 @    s85 errorbar riser clip length 0.100000
-@    s85 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained80.dat"
+@    s85 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained8.dat"
 @    s85 legend  ""
 @    s86 hidden false
 @    s86 type xy
@@ -4541,7 +4541,7 @@
 @    s86 errorbar riser linestyle 1
 @    s86 errorbar riser clip off
 @    s86 errorbar riser clip length 0.100000
-@    s86 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained81.dat"
+@    s86 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained80.dat"
 @    s86 legend  ""
 @    s87 hidden false
 @    s87 type xy
@@ -4590,7 +4590,7 @@
 @    s87 errorbar riser linestyle 1
 @    s87 errorbar riser clip off
 @    s87 errorbar riser clip length 0.100000
-@    s87 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained82.dat"
+@    s87 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained81.dat"
 @    s87 legend  ""
 @    s88 hidden false
 @    s88 type xy
@@ -4639,7 +4639,7 @@
 @    s88 errorbar riser linestyle 1
 @    s88 errorbar riser clip off
 @    s88 errorbar riser clip length 0.100000
-@    s88 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained83.dat"
+@    s88 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained82.dat"
 @    s88 legend  ""
 @    s89 hidden false
 @    s89 type xy
@@ -4688,7 +4688,7 @@
 @    s89 errorbar riser linestyle 1
 @    s89 errorbar riser clip off
 @    s89 errorbar riser clip length 0.100000
-@    s89 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained84.dat"
+@    s89 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained83.dat"
 @    s89 legend  ""
 @    s90 hidden false
 @    s90 type xy
@@ -4737,7 +4737,7 @@
 @    s90 errorbar riser linestyle 1
 @    s90 errorbar riser clip off
 @    s90 errorbar riser clip length 0.100000
-@    s90 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained85.dat"
+@    s90 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained84.dat"
 @    s90 legend  ""
 @    s91 hidden false
 @    s91 type xy
@@ -4786,7 +4786,7 @@
 @    s91 errorbar riser linestyle 1
 @    s91 errorbar riser clip off
 @    s91 errorbar riser clip length 0.100000
-@    s91 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained86.dat"
+@    s91 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained85.dat"
 @    s91 legend  ""
 @    s92 hidden false
 @    s92 type xy
@@ -4835,7 +4835,7 @@
 @    s92 errorbar riser linestyle 1
 @    s92 errorbar riser clip off
 @    s92 errorbar riser clip length 0.100000
-@    s92 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained87.dat"
+@    s92 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained86.dat"
 @    s92 legend  ""
 @    s93 hidden false
 @    s93 type xy
@@ -4884,7 +4884,7 @@
 @    s93 errorbar riser linestyle 1
 @    s93 errorbar riser clip off
 @    s93 errorbar riser clip length 0.100000
-@    s93 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained88.dat"
+@    s93 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained87.dat"
 @    s93 legend  ""
 @    s94 hidden false
 @    s94 type xy
@@ -4933,7 +4933,7 @@
 @    s94 errorbar riser linestyle 1
 @    s94 errorbar riser clip off
 @    s94 errorbar riser clip length 0.100000
-@    s94 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained89.dat"
+@    s94 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained88.dat"
 @    s94 legend  ""
 @    s95 hidden false
 @    s95 type xy
@@ -4982,7 +4982,7 @@
 @    s95 errorbar riser linestyle 1
 @    s95 errorbar riser clip off
 @    s95 errorbar riser clip length 0.100000
-@    s95 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained9.dat"
+@    s95 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained89.dat"
 @    s95 legend  ""
 @    s96 hidden false
 @    s96 type xy
@@ -5031,7 +5031,7 @@
 @    s96 errorbar riser linestyle 1
 @    s96 errorbar riser clip off
 @    s96 errorbar riser clip length 0.100000
-@    s96 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained90.dat"
+@    s96 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained9.dat"
 @    s96 legend  ""
 @    s97 hidden false
 @    s97 type xy
@@ -5080,7 +5080,7 @@
 @    s97 errorbar riser linestyle 1
 @    s97 errorbar riser clip off
 @    s97 errorbar riser clip length 0.100000
-@    s97 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained91.dat"
+@    s97 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained90.dat"
 @    s97 legend  ""
 @    s98 hidden false
 @    s98 type xy
@@ -5129,7 +5129,7 @@
 @    s98 errorbar riser linestyle 1
 @    s98 errorbar riser clip off
 @    s98 errorbar riser clip length 0.100000
-@    s98 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained92.dat"
+@    s98 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained91.dat"
 @    s98 legend  ""
 @    s99 hidden false
 @    s99 type xy
@@ -5178,7 +5178,7 @@
 @    s99 errorbar riser linestyle 1
 @    s99 errorbar riser clip off
 @    s99 errorbar riser clip length 0.100000
-@    s99 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained93.dat"
+@    s99 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained92.dat"
 @    s99 legend  ""
 @    s100 hidden false
 @    s100 type xy
@@ -5227,7 +5227,7 @@
 @    s100 errorbar riser linestyle 1
 @    s100 errorbar riser clip off
 @    s100 errorbar riser clip length 0.100000
-@    s100 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained94.dat"
+@    s100 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained93.dat"
 @    s100 legend  ""
 @    s101 hidden false
 @    s101 type xy
@@ -5276,7 +5276,7 @@
 @    s101 errorbar riser linestyle 1
 @    s101 errorbar riser clip off
 @    s101 errorbar riser clip length 0.100000
-@    s101 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained95.dat"
+@    s101 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained94.dat"
 @    s101 legend  ""
 @    s102 hidden false
 @    s102 type xy
@@ -5325,7 +5325,7 @@
 @    s102 errorbar riser linestyle 1
 @    s102 errorbar riser clip off
 @    s102 errorbar riser clip length 0.100000
-@    s102 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained96.dat"
+@    s102 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained95.dat"
 @    s102 legend  ""
 @    s103 hidden false
 @    s103 type xy
@@ -5374,15 +5374,15 @@
 @    s103 errorbar riser linestyle 1
 @    s103 errorbar riser clip off
 @    s103 errorbar riser clip length 0.100000
-@    s103 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained97.dat"
+@    s103 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained96.dat"
 @    s103 legend  ""
 @    s104 hidden false
 @    s104 type xy
 @    s104 symbol 0
 @    s104 symbol size 1.000000
-@    s104 symbol color 15
+@    s104 symbol color 13
 @    s104 symbol pattern 1
-@    s104 symbol fill color 15
+@    s104 symbol fill color 13
 @    s104 symbol fill pattern 0
 @    s104 symbol linewidth 1.0
 @    s104 symbol linestyle 1
@@ -5390,9 +5390,9 @@
 @    s104 symbol char font 0
 @    s104 symbol skip 0
 @    s104 line type 1
-@    s104 line linestyle 1
+@    s104 line linestyle 2
 @    s104 line linewidth 2.5
-@    s104 line color 15
+@    s104 line color 13
 @    s104 line pattern 1
 @    s104 baseline type 0
 @    s104 baseline off
@@ -5414,7 +5414,7 @@
 @    s104 avalue offset 0.000000 , 0.000000
 @    s104 errorbar on
 @    s104 errorbar place both
-@    s104 errorbar color 15
+@    s104 errorbar color 13
 @    s104 errorbar pattern 1
 @    s104 errorbar size 1.000000
 @    s104 errorbar linewidth 1.0
@@ -5423,7 +5423,7 @@
 @    s104 errorbar riser linestyle 1
 @    s104 errorbar riser clip off
 @    s104 errorbar riser clip length 0.100000
-@    s104 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior1.dat"
+@    s104 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcUnconstrained97.dat"
 @    s104 legend  ""
 @    s105 hidden false
 @    s105 type xy
@@ -5472,15 +5472,15 @@
 @    s105 errorbar riser linestyle 1
 @    s105 errorbar riser clip off
 @    s105 errorbar riser clip length 0.100000
-@    s105 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior10.dat"
-@    s105 legend  "Constrained EoSs"
+@    s105 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior1.dat"
+@    s105 legend  ""
 @    s106 hidden false
 @    s106 type xy
 @    s106 symbol 0
 @    s106 symbol size 1.000000
-@    s106 symbol color 3
+@    s106 symbol color 15
 @    s106 symbol pattern 1
-@    s106 symbol fill color 3
+@    s106 symbol fill color 15
 @    s106 symbol fill pattern 0
 @    s106 symbol linewidth 1.0
 @    s106 symbol linestyle 1
@@ -5488,9 +5488,9 @@
 @    s106 symbol char font 0
 @    s106 symbol skip 0
 @    s106 line type 1
-@    s106 line linestyle 3
-@    s106 line linewidth 2.0
-@    s106 line color 3
+@    s106 line linestyle 1
+@    s106 line linewidth 2.5
+@    s106 line color 15
 @    s106 line pattern 1
 @    s106 baseline type 0
 @    s106 baseline off
@@ -5512,7 +5512,7 @@
 @    s106 avalue offset 0.000000 , 0.000000
 @    s106 errorbar on
 @    s106 errorbar place both
-@    s106 errorbar color 3
+@    s106 errorbar color 15
 @    s106 errorbar pattern 1
 @    s106 errorbar size 1.000000
 @    s106 errorbar linewidth 1.0
@@ -5521,15 +5521,15 @@
 @    s106 errorbar riser linestyle 1
 @    s106 errorbar riser clip off
 @    s106 errorbar riser clip length 0.100000
-@    s106 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior11.dat"
-@    s106 legend  "Hybrid EoSs"
+@    s106 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior10.dat"
+@    s106 legend  "Constrained EoSs"
 @    s107 hidden false
 @    s107 type xy
 @    s107 symbol 0
 @    s107 symbol size 1.000000
-@    s107 symbol color 15
+@    s107 symbol color 3
 @    s107 symbol pattern 1
-@    s107 symbol fill color 15
+@    s107 symbol fill color 3
 @    s107 symbol fill pattern 0
 @    s107 symbol linewidth 1.0
 @    s107 symbol linestyle 1
@@ -5537,9 +5537,9 @@
 @    s107 symbol char font 0
 @    s107 symbol skip 0
 @    s107 line type 1
-@    s107 line linestyle 1
-@    s107 line linewidth 1.0
-@    s107 line color 15
+@    s107 line linestyle 3
+@    s107 line linewidth 2.0
+@    s107 line color 3
 @    s107 line pattern 1
 @    s107 baseline type 0
 @    s107 baseline off
@@ -5561,7 +5561,7 @@
 @    s107 avalue offset 0.000000 , 0.000000
 @    s107 errorbar on
 @    s107 errorbar place both
-@    s107 errorbar color 15
+@    s107 errorbar color 3
 @    s107 errorbar pattern 1
 @    s107 errorbar size 1.000000
 @    s107 errorbar linewidth 1.0
@@ -5570,8 +5570,8 @@
 @    s107 errorbar riser linestyle 1
 @    s107 errorbar riser clip off
 @    s107 errorbar riser clip length 0.100000
-@    s107 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior12.dat"
-@    s107 legend  ""
+@    s107 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior11.dat"
+@    s107 legend  "Hybrid EoSs"
 @    s108 hidden false
 @    s108 type xy
 @    s108 symbol 0
@@ -5619,7 +5619,7 @@
 @    s108 errorbar riser linestyle 1
 @    s108 errorbar riser clip off
 @    s108 errorbar riser clip length 0.100000
-@    s108 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior13.dat"
+@    s108 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior12.dat"
 @    s108 legend  ""
 @    s109 hidden false
 @    s109 type xy
@@ -5668,7 +5668,7 @@
 @    s109 errorbar riser linestyle 1
 @    s109 errorbar riser clip off
 @    s109 errorbar riser clip length 0.100000
-@    s109 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior14.dat"
+@    s109 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior13.dat"
 @    s109 legend  ""
 @    s110 hidden false
 @    s110 type xy
@@ -5717,7 +5717,7 @@
 @    s110 errorbar riser linestyle 1
 @    s110 errorbar riser clip off
 @    s110 errorbar riser clip length 0.100000
-@    s110 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior15.dat"
+@    s110 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior14.dat"
 @    s110 legend  ""
 @    s111 hidden false
 @    s111 type xy
@@ -5766,7 +5766,7 @@
 @    s111 errorbar riser linestyle 1
 @    s111 errorbar riser clip off
 @    s111 errorbar riser clip length 0.100000
-@    s111 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior16.dat"
+@    s111 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior15.dat"
 @    s111 legend  ""
 @    s112 hidden false
 @    s112 type xy
@@ -5815,7 +5815,7 @@
 @    s112 errorbar riser linestyle 1
 @    s112 errorbar riser clip off
 @    s112 errorbar riser clip length 0.100000
-@    s112 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior17.dat"
+@    s112 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior16.dat"
 @    s112 legend  ""
 @    s113 hidden false
 @    s113 type xy
@@ -5864,7 +5864,7 @@
 @    s113 errorbar riser linestyle 1
 @    s113 errorbar riser clip off
 @    s113 errorbar riser clip length 0.100000
-@    s113 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior18.dat"
+@    s113 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior17.dat"
 @    s113 legend  ""
 @    s114 hidden false
 @    s114 type xy
@@ -5913,7 +5913,7 @@
 @    s114 errorbar riser linestyle 1
 @    s114 errorbar riser clip off
 @    s114 errorbar riser clip length 0.100000
-@    s114 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior19.dat"
+@    s114 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior18.dat"
 @    s114 legend  ""
 @    s115 hidden false
 @    s115 type xy
@@ -5962,7 +5962,7 @@
 @    s115 errorbar riser linestyle 1
 @    s115 errorbar riser clip off
 @    s115 errorbar riser clip length 0.100000
-@    s115 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior2.dat"
+@    s115 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior19.dat"
 @    s115 legend  ""
 @    s116 hidden false
 @    s116 type xy
@@ -6011,7 +6011,7 @@
 @    s116 errorbar riser linestyle 1
 @    s116 errorbar riser clip off
 @    s116 errorbar riser clip length 0.100000
-@    s116 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior20.dat"
+@    s116 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior2.dat"
 @    s116 legend  ""
 @    s117 hidden false
 @    s117 type xy
@@ -6060,7 +6060,7 @@
 @    s117 errorbar riser linestyle 1
 @    s117 errorbar riser clip off
 @    s117 errorbar riser clip length 0.100000
-@    s117 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior21.dat"
+@    s117 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior20.dat"
 @    s117 legend  ""
 @    s118 hidden false
 @    s118 type xy
@@ -6109,7 +6109,7 @@
 @    s118 errorbar riser linestyle 1
 @    s118 errorbar riser clip off
 @    s118 errorbar riser clip length 0.100000
-@    s118 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior22.dat"
+@    s118 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior21.dat"
 @    s118 legend  ""
 @    s119 hidden false
 @    s119 type xy
@@ -6158,7 +6158,7 @@
 @    s119 errorbar riser linestyle 1
 @    s119 errorbar riser clip off
 @    s119 errorbar riser clip length 0.100000
-@    s119 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior23.dat"
+@    s119 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior22.dat"
 @    s119 legend  ""
 @    s120 hidden false
 @    s120 type xy
@@ -6207,7 +6207,7 @@
 @    s120 errorbar riser linestyle 1
 @    s120 errorbar riser clip off
 @    s120 errorbar riser clip length 0.100000
-@    s120 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior24.dat"
+@    s120 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior23.dat"
 @    s120 legend  ""
 @    s121 hidden false
 @    s121 type xy
@@ -6256,7 +6256,7 @@
 @    s121 errorbar riser linestyle 1
 @    s121 errorbar riser clip off
 @    s121 errorbar riser clip length 0.100000
-@    s121 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior25.dat"
+@    s121 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior24.dat"
 @    s121 legend  ""
 @    s122 hidden false
 @    s122 type xy
@@ -6305,7 +6305,7 @@
 @    s122 errorbar riser linestyle 1
 @    s122 errorbar riser clip off
 @    s122 errorbar riser clip length 0.100000
-@    s122 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior26.dat"
+@    s122 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior25.dat"
 @    s122 legend  ""
 @    s123 hidden false
 @    s123 type xy
@@ -6354,7 +6354,7 @@
 @    s123 errorbar riser linestyle 1
 @    s123 errorbar riser clip off
 @    s123 errorbar riser clip length 0.100000
-@    s123 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior27.dat"
+@    s123 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior26.dat"
 @    s123 legend  ""
 @    s124 hidden false
 @    s124 type xy
@@ -6403,7 +6403,7 @@
 @    s124 errorbar riser linestyle 1
 @    s124 errorbar riser clip off
 @    s124 errorbar riser clip length 0.100000
-@    s124 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior28.dat"
+@    s124 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior27.dat"
 @    s124 legend  ""
 @    s125 hidden false
 @    s125 type xy
@@ -6452,7 +6452,7 @@
 @    s125 errorbar riser linestyle 1
 @    s125 errorbar riser clip off
 @    s125 errorbar riser clip length 0.100000
-@    s125 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior29.dat"
+@    s125 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior28.dat"
 @    s125 legend  ""
 @    s126 hidden false
 @    s126 type xy
@@ -6501,7 +6501,7 @@
 @    s126 errorbar riser linestyle 1
 @    s126 errorbar riser clip off
 @    s126 errorbar riser clip length 0.100000
-@    s126 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior3.dat"
+@    s126 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior29.dat"
 @    s126 legend  ""
 @    s127 hidden false
 @    s127 type xy
@@ -6550,7 +6550,7 @@
 @    s127 errorbar riser linestyle 1
 @    s127 errorbar riser clip off
 @    s127 errorbar riser clip length 0.100000
-@    s127 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior30.dat"
+@    s127 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior3.dat"
 @    s127 legend  ""
 @    s128 hidden false
 @    s128 type xy
@@ -6599,7 +6599,7 @@
 @    s128 errorbar riser linestyle 1
 @    s128 errorbar riser clip off
 @    s128 errorbar riser clip length 0.100000
-@    s128 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior31.dat"
+@    s128 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior30.dat"
 @    s128 legend  ""
 @    s129 hidden false
 @    s129 type xy
@@ -6648,7 +6648,7 @@
 @    s129 errorbar riser linestyle 1
 @    s129 errorbar riser clip off
 @    s129 errorbar riser clip length 0.100000
-@    s129 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior32.dat"
+@    s129 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior31.dat"
 @    s129 legend  ""
 @    s130 hidden false
 @    s130 type xy
@@ -6697,7 +6697,7 @@
 @    s130 errorbar riser linestyle 1
 @    s130 errorbar riser clip off
 @    s130 errorbar riser clip length 0.100000
-@    s130 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior33.dat"
+@    s130 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior32.dat"
 @    s130 legend  ""
 @    s131 hidden false
 @    s131 type xy
@@ -6746,7 +6746,7 @@
 @    s131 errorbar riser linestyle 1
 @    s131 errorbar riser clip off
 @    s131 errorbar riser clip length 0.100000
-@    s131 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior34.dat"
+@    s131 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior33.dat"
 @    s131 legend  ""
 @    s132 hidden false
 @    s132 type xy
@@ -6795,7 +6795,7 @@
 @    s132 errorbar riser linestyle 1
 @    s132 errorbar riser clip off
 @    s132 errorbar riser clip length 0.100000
-@    s132 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior35.dat"
+@    s132 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior34.dat"
 @    s132 legend  ""
 @    s133 hidden false
 @    s133 type xy
@@ -6844,7 +6844,7 @@
 @    s133 errorbar riser linestyle 1
 @    s133 errorbar riser clip off
 @    s133 errorbar riser clip length 0.100000
-@    s133 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior36.dat"
+@    s133 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior35.dat"
 @    s133 legend  ""
 @    s134 hidden false
 @    s134 type xy
@@ -6893,7 +6893,7 @@
 @    s134 errorbar riser linestyle 1
 @    s134 errorbar riser clip off
 @    s134 errorbar riser clip length 0.100000
-@    s134 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior37.dat"
+@    s134 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior36.dat"
 @    s134 legend  ""
 @    s135 hidden false
 @    s135 type xy
@@ -6942,7 +6942,7 @@
 @    s135 errorbar riser linestyle 1
 @    s135 errorbar riser clip off
 @    s135 errorbar riser clip length 0.100000
-@    s135 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior38.dat"
+@    s135 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior37.dat"
 @    s135 legend  ""
 @    s136 hidden false
 @    s136 type xy
@@ -6991,7 +6991,7 @@
 @    s136 errorbar riser linestyle 1
 @    s136 errorbar riser clip off
 @    s136 errorbar riser clip length 0.100000
-@    s136 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior39.dat"
+@    s136 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior38.dat"
 @    s136 legend  ""
 @    s137 hidden false
 @    s137 type xy
@@ -7040,7 +7040,7 @@
 @    s137 errorbar riser linestyle 1
 @    s137 errorbar riser clip off
 @    s137 errorbar riser clip length 0.100000
-@    s137 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior4.dat"
+@    s137 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior39.dat"
 @    s137 legend  ""
 @    s138 hidden false
 @    s138 type xy
@@ -7089,7 +7089,7 @@
 @    s138 errorbar riser linestyle 1
 @    s138 errorbar riser clip off
 @    s138 errorbar riser clip length 0.100000
-@    s138 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior40.dat"
+@    s138 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior4.dat"
 @    s138 legend  ""
 @    s139 hidden false
 @    s139 type xy
@@ -7138,7 +7138,7 @@
 @    s139 errorbar riser linestyle 1
 @    s139 errorbar riser clip off
 @    s139 errorbar riser clip length 0.100000
-@    s139 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior41.dat"
+@    s139 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior40.dat"
 @    s139 legend  ""
 @    s140 hidden false
 @    s140 type xy
@@ -7187,7 +7187,7 @@
 @    s140 errorbar riser linestyle 1
 @    s140 errorbar riser clip off
 @    s140 errorbar riser clip length 0.100000
-@    s140 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior42.dat"
+@    s140 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior41.dat"
 @    s140 legend  ""
 @    s141 hidden false
 @    s141 type xy
@@ -7236,7 +7236,7 @@
 @    s141 errorbar riser linestyle 1
 @    s141 errorbar riser clip off
 @    s141 errorbar riser clip length 0.100000
-@    s141 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior43.dat"
+@    s141 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior42.dat"
 @    s141 legend  ""
 @    s142 hidden false
 @    s142 type xy
@@ -7285,7 +7285,7 @@
 @    s142 errorbar riser linestyle 1
 @    s142 errorbar riser clip off
 @    s142 errorbar riser clip length 0.100000
-@    s142 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior44.dat"
+@    s142 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior43.dat"
 @    s142 legend  ""
 @    s143 hidden false
 @    s143 type xy
@@ -7334,7 +7334,7 @@
 @    s143 errorbar riser linestyle 1
 @    s143 errorbar riser clip off
 @    s143 errorbar riser clip length 0.100000
-@    s143 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior45.dat"
+@    s143 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior44.dat"
 @    s143 legend  ""
 @    s144 hidden false
 @    s144 type xy
@@ -7383,7 +7383,7 @@
 @    s144 errorbar riser linestyle 1
 @    s144 errorbar riser clip off
 @    s144 errorbar riser clip length 0.100000
-@    s144 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior46.dat"
+@    s144 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior45.dat"
 @    s144 legend  ""
 @    s145 hidden false
 @    s145 type xy
@@ -7432,7 +7432,7 @@
 @    s145 errorbar riser linestyle 1
 @    s145 errorbar riser clip off
 @    s145 errorbar riser clip length 0.100000
-@    s145 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior47.dat"
+@    s145 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior46.dat"
 @    s145 legend  ""
 @    s146 hidden false
 @    s146 type xy
@@ -7481,7 +7481,7 @@
 @    s146 errorbar riser linestyle 1
 @    s146 errorbar riser clip off
 @    s146 errorbar riser clip length 0.100000
-@    s146 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior48.dat"
+@    s146 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior47.dat"
 @    s146 legend  ""
 @    s147 hidden false
 @    s147 type xy
@@ -7530,7 +7530,7 @@
 @    s147 errorbar riser linestyle 1
 @    s147 errorbar riser clip off
 @    s147 errorbar riser clip length 0.100000
-@    s147 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior49.dat"
+@    s147 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior48.dat"
 @    s147 legend  ""
 @    s148 hidden false
 @    s148 type xy
@@ -7579,7 +7579,7 @@
 @    s148 errorbar riser linestyle 1
 @    s148 errorbar riser clip off
 @    s148 errorbar riser clip length 0.100000
-@    s148 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior5.dat"
+@    s148 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior49.dat"
 @    s148 legend  ""
 @    s149 hidden false
 @    s149 type xy
@@ -7628,7 +7628,7 @@
 @    s149 errorbar riser linestyle 1
 @    s149 errorbar riser clip off
 @    s149 errorbar riser clip length 0.100000
-@    s149 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior50.dat"
+@    s149 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior5.dat"
 @    s149 legend  ""
 @    s150 hidden false
 @    s150 type xy
@@ -7677,7 +7677,7 @@
 @    s150 errorbar riser linestyle 1
 @    s150 errorbar riser clip off
 @    s150 errorbar riser clip length 0.100000
-@    s150 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior51.dat"
+@    s150 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior50.dat"
 @    s150 legend  ""
 @    s151 hidden false
 @    s151 type xy
@@ -7726,7 +7726,7 @@
 @    s151 errorbar riser linestyle 1
 @    s151 errorbar riser clip off
 @    s151 errorbar riser clip length 0.100000
-@    s151 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior52.dat"
+@    s151 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior51.dat"
 @    s151 legend  ""
 @    s152 hidden false
 @    s152 type xy
@@ -7775,7 +7775,7 @@
 @    s152 errorbar riser linestyle 1
 @    s152 errorbar riser clip off
 @    s152 errorbar riser clip length 0.100000
-@    s152 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior53.dat"
+@    s152 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior52.dat"
 @    s152 legend  ""
 @    s153 hidden false
 @    s153 type xy
@@ -7824,7 +7824,7 @@
 @    s153 errorbar riser linestyle 1
 @    s153 errorbar riser clip off
 @    s153 errorbar riser clip length 0.100000
-@    s153 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior54.dat"
+@    s153 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior53.dat"
 @    s153 legend  ""
 @    s154 hidden false
 @    s154 type xy
@@ -7873,7 +7873,7 @@
 @    s154 errorbar riser linestyle 1
 @    s154 errorbar riser clip off
 @    s154 errorbar riser clip length 0.100000
-@    s154 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior55.dat"
+@    s154 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior54.dat"
 @    s154 legend  ""
 @    s155 hidden false
 @    s155 type xy
@@ -7922,7 +7922,7 @@
 @    s155 errorbar riser linestyle 1
 @    s155 errorbar riser clip off
 @    s155 errorbar riser clip length 0.100000
-@    s155 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior56.dat"
+@    s155 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior55.dat"
 @    s155 legend  ""
 @    s156 hidden false
 @    s156 type xy
@@ -7971,7 +7971,7 @@
 @    s156 errorbar riser linestyle 1
 @    s156 errorbar riser clip off
 @    s156 errorbar riser clip length 0.100000
-@    s156 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior57.dat"
+@    s156 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior56.dat"
 @    s156 legend  ""
 @    s157 hidden false
 @    s157 type xy
@@ -8020,7 +8020,7 @@
 @    s157 errorbar riser linestyle 1
 @    s157 errorbar riser clip off
 @    s157 errorbar riser clip length 0.100000
-@    s157 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior58.dat"
+@    s157 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior57.dat"
 @    s157 legend  ""
 @    s158 hidden false
 @    s158 type xy
@@ -8069,7 +8069,7 @@
 @    s158 errorbar riser linestyle 1
 @    s158 errorbar riser clip off
 @    s158 errorbar riser clip length 0.100000
-@    s158 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior59.dat"
+@    s158 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior58.dat"
 @    s158 legend  ""
 @    s159 hidden false
 @    s159 type xy
@@ -8118,7 +8118,7 @@
 @    s159 errorbar riser linestyle 1
 @    s159 errorbar riser clip off
 @    s159 errorbar riser clip length 0.100000
-@    s159 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior6.dat"
+@    s159 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior59.dat"
 @    s159 legend  ""
 @    s160 hidden false
 @    s160 type xy
@@ -8167,7 +8167,7 @@
 @    s160 errorbar riser linestyle 1
 @    s160 errorbar riser clip off
 @    s160 errorbar riser clip length 0.100000
-@    s160 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior60.dat"
+@    s160 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior6.dat"
 @    s160 legend  ""
 @    s161 hidden false
 @    s161 type xy
@@ -8216,7 +8216,7 @@
 @    s161 errorbar riser linestyle 1
 @    s161 errorbar riser clip off
 @    s161 errorbar riser clip length 0.100000
-@    s161 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior61.dat"
+@    s161 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior60.dat"
 @    s161 legend  ""
 @    s162 hidden false
 @    s162 type xy
@@ -8265,7 +8265,7 @@
 @    s162 errorbar riser linestyle 1
 @    s162 errorbar riser clip off
 @    s162 errorbar riser clip length 0.100000
-@    s162 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior62.dat"
+@    s162 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior61.dat"
 @    s162 legend  ""
 @    s163 hidden false
 @    s163 type xy
@@ -8314,7 +8314,7 @@
 @    s163 errorbar riser linestyle 1
 @    s163 errorbar riser clip off
 @    s163 errorbar riser clip length 0.100000
-@    s163 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior63.dat"
+@    s163 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior62.dat"
 @    s163 legend  ""
 @    s164 hidden false
 @    s164 type xy
@@ -8363,7 +8363,7 @@
 @    s164 errorbar riser linestyle 1
 @    s164 errorbar riser clip off
 @    s164 errorbar riser clip length 0.100000
-@    s164 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior64.dat"
+@    s164 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior63.dat"
 @    s164 legend  ""
 @    s165 hidden false
 @    s165 type xy
@@ -8412,7 +8412,7 @@
 @    s165 errorbar riser linestyle 1
 @    s165 errorbar riser clip off
 @    s165 errorbar riser clip length 0.100000
-@    s165 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior65.dat"
+@    s165 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior64.dat"
 @    s165 legend  ""
 @    s166 hidden false
 @    s166 type xy
@@ -8461,7 +8461,7 @@
 @    s166 errorbar riser linestyle 1
 @    s166 errorbar riser clip off
 @    s166 errorbar riser clip length 0.100000
-@    s166 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior66.dat"
+@    s166 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior65.dat"
 @    s166 legend  ""
 @    s167 hidden false
 @    s167 type xy
@@ -8510,7 +8510,7 @@
 @    s167 errorbar riser linestyle 1
 @    s167 errorbar riser clip off
 @    s167 errorbar riser clip length 0.100000
-@    s167 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior67.dat"
+@    s167 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior66.dat"
 @    s167 legend  ""
 @    s168 hidden false
 @    s168 type xy
@@ -8559,7 +8559,7 @@
 @    s168 errorbar riser linestyle 1
 @    s168 errorbar riser clip off
 @    s168 errorbar riser clip length 0.100000
-@    s168 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior68.dat"
+@    s168 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior67.dat"
 @    s168 legend  ""
 @    s169 hidden false
 @    s169 type xy
@@ -8608,7 +8608,7 @@
 @    s169 errorbar riser linestyle 1
 @    s169 errorbar riser clip off
 @    s169 errorbar riser clip length 0.100000
-@    s169 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior69.dat"
+@    s169 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior68.dat"
 @    s169 legend  ""
 @    s170 hidden false
 @    s170 type xy
@@ -8657,7 +8657,7 @@
 @    s170 errorbar riser linestyle 1
 @    s170 errorbar riser clip off
 @    s170 errorbar riser clip length 0.100000
-@    s170 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior7.dat"
+@    s170 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior69.dat"
 @    s170 legend  ""
 @    s171 hidden false
 @    s171 type xy
@@ -8706,7 +8706,7 @@
 @    s171 errorbar riser linestyle 1
 @    s171 errorbar riser clip off
 @    s171 errorbar riser clip length 0.100000
-@    s171 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior70.dat"
+@    s171 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior7.dat"
 @    s171 legend  ""
 @    s172 hidden false
 @    s172 type xy
@@ -8755,7 +8755,7 @@
 @    s172 errorbar riser linestyle 1
 @    s172 errorbar riser clip off
 @    s172 errorbar riser clip length 0.100000
-@    s172 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior71.dat"
+@    s172 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior70.dat"
 @    s172 legend  ""
 @    s173 hidden false
 @    s173 type xy
@@ -8804,7 +8804,7 @@
 @    s173 errorbar riser linestyle 1
 @    s173 errorbar riser clip off
 @    s173 errorbar riser clip length 0.100000
-@    s173 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior72.dat"
+@    s173 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior71.dat"
 @    s173 legend  ""
 @    s174 hidden false
 @    s174 type xy
@@ -8853,7 +8853,7 @@
 @    s174 errorbar riser linestyle 1
 @    s174 errorbar riser clip off
 @    s174 errorbar riser clip length 0.100000
-@    s174 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior73.dat"
+@    s174 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior72.dat"
 @    s174 legend  ""
 @    s175 hidden false
 @    s175 type xy
@@ -8902,7 +8902,7 @@
 @    s175 errorbar riser linestyle 1
 @    s175 errorbar riser clip off
 @    s175 errorbar riser clip length 0.100000
-@    s175 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior74.dat"
+@    s175 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior73.dat"
 @    s175 legend  ""
 @    s176 hidden false
 @    s176 type xy
@@ -8951,7 +8951,7 @@
 @    s176 errorbar riser linestyle 1
 @    s176 errorbar riser clip off
 @    s176 errorbar riser clip length 0.100000
-@    s176 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior75.dat"
+@    s176 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior74.dat"
 @    s176 legend  ""
 @    s177 hidden false
 @    s177 type xy
@@ -9000,7 +9000,7 @@
 @    s177 errorbar riser linestyle 1
 @    s177 errorbar riser clip off
 @    s177 errorbar riser clip length 0.100000
-@    s177 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior76.dat"
+@    s177 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior75.dat"
 @    s177 legend  ""
 @    s178 hidden false
 @    s178 type xy
@@ -9049,7 +9049,7 @@
 @    s178 errorbar riser linestyle 1
 @    s178 errorbar riser clip off
 @    s178 errorbar riser clip length 0.100000
-@    s178 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior77.dat"
+@    s178 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior76.dat"
 @    s178 legend  ""
 @    s179 hidden false
 @    s179 type xy
@@ -9098,7 +9098,7 @@
 @    s179 errorbar riser linestyle 1
 @    s179 errorbar riser clip off
 @    s179 errorbar riser clip length 0.100000
-@    s179 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior78.dat"
+@    s179 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior77.dat"
 @    s179 legend  ""
 @    s180 hidden false
 @    s180 type xy
@@ -9147,7 +9147,7 @@
 @    s180 errorbar riser linestyle 1
 @    s180 errorbar riser clip off
 @    s180 errorbar riser clip length 0.100000
-@    s180 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior79.dat"
+@    s180 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior78.dat"
 @    s180 legend  ""
 @    s181 hidden false
 @    s181 type xy
@@ -9196,7 +9196,7 @@
 @    s181 errorbar riser linestyle 1
 @    s181 errorbar riser clip off
 @    s181 errorbar riser clip length 0.100000
-@    s181 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior8.dat"
+@    s181 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior79.dat"
 @    s181 legend  ""
 @    s182 hidden false
 @    s182 type xy
@@ -9245,7 +9245,7 @@
 @    s182 errorbar riser linestyle 1
 @    s182 errorbar riser clip off
 @    s182 errorbar riser clip length 0.100000
-@    s182 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior80.dat"
+@    s182 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior8.dat"
 @    s182 legend  ""
 @    s183 hidden false
 @    s183 type xy
@@ -9294,7 +9294,7 @@
 @    s183 errorbar riser linestyle 1
 @    s183 errorbar riser clip off
 @    s183 errorbar riser clip length 0.100000
-@    s183 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior81.dat"
+@    s183 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior80.dat"
 @    s183 legend  ""
 @    s184 hidden false
 @    s184 type xy
@@ -9343,7 +9343,7 @@
 @    s184 errorbar riser linestyle 1
 @    s184 errorbar riser clip off
 @    s184 errorbar riser clip length 0.100000
-@    s184 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior82.dat"
+@    s184 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior81.dat"
 @    s184 legend  ""
 @    s185 hidden false
 @    s185 type xy
@@ -9392,7 +9392,7 @@
 @    s185 errorbar riser linestyle 1
 @    s185 errorbar riser clip off
 @    s185 errorbar riser clip length 0.100000
-@    s185 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior83.dat"
+@    s185 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior82.dat"
 @    s185 legend  ""
 @    s186 hidden false
 @    s186 type xy
@@ -9441,7 +9441,7 @@
 @    s186 errorbar riser linestyle 1
 @    s186 errorbar riser clip off
 @    s186 errorbar riser clip length 0.100000
-@    s186 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior84.dat"
+@    s186 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior83.dat"
 @    s186 legend  ""
 @    s187 hidden false
 @    s187 type xy
@@ -9490,7 +9490,7 @@
 @    s187 errorbar riser linestyle 1
 @    s187 errorbar riser clip off
 @    s187 errorbar riser clip length 0.100000
-@    s187 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior85.dat"
+@    s187 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior84.dat"
 @    s187 legend  ""
 @    s188 hidden false
 @    s188 type xy
@@ -9539,57 +9539,106 @@
 @    s188 errorbar riser linestyle 1
 @    s188 errorbar riser clip off
 @    s188 errorbar riser clip length 0.100000
-@    s188 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior9.dat"
+@    s188 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior85.dat"
 @    s188 legend  ""
-@    s195 hidden false
-@    s195 type xy
-@    s195 symbol 0
-@    s195 symbol size 1.000000
-@    s195 symbol color 1
-@    s195 symbol pattern 1
-@    s195 symbol fill color 1
-@    s195 symbol fill pattern 0
-@    s195 symbol linewidth 1.0
-@    s195 symbol linestyle 1
-@    s195 symbol char 65
-@    s195 symbol char font 0
-@    s195 symbol skip 0
-@    s195 line type 1
-@    s195 line linestyle 4
-@    s195 line linewidth 3.5
-@    s195 line color 1
-@    s195 line pattern 1
-@    s195 baseline type 0
-@    s195 baseline off
-@    s195 dropline off
-@    s195 fill type 0
-@    s195 fill rule 0
-@    s195 fill color 1
-@    s195 fill pattern 1
-@    s195 avalue off
-@    s195 avalue type 2
-@    s195 avalue char size 1.000000
-@    s195 avalue font 0
-@    s195 avalue color 1
-@    s195 avalue rot 0
-@    s195 avalue format general
-@    s195 avalue prec 3
-@    s195 avalue prepend ""
-@    s195 avalue append ""
-@    s195 avalue offset 0.000000 , 0.000000
-@    s195 errorbar on
-@    s195 errorbar place both
-@    s195 errorbar color 1
-@    s195 errorbar pattern 1
-@    s195 errorbar size 1.000000
-@    s195 errorbar linewidth 1.0
-@    s195 errorbar linestyle 1
-@    s195 errorbar riser linewidth 1.0
-@    s195 errorbar riser linestyle 1
-@    s195 errorbar riser clip off
-@    s195 errorbar riser clip length 0.100000
-@    s195 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcFitPosterior.dat"
-@    s195 legend  "Fits"
+@    s189 hidden false
+@    s189 type xy
+@    s189 symbol 0
+@    s189 symbol size 1.000000
+@    s189 symbol color 15
+@    s189 symbol pattern 1
+@    s189 symbol fill color 15
+@    s189 symbol fill pattern 0
+@    s189 symbol linewidth 1.0
+@    s189 symbol linestyle 1
+@    s189 symbol char 65
+@    s189 symbol char font 0
+@    s189 symbol skip 0
+@    s189 line type 1
+@    s189 line linestyle 1
+@    s189 line linewidth 1.0
+@    s189 line color 15
+@    s189 line pattern 1
+@    s189 baseline type 0
+@    s189 baseline off
+@    s189 dropline off
+@    s189 fill type 0
+@    s189 fill rule 0
+@    s189 fill color 1
+@    s189 fill pattern 1
+@    s189 avalue off
+@    s189 avalue type 2
+@    s189 avalue char size 1.000000
+@    s189 avalue font 0
+@    s189 avalue color 1
+@    s189 avalue rot 0
+@    s189 avalue format general
+@    s189 avalue prec 3
+@    s189 avalue prepend ""
+@    s189 avalue append ""
+@    s189 avalue offset 0.000000 , 0.000000
+@    s189 errorbar on
+@    s189 errorbar place both
+@    s189 errorbar color 15
+@    s189 errorbar pattern 1
+@    s189 errorbar size 1.000000
+@    s189 errorbar linewidth 1.0
+@    s189 errorbar linestyle 1
+@    s189 errorbar riser linewidth 1.0
+@    s189 errorbar riser linestyle 1
+@    s189 errorbar riser clip off
+@    s189 errorbar riser clip length 0.100000
+@    s189 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcPosterior9.dat"
+@    s189 legend  ""
+@    s190 hidden false
+@    s190 type xy
+@    s190 symbol 0
+@    s190 symbol size 1.000000
+@    s190 symbol color 1
+@    s190 symbol pattern 1
+@    s190 symbol fill color 1
+@    s190 symbol fill pattern 0
+@    s190 symbol linewidth 1.0
+@    s190 symbol linestyle 1
+@    s190 symbol char 65
+@    s190 symbol char font 0
+@    s190 symbol skip 0
+@    s190 line type 1
+@    s190 line linestyle 4
+@    s190 line linewidth 3.5
+@    s190 line color 1
+@    s190 line pattern 1
+@    s190 baseline type 0
+@    s190 baseline off
+@    s190 dropline off
+@    s190 fill type 0
+@    s190 fill rule 0
+@    s190 fill color 1
+@    s190 fill pattern 1
+@    s190 avalue off
+@    s190 avalue type 2
+@    s190 avalue char size 1.000000
+@    s190 avalue font 0
+@    s190 avalue color 1
+@    s190 avalue rot 0
+@    s190 avalue format general
+@    s190 avalue prec 3
+@    s190 avalue prepend ""
+@    s190 avalue append ""
+@    s190 avalue offset 0.000000 , 0.000000
+@    s190 errorbar on
+@    s190 errorbar place both
+@    s190 errorbar color 1
+@    s190 errorbar pattern 1
+@    s190 errorbar size 1.000000
+@    s190 errorbar linewidth 1.0
+@    s190 errorbar linestyle 1
+@    s190 errorbar riser linewidth 1.0
+@    s190 errorbar riser linestyle 1
+@    s190 errorbar riser clip off
+@    s190 errorbar riser clip length 0.100000
+@    s190 comment "copy of set G0.S196"
+@    s190 legend  ""
 @    s196 hidden false
 @    s196 type xy
 @    s196 symbol 0
@@ -9637,7 +9686,7 @@
 @    s196 errorbar riser linestyle 1
 @    s196 errorbar riser clip off
 @    s196 errorbar riser clip length 0.100000
-@    s196 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcFitUnconstrained.dat"
+@    s196 comment "/home/zack/Dropbox/General_Relativity_Research/Research/UR-recalibration/paper/XMgrace/CLove/lcFitPosterior.dat"
 @    s196 legend  ""
 @g1 on
 @g1 hidden true
@@ -19257,6 +19306,509 @@
 @    s191 legend  ""
 @target G0.S0
 @type xy
+0.38 0.40651586
+0.38890926 0.40568361
+0.39802739 0.40485175
+0.40735931 0.40402027
+0.41691001 0.40318917
+0.42668464 0.40235844
+0.43668843 0.40152808
+0.44692677 0.40069809
+0.45740515 0.39986846
+0.4681292 0.39903919
+0.47910469 0.39821027
+0.49033749 0.39738171
+0.50183365 0.3965535
+0.51359935 0.39572564
+0.5256409 0.39489812
+0.53796476 0.39407094
+0.55057757 0.3932441
+0.56348608 0.39241759
+0.57669724 0.39159142
+0.59021815 0.39076558
+0.60405605 0.38994006
+0.61821839 0.38911487
+0.63271278 0.38829
+0.64754699 0.38746545
+0.66272899 0.38664122
+0.67826694 0.38581731
+0.69416919 0.3849937
+0.71044427 0.38417041
+0.72710092 0.38334743
+0.7441481 0.38252475
+0.76159496 0.38170238
+0.77945087 0.38088031
+0.79772541 0.38005854
+0.81642841 0.37923707
+0.83556991 0.3784159
+0.85516018 0.37759502
+0.87520976 0.37677444
+0.89572941 0.37595414
+0.91673016 0.37513414
+0.93822327 0.37431443
+0.9602203 0.37349501
+0.98273306 0.37267588
+1.0057736 0.37185703
+1.0293544 0.37103846
+1.053488 0.37022018
+1.0781875 0.36940218
+1.103466 0.36858446
+1.1293373 0.36776702
+1.155815 0.36694986
+1.1829136 0.36613298
+1.2106475 0.36531638
+1.2390316 0.36450005
+1.2680812 0.363684
+1.2978119 0.36286823
+1.3282396 0.36205273
+1.3593807 0.3612375
+1.391252 0.36042256
+1.4238705 0.35960788
+1.4572537 0.35879348
+1.4914196 0.35797935
+1.5263865 0.35716549
+1.5621733 0.35635191
+1.5987991 0.3555386
+1.6362836 0.35472557
+1.6746469 0.3539128
+1.7139097 0.35310031
+1.754093 0.3522881
+1.7952184 0.35147615
+1.8373081 0.35066448
+1.8803845 0.34985309
+1.9244709 0.34904197
+1.9695909 0.34823112
+2.0157688 0.34742055
+2.0630293 0.34661026
+2.1113979 0.34580024
+2.1609004 0.3449905
+2.2115636 0.34418103
+2.2634146 0.34337185
+2.3164813 0.34256294
+2.3707922 0.34175432
+2.4263764 0.34094598
+2.4832638 0.34013792
+2.5414849 0.33933014
+2.601071 0.33852264
+2.6620542 0.33771544
+2.7244672 0.33690851
+2.7883434 0.33610188
+2.8537173 0.33529554
+2.9206238 0.33448948
+2.9890991 0.33368372
+3.0591797 0.33287825
+3.1309034 0.33207308
+3.2043087 0.3312682
+3.2794351 0.33046362
+3.3563228 0.32965934
+3.4350131 0.32885536
+3.5155484 0.32805169
+3.5979719 0.32724832
+3.6823278 0.32644525
+3.7686615 0.3256425
+3.8570193 0.32484005
+3.9474487 0.32403792
+4.0399982 0.32323611
+4.1347177 0.3224346
+4.2316578 0.32163342
+4.3308707 0.32083256
+4.4324098 0.32003202
+4.5363294 0.31923181
+4.6426855 0.31843192
+4.7515352 0.31763237
+4.8629369 0.31683315
+4.9769504 0.31603426
+5.0936371 0.31523571
+5.2130595 0.3144375
+5.3352818 0.31363963
+5.4603697 0.31284211
+5.5883903 0.31204493
+5.7194123 0.31124811
+5.8535063 0.31045164
+5.9907442 0.30965553
+6.1311996 0.30885977
+6.2749481 0.30806438
+6.4220668 0.30726935
+6.5726348 0.30647469
+6.7267329 0.3056804
+6.8844439 0.30488648
+7.0458525 0.30409294
+7.2110454 0.30329978
+7.3801113 0.30250701
+7.553141 0.30171462
+7.7302275 0.30092262
+7.9114659 0.30013101
+8.0969534 0.2993398
+8.2867898 0.29854899
+8.481077 0.29775859
+8.6799193 0.29696859
+8.8834236 0.296179
+9.0916991 0.29538982
+9.3048577 0.29460106
+9.5230139 0.29381272
+9.7462848 0.29302481
+9.9747904 0.29223732
+10.208653 0.29145027
+10.448 0.29066365
+10.692957 0.28987747
+10.943658 0.28909173
+11.200236 0.28830645
+11.462831 0.28752161
+11.731581 0.28673723
+12.006633 0.2859533
+12.288133 0.28516984
+12.576234 0.28438685
+12.871089 0.28360432
+13.172857 0.28282227
+13.4817 0.2820407
+13.797784 0.28125962
+14.121278 0.28047902
+14.452357 0.27969891
+14.791199 0.2789193
+15.137985 0.27814019
+15.492901 0.27736158
+15.856138 0.27658348
+16.227892 0.27580589
+16.608361 0.27502883
+16.997751 0.27425228
+17.39627 0.27347626
+17.804133 0.27270077
+18.221558 0.27192582
+18.64877 0.2711514
+19.085998 0.27037753
+19.533477 0.26960421
+19.991448 0.26883144
+20.460155 0.26805923
+20.939852 0.26728758
+21.430795 0.2665165
+21.933249 0.26574599
+22.447483 0.26497606
+22.973774 0.26420671
+23.512403 0.26343795
+24.063661 0.26266978
+24.627843 0.2619022
+25.205253 0.26113523
+25.796201 0.26036885
+26.401003 0.2596031
+27.019986 0.25883795
+27.65348 0.25807343
+28.301827 0.25730953
+28.965375 0.25654626
+29.64448 0.25578362
+30.339507 0.25502163
+31.050829 0.25426028
+31.778829 0.25349958
+32.523896 0.25273954
+33.286433 0.25198016
+34.066847 0.25122144
+34.865558 0.25046339
+35.682995 0.24970602
+36.519597 0.24894933
+37.375814 0.24819332
+38.252106 0.24743801
+39.148942 0.24668339
+40.066805 0.24592947
+41.006187 0.24517626
+41.967594 0.24442376
+42.951542 0.24367198
+43.958558 0.24292092
+44.989184 0.24217059
+46.043974 0.24142099
+47.123494 0.24067213
+48.228324 0.23992401
+49.359056 0.23917664
+50.5163 0.23843002
+51.700675 0.23768417
+52.912818 0.23693908
+54.153381 0.23619475
+55.423029 0.23545121
+56.722445 0.23470844
+58.052326 0.23396646
+59.413386 0.23322527
+60.806357 0.23248488
+62.231987 0.23174529
+63.691042 0.23100651
+65.184304 0.23026855
+66.712577 0.2295314
+68.276681 0.22879507
+69.877455 0.22805957
+71.515761 0.22732491
+73.192477 0.22659109
+74.908505 0.22585811
+76.664765 0.22512599
+78.462202 0.22439472
+80.30178 0.22366431
+82.184488 0.22293477
+84.111337 0.22220611
+86.083362 0.22147832
+88.101622 0.22075142
+90.1672 0.2200254
+92.281207 0.21930028
+94.444778 0.21857606
+96.659074 0.21785275
+98.925286 0.21713035
+101.24463 0.21640886
+103.61835 0.2156883
+106.04773 0.21496866
+108.53406 0.21424996
+111.07868 0.2135322
+113.68297 0.21281538
+116.34831 0.21209951
+119.07615 0.21138459
+121.86794 0.21067064
+124.72518 0.20995765
+127.64941 0.20924563
+130.6422 0.20853459
+133.70516 0.20782453
+136.83994 0.20711546
+140.0482 0.20640739
+143.33169 0.20570031
+146.69216 0.20499423
+150.13142 0.20428917
+153.65131 0.20358512
+157.25373 0.20288209
+160.94061 0.20218009
+164.71393 0.20147912
+168.57571 0.20077918
+172.52804 0.20008029
+176.57303 0.19938245
+180.71286 0.19868566
+184.94974 0.19798992
+189.28597 0.19729525
+193.72385 0.19660165
+198.26579 0.19590913
+202.91421 0.19521768
+207.67162 0.19452732
+212.54056 0.19383805
+217.52366 0.19314987
+222.62359 0.1924628
+227.84309 0.19177683
+233.18497 0.19109198
+238.65209 0.19040824
+244.24738 0.18972562
+249.97386 0.18904413
+255.8346 0.18836378
+261.83275 0.18768456
+267.97152 0.18700649
+274.25423 0.18632956
+280.68423 0.18565379
+287.26498 0.18497918
+294.00003 0.18430573
+300.89298 0.18363345
+307.94754 0.18296234
+315.1675 0.18229242
+322.55673 0.18162368
+330.1192 0.18095613
+337.85898 0.18028977
+345.78022 0.17962462
+353.88718 0.17896067
+362.18421 0.17829793
+370.67577 0.17763641
+379.36641 0.17697611
+388.26081 0.17631703
+397.36375 0.17565919
+406.6801 0.17500258
+416.21488 0.17434721
+425.97321 0.17369308
+435.96033 0.17304021
+446.1816 0.17238859
+456.64251 0.17173824
+467.34868 0.17108914
+478.30586 0.17044132
+489.51993 0.16979478
+500.99693 0.16914951
+512.74301 0.16850554
+524.76448 0.16786285
+537.06779 0.16722145
+549.65957 0.16658136
+562.54656 0.16594257
+575.7357 0.16530509
+589.23406 0.16466892
+603.04889 0.16403407
+617.18762 0.16340055
+631.65783 0.16276836
+646.46731 0.16213749
+661.624 0.16150797
+677.13604 0.16087979
+693.01178 0.16025296
+709.25972 0.15962748
+725.8886 0.15900335
+742.90736 0.15838059
+760.32513 0.1577592
+778.15126 0.15713917
+796.39533 0.15652052
+815.06715 0.15590325
+834.17673 0.15528737
+853.73435 0.15467287
+873.7505 0.15405977
+894.23594 0.15344807
+915.20166 0.15283777
+936.65894 0.15222888
+958.61929 0.1516214
+981.09451 0.15101534
+1004.0967 0.1504107
+1027.6381 0.14980748
+1051.7315 0.1492057
+1076.3898 0.14860534
+1101.6262 0.14800643
+1127.4543 0.14740897
+1153.8879 0.14681295
+1180.9413 0.14621838
+1208.6289 0.14562527
+1236.9657 0.14503362
+1265.9669 0.14444344
+1295.648 0.14385473
+1326.025 0.14326749
+1357.1142 0.14268173
+1388.9323 0.14209746
+1421.4964 0.14151467
+1454.824 0.14093338
+1488.9329 0.14035359
+1523.8415 0.13977529
+1559.5686 0.1391985
+1596.1334 0.13862322
+1633.5553 0.13804946
+1671.8547 0.13747721
+1711.052 0.13690649
+1751.1684 0.1363373
+1792.2252 0.13576964
+1834.2447 0.13520351
+1877.2493 0.13463893
+1921.2622 0.13407589
+1966.3069 0.1335144
+2012.4078 0.13295447
+2059.5895 0.1323961
+2107.8774 0.13183929
+2157.2975 0.13128404
+2207.8762 0.13073037
+2259.6408 0.13017828
+2312.619 0.12962777
+2366.8393 0.12907885
+2422.3308 0.12853151
+2479.1233 0.12798577
+2537.2474 0.12744163
+2596.7342 0.1268991
+2657.6157 0.12635817
+2719.9246 0.12581886
+2783.6943 0.12528117
+2848.9592 0.1247451
+2915.7542 0.12421066
+2984.1152 0.12367785
+3054.079 0.12314669
+3125.6832 0.12261716
+3198.9661 0.12208928
+3273.9672 0.12156306
+3350.7267 0.12103849
+3429.2858 0.12051559
+3509.6868 0.11999435
+3591.9729 0.11947479
+3676.1881 0.11895691
+3762.3779 0.11844071
+3850.5884 0.1179262
+3940.867 0.11741338
+4033.2622 0.11690227
+4127.8237 0.11639286
+4224.6022 0.11588517
+4323.6497 0.11537919
+4425.0195 0.11487493
+4528.7659 0.11437241
+4634.9446 0.11387162
+4743.6128 0.11337257
+4854.8288 0.11287527
+4968.6522 0.11237973
+5085.1443 0.11188595
+5204.3676 0.11139393
+5326.3861 0.11090369
+5451.2654 0.11041523
+5579.0725 0.10992856
+5709.8762 0.10944368
+5843.7466 0.10896061
+5980.7556 0.10847935
+6120.9768 0.1079999
+6264.4857 0.10752228
+6411.3591 0.1070465
+6561.676 0.10657256
+6715.5172 0.10610047
+6872.9652 0.10563024
+7034.1047 0.10516187
+7199.0222 0.10469539
+7367.8062 0.10423079
+7540.5474 0.10376809
+7717.3387 0.10330729
+7898.2748 0.10284841
+8083.4531 0.10239146
+8272.973 0.10193645
+8466.9362 0.10148339
+8665.447 0.10103228
+8868.6119 0.10058315
+9076.5402 0.100136
+9289.3434 0.099690855
+9507.1358 0.099247717
+9730.0345 0.098806602
+9958.1591 0.098367526
+10191.632 0.097930502
+10430.579 0.097495545
+10675.128 0.097062671
+10925.411 0.096631896
+11181.562 0.096203236
+11443.718 0.095776709
+11712.021 0.095352333
+11986.614 0.094930127
+12267.645 0.094510108
+12555.265 0.094092299
+12849.628 0.093676719
+13150.893 0.093263391
+13459.221 0.092852337
+13774.778 0.092443581
+14097.733 0.092037147
+14428.261 0.091633061
+14766.537 0.091231351
+15112.745 0.090832042
+15467.069 0.090435167
+15829.701 0.090040753
+16200.835 0.089648835
+16580.67 0.089259444
+16969.41 0.088872617
+17367.265 0.088488389
+17774.448 0.0881068
+18191.177 0.087727889
+18617.677 0.0873517
+19054.176 0.086978276
+19500.909 0.086607664
+19958.115 0.086239914
+20426.041 0.085875078
+20904.938 0.085513209
+21395.063 0.085154366
+21896.679 0.084798609
+22410.056 0.084446002
+22935.469 0.084096613
+23473.2 0.083750513
+24023.539 0.083407777
+24586.781 0.083068487
+25163.228 0.082732726
+25753.19 0.082400585
+26356.984 0.082072159
+26974.934 0.081747549
+27607.373 0.081426864
+28254.639 0.081110218
+28917.08 0.080797733
+29595.053 0.080489541
+30288.921 0.08018578
+30999.057 0.079886598
+31725.843 0.079592156
+32469.668 0.079302624
+33230.933 0.079018185
+34010.046 0.078739035
+34807.425 0.078465385
+35623.5 0.078197463
+36458.707 0.077935513
+37313.496 0.077679801
+38188.327 0.077430611
+39083.667 0.077188254
+40000 0.076953064
+&
+@target G0.S1
+@type xy
 7582.013 0.1018281
 6250.116 0.1058624
 5157.755 0.1099566
@@ -19339,7 +19891,7 @@
 2.651362 0.3062256
 2.540399 0.3071468
 &
-@target G0.S1
+@target G0.S2
 @type xy
 5141.572 0.1076405
 3650.958 0.1150063
@@ -19382,7 +19934,7 @@
 2.030007 0.323898
 1.978326 0.3236769
 &
-@target G0.S2
+@target G0.S3
 @type xy
 5141.572 0.1076405
 3650.958 0.1150063
@@ -19427,7 +19979,7 @@
 2.194678 0.3163001
 2.152779 0.3159956
 &
-@target G0.S3
+@target G0.S4
 @type xy
 5141.572 0.1076405
 3650.958 0.1150063
@@ -19473,7 +20025,7 @@
 2.389069 0.3099643
 2.341459 0.3096698
 &
-@target G0.S4
+@target G0.S5
 @type xy
 5141.572 0.1076405
 3650.958 0.1150063
@@ -19520,7 +20072,7 @@
 2.561567 0.3044534
 2.510461 0.3041422
 &
-@target G0.S5
+@target G0.S6
 @type xy
 8910.896 0.09665224
 7462.283 0.1001671
@@ -19613,7 +20165,7 @@
 1.392898 0.3287085
 1.37537 0.3285275
 &
-@target G0.S6
+@target G0.S7
 @type xy
 7237.656 0.1029432
 5955.557 0.1070029
@@ -19694,7 +20246,7 @@
 2.780399 0.3086823
 2.669569 0.3096272
 &
-@target G0.S7
+@target G0.S8
 @type xy
 6209.555 0.1061967
 4527.408 0.1131385
@@ -19733,7 +20285,7 @@
 3.358028 0.3262559
 3.036436 0.328879
 &
-@target G0.S8
+@target G0.S9
 @type xy
 11160.03 0.09472706
 8299.945 0.1005826
@@ -19776,7 +20328,7 @@
 3.383779 0.3218237
 3.052258 0.3245289
 &
-@target G0.S9
+@target G0.S10
 @type xy
 20512.82 0.08500619
 14738.43 0.09116246
@@ -19816,7 +20368,7 @@
 6.403873 0.3051583
 5.811819 0.3076544
 &
-@target G0.S10
+@target G0.S11
 @type xy
 7667.133 0.1019422
 5606.834 0.1085896
@@ -19857,7 +20409,7 @@
 2.764802 0.3321007
 2.506741 0.334595
 &
-@target G0.S11
+@target G0.S12
 @type xy
 11682.01 0.09506699
 8433.582 0.1016531
@@ -19895,7 +20447,7 @@
 6.346448 0.3058181
 5.77113 0.3082312
 &
-@target G0.S12
+@target G0.S13
 @type xy
 26070.01 0.08213392
 18320.1 0.08857111
@@ -19933,7 +20485,7 @@
 8.288251 0.3002975
 7.566888 0.3025542
 &
-@target G0.S13
+@target G0.S14
 @type xy
 22151.49 0.08407341
 15916.05 0.09016885
@@ -19968,7 +20520,7 @@
 22.47581 0.262522
 20.51192 0.2647746
 &
-@target G0.S14
+@target G0.S15
 @type xy
 8791.368 0.09849912
 6671.589 0.1040535
@@ -20008,7 +20560,7 @@
 8.179938 0.2871912
 7.355996 0.2900144
 &
-@target G0.S15
+@target G0.S16
 @type xy
 14876.43 0.09070969
 10659.61 0.09724932
@@ -20044,7 +20596,7 @@
 11.19584 0.28721
 10.23047 0.2894621
 &
-@target G0.S16
+@target G0.S17
 @type xy
 8683.996 0.09863078
 6676.649 0.1038679
@@ -20079,7 +20631,7 @@
 29.4256 0.2424742
 26.58784 0.2450126
 &
-@target G0.S17
+@target G0.S18
 @type xy
 15564.56 0.0897783
 11581.78 0.09538174
@@ -20108,7 +20660,7 @@
 120.6905 0.2041283
 111.4669 0.2057953
 &
-@target G0.S18
+@target G0.S19
 @type xy
 20763.61 0.08549516
 14645.14 0.09207451
@@ -20151,7 +20703,7 @@
 2.265828 0.3439029
 2.060393 0.3462598
 &
-@target G0.S19
+@target G0.S20
 @type xy
 7539.366 0.1006706
 5732.188 0.1062927
@@ -20190,7 +20742,7 @@
 8.417373 0.2863193
 7.607021 0.2889847
 &
-@target G0.S20
+@target G0.S21
 @type xy
 25672.33 0.08246285
 17961.89 0.0890173
@@ -20230,7 +20782,7 @@
 4.647759 0.3208603
 4.233521 0.3231881
 &
-@target G0.S21
+@target G0.S22
 @type xy
 7311.841 0.102412
 5420.69 0.1087474
@@ -20265,7 +20817,7 @@
 12.2893 0.2788843
 11.14192 0.2814239
 &
-@target G0.S22
+@target G0.S23
 @type xy
 15175.98 0.08960952
 11202.55 0.09539667
@@ -20306,7 +20858,7 @@
 7.054509 0.2966481
 6.391904 0.2991956
 &
-@target G0.S23
+@target G0.S24
 @type xy
 11596.26 0.09383052
 8804.749 0.09916642
@@ -20339,7 +20891,7 @@
 48.23407 0.2289432
 43.74751 0.2313037
 &
-@target G0.S24
+@target G0.S25
 @type xy
 6328.826 0.1035851
 4919.757 0.1087604
@@ -20378,7 +20930,7 @@
 11.83202 0.2695766
 10.64692 0.2723456
 &
-@target G0.S25
+@target G0.S26
 @type xy
 22769.22 0.08411272
 16242.32 0.09034963
@@ -20413,7 +20965,7 @@
 18.89827 0.2701392
 17.18248 0.2725335
 &
-@target G0.S26
+@target G0.S27
 @type xy
 6815.653 0.1023243
 5243.846 0.107721
@@ -20447,7 +20999,7 @@
 27.02907 0.2453284
 24.46572 0.2478359
 &
-@target G0.S27
+@target G0.S28
 @type xy
 9040.809 0.09776922
 6851.275 0.1033189
@@ -20489,7 +21041,7 @@
 4.796185 0.3064548
 4.31667 0.3092757
 &
-@target G0.S28
+@target G0.S29
 @type xy
 8849.425 0.09831944
 6746.464 0.1037563
@@ -20527,7 +21079,7 @@
 14.01702 0.2680382
 12.63312 0.2707573
 &
-@target G0.S29
+@target G0.S30
 @type xy
 8224.733 0.100457
 6035.485 0.1069568
@@ -20566,7 +21118,7 @@
 5.176256 0.3094414
 4.690048 0.3119932
 &
-@target G0.S30
+@target G0.S31
 @type xy
 17099.64 0.08890074
 12086.55 0.09562577
@@ -20607,7 +21159,7 @@
 2.928412 0.3357003
 2.659195 0.338131
 &
-@target G0.S31
+@target G0.S32
 @type xy
 9662.398 0.09786149
 7129.708 0.1040695
@@ -20640,7 +21192,7 @@
 23.24036 0.2583793
 21.11268 0.2607962
 &
-@target G0.S32
+@target G0.S33
 @type xy
 18602.42 0.0874512
 13004.99 0.09435462
@@ -20680,7 +21232,7 @@
 3.287586 0.333408
 3.009291 0.3355566
 &
-@target G0.S33
+@target G0.S34
 @type xy
 6714.148 0.1032285
 5036.522 0.1093132
@@ -20719,7 +21271,7 @@
 5.782633 0.3020881
 5.211393 0.3048644
 &
-@target G0.S34
+@target G0.S35
 @type xy
 17390.07 0.08811684
 12815.68 0.09385094
@@ -20750,7 +21302,7 @@
 70.42029 0.2220131
 64.40482 0.2240671
 &
-@target G0.S35
+@target G0.S36
 @type xy
 17559.18 0.08724397
 13119.53 0.09264373
@@ -20779,7 +21331,7 @@
 132.7221 0.2006777
 121.5627 0.2025994
 &
-@target G0.S36
+@target G0.S37
 @type xy
 25284.82 0.08211816
 17825.18 0.08851236
@@ -20822,7 +21374,7 @@
 2.522925 0.3405202
 2.293138 0.3428959
 &
-@target G0.S37
+@target G0.S38
 @type xy
 10330.46 0.09739639
 7435.722 0.1041812
@@ -20859,7 +21411,7 @@
 6.901007 0.3034993
 6.298208 0.3057884
 &
-@target G0.S38
+@target G0.S39
 @type xy
 11207.56 0.0953012
 8239.571 0.1014793
@@ -20891,7 +21443,7 @@
 35.19537 0.2446534
 32.35299 0.246627
 &
-@target G0.S39
+@target G0.S40
 @type xy
 13257.12 0.09180425
 9997.586 0.09720872
@@ -20920,7 +21472,7 @@
 112.921 0.204444
 103.1765 0.2064534
 &
-@target G0.S40
+@target G0.S41
 @type xy
 19727.04 0.08633335
 14146.6 0.09257268
@@ -20959,7 +21511,7 @@
 7.458388 0.3006206
 6.743482 0.3032328
 &
-@target G0.S41
+@target G0.S42
 @type xy
 17764.51 0.08703824
 13079.98 0.09275783
@@ -20996,7 +21548,7 @@
 18.88853 0.2638693
 17.22212 0.2661368
 &
-@target G0.S42
+@target G0.S43
 @type xy
 3343.63 0.1158605
 2601.792 0.1214838
@@ -21031,7 +21583,7 @@
 12.28807 0.2700535
 11.04293 0.2729078
 &
-@target G0.S43
+@target G0.S44
 @type xy
 13235.96 0.09169466
 10031.3 0.09698182
@@ -21061,7 +21613,7 @@
 97.78254 0.207908
 89.13732 0.2100276
 &
-@target G0.S44
+@target G0.S45
 @type xy
 6569.425 0.1047082
 4854.301 0.1112205
@@ -21100,7 +21652,7 @@
 4.584292 0.3130044
 4.165281 0.3154534
 &
-@target G0.S45
+@target G0.S46
 @type xy
 15616.45 0.08957727
 11191.88 0.09605999
@@ -21141,7 +21693,7 @@
 3.697139 0.324829
 3.35098 0.3273531
 &
-@target G0.S46
+@target G0.S47
 @type xy
 19219.3 0.08643148
 13682.06 0.09286693
@@ -21182,7 +21734,7 @@
 4.009113 0.3230312
 3.649302 0.325374
 &
-@target G0.S47
+@target G0.S48
 @type xy
 23093.37 0.08311247
 16646.3 0.08908465
@@ -21224,7 +21776,7 @@
 5.021799 0.3125201
 4.55499 0.3150201
 &
-@target G0.S48
+@target G0.S49
 @type xy
 1629.207 0.1308449
 1261.676 0.1371618
@@ -21261,7 +21813,7 @@
 3.781935 0.3114256
 3.419531 0.3141365
 &
-@target G0.S49
+@target G0.S50
 @type xy
 29016.58 0.08002273
 20524.4 0.08621003
@@ -21299,7 +21851,7 @@
 11.2482 0.2879308
 10.29448 0.2900927
 &
-@target G0.S50
+@target G0.S51
 @type xy
 13322.57 0.09234555
 9617.404 0.0987998
@@ -21336,7 +21888,7 @@
 8.777959 0.2945051
 7.962792 0.2970157
 &
-@target G0.S51
+@target G0.S52
 @type xy
 19415.3 0.08597532
 14220.31 0.09175414
@@ -21368,7 +21920,7 @@
 59.54689 0.2275494
 54.79049 0.2294189
 &
-@target G0.S52
+@target G0.S53
 @type xy
 16551.31 0.0890976
 11775.17 0.09570369
@@ -21404,7 +21956,7 @@
 10.06673 0.2924868
 9.16421 0.2948651
 &
-@target G0.S53
+@target G0.S54
 @type xy
 5700.878 0.1056364
 4380.337 0.1112007
@@ -21442,7 +21994,7 @@
 9.116666 0.2820428
 8.19486 0.2849014
 &
-@target G0.S54
+@target G0.S55
 @type xy
 11278.01 0.09449071
 8519.362 0.09997135
@@ -21477,7 +22029,7 @@
 29.13843 0.2456392
 26.35018 0.2481578
 &
-@target G0.S55
+@target G0.S56
 @type xy
 4690.945 0.1099965
 3550.879 0.1161317
@@ -21518,7 +22070,7 @@
 3.288699 0.319799
 2.977723 0.3223902
 &
-@target G0.S56
+@target G0.S57
 @type xy
 5100.251 0.1086141
 3847.822 0.1147918
@@ -21554,7 +22106,7 @@
 10.05094 0.2821298
 9.12556 0.2846071
 &
-@target G0.S57
+@target G0.S58
 @type xy
 11961.23 0.09466317
 8645.439 0.1011997
@@ -21590,7 +22142,7 @@
 11.44714 0.2848527
 10.45535 0.287086
 &
-@target G0.S58
+@target G0.S59
 @type xy
 14521.67 0.09134387
 10275.23 0.09820538
@@ -21631,7 +22183,7 @@
 2.630493 0.3391143
 2.396639 0.341414
 &
-@target G0.S59
+@target G0.S60
 @type xy
 12542.17 0.0928803
 9145.831 0.09914074
@@ -21669,7 +22221,7 @@
 8.173459 0.294819
 7.408262 0.2973514
 &
-@target G0.S60
+@target G0.S61
 @type xy
 7161.039 0.1040961
 5208.174 0.1109739
@@ -21703,7 +22255,7 @@
 10.73516 0.287523
 9.736969 0.2900537
 &
-@target G0.S61
+@target G0.S62
 @type xy
 14759.91 0.09137841
 10464.51 0.0981707
@@ -21745,7 +22297,7 @@
 2.257436 0.3438925
 2.05609 0.3461791
 &
-@target G0.S62
+@target G0.S63
 @type xy
 10650.55 0.09619678
 7807.304 0.1024813
@@ -21783,7 +22335,7 @@
 7.453647 0.2977068
 6.738807 0.30035
 &
-@target G0.S63
+@target G0.S64
 @type xy
 26112.64 0.0814116
 18657.1 0.08747619
@@ -21822,7 +22374,7 @@
 9.820439 0.2907843
 8.935769 0.2931647
 &
-@target G0.S64
+@target G0.S65
 @type xy
 8715.625 0.09904978
 6595.86 0.104704
@@ -21854,7 +22406,7 @@
 43.97389 0.2326853
 40.20267 0.2347984
 &
-@target G0.S65
+@target G0.S66
 @type xy
 9471.634 0.09841843
 6857.692 0.1051246
@@ -21896,7 +22448,7 @@
 2.253633 0.340675
 2.052041 0.3429989
 &
-@target G0.S66
+@target G0.S67
 @type xy
 1486.513 0.1302894
 1166.347 0.1361988
@@ -21937,7 +22489,7 @@
 1.705221 0.3357255
 1.544729 0.3383755
 &
-@target G0.S67
+@target G0.S68
 @type xy
 21219.83 0.08557948
 15046.53 0.09201785
@@ -21972,7 +22524,7 @@
 15.34308 0.2786155
 13.96238 0.2810005
 &
-@target G0.S68
+@target G0.S69
 @type xy
 14008.58 0.09061641
 10410.45 0.09631531
@@ -22011,7 +22563,7 @@
 10.23393 0.283564
 9.235848 0.28626
 &
-@target G0.S69
+@target G0.S70
 @type xy
 10532.61 0.09598766
 7598.666 0.1026672
@@ -22058,7 +22610,7 @@
 0.8259062 0.3737815
 0.7579057 0.3757703
 &
-@target G0.S70
+@target G0.S71
 @type xy
 3318.961 0.1177048
 2497.576 0.1243356
@@ -22093,7 +22645,7 @@
 7.066313 0.2960709
 6.384599 0.298767
 &
-@target G0.S71
+@target G0.S72
 @type xy
 6866.704 0.1026
 5193.122 0.1084177
@@ -22140,7 +22692,7 @@
 1.330926 0.3502999
 1.209795 0.3527295
 &
-@target G0.S72
+@target G0.S73
 @type xy
 23169.46 0.08382559
 16450.64 0.09014719
@@ -22177,7 +22729,7 @@
 11.93431 0.285912
 10.89654 0.2881652
 &
-@target G0.S73
+@target G0.S74
 @type xy
 17806.5 0.08765375
 12619.44 0.09427566
@@ -22215,7 +22767,7 @@
 6.444884 0.3080767
 5.880073 0.3103628
 &
-@target G0.S74
+@target G0.S75
 @type xy
 1944.793 0.1270995
 1488.547 0.1336441
@@ -22257,7 +22809,7 @@
 1.504857 0.3441342
 1.368242 0.3465764
 &
-@target G0.S75
+@target G0.S76
 @type xy
 15710.01 0.09009763
 11166.61 0.09677517
@@ -22297,7 +22849,7 @@
 3.804666 0.3258388
 3.445544 0.3283753
 &
-@target G0.S76
+@target G0.S77
 @type xy
 8432.612 0.1003734
 6141.216 0.1070394
@@ -22338,7 +22890,7 @@
 2.742457 0.3332625
 2.49055 0.3357086
 &
-@target G0.S77
+@target G0.S78
 @type xy
 9702.354 0.09802928
 7035.285 0.1046809
@@ -22378,7 +22930,7 @@
 3.944271 0.3208331
 3.583069 0.3232645
 &
-@target G0.S78
+@target G0.S79
 @type xy
 12228.15 0.09364855
 8857.687 0.1001074
@@ -22414,7 +22966,7 @@
 11.26228 0.2852214
 10.27815 0.2875028
 &
-@target G0.S79
+@target G0.S80
 @type xy
 8066.912 0.09945955
 6251.112 0.1045382
@@ -22453,7 +23005,7 @@
 14.89013 0.262114
 13.37685 0.2649114
 &
-@target G0.S80
+@target G0.S81
 @type xy
 10940.29 0.0965622
 7707.834 0.1038325
@@ -22496,7 +23048,7 @@
 1.325267 0.3623898
 1.215944 0.3643681
 &
-@target G0.S81
+@target G0.S82
 @type xy
 24483.89 0.08345492
 16953.1 0.09029008
@@ -22543,7 +23095,7 @@
 0.8300567 0.3787958
 0.7616275 0.3807047
 &
-@target G0.S82
+@target G0.S83
 @type xy
 11130.99 0.09403894
 8408.707 0.09951094
@@ -22584,7 +23136,7 @@
 7.97465 0.2881943
 7.196789 0.290892
 &
-@target G0.S83
+@target G0.S84
 @type xy
 15757.42 0.08971517
 11300.51 0.0961568
@@ -22631,7 +23183,7 @@
 1.128444 0.3638224
 1.032972 0.3658986
 &
-@target G0.S84
+@target G0.S85
 @type xy
 15177.81 0.08970127
 11350.27 0.09520247
@@ -22660,7 +23212,7 @@
 124.4253 0.2022997
 114.7543 0.20401
 &
-@target G0.S85
+@target G0.S86
 @type xy
 3727.005 0.1152055
 2785.153 0.1219236
@@ -22699,7 +23251,7 @@
 2.980517 0.3266265
 2.692256 0.3293264
 &
-@target G0.S86
+@target G0.S87
 @type xy
 21520.1 0.08547526
 14939.23 0.09238336
@@ -22744,7 +23296,7 @@
 1.067437 0.3714675
 0.9762133 0.3735277
 &
-@target G0.S87
+@target G0.S88
 @type xy
 10664.34 0.09701453
 7576.877 0.104099
@@ -22784,7 +23336,7 @@
 2.879485 0.3353389
 2.622751 0.3376544
 &
-@target G0.S88
+@target G0.S89
 @type xy
 2705.891 0.1202319
 2078.168 0.1264049
@@ -22822,7 +23374,7 @@
 4.223808 0.309265
 3.806016 0.3120755
 &
-@target G0.S89
+@target G0.S90
 @type xy
 26078.53 0.08160938
 18188.37 0.08820834
@@ -22871,7 +23423,7 @@
 0.6528675 0.3850405
 0.6019761 0.3867918
 &
-@target G0.S90
+@target G0.S91
 @type xy
 30502.55 0.07979806
 20977.87 0.08655596
@@ -22918,7 +23470,7 @@
 0.806953 0.3809118
 0.741057 0.3827977
 &
-@target G0.S91
+@target G0.S92
 @type xy
 7086.873 0.1042747
 5105.655 0.1114119
@@ -22960,7 +23512,7 @@
 1.691369 0.3510335
 1.53775 0.3533944
 &
-@target G0.S92
+@target G0.S93
 @type xy
 21071.79 0.08502273
 15091.75 0.09123376
@@ -23001,7 +23553,7 @@
 5.261902 0.3121065
 4.778408 0.314543
 &
-@target G0.S93
+@target G0.S94
 @type xy
 17807.11 0.08861819
 12236.83 0.09597834
@@ -23049,7 +23601,7 @@
 0.5183933 0.3938399
 0.4813711 0.3953324
 &
-@target G0.S94
+@target G0.S95
 @type xy
 26879.93 0.08161654
 18704.34 0.08824147
@@ -23093,7 +23645,7 @@
 1.762319 0.3541488
 1.608687 0.3563293
 &
-@target G0.S95
+@target G0.S96
 @type xy
 10961.67 0.09535121
 8130.925 0.1013081
@@ -23130,7 +23682,7 @@
 12.83438 0.2764783
 11.66923 0.278895
 &
-@target G0.S96
+@target G0.S97
 @type xy
 20777.17 0.08590526
 14309.87 0.09304542
@@ -23176,7 +23728,7 @@
 0.8326983 0.3795152
 0.7680539 0.3812616
 &
-@target G0.S97
+@target G0.S98
 @type xy
 20644.79 0.08540896
 14900.19 0.09147031
@@ -23210,7 +23762,7 @@
 28.24155 0.2545703
 25.79514 0.2567731
 &
-@target G0.S98
+@target G0.S99
 @type xy
 6616.403 0.1036884
 4896.051 0.1101467
@@ -23253,7 +23805,7 @@
 1.939454 0.3418893
 1.766743 0.3442375
 &
-@target G0.S99
+@target G0.S100
 @type xy
 9234.487 0.09783915
 6994.244 0.1034269
@@ -23283,7 +23835,7 @@
 65.73893 0.2204327
 59.80547 0.222671
 &
-@target G0.S100
+@target G0.S101
 @type xy
 19739.99 0.08631601
 14022.81 0.09276844
@@ -23332,7 +23884,7 @@
 0.7758299 0.3768999
 0.7115673 0.3788553
 &
-@target G0.S101
+@target G0.S102
 @type xy
 8507.118 0.09964444
 6263.201 0.1060286
@@ -23368,7 +23920,7 @@
 9.736349 0.2880738
 8.798436 0.2907192
 &
-@target G0.S102
+@target G0.S103
 @type xy
 6678.203 0.1036065
 4992.937 0.1097699
@@ -23413,7 +23965,7 @@
 1.606644 0.3461665
 1.462473 0.3485217
 &
-@target G0.S103
+@target G0.S104
 @type xy
 6944.394 0.1040059
 5081.891 0.1107396
@@ -23450,7 +24002,7 @@
 6.526217 0.3024731
 5.939645 0.3048711
 &
-@target G0.S104
+@target G0.S105
 @type xy
 2076.414 0.1255145
 1611.304 0.131579
@@ -23489,7 +24041,7 @@
 3.415581 0.3139086
 3.075297 0.3167649
 &
-@target G0.S105
+@target G0.S106
 @type xy
 2330.399 0.1231045
 1813.788 0.1289921
@@ -23526,7 +24078,7 @@
 6.121194 0.2932365
 5.522569 0.295986
 &
-@target G0.S106
+@target G0.S107
 @type xy
 3812.602 0.1143679
 2871.095 0.1208407
@@ -23566,7 +24118,7 @@
 3.182604 0.3218598
 2.885524 0.3244101
 &
-@target G0.S107
+@target G0.S108
 @type xy
 1392.436 0.1359512
 1064.808 0.1428357
@@ -23603,7 +24155,7 @@
 2.771358 0.3251673
 2.506268 0.3278285
 &
-@target G0.S108
+@target G0.S109
 @type xy
 3296.522 0.1180941
 2482.444 0.1247216
@@ -23637,7 +24189,7 @@
 9.208138 0.2867758
 8.337736 0.289369
 &
-@target G0.S109
+@target G0.S110
 @type xy
 5455.08 0.1072226
 4136.33 0.113187
@@ -23674,7 +24226,7 @@
 9.065717 0.2848219
 8.192933 0.2874719
 &
-@target G0.S110
+@target G0.S111
 @type xy
 2453.315 0.1216449
 1904.03 0.1275772
@@ -23713,7 +24265,7 @@
 3.882478 0.3094526
 3.49356 0.3123152
 &
-@target G0.S111
+@target G0.S112
 @type xy
 1807.888 0.1293699
 1390.84 0.1358308
@@ -23751,7 +24303,7 @@
 3.263602 0.3175774
 2.947479 0.3203172
 &
-@target G0.S112
+@target G0.S113
 @type xy
 1804.95 0.1283762
 1400.328 0.1345474
@@ -23789,7 +24341,7 @@
 3.333082 0.3155385
 3.000094 0.3184322
 &
-@target G0.S113
+@target G0.S114
 @type xy
 1773.17 0.1298731
 1357.442 0.1365003
@@ -23827,7 +24379,7 @@
 2.811094 0.3241269
 2.542687 0.3267812
 &
-@target G0.S114
+@target G0.S115
 @type xy
 4241.715 0.1114704
 3242.374 0.1174005
@@ -23869,7 +24421,7 @@
 2.980334 0.3208458
 2.695359 0.3234991
 &
-@target G0.S115
+@target G0.S116
 @type xy
 1800.093 0.1286427
 1402.781 0.1346885
@@ -23907,7 +24459,7 @@
 3.915682 0.3084947
 3.521528 0.3113741
 &
-@target G0.S116
+@target G0.S117
 @type xy
 2248.812 0.1232998
 1750.496 0.129199
@@ -23945,7 +24497,7 @@
 4.556856 0.3033808
 4.095617 0.3063312
 &
-@target G0.S117
+@target G0.S118
 @type xy
 2094.295 0.12632
 1612.33 0.1326422
@@ -23980,7 +24532,7 @@
 6.678682 0.2934149
 6.020684 0.2961754
 &
-@target G0.S118
+@target G0.S119
 @type xy
 4007.134 0.1131559
 3040.285 0.1193823
@@ -24016,7 +24568,7 @@
 8.179743 0.2886279
 7.377205 0.2913639
 &
-@target G0.S119
+@target G0.S120
 @type xy
 3232.422 0.1180898
 2440.037 0.1246453
@@ -24053,7 +24605,7 @@
 4.972509 0.3070343
 4.489762 0.3097518
 &
-@target G0.S120
+@target G0.S121
 @type xy
 4769.426 0.1098927
 3609.294 0.1160272
@@ -24091,7 +24643,7 @@
 6.222089 0.298139
 5.618472 0.3008367
 &
-@target G0.S121
+@target G0.S122
 @type xy
 1412.051 0.135831
 1076.87 0.1427954
@@ -24127,7 +24679,7 @@
 3.163842 0.3216075
 2.85794 0.3243185
 &
-@target G0.S122
+@target G0.S123
 @type xy
 1985.698 0.1278808
 1522.077 0.1343961
@@ -24163,7 +24715,7 @@
 4.809243 0.3056913
 4.330674 0.3085284
 &
-@target G0.S123
+@target G0.S124
 @type xy
 1894.163 0.1271928
 1468.088 0.1333516
@@ -24202,7 +24754,7 @@
 3.060754 0.3178907
 2.768344 0.3205578
 &
-@target G0.S124
+@target G0.S125
 @type xy
 2303.13 0.125285
 1740.722 0.1321067
@@ -24239,7 +24791,7 @@
 3.714713 0.3170757
 3.35934 0.3197198
 &
-@target G0.S125
+@target G0.S126
 @type xy
 3712.534 0.1140128
 2866.367 0.1197676
@@ -24276,7 +24828,7 @@
 8.394856 0.2840139
 7.582557 0.2867218
 &
-@target G0.S126
+@target G0.S127
 @type xy
 2279.737 0.1243933
 1763.028 0.1305007
@@ -24312,7 +24864,7 @@
 6.832397 0.2910317
 6.163854 0.2937667
 &
-@target G0.S127
+@target G0.S128
 @type xy
 2682.453 0.1198463
 2093.008 0.1255337
@@ -24351,7 +24903,7 @@
 4.876504 0.3000748
 4.383158 0.3030038
 &
-@target G0.S128
+@target G0.S129
 @type xy
 1836.335 0.1299256
 1401.899 0.1366296
@@ -24386,7 +24938,7 @@
 5.163869 0.304306
 4.661852 0.3070422
 &
-@target G0.S129
+@target G0.S130
 @type xy
 1768.326 0.1304982
 1354.998 0.1371223
@@ -24423,7 +24975,7 @@
 3.574918 0.3158069
 3.218636 0.3186445
 &
-@target G0.S130
+@target G0.S131
 @type xy
 3689.957 0.1143856
 2816.755 0.1204738
@@ -24464,7 +25016,7 @@
 3.025381 0.3210685
 2.732072 0.3237757
 &
-@target G0.S131
+@target G0.S132
 @type xy
 4269.219 0.1112679
 3268.086 0.1171513
@@ -24505,7 +25057,7 @@
 3.650039 0.3138779
 3.29854 0.3165825
 &
-@target G0.S132
+@target G0.S133
 @type xy
 1912.019 0.1277834
 1471.775 0.1341811
@@ -24542,7 +25094,7 @@
 3.895631 0.3118732
 3.504905 0.3147487
 &
-@target G0.S133
+@target G0.S134
 @type xy
 1882.075 0.128968
 1443.584 0.135514
@@ -24577,7 +25129,7 @@
 5.595744 0.3005307
 5.037454 0.3033792
 &
-@target G0.S134
+@target G0.S135
 @type xy
 3648.349 0.114731
 2757.682 0.121125
@@ -24617,7 +25169,7 @@
 3.144666 0.3216129
 2.847487 0.3242088
 &
-@target G0.S135
+@target G0.S136
 @type xy
 3387.384 0.1156801
 2618.179 0.1214742
@@ -24656,7 +25208,7 @@
 5.414609 0.2982446
 4.875453 0.3010682
 &
-@target G0.S136
+@target G0.S137
 @type xy
 1722.18 0.1304022
 1321.119 0.1370045
@@ -24693,7 +25245,7 @@
 3.610733 0.3148557
 3.269269 0.3174725
 &
-@target G0.S137
+@target G0.S138
 @type xy
 2786.656 0.1201884
 2138.564 0.126386
@@ -24728,7 +25280,7 @@
 8.866186 0.2836953
 8.031742 0.2862766
 &
-@target G0.S138
+@target G0.S139
 @type xy
 2052.314 0.1272854
 1572.786 0.133777
@@ -24762,7 +25314,7 @@
 7.345098 0.29155
 6.622283 0.2943039
 &
-@target G0.S139
+@target G0.S140
 @type xy
 2246.238 0.1259119
 1697.576 0.1327662
@@ -24799,7 +25351,7 @@
 3.691769 0.317265
 3.345532 0.319834
 &
-@target G0.S140
+@target G0.S141
 @type xy
 6049.96 0.1046364
 4563.64 0.1106399
@@ -24841,7 +25393,7 @@
 2.983845 0.3237774
 2.695564 0.3264739
 &
-@target G0.S141
+@target G0.S142
 @type xy
 4475.838 0.1110241
 3366.257 0.1173901
@@ -24880,7 +25432,7 @@
 4.151784 0.3133393
 3.75538 0.3159864
 &
-@target G0.S142
+@target G0.S143
 @type xy
 3979.139 0.1136796
 3017.859 0.1199318
@@ -24912,7 +25464,7 @@
 18.14868 0.2625262
 16.42565 0.2650972
 &
-@target G0.S143
+@target G0.S144
 @type xy
 2414.992 0.1225073
 1861.218 0.1286677
@@ -24951,7 +25503,7 @@
 3.459202 0.3149558
 3.115892 0.3178093
 &
-@target G0.S144
+@target G0.S145
 @type xy
 2955.756 0.1192258
 2260.464 0.1254621
@@ -24988,7 +25540,7 @@
 5.808954 0.2987765
 5.238061 0.3015245
 &
-@target G0.S145
+@target G0.S146
 @type xy
 1476.886 0.1339802
 1137.27 0.1405963
@@ -25025,7 +25577,7 @@
 3.322105 0.3171052
 2.998785 0.3198446
 &
-@target G0.S146
+@target G0.S147
 @type xy
 3309.369 0.117843
 2502.936 0.1243358
@@ -25058,7 +25610,7 @@
 12.31867 0.2760589
 11.18159 0.2785542
 &
-@target G0.S147
+@target G0.S148
 @type xy
 1536.558 0.1329688
 1188.08 0.1394027
@@ -25095,7 +25647,7 @@
 3.713271 0.3123472
 3.355344 0.3150727
 &
-@target G0.S148
+@target G0.S149
 @type xy
 1761.069 0.1286177
 1366.017 0.1348214
@@ -25134,7 +25686,7 @@
 2.894548 0.3195868
 2.614675 0.3223128
 &
-@target G0.S149
+@target G0.S150
 @type xy
 1755.744 0.1304152
 1353.445 0.1368489
@@ -25169,7 +25721,7 @@
 5.728543 0.2987124
 5.160641 0.3015177
 &
-@target G0.S150
+@target G0.S151
 @type xy
 3783.72 0.1134894
 2903.917 0.1193957
@@ -25209,7 +25761,7 @@
 3.82681 0.3124694
 3.44326 0.3153372
 &
-@target G0.S151
+@target G0.S152
 @type xy
 3645.097 0.1155436
 2745.834 0.1220601
@@ -25244,7 +25796,7 @@
 8.23605 0.2900747
 7.440765 0.2927384
 &
-@target G0.S152
+@target G0.S153
 @type xy
 1720.719 0.1314592
 1312.77 0.1382369
@@ -25281,7 +25833,7 @@
 3.40903 0.3181433
 3.088036 0.3207578
 &
-@target G0.S153
+@target G0.S154
 @type xy
 2238.24 0.1241586
 1723.959 0.1304033
@@ -25317,7 +25869,7 @@
 5.489865 0.2999763
 4.940135 0.302825
 &
-@target G0.S154
+@target G0.S155
 @type xy
 3882.056 0.1145644
 2897.135 0.1212965
@@ -25354,7 +25906,7 @@
 4.662531 0.3115837
 4.207767 0.314332
 &
-@target G0.S155
+@target G0.S156
 @type xy
 3388.597 0.116673
 2550.353 0.1232658
@@ -25394,7 +25946,7 @@
 2.706923 0.327918
 2.456104 0.3304208
 &
-@target G0.S156
+@target G0.S157
 @type xy
 5563.604 0.107113
 4181.84 0.1133166
@@ -25431,7 +25983,7 @@
 8.073114 0.2903963
 7.310624 0.2929808
 &
-@target G0.S157
+@target G0.S158
 @type xy
 3919.915 0.1121855
 3040.512 0.1177461
@@ -25472,7 +26024,7 @@
 4.152851 0.3066852
 3.747275 0.309452
 &
-@target G0.S158
+@target G0.S159
 @type xy
 4876.911 0.109295
 3675.851 0.1155146
@@ -25514,7 +26066,7 @@
 2.680742 0.3271449
 2.426717 0.329745
 &
-@target G0.S159
+@target G0.S160
 @type xy
 2184.255 0.1267922
 1654.446 0.1336035
@@ -25551,7 +26103,7 @@
 3.961495 0.3141234
 3.587166 0.3167017
 &
-@target G0.S160
+@target G0.S161
 @type xy
 2273.965 0.1254647
 1735.222 0.1320056
@@ -25585,7 +26137,7 @@
 7.685796 0.2908091
 6.925091 0.2936143
 &
-@target G0.S161
+@target G0.S162
 @type xy
 5747.921 0.1067983
 4307.317 0.1130743
@@ -25618,7 +26170,7 @@
 18.30017 0.2637539
 16.60966 0.2662071
 &
-@target G0.S162
+@target G0.S163
 @type xy
 2511.634 0.1216565
 1927.692 0.1279071
@@ -25656,7 +26208,7 @@
 3.850454 0.312606
 3.466679 0.3154548
 &
-@target G0.S163
+@target G0.S164
 @type xy
 2358.799 0.1238591
 1803.093 0.130301
@@ -25695,7 +26247,7 @@
 3.208505 0.3189384
 2.898734 0.3216452
 &
-@target G0.S164
+@target G0.S165
 @type xy
 3868.742 0.1130851
 2975.04 0.1189241
@@ -25734,7 +26286,7 @@
 5.359738 0.2999387
 4.827488 0.3027744
 &
-@target G0.S165
+@target G0.S166
 @type xy
 1607.13 0.132113
 1236.274 0.1386796
@@ -25770,7 +26322,7 @@
 4.256723 0.3090136
 3.852933 0.3116604
 &
-@target G0.S166
+@target G0.S167
 @type xy
 3853.184 0.1144199
 2892.962 0.1209795
@@ -25809,7 +26361,7 @@
 3.728134 0.3171643
 3.372624 0.3198088
 &
-@target G0.S167
+@target G0.S168
 @type xy
 2679.484 0.1204191
 2074.965 0.1263555
@@ -25847,7 +26399,7 @@
 5.295023 0.299068
 4.762903 0.3019439
 &
-@target G0.S168
+@target G0.S169
 @type xy
 2949.385 0.1196065
 2247.499 0.1259576
@@ -25882,7 +26434,7 @@
 8.072208 0.2887275
 7.295527 0.2913953
 &
-@target G0.S169
+@target G0.S170
 @type xy
 1580.024 0.1330485
 1213.193 0.1396943
@@ -25919,7 +26471,7 @@
 3.534686 0.3154796
 3.19362 0.3181598
 &
-@target G0.S170
+@target G0.S171
 @type xy
 3240.24 0.1177218
 2468.985 0.1240079
@@ -25954,7 +26506,7 @@
 8.65601 0.2864309
 7.803513 0.2892012
 &
-@target G0.S171
+@target G0.S172
 @type xy
 2039.484 0.1270454
 1562.528 0.1335415
@@ -25990,7 +26542,7 @@
 4.822852 0.3056502
 4.350244 0.3084402
 &
-@target G0.S172
+@target G0.S173
 @type xy
 3193.072 0.1182135
 2414.233 0.1247394
@@ -26025,7 +26577,7 @@
 7.672303 0.2919235
 6.920763 0.2946738
 &
-@target G0.S173
+@target G0.S174
 @type xy
 5868.247 0.1053519
 4444.184 0.1112731
@@ -26067,7 +26619,7 @@
 3.384029 0.3180907
 3.051303 0.32086
 &
-@target G0.S174
+@target G0.S175
 @type xy
 2767.783 0.1205159
 2108.222 0.1269401
@@ -26106,7 +26658,7 @@
 3.589321 0.3154981
 3.246099 0.3181611
 &
-@target G0.S175
+@target G0.S176
 @type xy
 3363.504 0.1172529
 2520.062 0.1239928
@@ -26145,7 +26697,7 @@
 3.029253 0.3251934
 2.744109 0.3277522
 &
-@target G0.S176
+@target G0.S177
 @type xy
 2470.767 0.1233389
 1874.265 0.1299936
@@ -26182,7 +26734,7 @@
 4.225583 0.3116643
 3.813779 0.3143844
 &
-@target G0.S177
+@target G0.S178
 @type xy
 5841.457 0.1059266
 4402.362 0.1120127
@@ -26219,7 +26771,7 @@
 8.703465 0.2872221
 7.850577 0.2899607
 &
-@target G0.S178
+@target G0.S179
 @type xy
 3305.884 0.1173033
 2490.365 0.1238861
@@ -26259,7 +26811,7 @@
 2.681373 0.3281066
 2.427751 0.3307243
 &
-@target G0.S179
+@target G0.S180
 @type xy
 1538.073 0.1338732
 1174.679 0.1407191
@@ -26295,7 +26847,7 @@
 3.581283 0.3168409
 3.237917 0.3195333
 &
-@target G0.S180
+@target G0.S181
 @type xy
 5310.265 0.1066219
 4088.13 0.1121744
@@ -26334,7 +26886,7 @@
 7.624357 0.2871151
 6.886239 0.2897857
 &
-@target G0.S181
+@target G0.S182
 @type xy
 3137.753 0.1191537
 2359.358 0.1258493
@@ -26370,7 +26922,7 @@
 5.603959 0.3039461
 5.067224 0.3066237
 &
-@target G0.S182
+@target G0.S183
 @type xy
 3284.984 0.1180647
 2477.297 0.1246454
@@ -26405,7 +26957,7 @@
 7.996937 0.2908587
 7.254513 0.2933672
 &
-@target G0.S183
+@target G0.S184
 @type xy
 1662.047 0.130574
 1282.439 0.1370132
@@ -26442,7 +26994,7 @@
 3.495175 0.3152031
 3.150744 0.3180234
 &
-@target G0.S184
+@target G0.S185
 @type xy
 2807.811 0.1199122
 2147.408 0.1261865
@@ -26480,7 +27032,7 @@
 4.492426 0.3073817
 4.051951 0.310138
 &
-@target G0.S185
+@target G0.S186
 @type xy
 1921.507 0.1294394
 1456.546 0.1363297
@@ -26516,7 +27068,7 @@
 4.010854 0.314295
 3.631527 0.3169078
 &
-@target G0.S186
+@target G0.S187
 @type xy
 3295.323 0.1177453
 2471.62 0.1244685
@@ -26556,7 +27108,7 @@
 2.572226 0.3302017
 2.329384 0.3327935
 &
-@target G0.S187
+@target G0.S188
 @type xy
 3314.983 0.1179581
 2500.047 0.1245352
@@ -26589,7 +27141,7 @@
 11.2162 0.2801232
 10.12698 0.2828385
 &
-@target G0.S188
+@target G0.S189
 @type xy
 3316.133 0.1177144
 2503.224 0.1242616
@@ -26623,510 +27175,7 @@
 9.173149 0.2866448
 8.282005 0.2893465
 &
-@target G0.S195
-@type xy
-1.8 0.3389997
-1.8364686 0.33830566
-1.873676 0.33761347
-1.9116373 0.33692311
-1.9503677 0.33623454
-1.9898828 0.33554773
-2.0301984 0.33486266
-2.0713309 0.33417928
-2.1132967 0.33349757
-2.1561128 0.3328175
-2.1997963 0.33213904
-2.2443649 0.33146215
-2.2898365 0.33078681
-2.3362293 0.33011298
-2.3835621 0.32944064
-2.4318538 0.32876976
-2.4811239 0.3281003
-2.5313923 0.32743224
-2.5826791 0.32676555
-2.635005 0.3261002
-2.6883911 0.32543617
-2.7428587 0.32477341
-2.7984299 0.32411192
-2.855127 0.32345165
-2.9129728 0.32279258
-2.9719906 0.32213468
-3.0322041 0.32147793
-3.0936375 0.32082229
-3.1563156 0.32016775
-3.2202636 0.31951428
-3.2855071 0.31886185
-3.3520726 0.31821043
-3.4199866 0.31756
-3.4892767 0.31691053
-3.5599705 0.316262
-3.6320967 0.31561439
-3.7056841 0.31496766
-3.7807625 0.3143218
-3.8573619 0.31367678
-3.9355133 0.31303258
-4.0152481 0.31238917
-4.0965983 0.31174653
-4.1795967 0.31110464
-4.2642767 0.31046348
-4.3506723 0.30982301
-4.4388183 0.30918323
-4.5287502 0.30854411
-4.6205041 0.30790563
-4.714117 0.30726777
-4.8096266 0.3066305
-4.9070711 0.3059938
-5.00649 0.30535766
-5.1079231 0.30472206
-5.2114112 0.30408697
-5.3169961 0.30345238
-5.4247201 0.30281827
-5.5346267 0.30218461
-5.64676 0.3015514
-5.7611652 0.30091861
-5.8778883 0.30028622
-5.9969762 0.29965422
-6.1184768 0.29902259
-6.2424391 0.29839131
-6.368913 0.29776036
-6.4979492 0.29712974
-6.6295997 0.29649942
-6.7639175 0.29586939
-6.9009567 0.29523963
-7.0407723 0.29461012
-7.1834206 0.29398087
-7.328959 0.29335183
-7.4774461 0.29272302
-7.6289415 0.2920944
-7.7835063 0.29146597
-7.9412027 0.29083772
-8.102094 0.29020962
-8.266245 0.28958167
-8.4337218 0.28895386
-8.6045917 0.28832618
-8.7789235 0.2876986
-8.9567873 0.28707113
-9.1382547 0.28644375
-9.3233987 0.28581644
-9.5122938 0.28518921
-9.7050159 0.28456203
-9.9016426 0.28393491
-10.102253 0.28330782
-10.306928 0.28268076
-10.51575 0.28205373
-10.728802 0.2814267
-10.946171 0.28079969
-11.167944 0.28017267
-11.39421 0.27954563
-11.625061 0.27891858
-11.860588 0.27829151
-12.100887 0.2776644
-12.346055 0.27703725
-12.59619 0.27641006
-12.851393 0.27578282
-13.111766 0.27515552
-13.377415 0.27452816
-13.648446 0.27390073
-13.924968 0.27327324
-14.207092 0.27264566
-14.494932 0.27201801
-14.788604 0.27139027
-15.088226 0.27076244
-15.393918 0.27013453
-15.705804 0.26950652
-16.024009 0.26887841
-16.34866 0.2682502
-16.679889 0.2676219
-17.017829 0.26699349
-17.362616 0.26636497
-17.714388 0.26573635
-18.073287 0.26510762
-18.439458 0.26447878
-18.813047 0.26384983
-19.194206 0.26322077
-19.583087 0.2625916
-19.979846 0.26196232
-20.384644 0.26133293
-20.797644 0.26070343
-21.219011 0.26007382
-21.648915 0.25944411
-22.087529 0.25881429
-22.535029 0.25818436
-22.991596 0.25755434
-23.457413 0.25692421
-23.932668 0.25629398
-24.417551 0.25566365
-24.912259 0.25503323
-25.416989 0.25440272
-25.931946 0.25377213
-26.457335 0.25314144
-26.993369 0.25251068
-27.540264 0.25187984
-28.098238 0.25124892
-28.667518 0.25061793
-29.248331 0.24998688
-29.840911 0.24935577
-30.445498 0.2487246
-31.062333 0.24809337
-31.691666 0.2474621
-32.333749 0.24683079
-32.988842 0.24619944
-33.657206 0.24556806
-34.339112 0.24493666
-35.034833 0.24430523
-35.74465 0.24367379
-36.468848 0.24304234
-37.207719 0.2424109
-37.961559 0.24177945
-38.730673 0.24114802
-39.515369 0.24051661
-40.315963 0.23988522
-41.132777 0.23925386
-41.96614 0.23862255
-42.816388 0.23799128
-43.683862 0.23736006
-44.568911 0.2367289
-45.471891 0.23609782
-46.393166 0.23546681
-47.333107 0.23483588
-48.292091 0.23420505
-49.270504 0.23357432
-50.26874 0.2329437
-51.287201 0.2323132
-52.326296 0.23168282
-53.386444 0.23105257
-54.46807 0.23042247
-55.571611 0.22979252
-56.69751 0.22916273
-57.846219 0.22853311
-59.018202 0.22790367
-60.21393 0.22727441
-61.433884 0.22664536
-62.678554 0.2260165
-63.948442 0.22538786
-65.244058 0.22475945
-66.565923 0.22413127
-67.91457 0.22350333
-69.290541 0.22287564
-70.69439 0.22224822
-72.126681 0.22162107
-73.587991 0.2209942
-75.078907 0.22036761
-76.60003 0.21974133
-78.151971 0.21911537
-79.735355 0.21848972
-81.350819 0.2178644
-82.999013 0.21723942
-84.680599 0.21661479
-86.396255 0.21599052
-88.146671 0.21536662
-89.932551 0.2147431
-91.754614 0.21411997
-93.613592 0.21349724
-95.510233 0.21287492
-97.445301 0.21225302
-99.419574 0.21163155
-101.43385 0.21101052
-103.48893 0.21038994
-105.58565 0.20976982
-107.72485 0.20915018
-109.90739 0.20853101
-112.13415 0.20791233
-114.40602 0.20729416
-116.72392 0.20667649
-119.08879 0.20605935
-121.50156 0.20544273
-123.96322 0.20482666
-126.47476 0.20421114
-129.03718 0.20359618
-131.65151 0.20298179
-134.31882 0.20236799
-137.04016 0.20175477
-139.81664 0.20114216
-142.64937 0.20053015
-145.53949 0.19991877
-148.48816 0.19930802
-151.49658 0.1986979
-154.56595 0.19808844
-157.69751 0.19747964
-160.89251 0.19687151
-164.15224 0.19626405
-167.47802 0.19565729
-170.87118 0.19505122
-174.33308 0.19444587
-177.86513 0.19384123
-181.46873 0.19323731
-185.14535 0.19263414
-188.89645 0.19203171
-192.72356 0.19143003
-196.6282 0.19082912
-200.61195 0.19022898
-204.67641 0.18962963
-208.82322 0.18903106
-213.05404 0.1884333
-217.37059 0.18783635
-221.77459 0.18724021
-226.26781 0.18664491
-230.85207 0.18605044
-235.52921 0.18545681
-240.3011 0.18486404
-245.16968 0.18427213
-250.1369 0.18368109
-255.20475 0.18309093
-260.37528 0.18250166
-265.65057 0.18191328
-271.03273 0.18132581
-276.52394 0.18073925
-282.12641 0.18015361
-287.84238 0.1795689
-293.67416 0.17898513
-299.62409 0.1784023
-305.69457 0.17782042
-311.88804 0.1772395
-318.207 0.17665955
-324.65397 0.17608058
-331.23156 0.17550259
-337.94242 0.17492559
-344.78924 0.17434958
-351.77479 0.17377459
-358.90186 0.1732006
-366.17332 0.17262763
-373.59211 0.17205569
-381.16121 0.17148479
-388.88366 0.17091492
-396.76256 0.1703461
-404.8011 0.16977834
-413.0025 0.16921163
-421.37007 0.168646
-429.90716 0.16808143
-438.61722 0.16751795
-447.50374 0.16695555
-456.57031 0.16639425
-465.82057 0.16583404
-475.25825 0.16527494
-484.88713 0.16471695
-494.7111 0.16416008
-504.73411 0.16360433
-514.96018 0.16304971
-525.39344 0.16249623
-536.03808 0.16194388
-546.89838 0.16139268
-557.97872 0.16084263
-569.28355 0.16029374
-580.81742 0.15974601
-592.58496 0.15919944
-604.59093 0.15865405
-616.84013 0.15810984
-629.33751 0.1575668
-642.08809 0.15702496
-655.097 0.1564843
-668.36948 0.15594484
-681.91086 0.15540659
-695.72659 0.15486953
-709.82224 0.15433369
-724.20346 0.15379906
-738.87606 0.15326565
-753.84593 0.15273347
-769.11909 0.15220251
-784.70169 0.15167278
-800.59999 0.15114429
-816.82041 0.15061704
-833.36945 0.15009102
-850.25378 0.14956626
-867.4802 0.14904275
-885.05563 0.14852049
-902.98714 0.14799948
-921.28195 0.14747974
-939.94742 0.14696127
-958.99105 0.14644406
-978.42052 0.14592812
-998.24363 0.14541345
-1018.4684 0.14490006
-1039.1029 0.14438796
-1060.1554 0.14387713
-1081.6345 0.14336759
-1103.5488 0.14285934
-1125.907 0.14235238
-1148.7183 0.14184671
-1171.9917 0.14134234
-1195.7366 0.14083927
-1219.9626 0.1403375
-1244.6794 0.13983703
-1269.897 0.13933787
-1295.6256 0.13884002
-1321.8754 0.13834347
-1348.657 0.13784824
-1375.9812 0.13735433
-1403.859 0.13686172
-1432.3017 0.13637044
-1461.3206 0.13588048
-1490.9274 0.13539183
-1521.134 0.13490451
-1551.9527 0.13441852
-1583.3958 0.13393385
-1615.4759 0.13345051
-1648.2059 0.13296849
-1681.5991 0.13248781
-1715.6689 0.13200846
-1750.4289 0.13153044
-1785.8931 0.13105375
-1822.0759 0.1305784
-1858.9917 0.13010438
-1896.6555 0.1296317
-1935.0823 0.12916036
-1974.2877 0.12869036
-2014.2874 0.12822169
-2055.0975 0.12775437
-2096.7345 0.12728838
-2139.215 0.12682374
-2182.5562 0.12636044
-2226.7755 0.12589848
-2271.8907 0.12543786
-2317.9199 0.12497858
-2364.8817 0.12452065
-2412.795 0.12406406
-2461.679 0.12360881
-2511.5534 0.12315491
-2562.4382 0.12270235
-2614.3541 0.12225113
-2667.3217 0.12180126
-2721.3625 0.12135273
-2776.4982 0.12090555
-2832.7509 0.12045971
-2890.1434 0.12001521
-2948.6986 0.11957205
-3008.4402 0.11913024
-3069.3922 0.11868976
-3131.579 0.11825063
-3195.0258 0.11781284
-3259.7581 0.1173764
-3325.8018 0.11694129
-3393.1836 0.11650752
-3461.9306 0.11607509
-3532.0705 0.11564399
-3603.6313 0.11521424
-3676.6421 0.11478582
-3751.132 0.11435873
-3827.1312 0.11393298
-3904.6701 0.11350857
-3983.7799 0.11308549
-4064.4926 0.11266374
-4146.8405 0.11224332
-4230.8568 0.11182423
-4316.5754 0.11140646
-4404.0306 0.11099003
-4493.2576 0.11057492
-4584.2925 0.11016114
-4677.1717 0.10974868
-4771.9327 0.10933754
-4868.6136 0.10892773
-4967.2533 0.10851923
-5067.8914 0.10811206
-5170.5686 0.1077062
-5275.3259 0.10730165
-5382.2057 0.10689842
-5491.251 0.1064965
-5602.5055 0.10609589
-5716.014 0.10569659
-5831.8223 0.1052986
-5949.9769 0.10490191
-6070.5253 0.10450653
-6193.5161 0.10411245
-6318.9988 0.10371967
-6447.0237 0.10332819
-6577.6425 0.10293801
-6710.9076 0.10254912
-6846.8728 0.10216152
-6985.5926 0.10177521
-7127.123 0.1013902
-7271.5208 0.10100647
-7418.8441 0.10062402
-7569.1523 0.10024286
-7722.5057 0.099862984
-7878.9662 0.099484383
-8038.5966 0.099107059
-8201.4611 0.09873101
-8367.6254 0.098356233
-8537.1561 0.097982726
-8710.1217 0.097610488
-8886.5915 0.097239515
-9066.6367 0.096869806
-9250.3297 0.096501359
-9437.7444 0.09613417
-9628.9561 0.095768239
-9824.0418 0.095403561
-10023.08 0.095040136
-10226.151 0.09467796
-10433.336 0.094317032
-10644.719 0.093957348
-10860.384 0.093598906
-11080.419 0.093241705
-11304.912 0.092885741
-11533.953 0.092531012
-11767.635 0.092177515
-12006.051 0.091825248
-12249.297 0.091474208
-12497.472 0.091124393
-12750.675 0.0907758
-13009.007 0.090428426
-13272.574 0.09008227
-13541.481 0.089737327
-13815.835 0.089393597
-14095.749 0.089051075
-14381.333 0.088709759
-14672.704 0.088369647
-14969.977 0.088030736
-15273.274 0.087693022
-15582.715 0.087356505
-15898.426 0.087021179
-16220.533 0.086687044
-16549.166 0.086354096
-16884.458 0.086022331
-17226.542 0.085691749
-17575.558 0.085362345
-17931.644 0.085034117
-18294.945 0.084707061
-18665.607 0.084381176
-19043.778 0.084056459
-19429.611 0.083732905
-19823.261 0.083410513
-20224.887 0.08308928
-20634.649 0.082769203
-21052.714 0.082450278
-21479.249 0.082132503
-21914.425 0.081815876
-22358.418 0.081500392
-22811.407 0.08118605
-23273.574 0.080872845
-23745.104 0.080560776
-24226.187 0.080249839
-24717.017 0.079940032
-25217.792 0.07963135
-25728.713 0.079323792
-26249.985 0.079017355
-26781.818 0.078712034
-27324.426 0.078407828
-27878.028 0.078104734
-28442.846 0.077802747
-29019.107 0.077501866
-29607.043 0.077202087
-30206.891 0.076903408
-30818.893 0.076605824
-31443.293 0.076309334
-32080.345 0.076013934
-32730.303 0.07571962
-33393.429 0.075426391
-34069.991 0.075134243
-34760.26 0.074843173
-35464.514 0.074553177
-36183.036 0.074264253
-36916.116 0.073976398
-37664.049 0.073689608
-38427.134 0.073403881
-39205.68 0.073119214
-40000 0.072835602
-&
-@target G0.S196
+@target G0.S190
 @type xy
 0.38 0.40651586
 0.38890926 0.40568361
@@ -27628,6 +27677,509 @@
 38188.327 0.077430611
 39083.667 0.077188254
 40000 0.076953064
+&
+@target G0.S196
+@type xy
+1.8 0.3389997
+1.8364686 0.33830566
+1.873676 0.33761347
+1.9116373 0.33692311
+1.9503677 0.33623454
+1.9898828 0.33554773
+2.0301984 0.33486266
+2.0713309 0.33417928
+2.1132967 0.33349757
+2.1561128 0.3328175
+2.1997963 0.33213904
+2.2443649 0.33146215
+2.2898365 0.33078681
+2.3362293 0.33011298
+2.3835621 0.32944064
+2.4318538 0.32876976
+2.4811239 0.3281003
+2.5313923 0.32743224
+2.5826791 0.32676555
+2.635005 0.3261002
+2.6883911 0.32543617
+2.7428587 0.32477341
+2.7984299 0.32411192
+2.855127 0.32345165
+2.9129728 0.32279258
+2.9719906 0.32213468
+3.0322041 0.32147793
+3.0936375 0.32082229
+3.1563156 0.32016775
+3.2202636 0.31951428
+3.2855071 0.31886185
+3.3520726 0.31821043
+3.4199866 0.31756
+3.4892767 0.31691053
+3.5599705 0.316262
+3.6320967 0.31561439
+3.7056841 0.31496766
+3.7807625 0.3143218
+3.8573619 0.31367678
+3.9355133 0.31303258
+4.0152481 0.31238917
+4.0965983 0.31174653
+4.1795967 0.31110464
+4.2642767 0.31046348
+4.3506723 0.30982301
+4.4388183 0.30918323
+4.5287502 0.30854411
+4.6205041 0.30790563
+4.714117 0.30726777
+4.8096266 0.3066305
+4.9070711 0.3059938
+5.00649 0.30535766
+5.1079231 0.30472206
+5.2114112 0.30408697
+5.3169961 0.30345238
+5.4247201 0.30281827
+5.5346267 0.30218461
+5.64676 0.3015514
+5.7611652 0.30091861
+5.8778883 0.30028622
+5.9969762 0.29965422
+6.1184768 0.29902259
+6.2424391 0.29839131
+6.368913 0.29776036
+6.4979492 0.29712974
+6.6295997 0.29649942
+6.7639175 0.29586939
+6.9009567 0.29523963
+7.0407723 0.29461012
+7.1834206 0.29398087
+7.328959 0.29335183
+7.4774461 0.29272302
+7.6289415 0.2920944
+7.7835063 0.29146597
+7.9412027 0.29083772
+8.102094 0.29020962
+8.266245 0.28958167
+8.4337218 0.28895386
+8.6045917 0.28832618
+8.7789235 0.2876986
+8.9567873 0.28707113
+9.1382547 0.28644375
+9.3233987 0.28581644
+9.5122938 0.28518921
+9.7050159 0.28456203
+9.9016426 0.28393491
+10.102253 0.28330782
+10.306928 0.28268076
+10.51575 0.28205373
+10.728802 0.2814267
+10.946171 0.28079969
+11.167944 0.28017267
+11.39421 0.27954563
+11.625061 0.27891858
+11.860588 0.27829151
+12.100887 0.2776644
+12.346055 0.27703725
+12.59619 0.27641006
+12.851393 0.27578282
+13.111766 0.27515552
+13.377415 0.27452816
+13.648446 0.27390073
+13.924968 0.27327324
+14.207092 0.27264566
+14.494932 0.27201801
+14.788604 0.27139027
+15.088226 0.27076244
+15.393918 0.27013453
+15.705804 0.26950652
+16.024009 0.26887841
+16.34866 0.2682502
+16.679889 0.2676219
+17.017829 0.26699349
+17.362616 0.26636497
+17.714388 0.26573635
+18.073287 0.26510762
+18.439458 0.26447878
+18.813047 0.26384983
+19.194206 0.26322077
+19.583087 0.2625916
+19.979846 0.26196232
+20.384644 0.26133293
+20.797644 0.26070343
+21.219011 0.26007382
+21.648915 0.25944411
+22.087529 0.25881429
+22.535029 0.25818436
+22.991596 0.25755434
+23.457413 0.25692421
+23.932668 0.25629398
+24.417551 0.25566365
+24.912259 0.25503323
+25.416989 0.25440272
+25.931946 0.25377213
+26.457335 0.25314144
+26.993369 0.25251068
+27.540264 0.25187984
+28.098238 0.25124892
+28.667518 0.25061793
+29.248331 0.24998688
+29.840911 0.24935577
+30.445498 0.2487246
+31.062333 0.24809337
+31.691666 0.2474621
+32.333749 0.24683079
+32.988842 0.24619944
+33.657206 0.24556806
+34.339112 0.24493666
+35.034833 0.24430523
+35.74465 0.24367379
+36.468848 0.24304234
+37.207719 0.2424109
+37.961559 0.24177945
+38.730673 0.24114802
+39.515369 0.24051661
+40.315963 0.23988522
+41.132777 0.23925386
+41.96614 0.23862255
+42.816388 0.23799128
+43.683862 0.23736006
+44.568911 0.2367289
+45.471891 0.23609782
+46.393166 0.23546681
+47.333107 0.23483588
+48.292091 0.23420505
+49.270504 0.23357432
+50.26874 0.2329437
+51.287201 0.2323132
+52.326296 0.23168282
+53.386444 0.23105257
+54.46807 0.23042247
+55.571611 0.22979252
+56.69751 0.22916273
+57.846219 0.22853311
+59.018202 0.22790367
+60.21393 0.22727441
+61.433884 0.22664536
+62.678554 0.2260165
+63.948442 0.22538786
+65.244058 0.22475945
+66.565923 0.22413127
+67.91457 0.22350333
+69.290541 0.22287564
+70.69439 0.22224822
+72.126681 0.22162107
+73.587991 0.2209942
+75.078907 0.22036761
+76.60003 0.21974133
+78.151971 0.21911537
+79.735355 0.21848972
+81.350819 0.2178644
+82.999013 0.21723942
+84.680599 0.21661479
+86.396255 0.21599052
+88.146671 0.21536662
+89.932551 0.2147431
+91.754614 0.21411997
+93.613592 0.21349724
+95.510233 0.21287492
+97.445301 0.21225302
+99.419574 0.21163155
+101.43385 0.21101052
+103.48893 0.21038994
+105.58565 0.20976982
+107.72485 0.20915018
+109.90739 0.20853101
+112.13415 0.20791233
+114.40602 0.20729416
+116.72392 0.20667649
+119.08879 0.20605935
+121.50156 0.20544273
+123.96322 0.20482666
+126.47476 0.20421114
+129.03718 0.20359618
+131.65151 0.20298179
+134.31882 0.20236799
+137.04016 0.20175477
+139.81664 0.20114216
+142.64937 0.20053015
+145.53949 0.19991877
+148.48816 0.19930802
+151.49658 0.1986979
+154.56595 0.19808844
+157.69751 0.19747964
+160.89251 0.19687151
+164.15224 0.19626405
+167.47802 0.19565729
+170.87118 0.19505122
+174.33308 0.19444587
+177.86513 0.19384123
+181.46873 0.19323731
+185.14535 0.19263414
+188.89645 0.19203171
+192.72356 0.19143003
+196.6282 0.19082912
+200.61195 0.19022898
+204.67641 0.18962963
+208.82322 0.18903106
+213.05404 0.1884333
+217.37059 0.18783635
+221.77459 0.18724021
+226.26781 0.18664491
+230.85207 0.18605044
+235.52921 0.18545681
+240.3011 0.18486404
+245.16968 0.18427213
+250.1369 0.18368109
+255.20475 0.18309093
+260.37528 0.18250166
+265.65057 0.18191328
+271.03273 0.18132581
+276.52394 0.18073925
+282.12641 0.18015361
+287.84238 0.1795689
+293.67416 0.17898513
+299.62409 0.1784023
+305.69457 0.17782042
+311.88804 0.1772395
+318.207 0.17665955
+324.65397 0.17608058
+331.23156 0.17550259
+337.94242 0.17492559
+344.78924 0.17434958
+351.77479 0.17377459
+358.90186 0.1732006
+366.17332 0.17262763
+373.59211 0.17205569
+381.16121 0.17148479
+388.88366 0.17091492
+396.76256 0.1703461
+404.8011 0.16977834
+413.0025 0.16921163
+421.37007 0.168646
+429.90716 0.16808143
+438.61722 0.16751795
+447.50374 0.16695555
+456.57031 0.16639425
+465.82057 0.16583404
+475.25825 0.16527494
+484.88713 0.16471695
+494.7111 0.16416008
+504.73411 0.16360433
+514.96018 0.16304971
+525.39344 0.16249623
+536.03808 0.16194388
+546.89838 0.16139268
+557.97872 0.16084263
+569.28355 0.16029374
+580.81742 0.15974601
+592.58496 0.15919944
+604.59093 0.15865405
+616.84013 0.15810984
+629.33751 0.1575668
+642.08809 0.15702496
+655.097 0.1564843
+668.36948 0.15594484
+681.91086 0.15540659
+695.72659 0.15486953
+709.82224 0.15433369
+724.20346 0.15379906
+738.87606 0.15326565
+753.84593 0.15273347
+769.11909 0.15220251
+784.70169 0.15167278
+800.59999 0.15114429
+816.82041 0.15061704
+833.36945 0.15009102
+850.25378 0.14956626
+867.4802 0.14904275
+885.05563 0.14852049
+902.98714 0.14799948
+921.28195 0.14747974
+939.94742 0.14696127
+958.99105 0.14644406
+978.42052 0.14592812
+998.24363 0.14541345
+1018.4684 0.14490006
+1039.1029 0.14438796
+1060.1554 0.14387713
+1081.6345 0.14336759
+1103.5488 0.14285934
+1125.907 0.14235238
+1148.7183 0.14184671
+1171.9917 0.14134234
+1195.7366 0.14083927
+1219.9626 0.1403375
+1244.6794 0.13983703
+1269.897 0.13933787
+1295.6256 0.13884002
+1321.8754 0.13834347
+1348.657 0.13784824
+1375.9812 0.13735433
+1403.859 0.13686172
+1432.3017 0.13637044
+1461.3206 0.13588048
+1490.9274 0.13539183
+1521.134 0.13490451
+1551.9527 0.13441852
+1583.3958 0.13393385
+1615.4759 0.13345051
+1648.2059 0.13296849
+1681.5991 0.13248781
+1715.6689 0.13200846
+1750.4289 0.13153044
+1785.8931 0.13105375
+1822.0759 0.1305784
+1858.9917 0.13010438
+1896.6555 0.1296317
+1935.0823 0.12916036
+1974.2877 0.12869036
+2014.2874 0.12822169
+2055.0975 0.12775437
+2096.7345 0.12728838
+2139.215 0.12682374
+2182.5562 0.12636044
+2226.7755 0.12589848
+2271.8907 0.12543786
+2317.9199 0.12497858
+2364.8817 0.12452065
+2412.795 0.12406406
+2461.679 0.12360881
+2511.5534 0.12315491
+2562.4382 0.12270235
+2614.3541 0.12225113
+2667.3217 0.12180126
+2721.3625 0.12135273
+2776.4982 0.12090555
+2832.7509 0.12045971
+2890.1434 0.12001521
+2948.6986 0.11957205
+3008.4402 0.11913024
+3069.3922 0.11868976
+3131.579 0.11825063
+3195.0258 0.11781284
+3259.7581 0.1173764
+3325.8018 0.11694129
+3393.1836 0.11650752
+3461.9306 0.11607509
+3532.0705 0.11564399
+3603.6313 0.11521424
+3676.6421 0.11478582
+3751.132 0.11435873
+3827.1312 0.11393298
+3904.6701 0.11350857
+3983.7799 0.11308549
+4064.4926 0.11266374
+4146.8405 0.11224332
+4230.8568 0.11182423
+4316.5754 0.11140646
+4404.0306 0.11099003
+4493.2576 0.11057492
+4584.2925 0.11016114
+4677.1717 0.10974868
+4771.9327 0.10933754
+4868.6136 0.10892773
+4967.2533 0.10851923
+5067.8914 0.10811206
+5170.5686 0.1077062
+5275.3259 0.10730165
+5382.2057 0.10689842
+5491.251 0.1064965
+5602.5055 0.10609589
+5716.014 0.10569659
+5831.8223 0.1052986
+5949.9769 0.10490191
+6070.5253 0.10450653
+6193.5161 0.10411245
+6318.9988 0.10371967
+6447.0237 0.10332819
+6577.6425 0.10293801
+6710.9076 0.10254912
+6846.8728 0.10216152
+6985.5926 0.10177521
+7127.123 0.1013902
+7271.5208 0.10100647
+7418.8441 0.10062402
+7569.1523 0.10024286
+7722.5057 0.099862984
+7878.9662 0.099484383
+8038.5966 0.099107059
+8201.4611 0.09873101
+8367.6254 0.098356233
+8537.1561 0.097982726
+8710.1217 0.097610488
+8886.5915 0.097239515
+9066.6367 0.096869806
+9250.3297 0.096501359
+9437.7444 0.09613417
+9628.9561 0.095768239
+9824.0418 0.095403561
+10023.08 0.095040136
+10226.151 0.09467796
+10433.336 0.094317032
+10644.719 0.093957348
+10860.384 0.093598906
+11080.419 0.093241705
+11304.912 0.092885741
+11533.953 0.092531012
+11767.635 0.092177515
+12006.051 0.091825248
+12249.297 0.091474208
+12497.472 0.091124393
+12750.675 0.0907758
+13009.007 0.090428426
+13272.574 0.09008227
+13541.481 0.089737327
+13815.835 0.089393597
+14095.749 0.089051075
+14381.333 0.088709759
+14672.704 0.088369647
+14969.977 0.088030736
+15273.274 0.087693022
+15582.715 0.087356505
+15898.426 0.087021179
+16220.533 0.086687044
+16549.166 0.086354096
+16884.458 0.086022331
+17226.542 0.085691749
+17575.558 0.085362345
+17931.644 0.085034117
+18294.945 0.084707061
+18665.607 0.084381176
+19043.778 0.084056459
+19429.611 0.083732905
+19823.261 0.083410513
+20224.887 0.08308928
+20634.649 0.082769203
+21052.714 0.082450278
+21479.249 0.082132503
+21914.425 0.081815876
+22358.418 0.081500392
+22811.407 0.08118605
+23273.574 0.080872845
+23745.104 0.080560776
+24226.187 0.080249839
+24717.017 0.079940032
+25217.792 0.07963135
+25728.713 0.079323792
+26249.985 0.079017355
+26781.818 0.078712034
+27324.426 0.078407828
+27878.028 0.078104734
+28442.846 0.077802747
+29019.107 0.077501866
+29607.043 0.077202087
+30206.891 0.076903408
+30818.893 0.076605824
+31443.293 0.076309334
+32080.345 0.076013934
+32730.303 0.07571962
+33393.429 0.075426391
+34069.991 0.075134243
+34760.26 0.074843173
+35464.514 0.074553177
+36183.036 0.074264253
+36916.116 0.073976398
+37664.049 0.073689608
+38427.134 0.073403881
+39205.68 0.073119214
+40000 0.072835602
 &
 @target G2.S0
 @type xy

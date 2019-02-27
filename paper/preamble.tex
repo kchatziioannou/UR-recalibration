@@ -8,14 +8,15 @@
 \usepackage{amsmath,amssymb}
 \usepackage{hyperref}
 \usepackage{tabularx}
-\usepackage{epstopdf}
+%\usepackage{epstopdf}
+\usepackage{epsf,epsfig}
 \usepackage[normalem]{ulem}
 \usepackage[usenames]{color}
 \usepackage{multirow}
 \usepackage{makecell}
 \usepackage{diagbox}
 \usepackage[abs]{overpic}
-\epstopdfsetup{outdir=./images/}
+%\epstopdfsetup{outdir=./images/}
 \allowdisplaybreaks
 \hypersetup{
     colorlinks=true,
@@ -39,11 +40,13 @@
 \newcommand{\R}{{\mbox{\tiny R}}}
 \newcommand{\ky}[1]{\textcolor{blue}{\it{\textbf{ky: #1}}} }
 \newcommand{\kent}[1]{\textcolor{magenta}{\textbf{ #1}} }
+\newcommand{\zack}[1]{\textcolor{magenta}{\textbf{ #1}} }
 \newcommand{\zc}[1]{\textcolor{red}{\it{\textbf{zc: #1}}} }
 \definecolor{red(ncs)}{rgb}{0.77, 0.01, 0.2}
 \newcommand{\ny}[1]{\textcolor{blue}{NY: #1} }
 \newcommand{\kc}[1]{\textcolor{green}{KC: #1} }
 \newcommand{\NS}{{\mbox{\tiny NS}}}
+\newcommand{\sci}[2]{#1 \times 10^{#2}}
 
 \usepackage{array}
 \newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
