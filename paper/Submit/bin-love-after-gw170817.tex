@@ -11,9 +11,6 @@
 }%
 
 \author{Katerina Chatziioannou}
-%\affiliation{%
-% Canadian Institute for Theoretical Astrophysics, 60 St. George Street, Toronto, Ontario, M5S 3H8, Canada
-%}%
 \affiliation{%
  Center for Computational Astrophysics, Flatiron Institute, 162 5th Ave, New York, NY 10010, USA
 }%
@@ -109,7 +106,7 @@ Figure~\ref{fig:stackedFisher} shows this result in more detail. We present the 
 
 \begin{figure}
 \begin{center} 
-\includegraphics[width=\columnwidth]{stackedFisher.eps}
+\includegraphics[width=\columnwidth]{stackedFisher.pdf}
 \end{center}
 \caption{(Color online) Fisher-estimated statistical uncertainties on the extraction of $\lambda_{0}$ with interferometer (O2, aLIGO, A\texttt{+}, Voyager, CE, ET-D) as a function of the signal-to-noise-ratio expected in each of these instruments, given a single GW170817 detection (circles). The statistical uncertainties with ET are lower than with CE in spite of a lower signal-to-noise ratio because the former is more sensitive above 300 Hz, where tidal effects matter the most (see Sec.~\ref{sec:futureObservations} for further discussion). We also plot the combined statistical uncertainty given $N$ observations consistent with the NS binary merger rate for a 1 year observation (regions), with the top and bottom edges of the regions corresponding to pessimistic and optimistic merger rates. These statistical uncertainties should be compared to the systematic uncertainty on the extraction of $\lambda_{0}$ due to EoS-variability (horizontal dashed line). The statistical and systematic uncertainties cross for Voyager-class detectors. We confirm this conclusion by repeating the statistical analysis with two different waveform models (PhenomD~\cite{PhenomDI,PhenomDII} plus NRTidal corrections~\cite{Dietrich:2017aum,Samajdar:NRTidal} and PhenomD~\cite{PhenomDI,PhenomDII} plus 6PN tidal corrections~\cite{Vines:2011ud,Wade:tidalCorrections}).}
 \label{fig:stackedFisher}
@@ -154,8 +151,8 @@ Using this formalism, any valid EoS can be approximated through the choice of $N
 
 \begin{figure*}
 \begin{center} 
-\includegraphics[width=.97\columnwidth]{EoSs.eps}
-\includegraphics[width=\columnwidth]{hybridEoSs.eps}
+\includegraphics[width=.97\columnwidth]{EoSs.pdf}
+\includegraphics[width=\columnwidth]{hybridEoSs.pdf}
 \end{center}
 \caption{(Color Online) Left: Small representative samples of the unconstrained (dotted) and constrained (solid) sets, together with the 90\% marginalized posterior distribution from the observation of GW170817 (cyan shaded region)~\cite{LIGO:posterior}. There is significantly less variability in the constrained set of EoSs due to the requirement that they be consistent with the GW170817 observation. Right: EoSs for ACS and ACB hybrid stars~\cite{Paschalidis2018}, each transitioning from a hadronic branch (corresponding to a pure hadronic-matter NS) into a quark-matter branch (quark-matter inner core surrounded by hadronic matter) at various transition pressures $P_{\text{tr}}$.
 }
@@ -374,8 +371,8 @@ The fractional differences of hybrid stars from the fit for the second case (fit
 
 \begin{figure*}
 \begin{center} 
-\includegraphics[width=\columnwidth]{CL.eps}
-\includegraphics[width=.96\columnwidth]{RL.eps}
+\includegraphics[width=\columnwidth]{CL.pdf}
+\includegraphics[width=.96\columnwidth]{RL.pdf}
 \end{center}
 \caption{
 (Color online) Similar to Fig.~\ref{fig:ILQ} but for the C-Love (left) and the R-Love relations (right). In the top panels, we show two different fits, one for the unconstrained set and one for the constrained set of EoSs. The bottom panels show the \emph{absolute differences} (rather than fractional difference as in Fig.~\ref{fig:ILQ}) from the fit. The absolute difference is suppressed in the constrained set case relative to the unconstrained set, and results from previous work~\cite{Maselli:2013mva}. In the left panel, we also present the corresponding relations in the hybrid star cases (dashed green) for comparison, where, although still EoS-insensitive, the degree of universality decreases.
@@ -453,7 +450,7 @@ For all 3 cases, the hybrid EoSs are only universal up to a minimum of $\sim1$\%
 
 \begin{figure}[htb]
 \begin{center} 
-\includegraphics[width=\columnwidth]{binLoveAbsolute.eps}
+\includegraphics[width=\columnwidth]{binLoveAbsolute.pdf}
 \end{center}
 \caption{(Color online) Binary Love relations using Eq.~\eqref{eq:binLovefit} fitted to the constrained (dotted maroon) and unconstrained sets (solid green), fixing $q=0.90$, 0.75 and 0.50. The bottom panels show the absolute difference (not the relative difference as in Fig.~\ref{fig:ILQ}) of the fit and the data. The fit to the constrained set shows a reduction in EoS variation relative to both the fit to the unconstrained set and previous work~\cite{Yagi:binLove}. For comparison, we also show the binary Love relations for the 10 hybrid star EoSs (dashed green curves), which present much larger EoS variation. 
 }
@@ -603,10 +600,10 @@ The systematic uncertainties from using the improved (constrained) binary Love r
 
 \begin{figure}
 \begin{center} 
-\begin{overpic}[width=\columnwidth]{qResiduals.eps}
+\begin{overpic}[width=\columnwidth]{qResiduals.pdf}
 \put(7,94){\tiny\rotatebox{90}{$\mathcal{R}$}}
 \end{overpic}
-\begin{overpic}[width=\columnwidth]{LsResiduals.eps}
+\begin{overpic}[width=\columnwidth]{LsResiduals.pdf}
 \put(7,95){\tiny\rotatebox{90}{$\mathcal{R}$}}
 \end{overpic}
 \end{center}
@@ -646,7 +643,7 @@ We begin by testing our Fisher analysis (with an IMRD + 6PN waveform injection) 
 
 \begin{figure}
 \begin{center} 
-\includegraphics[width=\columnwidth]{sensitivities.eps}
+\includegraphics[width=\columnwidth]{sensitivities.pdf}
 \end{center}
 \caption{(Color online)
 Amplitude spectral noise densities $\sqrt{S_n^A(f)}$ plotted for LIGO O2, aLIGO at design sensitivity, A\texttt{+}, Voyager, CE, and ET-D as interpolated from publicly available data.
@@ -666,7 +663,7 @@ Figures~\ref{fig:stackedFisher} and~\ref{fig:singleFisherLt}, and Table~\ref{tab
 
 \begin{figure}
 \begin{center} 
-\includegraphics[width=\columnwidth]{singleFisherLt.eps}
+\includegraphics[width=\columnwidth]{singleFisherLt.pdf}
 \end{center}
 \caption{(Color Online) Estimated statistical uncertainty $\sigma^A_{\text{GW170817}}$ in the extraction of $\tilde\Lambda$ from a single GW170817-like event as if observed with aLIGO at design sensitivity, A\texttt{+}, Voyager, CE, and ET-D, plotted as a function of the signal-to-noise-ratio $\rho^A_{\text{GW170817}}$ that those detectors would measure for such an event. For comparison, we also plot the systematic uncertainty on $\tilde\Lambda$ due to the use of the binary Love relations. The statistical and the systematic errors become comparable for Voyager-class detectors or better.
 }
