@@ -1,0 +1,179 @@
+Dear Editor,
+
+We would like to thank the referee for carefully reading our manuscript 
+and providing valuable comments which have helped us improve the quality 
+of our paper. For ease, we have highlighted all of our newest updates in 
+boldface black. Additionally, we have outlined all of the comments
+below, with "R:" and "A:" corresponding to the referee's comments and
+the authors' replies, respectively.
+
+We hope you reconsider publication of our manuscript in your journal.
+
+Sincerely,
+
+Zack Carson, Katerina Chatziioannou, Carl-Johan Haster, Kent Yagi, and 
+Nicolás Yunes
+
+---------------------------------------
+Comments from the Referee
+---------------------------------------
+
+
+R: 1. I find the description of the “constrained” prior and its relation
+to the “unconstrained” one slightly confusing. Sec. I A suggests that
+it is constructed by sampling a large number of spectral EOSs and then
+discarding those lying outside the 90% credible region of the EOS
+posterior from GW170817. On the other hand, Sec. II A says that it is
+built up from EOSs sampled directly from the EOS posterior (itself
+derived from the unconstrained prior?), with no mention of the 90%
+credible region. Naively, I would think that one would simply take the
+unconstrained prior and reweight it by the GW170817 EOS likelihood to
+get the constrained prior. Please explain more clearly which procedure
+was adopted, and emphasize how the constrained and unconstrained
+priors are related.
+
+
+A: We apologize for the loss in translation between the descriptions of 
+the constrained EoSs in the executive summary and Sec IIa. Ultimately, 
+the "constrained" EoSs were computed identically to how the 90% 
+posterior EoS were found in the paper by Abbott et al. So essentially we
+are sampling the actual 90% posterior given by LIGO (the exact 
+posterior EoSs from the paper are not publicly available, so the 
+computation had to be re-done). Then, the unconstrained EoSs were 
+generated completely randomly, with no relation to the constrained EoS
+or the posterior PDF. We have modified our descriptions of this in both 
+Sec. Ia and IIa.
+
+
+R: 2. To quantify the error in the tidal deformability introduced by the
+approximately universal nature of the binary Love relations, Sec. IV
+adopts a representation for the error about the best-fit relation. The
+error model is fitted to data from the constrained prior. Does this
+prior include any hybrid EOSs, the models that deviate the most from
+the binary Love relations? If not, do the projections in Sec. IV rely
+on an implicit assumption that the EOS is purely hadronic?
+
+
+A: Yes, you are correct that our results for the systematic errors from
+the binary Love relations rely on the assumption of hadronic stars. Our 
+set of constrained EoSs do not contain any hybrid star EoSs, following
+from the calculations of Abbott et al on the EoS posterior probability 
+distribution, which also assumed purely hadronic EoSs. If included these
+results may change slightly, and could be a possible avenue of future
+work. We have added a couple of sentences to the end of Sec. IVa 
+noting this.
+
+
+R:  3. Several papers have claimed that EOSs with sharp phase transitions
+can violate I-Love-Q universality, e.g. Han & Steiner,
+arXiv:1810.10967; Bandyopadhyay et al., Eur. Phys. J. A (2018) 54: 26;
+Lau et al., Phys. Rev. D 95, 101302 (2017). Here, in Sec. III, hybrid
+hadron-quark EOSs are found to obey the standard I-Love-Q relations.
+Is this finding compatible with the existing claims in the literature?
+The paper would benefit from a brief discussion of this point.
+
+
+A: Upon reading over the papers by Han & Steiner, Bandyopadhyay et al, 
+and Lau et al, we find that our results are indeed consistent with what
+they present. 
+The paper by Han & Steiner claims that "for typical neutron
+stars > 1.0 M_sun, discrepancies are negligible", which can also be seen
+in the bottom left panel of Fig. 11. In fact, the fits are only valid in
+the M>1M_sun regime as can be seen in the top panel of Fig. 11, a relic 
+fixed in our paper by using improved fits which limit to the Newtonian
+case.
+In the paper by Lau et al,  they claim that the "I-Love 
+relation for hybrid stars still agrees with the universal relation for 
+fluid stars to about 1% level for hybrid stars with a quark-matter core
+surrounded by a fluid [hadronic] envelope", similar to what we investigate. 
+They find that solid quark-matter stars (not studied by us) violate the 
+relations proportionally to the value of the gap parameter. 
+Finally, in the paper by Bandyopadhyay et al, there is no claim to *how* 
+strongly the "HQ" EoSs violate the I-Love relation. However, by looking 
+at Fig. we see that the departure from the "np" EoSs is not noticeably 
+large, and seems to be somewhat consistent with what we see with our 
+hybrid star EoSs. 
+We also see in Paschalidis2018 (10.1103/physrevd.97.084038) that it was 
+shown that the I-Love-Q universality is preserved for the hybrid stars
+considered, which are identical to the ones used here.
+As so, we have added a couple of sentences at the end of Sec.
+IIIA2 discussing the consistency, as well as the additional references.
+
+
+R:  4. In Fig. 5, the departure of the hybrid EOSs from the best-fit
+binary Love relation appears to become more pronounced as q tends to
+1. Is there an intuitive explanation for this behavior?
+
+
+A: This behavior is caused for the same reason as the (fractional) error 
+increases for hadronic stars with increasing mass ratio. This is because 
+as the mass ratio decreases, the universal relation becomes more exact 
+as Lambda_s -> Lambda_a (exactly equal in the q=0 limit). Therefore, as 
+the mass ratio increases to 1, Lambda_a and Lambda_s become maximally 
+different, and the fractional error becomes maximal. We have added a 
+comment on this at the end of the caption on Fig. 5, as well as added 
+the absolute differences for hybrid stars in the bottom three panels.
+
+
+R:  * Sec. I: A more up-to-date reference about systematic errors in
+neutron star mass-radius measurements is Miller & Lamb, F. Eur. Phys.
+J. A (2016) 52: 63.
+
+
+A: We thank the referee for the updated citation on M-R systematics. In 
+response, we have added the Miller & Lamb 2016 citation in the first 
+paragraph of Sec. I.
+
+
+R: * Sec. I: The last sentence of the second paragraph seems to attribute
+the tidal signature in the waveform solely to the modified orbital
+dynamics, but there is an equally important dissipative contribution
+due to the extra multipole radiation sourced by the tidal bulges.
+
+A: We have modified the sentence in question to include this additional
+GW modification effect: "These deformations source additional multipole radiation 
+as well as affect the orbital trajectory of the binary, thus altering the
+ GWs emitted, encoding within the latter the NS EoS."
+
+
+R: * Sec. I A: Surely the variability in the R-Love relation is on the
+order of hundreds of meters, not hundreds of kilometers.
+
+
+A: We thank the referee for finding this typo! It is indeed errors of
+~880 m and ~360 m, not km. This has been adjusted accordingly.
+
+
+R: * Sec. II A: Why is causality only required to within 10% in the
+prior? It does not appear to be explained in the text. (Also, Gamma is
+incorrectly called the polytropic index instead of the adabiatic index
+in this discussion.)
+
+
+A: We chose causality to 10% to be consistent with the analysis of 
+Abbott et al. 2018 (10.1103/PhysRevLett.121.161101), from which they 
+choose to adhere to causality up to 10% upon deriving the EoS 
+posterior probability distribution. We have added a short note to Sec. 
+IIa. commenting on this. We have also fixed the incorrect naming of Gamma.
+
+
+R: * Sec. IV: The sentence reporting the GW170817 Lambda_tilde
+measurement does not cite the reference from which it was taken.
+(Also, there appears to be an extraneous comment embedded in the same
+sentence.)
+
+
+A: We thank the referee for finding the missing citation and extraneous 
+comment that somehow made it into the final draft. The citation has been
+added, and comment removed.
+
+
+---------------------------------------
+Other Modifications
+---------------------------------------
+
+- We have included additional citations regarding the sentence 
+"...but unfortunately, these [modified theories of gravity] are 
+typically degenerate with the nuclear EoS. These are Pani & Berti 2014, 
+Arxiv:1405.4547, Minamitsuji & Silva 2016, Arxviv:1604.07742, and 
+Maselli & Silva 2016, Arxiv:1603.04876
