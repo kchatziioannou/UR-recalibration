@@ -98,8 +98,7 @@ The implementation of the EoS-insensitive relations in data analysis has to some
 
 %How we improved this
 We begin by investigating the increase in EoS insensitivity due to the constraints placed by GW170817 on the allowed space of EoSs. 
-We take the 90\% credible region constructed from the posterior probability distributions on the pressure-density plane~\cite{Carney:2018sdv,LIGO:posterior} obtained from GW170817~\cite{TheLIGOScientific:2017qsa} as a prior on the set of EoSs that is compatible with this observation. 
-We then generate two large samples of spectral EoSs~\cite{Lindblom:2018rfr}, one in which \textbf{the EoSs are directly sampled from the posterior probability distribution} (the ``constrained'' sample) and another in which the prior is not enforced (the ``unconstrained'' sample). 
+\textbf{We use the posterior probability distribution on the pressure-density plane~\cite{Carney:2018sdv,LIGO:posterior} obtained from GW170817~\cite{TheLIGOScientific:2017qsa} to inform the set of EoSs that is compatible with this observation. We then generate two large samples of spectral EoSs~\cite{Lindblom:2018rfr}, one in which the EoSs are directly sampled from the posterior probability distribution (the ``constrained" sample) and another in which this constraint not enforced (the ``unconstrained" sample).}
 We repeat the analysis done by Yagi and Yunes~\cite{Yagi:binLove,Yagi:ILQ} on both sets of EoSs and find that the EoS-insensitive relations present less EoS variability with the constrained set. 
 In particular, the EoS-insensitivity increases by a factor of $\sim 60$\% in the binary Love relations (for stars with mass ratio larger than $0.75$), by a factor of $\sim 70\%$ in the C-Love relations, and by factors of $\sim 50$\% in the I-Love-Q relations (see Table~\ref{tab:maxVar} and Fig.~\ref{fig:ILQ} for more details). 
 
@@ -168,7 +167,7 @@ We here wish to consider EoS-insensitive relations using two sets of EoSs: a ``c
 
 The unconstrained set is then defined by drawing random samples in the spectral coefficients within their allowed prior ranges, and then eliminating any EoS that either leads to \textbf{an adiabatic index} $\Gamma$ outside the allowed range, breaks the causality restriction, or breaks the maximum mass restriction. 
 To obtain the constrained set of EoSs we analyze the publicly available data for GW170817 from the Gravitational Wave Open Science Center~\cite{GWOSC,Vallisneri:2014vxa}. 
-We use the publicly available software library {\tt LALInference}~\cite{Veitch:2014wba,lalinference_o2} to \textbf{directly} obtain samples from the EoS \textbf{90\% posterior provided by Ref~\cite{LIGO:posterior}.}
+We use the publicly available software library {\tt LALInference}~\cite{Veitch:2014wba,lalinference_o2} to sample the EoS \textbf{posterior, similar to Ref~\cite{LIGO:posterior}.}
 Our analysis uses the same settings and prior choice as those of~\cite{LIGO:posterior,Carney:2018sdv}. 
 In both cases, each set consists of 100 members, with a subset of these shown in the left panel of Fig.~\ref{fig:eos}.
 

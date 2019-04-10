@@ -7,8 +7,6 @@ boldface black. Additionally, we have outlined all of the comments
 below, with "R:" and "A:" corresponding to the referee's comments and
 the authors' replies, respectively.
 
-We hope you reconsider publication of our manuscript in your journal.
-
 Sincerely,
 
 Zack Carson, Katerina Chatziioannou, Carl-Johan Haster, Kent Yagi, and 
@@ -35,14 +33,14 @@ priors are related.
 
 A: We apologize for the loss in translation between the descriptions of 
 the constrained EoSs in the executive summary and Sec IIa. Ultimately, 
-the "constrained" EoSs were computed identically to how the 90% 
-posterior EoS were found in the paper by Abbott et al. So essentially we
-are sampling the actual 90% posterior given by LIGO (the exact 
-posterior EoSs from the paper are not publicly available, so the 
-computation had to be re-done). Then, the unconstrained EoSs were 
-generated completely randomly, with no relation to the constrained EoS
-or the posterior PDF. We have modified our descriptions of this in both 
-Sec. Ia and IIa.
+the "constrained" EoSs were computed identically to how the
+posterior for the EoS was computed in the paper by Abbott et al. So 
+essentially we are sampling the actual posterior given by LIGO (the exact 
+posterior EoSs from the paper were not publicly available at the time we 
+started this work, so the computation had to be re-done). Then, the 
+unconstrained EoSs were generated completely randomly, with no relation 
+to the constrained EoS or the posterior PDF. We have modified our 
+descriptions of this in both Sec. Ia and IIa.
 
 
 R: 2. To quantify the error in the tidal deformability introduced by the
@@ -90,10 +88,10 @@ They find that solid quark-matter stars (not studied by us) violate the
 relations proportionally to the value of the gap parameter. 
 Finally, in the paper by Bandyopadhyay et al, there is no claim to *how* 
 strongly the "HQ" EoSs violate the I-Love relation. However, by looking 
-at Fig. we see that the departure from the "np" EoSs is not noticeably 
+at Fig. 6 we see that the departure from the "np" EoSs is not noticeably 
 large, and seems to be somewhat consistent with what we see with our 
 hybrid star EoSs. 
-We also see in Paschalidis2018 (10.1103/physrevd.97.084038) that it was 
+We also see in Paschalidis et al. 2018 (10.1103/physrevd.97.084038) that it was 
 shown that the I-Love-Q universality is preserved for the hybrid stars
 considered, which are identical to the ones used here.
 As so, we have added a couple of sentences at the end of Sec.
