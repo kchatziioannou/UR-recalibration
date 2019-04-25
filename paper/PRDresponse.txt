@@ -1,0 +1,46 @@
+Dear editor,
+
+We thank you for all the hard work spent preparing our work for publication! Here are our comments/corrections addressed in the proof:
+
+1) All minor modifications are satisfactory, and no meanings have been changed. Thank you!
+
+2) After the sentence "density crust EoS of SLy" on line 262, please add a footnote stating \footnote{SLy represents the unified equation of state based on the effective Skyrme Lyon nucleon-nucleon interactions, developed by Douchin and Haensel, 2001~\cite{Douchin:2001sv}.}
+
+3) Please add the parenthesis "(corresponding to speed of sound, and piecewise polytropic representations of the EoS beyond the phase transition, respectively)" after the words "ACS and ACB models..." on line 293.
+
+4) Yes, a replacement of hyphens with center dots is fine.
+
+5) Repeated question 4.
+
+6) We have confirmed the funding sources are all correct.
+
+7) The replacement of "Award" with "Grant" is fine.
+
+8) Here is a link to Z. Seidofs paper, published to Soviet Astronomy: http://adsabs.harvard.edu/full/1971SvA....15..347S
+
+9) We can confirm that all links in the proof are accurate and working.
+
+10) Updated references look great. Thank you!
+
+Also, we would appreciate it if you could add this new sentence and citation to the paper, after the sentence ending with "..called the tidal deformability and denoted $\lambda$.":
+"The magnitude of $\lambda$ depends strongly on the underlying structure, as well as the fluid nature of the NS~\cite{PhysRevD.98.084010}". 
+The citation above is listed below:
+@article{PhysRevD.98.084010,
+  title = {Relativistic tidal properties of superfluid neutron stars},
+  author = {Char, Prasanta and Datta, Sayak},
+  journal = {Phys. Rev. D},
+  volume = {98},
+  issue = {8},
+  pages = {084010},
+  numpages = {9},
+  year = {2018},
+  month = {Oct},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevD.98.084010},
+  url = {https://link.aps.org/doi/10.1103/PhysRevD.98.084010}
+}
+
+Other than that, everything looks great! We look forward to seeing the final result.
+
+Thanks again for all your hard work,
+Zack Carson, Katerina Chatziioannou, Carl-Johan Haster, Kent Yagi, and Nicolás Yunes
